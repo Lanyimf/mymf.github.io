@@ -1,0 +1,16 @@
+# GIS
+geopandas>=0.14
+pyproj>=3.6
+shapely>=2.0
+fiona>=1.9
+
+# 向量資料庫 / RAG
+lancedb>=0.5
+sentence-transformers>=2.7
+
+# AI
+anthropic>=0.30
+
+# 一般工具
+pandas>=2.0
+numpy>=1.24
