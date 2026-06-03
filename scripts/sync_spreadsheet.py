@@ -83,23 +83,38 @@ def write_table(db: Path, table: str, df: pd.DataFrame, pk: str):
     )
     new_ids = set(df[pk].astype(str))
 
+    # 讀現有資料（做 field-level diff）
+    df_old = pd.read_sql(f"SELECT * FROM {table}", conn).set_index(pk).astype(str)
+
     # 刪除不再存在的列
     for rid in existing_ids - new_ids:
         conn.execute(f"DELETE FROM {table} WHERE {pk}=?", (rid,))
+        log_revision(table, table, "DELETE", rid)
         deleted += 1
 
-    # INSERT OR REPLACE
+    # INSERT OR REPLACE + field diff
     cols = list(df.columns)
     ph = ",".join(["?"] * len(cols))
     for _, row in df.iterrows():
         vals = [None if pd.isna(v) else v for v in row.values]
+        rid = str(row[pk])
         conn.execute(
             f"INSERT OR REPLACE INTO {table} ({','.join(cols)}) VALUES ({ph})",
             vals
         )
-        if str(row[pk]) in existing_ids:
+        if rid in existing_ids:
+            # 記錄有變化的欄位
+            if rid in df_old.index:
+                for col in cols:
+                    if col == pk:
+                        continue
+                    old = df_old.at[rid, col] if col in df_old.columns else None
+                    new = str(row[col]) if not pd.isna(row[col]) else None
+                    if str(old) != str(new) and not (old == "nan" and new is None):
+                        log_revision(table, table, "UPDATE", rid, col, old, new)
             updated += 1
         else:
+            log_revision(table, table, "INSERT", rid)
             inserted += 1
 
     conn.commit()
