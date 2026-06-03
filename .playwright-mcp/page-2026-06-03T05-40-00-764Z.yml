@@ -1,0 +1,323 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "內政部國土管理署城鄉發展分署國土規劃入口網" [level=1] [ref=e6]:
+      - link "內政部國土管理署城鄉發展分署國土規劃入口網" [ref=e7] [cursor=pointer]:
+        - /url: TCDNewHomeA.aspx
+    - navigation [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - heading "首頁 HOME" [level=3] [ref=e11]:
+            - link "首頁 HOME" [ref=e12] [cursor=pointer]:
+              - /url: TCDNewHomeA.aspx
+              - text: 首頁
+              - text: HOME
+        - listitem [ref=e13] [cursor=pointer]:
+          - heading "▼ 計畫成果 PROJECT" [level=3] [ref=e14]:
+            - link "▼ 計畫成果 PROJECT" [ref=e15]:
+              - /url: ""
+              - text: ▼ 計畫成果
+              - text: PROJECT
+        - listitem
+        - listitem [ref=e16] [cursor=pointer]:
+          - heading "▼ 相關連結 WebSite" [level=3] [ref=e17]:
+            - link "▼ 相關連結 WebSite" [ref=e18]:
+              - /url: ""
+              - text: ▼ 相關連結
+              - text: WebSite
+        - listitem [ref=e19] [cursor=pointer]:
+          - heading "▼ 下載專區 DOWNLOAD" [level=3] [ref=e20]:
+            - link "▼ 下載專區 DOWNLOAD" [ref=e21]:
+              - /url: ""
+              - text: ▼ 下載專區
+              - text: DOWNLOAD
+        - listitem [ref=e22] [cursor=pointer]:
+          - heading "▼ 問題與協助 FAQ/HELP" [level=3] [ref=e23]:
+            - link "▼ 問題與協助 FAQ/HELP" [ref=e24]:
+              - /url: ""
+              - text: ▼ 問題與協助
+              - text: FAQ/HELP
+        - listitem [ref=e25] [cursor=pointer]:
+          - heading "▼ 公務使用 LOGIN" [level=3] [ref=e26]:
+            - link "▼ 公務使用 LOGIN" [ref=e27]:
+              - /url: TCDLogin.aspx
+              - text: ▼ 公務使用
+              - text: LOGIN
+  - generic [ref=e32]:
+    - generic:
+      - list:
+        - listitem
+        - listitem
+  - article [ref=e36]:
+    - heading "最新公告" [level=2] [ref=e38]
+    - heading "1.「全國土地使用分區圖資網路服務」開放付費申請， 歡迎各界多加應用" [level=3] [ref=e39]:
+      - link "1.「全國土地使用分區圖資網路服務」開放付費申請， 歡迎各界多加應用" [ref=e40] [cursor=pointer]:
+        - /url: TCDNewsDetail.aspx?fid=92
+    - heading "為鼓勵民間單位加值應用全國土地使用分區圖資，內政部國土管理署城鄉發展分署自115年1月1日起提供民間單位付費申請「全國土地使用分區圖資網路服務」，其服務內容包含都市計畫使用分區、非都市計畫土地使用分區與非都市計畫土地使用編定等WMTS圖磚介接服務，歡迎各界多加應用，申請流程與文件請詳以下連結。" [level=4] [ref=e41]
+    - heading [level=4]
+    - heading "2.都計案件上傳更新：台南市政府2025-10-15變更臺南市主要計畫(原臺南縣市都市計畫邊界調整專案通盤檢討)案已於2026-03-05上傳更新" [level=3] [ref=e42]
+    - heading "3.都計案件上傳更新：玉里鎮公所2026-01-21變更玉里都市計畫細部計畫(第一次通盤檢討)案已於2026-03-04上傳更新" [level=3] [ref=e43]
+    - heading "4.都計案件上傳更新：新北市政府2026-02-06變更大漢溪北都市計畫（第二階段）案已於2026-03-02上傳更新" [level=3] [ref=e44]
+    - heading "5.都計案件上傳更新：新北市政府2026-02-06變更大漢溪南都市計畫（第二階段）案已於2026-03-02上傳更新" [level=3] [ref=e45]
+    - heading "6.都計案件上傳更新：嘉義縣政府2025-09-26擬定嘉義縣治都市計畫第二期發展區細部計畫(第二階段-整體開發區)案已於2026-03-02上傳更新" [level=3] [ref=e46]
+    - heading "7.都計案件上傳更新：嘉義縣政府2026-01-20變更曾文水庫特定區主要計畫（部分水庫專用區為污水處理廠用地）（配合大埔鄉污水下水道系統水資源回收中心工程）案已於2026-03-02上傳更新" [level=3] [ref=e47]
+    - heading "8.都計案件上傳更新：南投縣政府2025-12-03變更南投（含南崗地區）都市計畫（部分農業區為第二種乙種工業區(附)、部分綠地用地為綠地用地兼供道路使用）（配合鉅鋐油封工業股份有限公司擴廠）案已於2026-02-26上傳更新" [level=3] [ref=e48]
+    - heading "9.都計案件上傳更新：高雄市政府2025-12-15變更原高雄市主要計畫（公共設施用地專案通盤檢討）（第四階段）案已於2026-02-24上傳更新" [level=3] [ref=e49]
+    - heading "10.都計案件上傳更新：臺南市政府2026-02-04變更新化主要計畫（第三次通盤檢討）（含計畫圖重製）（第三階段）案已於2026-02-24上傳更新" [level=3] [ref=e50]
+  - generic [ref=e52]:
+    - generic [ref=e53]:
+      - region "土地使用分區圖台含APP使用人次. Highcharts interactive chart." [ref=e55]:
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: 土地使用分區圖台含APP使用人次
+          - generic [ref=e58]: Bar chart with 12 bars.
+          - generic [ref=e59]: (最近12個月)
+          - generic [ref=e60]: The chart has 1 X axis displaying categories.
+          - generic [ref=e61]: The chart has 1 Y axis displaying 使用人次. Data ranges from 269858 to 490163.
+        - generic [ref=e66]:
+          - img "Interactive chart" [ref=e67]:
+            - generic [ref=e74]: 使用人次
+            - generic [ref=e76]:
+              - img "202506, 490,163. 使用人次." [ref=e77]
+              - img "202507, 470,282. 使用人次." [ref=e78]
+              - img "202508, 343,256. 使用人次." [ref=e79]
+              - img "202509, 269,858. 使用人次." [ref=e80]
+              - img "202510, 301,234. 使用人次." [ref=e81]
+              - img "202511, 354,845. 使用人次." [ref=e82]
+              - img "202512, 417,948. 使用人次." [ref=e83]
+              - img "202601, 433,353. 使用人次." [ref=e84]
+              - img "202602, 349,663. 使用人次." [ref=e85]
+              - img "202603, 477,133. 使用人次." [ref=e86]
+              - img "202604, 370,700. 使用人次." [ref=e87]
+              - img "202605, 419,792. 使用人次." [ref=e88]
+            - generic [ref=e89]: 土地使用分區圖台含APP使用人次
+            - generic [ref=e90]: (最近12個月)
+            - generic [ref=e91]:
+              - generic [ref=e93]:
+                - generic [ref=e94]: 490 163
+                - text: 490 163
+              - generic [ref=e96]:
+                - generic [ref=e97]: 470 282
+                - text: 470 282
+              - generic [ref=e99]:
+                - generic [ref=e100]: 343 256
+                - text: 343 256
+              - generic [ref=e102]:
+                - generic [ref=e103]: 269 858
+                - text: 269 858
+              - generic [ref=e105]:
+                - generic [ref=e106]: 301 234
+                - text: 301 234
+              - generic [ref=e108]:
+                - generic [ref=e109]: 354 845
+                - text: 354 845
+              - generic:
+                - generic:
+                  - generic: 417 948
+                  - text: 417 948
+              - generic [ref=e111]:
+                - generic [ref=e112]: 433 353
+                - text: 433 353
+              - generic [ref=e114]:
+                - generic [ref=e115]: 349 663
+                - text: 349 663
+              - generic [ref=e117]:
+                - generic [ref=e118]: 477 133
+                - text: 477 133
+              - generic [ref=e120]:
+                - generic [ref=e121]: 370 700
+                - text: 370 700
+              - generic [ref=e123]:
+                - generic [ref=e124]: 419 792
+                - text: 419 792
+            - generic [ref=e125]:
+              - generic [ref=e126]: "202506"
+              - generic [ref=e127]: "202508"
+              - generic [ref=e128]: "202510"
+              - generic [ref=e129]: "202512"
+              - generic [ref=e130]: "202602"
+              - generic [ref=e131]: "202604"
+            - generic [ref=e132]:
+              - generic [ref=e133]: "0"
+              - generic [ref=e134]: 100k
+              - generic [ref=e135]: 200k
+              - generic [ref=e136]: 300k
+              - generic [ref=e137]: 400k
+              - generic [ref=e138]: 500k
+              - generic [ref=e139]: 600k
+          - generic:
+            - region "Axis zoom"
+        - generic [ref=e141]: End of interactive chart.
+      - region "列管案件上傳統計(104.03至113.06). Highcharts interactive chart." [ref=e143]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: 列管案件上傳統計(104.03至113.06)
+          - generic [ref=e146]: Bar chart with 3 data series.
+          - generic [ref=e147]: The chart has 1 X axis displaying categories.
+          - generic [ref=e148]: The chart has 1 Y axis displaying 各縣市尚未上傳、已上傳審核中、已上傳完成案件. Data ranges from 12 to 193.
+        - generic [ref=e153]:
+          - img "Interactive chart" [ref=e154]:
+            - generic [ref=e161]: 各縣市尚未上傳、已上傳審核中、已上傳完成案件
+            - generic [ref=e162]:
+              - region "未上傳案件數, bar series 1 of 3 with 22 bars." [ref=e163]:
+                - img "臺北市政府, 2. 未上傳案件數." [ref=e164]
+                - img "新北市政府, 0. 未上傳案件數."
+                - img "基隆市政府, 0. 未上傳案件數."
+                - img "桃園市政府, 0. 未上傳案件數."
+                - img "新竹市政府, 0. 未上傳案件數."
+                - img "新竹縣政府, 0. 未上傳案件數."
+                - img "苗栗縣政府, 0. 未上傳案件數."
+                - img "臺中市政府, 1. 未上傳案件數." [ref=e165]
+                - img "南投縣政府, 0. 未上傳案件數."
+                - img "彰化縣政府, 0. 未上傳案件數."
+                - img "雲林縣政府, 0. 未上傳案件數."
+                - img "嘉義市政府, 4. 未上傳案件數." [ref=e166]
+                - img "嘉義縣政府, 2. 未上傳案件數." [ref=e167]
+                - img "臺南市政府, 0. 未上傳案件數."
+                - img "高雄市政府, 0. 未上傳案件數."
+                - img "屏東縣政府, 0. 未上傳案件數."
+                - img "宜蘭縣政府, 2. 未上傳案件數." [ref=e168]
+                - img "花蓮縣政府, 0. 未上傳案件數."
+                - img "臺東縣政府, 0. 未上傳案件數."
+                - img "澎湖縣政府, 3. 未上傳案件數." [ref=e169]
+                - img "金門縣政府, 1. 未上傳案件數." [ref=e170]
+                - img "連江縣政府, 0. 未上傳案件數."
+              - region "已上傳審核中, bar series 2 of 3 with 22 bars." [ref=e171]:
+                - img "臺北市政府, 0. 已上傳審核中."
+                - img "新北市政府, 0. 已上傳審核中."
+                - img "基隆市政府, 0. 已上傳審核中."
+                - img "桃園市政府, 0. 已上傳審核中."
+                - img "新竹市政府, 0. 已上傳審核中."
+                - img "新竹縣政府, 0. 已上傳審核中."
+                - img "苗栗縣政府, 0. 已上傳審核中."
+                - img "臺中市政府, 0. 已上傳審核中."
+                - img "南投縣政府, 0. 已上傳審核中."
+                - img "彰化縣政府, 0. 已上傳審核中."
+                - img "雲林縣政府, 0. 已上傳審核中."
+                - img "嘉義市政府, 0. 已上傳審核中."
+                - img "嘉義縣政府, 0. 已上傳審核中."
+                - img "臺南市政府, 0. 已上傳審核中."
+                - img "高雄市政府, 0. 已上傳審核中."
+                - img "屏東縣政府, 0. 已上傳審核中."
+                - img "宜蘭縣政府, 0. 已上傳審核中."
+                - img "花蓮縣政府, 0. 已上傳審核中."
+                - img "臺東縣政府, 0. 已上傳審核中."
+                - img "澎湖縣政府, 0. 已上傳審核中."
+                - img "金門縣政府, 0. 已上傳審核中."
+                - img "連江縣政府, 0. 已上傳審核中."
+              - region "已上傳完成, bar series 3 of 3 with 22 bars." [ref=e172]:
+                - img "臺北市政府, 86. 已上傳完成." [ref=e173]
+                - img "新北市政府, 190. 已上傳完成." [ref=e174]
+                - img "基隆市政府, 12. 已上傳完成." [ref=e175]
+                - img "桃園市政府, 191. 已上傳完成." [ref=e176]
+                - img "新竹市政府, 32. 已上傳完成." [ref=e177]
+                - img "新竹縣政府, 31. 已上傳完成." [ref=e178]
+                - img "苗栗縣政府, 42. 已上傳完成." [ref=e179]
+                - img "臺中市政府, 176. 已上傳完成." [ref=e180]
+                - img "南投縣政府, 35. 已上傳完成." [ref=e181]
+                - img "彰化縣政府, 61. 已上傳完成." [ref=e182]
+                - img "雲林縣政府, 36. 已上傳完成." [ref=e183]
+                - img "嘉義市政府, 21. 已上傳完成." [ref=e184]
+                - img "嘉義縣政府, 46. 已上傳完成." [ref=e185]
+                - img "臺南市政府, 193. 已上傳完成." [ref=e186]
+                - img "高雄市政府, 173. 已上傳完成." [ref=e187]
+                - img "屏東縣政府, 83. 已上傳完成." [ref=e188]
+                - img "宜蘭縣政府, 37. 已上傳完成." [ref=e189]
+                - img "花蓮縣政府, 60. 已上傳完成." [ref=e190]
+                - img "臺東縣政府, 48. 已上傳完成." [ref=e191]
+                - img "澎湖縣政府, 13. 已上傳完成." [ref=e192]
+                - img "金門縣政府, 14. 已上傳完成." [ref=e193]
+                - img "連江縣政府, 22. 已上傳完成." [ref=e194]
+            - generic [ref=e195]: 列管案件上傳統計(104.03至113.06)
+            - generic [ref=e199]:
+              - generic [ref=e201] [cursor=pointer]: 已上傳完成
+              - generic [ref=e204] [cursor=pointer]: 已上傳審核中
+              - generic [ref=e207] [cursor=pointer]: 未上傳案件數
+            - generic [ref=e209]:
+              - generic [ref=e210]: "0"
+              - generic [ref=e211]: "50"
+              - generic [ref=e212]: "100"
+              - generic [ref=e213]: "150"
+              - generic [ref=e214]: "200"
+              - generic [ref=e215]: "250"
+            - generic [ref=e216]:
+              - generic [ref=e217]: 臺北市政府
+              - generic [ref=e218]: 新北市政府
+              - generic [ref=e219]: 基隆市政府
+              - generic [ref=e220]: 桃園市政府
+              - generic [ref=e221]: 新竹市政府
+              - generic [ref=e222]: 新竹縣政府
+              - generic [ref=e223]: 苗栗縣政府
+              - generic [ref=e224]: 臺中市政府
+              - generic [ref=e225]: 南投縣政府
+              - generic [ref=e226]: 彰化縣政府
+              - generic [ref=e227]: 雲林縣政府
+              - generic [ref=e228]: 嘉義市政府
+              - generic [ref=e229]: 嘉義縣政府
+              - generic [ref=e230]: 臺南市政府
+              - generic [ref=e231]: 高雄市政府
+              - generic [ref=e232]: 屏東縣政府
+              - generic [ref=e233]: 宜蘭縣政府
+              - generic [ref=e234]: 花蓮縣政府
+              - generic [ref=e235]: 臺東縣政府
+              - generic [ref=e236]: 澎湖縣政府
+              - generic [ref=e237]: 金門縣政府
+              - generic [ref=e238]: 連江縣政府
+          - generic:
+            - region "Axis zoom"
+            - region "Toggle series visibility, 列管案件上傳統計(104.03至113.06)":
+              - list:
+                - listitem:
+                  - button "Show 已上傳完成" [pressed] [ref=e239] [cursor=pointer]
+                - listitem:
+                  - button "Show 已上傳審核中" [pressed] [ref=e240] [cursor=pointer]
+                - listitem:
+                  - button "Show 未上傳案件數" [pressed] [ref=e241] [cursor=pointer]
+        - generic [ref=e243]: End of interactive chart.
+    - generic [ref=e244]:
+      - generic [ref=e246]:
+        - link "前往土地使用分區Web應用程式" [ref=e247] [cursor=pointer]:
+          - /url: https://luz.nlma.gov.tw/m/web
+          - heading "前往土地使用分區Web應用程式" [level=3] [ref=e248]
+        - generic [ref=e249]:
+          - heading "土地使用分區Web應用程式" [level=3] [ref=e250]
+          - heading "本Web應用程式提供各界查詢全國土地使用分區資料，包括都市計畫、非都市土地及國家公園使用分區。請以手機或平板瀏覽器進入Web應用程式或掃QR code。進入Web應用程式後按「安裝Web應用程式」內有Andorid及iOS系統如何於桌面產生Web應用程式圖示的說明，依照步驟即可於手機或平板桌面產生Web應用程式圖示，之後改按該Web應用程式圖示即可使用。" [level=3] [ref=e251]
+      - generic [ref=e253]:
+        - link "前往分區查詢系統" [ref=e254] [cursor=pointer]:
+          - /url: https://luz.nlma.gov.tw/web
+          - heading "前往分區查詢系統" [level=3] [ref=e255]
+        - generic [ref=e256]:
+          - heading "全國土地使用分區資料查詢系統" [level=3] [ref=e257]
+          - heading "本系統提供各界查詢全國土地使用分區資料，包括都市計畫、非都市土地及國家公園使用分區。系統功能包括：行政區、道路、門牌、地號查詢定位、土地使用分區面積統計、距離面積量測、底圖切換等輔助功能，為唯一可於單一網站查詢全國土地使用分區圖資之系統。" [level=3] [ref=e258]
+    - generic [ref=e259]:
+      - generic [ref=e261]:
+        - link "前往國土規劃圖台" [ref=e262] [cursor=pointer]:
+          - /url: https://nsp.nlma.gov.tw/ngis
+          - heading "前往國土規劃圖台" [level=3] [ref=e263]
+        - generic [ref=e264]:
+          - heading "國土規劃地理資訊圖台" [level=3] [ref=e265]
+          - heading "本圖台提供國土規劃地理資訊圖台功能，民眾不需登入可查詢都市計畫、非都市土地、國家公園、各項環境敏感地區圖資、各項災害潛勢及防救災圖資。圖台功能包括：切換各種底圖、查詢圖資屬性、製作統計地圖、統計分區面積、上傳本機圖層、瀏覽街景、GPS定位及列印等，可用於瞭解全國土地使用現況及各區域環境敏感、災害潛勢套疊情形。" [level=3] [ref=e266]
+      - generic [ref=e268]:
+        - link "前往原住民族部落環境基本調查圖台" [ref=e269] [cursor=pointer]:
+          - /url: https://ipl.nlma.gov.tw/ts/
+          - heading "前往原住民族部落環境基本調查圖台" [level=3] [ref=e270]
+        - generic [ref=e271]:
+          - heading "原住民族部落環境基本調查圖台" [level=3] [ref=e272]
+          - heading "本圖台僅供直轄市、縣（市）政府委託原住民族部落環境基本調查之駐地人員使用，請駐地人員憑帳號密碼登入作業。" [level=3] [ref=e273]
+  - generic [ref=e277]:
+    - list [ref=e279]:
+      - listitem [ref=e280]:
+        - link "政府網站資料開放宣告" [ref=e281] [cursor=pointer]:
+          - /url: https://www.nlma.gov.tw/ch/sglarticle/dataopen?branch=urdb
+      - listitem [ref=e282]:
+        - link "資訊安全政策" [ref=e283] [cursor=pointer]:
+          - /url: https://www.nlma.gov.tw/ch/sglarticle/information
+      - listitem [ref=e284]:
+        - link "系統管理員信箱" [ref=e285] [cursor=pointer]:
+          - /url: mailto:tcdim01@gmail.com
+      - listitem [ref=e286]: 最後更新日期：2026-06-03
+    - list [ref=e288]:
+      - listitem [ref=e289]: 內政部國土管理署城鄉發展分署 版權所有
+      - listitem [ref=e290]: ©copyright 2026 Urban and Rural Development Branch, CPA, MOI All Rights Reserved
+      - listitem [ref=e291]: 本站最佳解析度：1920 x 1080 適用瀏覽器：Chrome 17、Firefox 10、IE 9 以上版本
+      - listitem [ref=e292]:
+        - text: 【地址】105404 臺北市松山區八德路二段342號 【電話】(02)2772-1350 【傳真】(02)2752-0282
+        - link "隱私權保護政策" [ref=e293] [cursor=pointer]:
+          - /url: https://www.nlma.gov.tw/ch/sglarticle/privacy

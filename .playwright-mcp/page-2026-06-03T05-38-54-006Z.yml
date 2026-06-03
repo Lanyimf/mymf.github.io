@@ -1,0 +1,69 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://maps.nlsc.gov.tw/
+        - img [ref=e9]
+      - img [ref=e11]
+    - generic [ref=e12]:
+      - generic:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "簡介" [ref=e18] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e19]:
+            - link "WMTS" [ref=e20] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e21]:
+            - link "WMS" [ref=e22] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e23]:
+            - link "WFS" [ref=e24] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e25]:
+            - link "API" [ref=e26] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e27]:
+            - link "下載專區" [ref=e28] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e29]:
+            - link "常見問題" [ref=e30] [cursor=pointer]:
+              - /url: javascript:void(0);
+        - generic [ref=e31]: 到訪人次統計：318342
+      - generic [ref=e32]:
+        - generic [ref=e33]: 服務簡介
+        - generic [ref=e34]:
+          - paragraph [ref=e35]: 內政部國土測繪中心為整合應用臺灣通用電子地圖、國土利用現況調查成果圖、 基本地形圖、地籍圖等核心、基礎圖資，建置「國土測繪圖資服務雲」 (https://maps.nlsc.gov.tw)，並發布 OGC WMS、WMTS、WFS 等圖資服務及各類 API 供各界介接運用。 上述各項服務建置在雲端，利用雲端主機快速存取及穩定運作特性， 達成 1 天 24 小時，全年無休之線上服務及應用的目標。
+          - heading "免申請網路服務" [level=3] [ref=e36]
+          - paragraph [ref=e37]:
+            - text: 圖資服務雲免申請網路服務包含臺灣通用電子地圖、國土利用現況調查成果圖、 基本地形圖等 OGC WMS、WMTS、「開放 API」及「圖臺 API」，提供對象不限， 無需申請。免申請服務項目請參閱「
+            - link "免申請服務介接說明表" [ref=e38] [cursor=pointer]:
+              - /url: https://maps.nlsc.gov.tw/S09SOA/Download.action?fileName=免申請服務介接說明表.pdf
+            - text: 」。
+          - heading "需申請網路服務" [level=3] [ref=e39]
+          - paragraph [ref=e40]:
+            - text: 另需申請網路服務之提供對象及服務方式請參閱「
+            - link "申請服務介接說明表" [ref=e41] [cursor=pointer]:
+              - /url: https://maps.nlsc.gov.tw/S09SOA/Download.action?fileName=申請服務介接說明表.pdf
+            - text: 」。 政府機關、國營機構及學術單位應備函檢送「
+            - link "網路介接申請書及說明" [ref=e42] [cursor=pointer]:
+              - /url: https://maps.nlsc.gov.tw/S09SOA/Download.action?fileName=網路介接申請書及說明.zip
+            - text: 」；民營團體及公司應檢送「
+            - link "115年度國土測繪圖資網路服務訂閱申請書" [ref=e43] [cursor=pointer]:
+              - /url: https://maps.nlsc.gov.tw/S09SOA/Download.action?fileName=115年度國土測繪圖資網路服務訂閱申請書.zip
+            - text: 」申請，經審查通過或繳費後提供服務。 需申請之服務及提供對象簡述如下：
+          - list [ref=e44]:
+            - listitem [ref=e45]: 「地籍圖磚」(有地號)：限政府機關、國營機構及學術單位（短期分析研究）及民營團體、公司申請。
+            - listitem [ref=e46]: 「地籍API」(可用於地號查詢定位)：限政府機關、國營機構及學術單位（短期分析研究）及民營團體、公司申請。
+            - listitem [ref=e47]: 「地籍圖WFS」(可取得指定條件地籍圖)：限政府機關及學術單位（短期分析研究）申請。
+            - listitem [ref=e48]: 「地籍圖API」(可取得指定條件地籍圖)：限政府機關及學術單位（短期分析研究）及民營團體、公司申請。
+            - listitem [ref=e49]: 臺灣通用電子地圖、國土利用現況調查成果圖及地段外圍圖WFS：限政府機關及學術單位（短期分析研究）申請。
+            - listitem [ref=e50]: 模糊檢索API(門牌、地標等檢索)：限政府機關、國營機構、民營機構及學術單位（短期分析研究）及民營團體、公司申請。
+            - listitem [ref=e51]: 國土利用現況調查API：限政府機關、國營機構及學術單位（短期分析研究）及民營團體、公司申請。
+            - listitem [ref=e52]: 路徑規劃API：限政府機關、國營機構、民營機構及學術單位（短期分析研究）及民營團體、公司申請。
+            - listitem [ref=e53]: 全國門牌地址定位服務：限政府機關、國營機構及學術單位（短期分析研究）申請。
+      - generic [ref=e55]:
+        - list
+        - link "歷史公告" [ref=e58] [cursor=pointer]:
+          - /url: javascript:void(0);
+  - generic [ref=e59]: 內政部國土測繪中心版權所有 Copyright 2026

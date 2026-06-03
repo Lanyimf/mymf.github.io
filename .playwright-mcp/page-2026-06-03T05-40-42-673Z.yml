@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "跳到主要內容":
+      - /url: "#main"
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - heading "中華民國內政部 國土管理署全球資訊網" [level=1] [ref=e5]:
+          - link "中華民國內政部 國土管理署全球資訊網" [ref=e6] [cursor=pointer]:
+            - /url: /ch
+            - img "中華民國內政部 國土管理署全球資訊網" [ref=e7]
+        - button "選單" [ref=e8] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic:
+              - link ":::":
+                - /url: "#U"
+              - navigation:
+                - generic:
+                  - link "首頁":
+                    - /url: /ch
+                    - generic: 首頁
+                - generic:
+                  - link "網站導覽":
+                    - /url: /ch/sitemap
+                    - generic: 網站導覽
+                - generic:
+                  - link "雙語詞彙":
+                    - /url: /ch/titlelist/bt
+                    - generic: 雙語詞彙
+                - generic:
+                  - link "署長信箱":
+                    - /url: https://service.nlma.gov.tw/index.php?t=cpami&Itemid=526
+                    - generic: 署長信箱
+                - generic:
+                  - link "EN":
+                    - /url: /en
+                    - generic: EN
+                - group:
+                  - generic "所屬機關":
+                    - generic: 所屬機關
+              - search:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - searchbox "此搜尋由Google提供結果"
+                        - button "搜尋":
+                          - img "搜尋"
+                      - link "進階搜尋":
+                        - /url: https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.nlma.gov.tw/
+                    - generic:
+                      - term: "熱門關鍵字 :"
+                      - definition:
+                        - generic:
+                          - link "包租代管":
+                            - /url: /ch/search?searchkeyword=%E5%8C%85%E7%A7%9F%E4%BB%A3%E7%AE%A1
+                          - text: 、
+                        - generic:
+                          - link "國土計畫":
+                            - /url: /ch/search?searchkeyword=%E5%9C%8B%E5%9C%9F%E8%A8%88%E7%95%AB
+                          - text: 、
+                        - generic:
+                          - link "租金補貼":
+                            - /url: /ch/search?searchkeyword=%E7%A7%9F%E9%87%91%E8%A3%9C%E8%B2%BC
+            - generic:
+              - navigation:
+                - generic:
+                  - button "公告資訊": 公告資訊
+                  - generic:
+                    - generic:
+                      - link "新聞發佈":
+                        - /url: /ch/titlelist/news
+                      - link "即時新聞澄清":
+                        - /url: /ch/titlelist/clear
+                      - link "業務新訊":
+                        - /url: /ch/titlelist/bizupdates
+                      - link "公開閱覽":
+                        - /url: /ch/titlelist/public
+                      - link "法規公告":
+                        - /url: /ch/legislation/law&regu
+                      - link "解釋函彙編":
+                        - /url: /ch/titlelist/interpcomp
+                      - link "徵才公告":
+                        - /url: https://web3.dgpa.gov.tw/want03front/AP/WANTF00001.ASPX
+                      - link "活動訊息":
+                        - /url: /ch/titlelist/events
+                - generic:
+                  - button "本署簡介": 本署簡介
+                  - generic:
+                    - generic:
+                      - link "署長簡介":
+                        - /url: /ch/sglarticle/leaders
+                      - link "認識國土管理署":
+                        - /url: /ch/sglarticle/nlma
+                      - link "組織職掌與願景":
+                        - /url: /ch/sglarticle/vision
+                      - link "各單位職掌":
+                        - /url: /ch/unitduty/duties
+                      - link "人員編制":
+                        - /url: /ch/sglarticle/staffing
+                - generic:
+                  - button "本署家族": 本署家族
+                  - generic:
+                    - generic:
+                      - link "本署單位":
+                        - /url: /ch/unitcomp/division
+                      - link "所屬機關":
+                        - /url: /ch/branchoffice/urdb
+                - generic:
+                  - button "審議委員會": 審議委員會
+                  - generic:
+                    - generic:
+                      - link "內政部住宅審議會":
+                        - /url: /ch/moicommittee/comm8
+                      - link "內政部都市計畫委員會":
+                        - /url: /ch/moicommittee/comm2
+                      - link "內政部區域計畫委員會":
+                        - /url: /ch/moicommittee/comm1
+                      - link "內政部都市更新公開評選申訴審議會":
+                        - /url: /ch/moicommittee/comm3
+                      - link "建築技術審議委員會":
+                        - /url: /ch/moicommittee/comm4
+                      - link "建築師懲戒覆審委員會":
+                        - /url: /ch/moicommittee/comm5
+                      - link "內政部都市設計審查小組":
+                        - /url: /ch/moicommittee/comm6
+                      - link "內政部國土計畫審議會":
+                        - /url: /ch/moicommittee/comm7
+                      - link "營建建設基金管理會":
+                        - /url: /ch/moicommittee/comm9
+                      - link "國土永續發展基金管理會":
+                        - /url: /ch/moicommittee/comm11
+                - generic:
+                  - button "政府資訊公開": 政府資訊公開
+                  - generic:
+                    - generic:
+                      - link "主動公開資訊":
+                        - /url: /ch/publicInfo/publicinfo
+                      - link "說明會":
+                        - /url: /ch/titlelist/briefings
+                      - link "所屬機關資訊公開":
+                        - /url: /ch/listicle/agencyinfo
+                      - link "個人資料保護":
+                        - /url: /ch/titlelist/personal
+                      - link "開放資料服務":
+                        - /url: /ch/sglarticle/opendatainfo
+                      - link "國家賠償事件收結情形":
+                        - /url: /ch/filedownload/compensation
+                      - link "主管公資達20%企業":
+                        - /url: /ch/sglarticle/enterprises
+                      - link "內部控制聲明書":
+                        - /url: /ch/sglarticle/control
+                      - link "性別主流化專區":
+                        - /url: /ch/sglarticle/gendermain
+                - generic:
+                  - button "便民服務": 便民服務
+                  - generic:
+                    - generic:
+                      - link "單一窗口":
+                        - /url: /ch/singlewindow/contact
+                      - link "下載專區":
+                        - /url: /ch/filedownload/applications
+                      - link "人民陳情":
+                        - /url: /ch/sglarticle/complaints
+                      - link "檔案申請閱覽":
+                        - /url: /ch/sglarticle/fileview
+                      - link "身心障礙諮詢":
+                        - /url: /ch/titlelist/disability
+                      - link "各業務單位聯絡電話":
+                        - /url: /ch/sglarticle/bizcontacts
+                - generic:
+                  - button "影音中心": 影音中心
+                  - generic:
+                    - generic:
+                      - link "國土計畫":
+                        - /url: /ch/mediacenter/multimedianlp
+                      - link "社會住宅":
+                        - /url: /ch/mediacenter/multimediash
+                      - link "住宅補貼":
+                        - /url: /ch/mediacenter/multimediars
+                      - link "危老重建":
+                        - /url: /ch/mediacenter/multimediadobr
+                      - link "人本道路":
+                        - /url: /ch/mediacenter/multimediahcr
+                      - link "工程建設":
+                        - /url: /ch/mediacenter/multimediaec
+                      - link "永續水道":
+                        - /url: /ch/mediacenter/multimediasw
+                      - link "兒童專區":
+                        - /url: /ch/mediacenter/multimediaca
+                      - link "政風宣導":
+                        - /url: /ch/mediacenter/multimediacapsp
+                - generic:
+                  - button "主題報導": 主題報導
+                  - generic:
+                    - generic:
+                      - link "百萬租屋協助":
+                        - /url: /ch/specialreport/specialaha
+                      - link "國土城鄉規劃":
+                        - /url: /ch/specialreport/specialnup
+                      - link "街道建設與改善":
+                        - /url: /ch/specialreport/specialsci
+                      - link "危老重建及都市更新":
+                        - /url: /ch/specialreport/specialurrb
+                      - link "建築與營造業管理":
+                        - /url: /ch/specialreport/specialcbim
+                      - link "雨水.污水.再生水":
+                        - /url: /ch/specialreport/specialrss
+                      - link "公共建築與新市鎮":
+                        - /url: /ch/specialreport/specialpbn
+                - generic:
+                  - button "圖書及報告": 圖書及報告
+                  - generic:
+                    - generic:
+                      - link "研究報告":
+                        - /url: /ch/titlelist/research
+                      - link "出版品":
+                        - /url: /ch/publication/publications
+                      - link "影音DVD":
+                        - /url: /ch/publication/dvd
+      - main [ref=e9]:
+        - figure "臺南市玉井區虎頭山運動公園" [ref=e10]:
+          - img "主視覺圖：政府網站資料開放宣告" [ref=e12]
+          - generic [ref=e13]: 臺南市玉井區虎頭山運動公園
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - navigation [ref=e17]:
+              - link "首頁" [ref=e19] [cursor=pointer]:
+                - /url: /ch
+                - img "首頁" [ref=e20]
+              - generic [ref=e21]: 政府網站資料開放宣告
+            - generic [ref=e22]:
+              - navigation [ref=e23]:
+                - button "縮小文字" [ref=e24] [cursor=pointer]:
+                  - text: A
+                  - superscript [ref=e25]: "-"
+                - button "一般文字" [ref=e26] [cursor=pointer]: A
+                - button "放大文字" [ref=e27] [cursor=pointer]:
+                  - text: A
+                  - superscript [ref=e28]: +
+              - button "列印" [ref=e29] [cursor=pointer]:
+                - img "列印" [ref=e30]
+              - generic [ref=e31]:
+                - button "社群分享" [ref=e32] [cursor=pointer]:
+                  - img "社群分享" [ref=e33]
+                - navigation [ref=e35]:
+                  - button "分享至Line" [ref=e36] [cursor=pointer]:
+                    - img "分享至Line" [ref=e37]
+                  - button "分享至Facebook" [ref=e38] [cursor=pointer]:
+                    - img "分享至Facebook" [ref=e39]
+                  - button "分享至Plurk" [ref=e40] [cursor=pointer]:
+                    - img "分享至Plurk" [ref=e41]
+                  - button "分享至threads" [ref=e42] [cursor=pointer]:
+                    - img "分享至threads" [ref=e43]
+                  - button "分享至X" [ref=e44] [cursor=pointer]:
+                    - img "分享至X" [ref=e45]
+            - generic:
+              - link ":::":
+                - /url: "#C"
+          - article [ref=e46]:
+            - time [ref=e48]: 最後更新日期：
+            - heading [level=3] [ref=e49]
+            - time [ref=e50]: 發布日期：
+          - generic [ref=e51]:
+            - link "回首頁" [ref=e52] [cursor=pointer]:
+              - /url: /ch
+              - generic [ref=e53]: 回首頁
+            - link "回上一頁" [ref=e54] [cursor=pointer]:
+              - /url: /ch/sglarticle/opendata#
+              - generic [ref=e55]: 回上一頁
+      - generic [ref=e56]:
+        - contentinfo [ref=e57]:
+          - generic [ref=e58]:
+            - img "中華民國內政部 國土管理署全球資訊網" [ref=e60]
+            - generic [ref=e61]:
+              - link ":::":
+                - /url: "#Z"
+              - generic [ref=e62]:
+                - text: 內政部國土管理署 版權所有
+                - text: © 2026 All Rights Reserved.
+                - generic [ref=e63]: 最佳解析度：1440 x 900
+                - generic [ref=e64]: 並符合 Chrome、Edge、Firefox、Safari 瀏覽
+              - generic [ref=e65]:
+                - generic [ref=e66]: 機關地址：105404台北市松山區八德路2段342號
+                - generic [ref=e67]: 總機服務：(02)-87712345
+              - generic [ref=e68]:
+                - link "交通位置" [ref=e69] [cursor=pointer]:
+                  - /url: /ch/sglarticle/location
+                - link "Google Map Google Map" [ref=e70] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/YZKSRBQzEgAb96j56
+                  - img "Google Map" [ref=e71]
+                  - text: Google Map
+              - navigation [ref=e72]:
+                - link "各業務單位聯絡電話" [ref=e73] [cursor=pointer]:
+                  - /url: https://www.nlma.gov.tw/ch/sglarticle/bizcontacts
+                - link "相關連結" [ref=e74] [cursor=pointer]:
+                  - /url: /ch/listicle/related-links
+                - link "資訊安全政策" [ref=e75] [cursor=pointer]:
+                  - /url: /ch/sglarticle/information
+                - link "隱私權保護政策" [ref=e76] [cursor=pointer]:
+                  - /url: /ch/sglarticle/privacy
+                - link "政府網站資料開放宣告" [ref=e77] [cursor=pointer]:
+                  - /url: /ch/sglarticle/opendata
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - banner [ref=e80]: 關注我們：
+                - link "臉書" [ref=e81] [cursor=pointer]:
+                  - /url: https://www.facebook.com/p/%E5%9C%8B%E5%9C%9F%E7%AE%A1%E7%90%86%E7%BD%B2%E5%A5%BD%E5%BA%B7%E5%A0%B1-100088503610508/?_rdr
+                  - img "臉書" [ref=e82]
+                - link "Youtube" [ref=e83] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@cpami2011
+                  - img "Youtube" [ref=e84]
+                - link "Instagram" [ref=e85] [cursor=pointer]:
+                  - /url: https://www.instagram.com/nlma.gov.tw?igsh=MWxxanFyMDYxaDFodA%3D%3D
+                  - img "Instagram" [ref=e86]
+              - generic [ref=e87]:
+                - link "我的 E 政府" [ref=e88] [cursor=pointer]:
+                  - /url: /[lang]/sglarticle/[menuid]
+                  - img "我的 E 政府" [ref=e89]
+                - link "通過無障礙 2.1 AA 等級無障礙網頁檢測" [ref=e90] [cursor=pointer]:
+                  - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20241125163008
+                  - img "通過無障礙 2.1 AA 等級無障礙網頁檢測" [ref=e91]
+        - button "回頂端" [ref=e92] [cursor=pointer]:
+          - generic: 回頂端
+  - iframe [ref=e95]:
+    - generic [ref=f49e6]:
+      - text: 採用
+      - strong [ref=f49e7]: reCAPTCHA
+      - text: 保護機制
+  - alert [ref=e96]

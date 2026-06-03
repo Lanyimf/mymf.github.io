@@ -1,0 +1,123 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "跳至主要內容" [ref=e6] [cursor=pointer]:
+      - /url: "#ak-container"
+    - heading "政府資料開放平臺" [level=1] [ref=e7]
+    - generic [ref=e8]:
+      - link "政府資料開放平臺 Logo" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "政府資料開放平臺 Logo" [ref=e11]
+      - button "子選單已開啟" [ref=e13] [cursor=pointer]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: 子選單已開啟
+          - img [ref=e17]
+    - generic [ref=e20]:
+      - button "展開主選單" [ref=e21] [cursor=pointer]:
+        - generic [ref=e23]: 展開主選單
+      - navigation "主要選單"
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - navigation "Breadcrumb" [ref=e27]:
+        - generic [ref=e28]:
+          - link "首頁" [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e32]: 首頁
+          - text: /
+        - link "查詢資料集" [ref=e34]
+      - link ":::" [ref=e36] [cursor=pointer]:
+        - /url: "#ak-container"
+    - generic [ref=e37]:
+      - heading "資料集列表 | Datasets" [level=2] [ref=e38]
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43] [cursor=pointer]: 簡易搜尋輸入框
+              - combobox [ref=e44]:
+                - textbox "簡易搜尋輸入框" [ref=e47]:
+                  - /placeholder: 請輸入關鍵字
+            - button "搜尋" [ref=e49] [cursor=pointer]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: 搜尋
+                - img [ref=e52]
+          - generic [ref=e54]:
+            - button "進階搜尋" [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]:
+                - text: 進階搜尋
+                - img [ref=e58]
+            - button "重設" [ref=e60] [cursor=pointer]:
+              - generic [ref=e61]: 重設
+        - generic [ref=e63]:
+          - generic [ref=e64]: 熱門關鍵字：
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - button "即時交通" [ref=e67] [cursor=pointer]:
+                - generic [ref=e68]: 即時交通
+              - text: 、
+            - listitem [ref=e69]:
+              - button "空氣品質" [ref=e70] [cursor=pointer]:
+                - generic [ref=e71]: 空氣品質
+              - text: 、
+            - listitem [ref=e72]:
+              - button "歷史交通" [ref=e73] [cursor=pointer]:
+                - generic [ref=e74]: 歷史交通
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e79] [cursor=pointer]:
+          - generic:
+            - combobox "選擇搜尋紀錄" [ref=e81]
+            - generic [ref=e82]: 搜尋紀錄
+          - img [ref=e85]
+        - generic [ref=e87]:
+          - button "搜尋" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]: 搜尋
+          - button "重設" [ref=e92] [cursor=pointer]:
+            - generic [ref=e93]: 重設
+        - button "展開過濾條件" [ref=e94] [cursor=pointer]:
+          - generic [ref=e96]: 展開過濾條件
+        - generic [ref=e97]:
+          - button "搜尋" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: 搜尋
+          - button "重設" [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]: 重設
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e107] [cursor=pointer]: 排序：
+          - generic [ref=e109] [cursor=pointer]:
+            - generic:
+              - combobox "選擇排序" [ref=e111]
+              - generic [ref=e112]: 相關性排序高至低
+            - img [ref=e115]
+          - generic [ref=e118] [cursor=pointer]:
+            - generic:
+              - combobox "選擇一頁幾個項目" [ref=e120]
+              - generic [ref=e121]: 10項/頁
+            - img [ref=e124]
+        - button "搜尋結果匯出" [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]:
+            - text: 搜尋結果匯出
+            - img [ref=e131]
+      - img [ref=e135]
+  - contentinfo [ref=e137]:
+    - link ":::" [ref=e138] [cursor=pointer]:
+      - /url: "#ak-footer"
+    - button "網站目錄" [ref=e141] [cursor=pointer]:
+      - img [ref=e142]
+      - generic [ref=e144]: 網站目錄
+      - img [ref=e146]
+    - generic [ref=e148]:
+      - list [ref=e149]:
+        - listitem [ref=e150]: 數位發展部
+        - listitem [ref=e151]: 地址：100057 臺北市中正區延平南路143 號
+        - listitem [ref=e152]: 如對本站有任何問題或意見歡迎聯絡客服中心
+        - listitem [ref=e153]: 電話：02-2531-1998 | 0800-650-688
+        - listitem [ref=e154]: 信箱：opendata@moda.gov.tw
+      - list [ref=e155]:
+        - listitem [ref=e156]:
+          - link "隱私權保護、使用與資安政策" [ref=e157] [cursor=pointer]:
+            - /url: /privacy
+      - list [ref=e158]:
+        - listitem [ref=e159]:
+          - link "通過AA無障礙網頁檢測" [ref=e160] [cursor=pointer]:
+            - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20251117113247
+            - img "通過AA無障礙網頁檢測" [ref=e161]

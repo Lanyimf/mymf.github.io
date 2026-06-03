@@ -1,0 +1,185 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "跳至主要內容" [ref=e6] [cursor=pointer]:
+      - /url: "#ak-container"
+    - heading "政府資料開放平臺" [level=1] [ref=e7]
+    - generic [ref=e8]:
+      - link "政府資料開放平臺 Logo" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "政府資料開放平臺 Logo" [ref=e11]
+      - button "子選單已開啟" [ref=e13] [cursor=pointer]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: 子選單已開啟
+          - img [ref=e17]
+    - generic [ref=e20]:
+      - button "展開主選單" [ref=e21] [cursor=pointer]:
+        - generic [ref=e23]: 展開主選單
+      - navigation "主要選單"
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - navigation "Breadcrumb" [ref=e27]:
+        - generic [ref=e28]:
+          - link "首頁" [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e32]: 首頁
+          - text: /
+        - generic [ref=e33]:
+          - link "資料集" [ref=e34]
+          - text: /
+        - link "新北市107年公告土地現值及公告地價-三峽區" [ref=e36]
+      - link ":::" [ref=e38] [cursor=pointer]:
+        - /url: "#ak-container"
+    - generic [ref=e39]:
+      - heading "新北市107年公告土地現值及公告地價-三峽區" [level=2] [ref=e40]
+      - generic [ref=e41]: 為推動不動產買賣資訊透明化，建立便利親和的網路查詢平台，新北市政府地政局開放公告土地現值資料給予民眾，請多加利用下載。 (三峽區)
+      - generic [ref=e42]:
+        - generic [ref=e43]: 評分此資料集：
+        - slider "新北市107年公告土地現值及公告地價-三峽區評分" [ref=e45]:
+          - img [ref=e48] [cursor=pointer]
+          - img [ref=e52] [cursor=pointer]
+          - img [ref=e56] [cursor=pointer]
+          - img [ref=e60] [cursor=pointer]
+          - img [ref=e64] [cursor=pointer]
+        - generic [ref=e66]: 平均 0.00 (0 人次投票)
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - img "金標章" [ref=e72]
+          - listitem [ref=e74]:
+            - img "白金標章" [ref=e75]
+          - listitem [ref=e77]:
+            - img [ref=e78]
+            - text: 瀏覽次數： 3620
+          - listitem [ref=e80]:
+            - img [ref=e81]
+            - text: 下載次數： 0
+          - listitem [ref=e83]:
+            - img [ref=e84]
+            - text: 意見數： 0
+        - generic [ref=e86]:
+          - button "DCAT 詞彙" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88]: DCAT 詞彙
+          - button "列印" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90]:
+              - img [ref=e91]
+              - text: 列印
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - strong [ref=e96]: 主要欄位說明
+            - generic [ref=e97]: "*粗體欄位為資料標準欄位"
+          - generic [ref=e98]:
+            - generic [ref=e101]: country(縣市別)、
+            - generic [ref=e104]: district(行政區)、
+            - generic [ref=e107]: segment(段小段)、
+            - generic [ref=e110]: lid(地號)、
+            - strong [ref=e113]: official_value_busiprval(公告土地現值)、
+            - strong [ref=e116]: official_price_busiprval(公告地價)
+        - generic [ref=e117]:
+          - strong [ref=e119]: 資料資源下載網址
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - link "CSV" [ref=e123] [cursor=pointer]:
+                - /url: https://data.ntpc.gov.tw/api/datasets/a7a05ef2-acc0-42e2-b665-adbf84b89394/csv/file
+                - button "CSV" [ref=e124]:
+                  - generic [ref=e125]:
+                    - img [ref=e126]
+                    - text: CSV
+              - button "檢視資料" [ref=e128] [cursor=pointer]:
+                - generic [ref=e129]: 檢視資料
+              - text: 為推動不動產買賣資訊透明化，建立便利親和的網路查詢平台，新北市政府地政局開放公告土地現值資料給予民眾...
+        - generic [ref=e130]:
+          - strong [ref=e132]: 提供機關
+          - link "新北市政府地政局" [ref=e134] [cursor=pointer]:
+            - /url: /datasets/search?qs=9537
+        - generic [ref=e135]:
+          - strong [ref=e137]: 提供機關聯絡人姓名
+          - generic [ref=e138]: 徐先生 ((02)29603456#3273)
+        - generic [ref=e139]:
+          - strong [ref=e141]: 更新頻率
+          - generic [ref=e142]: 不定期更新
+        - generic [ref=e143]:
+          - strong [ref=e145]: 授權方式
+          - generic [ref=e146]: 政府資料開放授權條款-第1版
+        - generic [ref=e147]:
+          - strong [ref=e149]: 計費方式
+          - generic [ref=e150]: 免費
+        - generic [ref=e151]:
+          - strong [ref=e153]: 上架日期
+          - generic [ref=e154]: 2018-01-09
+        - generic [ref=e155]:
+          - strong [ref=e157]: 資料集上架方式
+          - generic [ref=e158]: 系統介接程式
+        - generic [ref=e159]:
+          - strong [ref=e161]: 詮釋資料更新時間
+          - generic [ref=e162]: 2025-06-23 13:56
+        - generic [ref=e163]:
+          - strong [ref=e165]: 服務分類
+          - link "購屋及遷徙" [ref=e167] [cursor=pointer]:
+            - /url: /datasets/search?ct=417
+        - generic [ref=e168]:
+          - strong [ref=e170]: 資料提供屬性
+          - generic [ref=e171]: 檔案資料
+        - generic [ref=e172]:
+          - strong [ref=e174]: 關鍵字
+          - button "地價" [ref=e177] [cursor=pointer]:
+            - generic [ref=e178]: 地價
+        - strong [ref=e181]: 相關網址
+        - generic [ref=e183]:
+          - strong [ref=e185]: 備註
+          - generic [ref=e186]: "OpenAPI文件下載: https://data.ntpc.gov.tw/api/v1/openapi/units/1110000"
+      - generic [ref=e187]:
+        - generic [ref=e189]:
+          - generic [ref=e190]: 相關資料集
+          - list [ref=e192]:
+            - listitem [ref=e193]:
+              - link "新北市109年公告土地現值及公告地價-三峽區" [ref=e194] [cursor=pointer]:
+                - /url: /dataset/170023
+            - listitem [ref=e195]:
+              - link "新北市108年公告土地現值-三峽區" [ref=e196] [cursor=pointer]:
+                - /url: /dataset/170160
+            - listitem [ref=e197]:
+              - link "新北市110年公告土地現值-三峽區" [ref=e198] [cursor=pointer]:
+                - /url: /dataset/138409
+            - listitem [ref=e199]:
+              - link "新北市110年公告土地現值" [ref=e200] [cursor=pointer]:
+                - /url: /dataset/136064
+            - listitem [ref=e201]:
+              - link "歷年不動產實價登錄資訊-買賣案件-106年" [ref=e202] [cursor=pointer]:
+                - /url: /dataset/137377
+        - generic [ref=e204]:
+          - generic [ref=e206]:
+            - generic [ref=e207]: 活化應用
+            - link "查看全部" [ref=e208] [cursor=pointer]:
+              - /url: /applications?name=新北市107年公告土地現值及公告地價-三峽區
+          - generic [ref=e211]: 目前沒有相關活化應用
+      - generic [ref=e212]:
+        - heading "回應" [level=3] [ref=e213]
+        - generic [ref=e214]:
+          - text: 發表回應前，請先
+          - link "登入" [ref=e215] [cursor=pointer]:
+            - /url: /login
+  - contentinfo [ref=e216]:
+    - link ":::" [ref=e217] [cursor=pointer]:
+      - /url: "#ak-footer"
+    - button "網站目錄" [ref=e220] [cursor=pointer]:
+      - img [ref=e221]
+      - generic [ref=e223]: 網站目錄
+      - img [ref=e225]
+    - generic [ref=e227]:
+      - list [ref=e228]:
+        - listitem [ref=e229]: 數位發展部
+        - listitem [ref=e230]: 地址：100057 臺北市中正區延平南路143 號
+        - listitem [ref=e231]: 如對本站有任何問題或意見歡迎聯絡客服中心
+        - listitem [ref=e232]: 電話：02-2531-1998 | 0800-650-688
+        - listitem [ref=e233]: 信箱：opendata@moda.gov.tw
+      - list [ref=e234]:
+        - listitem [ref=e235]:
+          - link "隱私權保護、使用與資安政策" [ref=e236] [cursor=pointer]:
+            - /url: /privacy
+      - list [ref=e237]:
+        - listitem [ref=e238]:
+          - link "通過AA無障礙網頁檢測" [ref=e239] [cursor=pointer]:
+            - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20251117113247
+            - img "通過AA無障礙網頁檢測" [ref=e240]

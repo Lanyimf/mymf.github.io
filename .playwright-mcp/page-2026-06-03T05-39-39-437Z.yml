@@ -1,0 +1,521 @@
+- generic [active] [ref=e1]:
+  - link "跳到主要內容區塊" [ref=e2] [cursor=pointer]:
+    - /url: "#base-content"
+  - generic [ref=e7]:
+    - generic:
+      - generic:
+        - button "關閉" [ref=e12] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic [ref=e13]:
+                        - generic:
+                          - generic: tbx_40b8e68b55f743f294539f1f10e60de5
+                        - searchbox "tbx_40b8e68b55f743f294539f1f10e60de5" [ref=e14]
+                      - button "搜尋" [ref=e15] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link "進階搜尋" [ref=e16] [cursor=pointer]:
+                          - /url: https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.nlsc.gov.tw
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - listitem [ref=e17]:
+                        - link "Facebook" [ref=e19] [cursor=pointer]:
+                          - /url: "javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));"
+                      - listitem [ref=e20]:
+                        - link "Plurk" [ref=e22] [cursor=pointer]:
+                          - /url: "javascript: void(window.open('http://www.plurk.com/?qualifier=shares&status='.concat(encodeURIComponent(location.href)) ));"
+                      - listitem [ref=e23]:
+                        - link "Twitter" [ref=e25] [cursor=pointer]:
+                          - /url: "javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));"
+                      - listitem [ref=e26]:
+                        - link "line" [ref=e28] [cursor=pointer]:
+                          - /url: "javascript: void(window.open('http://line.naver.jp/R/msg/text/?'.concat(encodeURIComponent(location.href)) ));"
+                      - listitem [ref=e29]:
+                        - link "Email" [ref=e31] [cursor=pointer]:
+                          - /url: "javascript:  void(window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)));"
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link "公告訊息" [ref=e32] [cursor=pointer]:
+                          - /url: cl.aspx?n=1453
+                      - listitem:
+                        - link "關於本中心" [ref=e33] [cursor=pointer]:
+                          - /url: cl.aspx?n=1458
+                      - listitem:
+                        - link "測繪業務介紹" [ref=e34] [cursor=pointer]:
+                          - /url: cl.aspx?n=1480
+                      - listitem:
+                        - link "測繪知識" [ref=e35] [cursor=pointer]:
+                          - /url: cl.aspx?n=1535
+                      - listitem:
+                        - link "便民服務" [ref=e36] [cursor=pointer]:
+                          - /url: cl.aspx?n=1545
+                      - listitem:
+                        - link "測繪法規" [ref=e37] [cursor=pointer]:
+                          - /url: cl.aspx?n=1575
+                      - listitem:
+                        - link "政府資訊公開" [ref=e38] [cursor=pointer]:
+                          - /url: cl.aspx?n=1581
+                      - listitem:
+                        - link "廉政園地" [ref=e39] [cursor=pointer]:
+                          - /url: cl.aspx?n=1598
+                      - listitem:
+                        - link "檔案廣場" [ref=e40] [cursor=pointer]:
+                          - /url: cl.aspx?n=1607
+                      - listitem:
+                        - link "行政專區" [ref=e41] [cursor=pointer]:
+                          - /url: cl.aspx?n=1616
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link "回首頁" [ref=e42] [cursor=pointer]:
+                          - /url: Default.aspx
+                      - listitem:
+                        - link "網站導覽" [ref=e43] [cursor=pointer]:
+                          - /url: SiteMap.aspx
+                      - listitem:
+                        - link "相關連結" [ref=e44] [cursor=pointer]:
+                          - /url: News_Link4.aspx?n=8700&sms=11302
+                      - listitem:
+                        - link "測繪信箱" [ref=e45] [cursor=pointer]:
+                          - /url: Message.aspx?n=1558&sms=11349
+                      - listitem:
+                        - link "常見問答" [ref=e46] [cursor=pointer]:
+                          - /url: News_Toggle.aspx?n=1564&sms=9708
+                      - listitem:
+                        - link "English" [ref=e47] [cursor=pointer]:
+                          - /url: en/Default.aspx
+                      - listitem:
+                        - link "兒童網站" [ref=e48] [cursor=pointer]:
+                          - /url: https://www.nlsc.gov.tw/Child/index.html
+                      - listitem:
+                        - link "線上服務" [ref=e49] [cursor=pointer]:
+                          - /url: /cl.aspx?n=1590
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link "政府網站資料開放宣告" [ref=e50] [cursor=pointer]:
+                          - /url: cp.aspx?n=1632
+                      - listitem:
+                        - link "隱私權保護政策" [ref=e51] [cursor=pointer]:
+                          - /url: cp.aspx?n=1633
+                      - listitem:
+                        - link "網站安全政策" [ref=e52] [cursor=pointer]:
+                          - /url: cp.aspx?n=1634
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - heading "國土測繪中心全球資訊網-中文網" [level=1] [ref=e57]:
+              - link "國土測繪中心全球資訊網-中文網" [ref=e58] [cursor=pointer]:
+                - /url: Default.aspx
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link ":::":
+                                        - /url: "#Accesskey_U"
+                    - text: ": 、 、"
+    - generic [ref=e62]:
+      - main [ref=e63]:
+        - generic [ref=e70]:
+          - link ":::" [ref=e73] [cursor=pointer]:
+            - /url: "#Accesskey_C"
+          - generic [ref=e79]:
+            - list [ref=e82]:
+              - listitem [ref=e83]:
+                - link "本中心提供全臺唯一獲TAF認證之航空測量感測器校正服務，歡迎申請使用。" [ref=e89] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1454&sms=9680&s=338691
+                  - img "本中心提供全臺唯一獲TAF認證之航空測量感測器校正服務，歡迎申請使用。" [ref=e90]
+            - list [ref=e93]:
+              - listitem [ref=e94]:
+                - link "本中心提供全臺唯一獲TAF認證之航空測量感測器校正服務，歡迎申請使用。" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1454&sms=9680&s=338691
+              - listitem [ref=e97]:
+                - link "本中心與交通部合作提供「交通資訊基礎路段編碼（LinkID）」圖資與服務" [ref=e99] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1454&sms=9680&s=337490
+              - listitem [ref=e100]:
+                - link "114年度地籍圖重測成果統計圖表出爐了" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1454&sms=9680&s=337161
+              - listitem [ref=e103]:
+                - link "完成114年度我國領海基點樁與標示牌巡查維護工作" [ref=e105] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1454&sms=9680&s=336581
+              - listitem [ref=e106]:
+                - link "114年下半年臺灣通用電子地圖局部更新向量檔歡迎下載！" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1454&sms=9680&s=336218
+              - listitem [ref=e109]:
+                - link "115年度國土測繪圖資網路服務商用訂閱開放申請" [ref=e111] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1454&s=335358
+              - listitem [ref=e112]:
+                - link "教學圖資樣本提供免費申請" [ref=e114] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/NLSC_Content.aspx?n=1742&s=333108
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - list [ref=e125]:
+                - listitem [ref=e126]:
+                  - link "最新消息" [ref=e128] [cursor=pointer]:
+                    - /url: "#Group_65452_bkRsRjdJKT"
+                - listitem [ref=e129]:
+                  - link "國家底圖" [ref=e131] [cursor=pointer]:
+                    - /url: "#Group_65453_JVfrnxrqHo"
+                - listitem [ref=e132]:
+                  - link "重大政策" [ref=e134] [cursor=pointer]:
+                    - /url: "#Group_65454_MmhTAQIdcK"
+                - listitem [ref=e135]:
+                  - link "徵才資訊" [ref=e137] [cursor=pointer]:
+                    - /url: "#Group_65455_ijwWjeJpVt"
+                - listitem [ref=e138]:
+                  - link "測繪影音" [ref=e140] [cursor=pointer]:
+                    - /url: "#Group_65456_MMkDnkdmDU"
+                - listitem [ref=e141]:
+                  - link "文宣充電站" [ref=e143] [cursor=pointer]:
+                    - /url: "#Group_65457_NmqBgQKRHR"
+            - listitem [ref=e144]:
+              - generic [ref=e146]:
+                - list [ref=e149]:
+                  - listitem [ref=e150]:
+                    - list [ref=e155]:
+                      - listitem [ref=e156]:
+                        - link "本中心舉辦「115年度國家底圖教學應用教師研習會」，歡迎踴躍報名參加。 115-06-03 為深化國家底圖於教育場域應用，本中心訂於115年7月2日假逢甲大學舉辦「Map Spark 教學實驗室：國家底圖教案應用教師研習會」，將利用本中心研製符合108課綱之國家底圖國中教案示範教學，引導參與教師應用國家底圖於教學設計及課程實踐。&nb ...更多" [ref=e161] [cursor=pointer]:
+                          - /url: NLSC_Content.aspx?n=1454&sms=9680&s=338764
+                          - generic [ref=e164]:
+                            - generic [ref=e165]: 本中心舉辦「115年度國家底圖教學應用教師研習會」，歡迎踴躍報名參加。
+                            - list [ref=e167]:
+                              - listitem [ref=e168]:
+                                - generic [ref=e170]: 115-06-03
+                            - generic [ref=e171]: 為深化國家底圖於教育場域應用，本中心訂於115年7月2日假逢甲大學舉辦「Map Spark 教學實驗室：國家底圖教案應用教師研習會」，將利用本中心研製符合108課綱之國家底圖國中教案示範教學，引導參與教師應用國家底圖於教學設計及課程實踐。&nb ...更多
+                      - listitem [ref=e172]:
+                        - link "115-06-03 內政部劉部長世芳視察本中心業務，期勉持續發揮國土測繪專業，支援國家災防決策應用" [ref=e178] [cursor=pointer]:
+                          - /url: NLSC_Content.aspx?n=1454&sms=9680&s=338760
+                          - generic [ref=e179]: 115-06-03
+                          - text: 內政部劉部長世芳視察本中心業務，期勉持續發揮國土測繪專業，支援國家災防決策應用
+                      - listitem [ref=e180]:
+                        - link "115-05-29 【職缺公告】甄選本中心秘書室約僱人員（職務代理人）1名" [ref=e186] [cursor=pointer]:
+                          - /url: NLSC_Content.aspx?n=1454&sms=9680&s=338711
+                          - generic [ref=e187]: 115-05-29
+                          - text: 【職缺公告】甄選本中心秘書室約僱人員（職務代理人）1名
+                      - listitem [ref=e188]:
+                        - link "115-05-28 本中心提供全臺唯一獲TAF認證之航空測量感測器校正服務，歡迎申請使用。" [ref=e194] [cursor=pointer]:
+                          - /url: NLSC_Content.aspx?n=1454&sms=9680&s=338691
+                          - generic [ref=e195]: 115-05-28
+                          - text: 本中心提供全臺唯一獲TAF認證之航空測量感測器校正服務，歡迎申請使用。
+                      - listitem [ref=e196]:
+                        - link "115-05-27 配合推廣「淡江大橋建設計畫推動成果」政策。" [ref=e202] [cursor=pointer]:
+                          - /url: NLSC_Content.aspx?n=1454&sms=9680&s=338646
+                          - generic [ref=e203]: 115-05-27
+                          - text: 配合推廣「淡江大橋建設計畫推動成果」政策。
+                      - listitem [ref=e204]:
+                        - link "115-05-26 本中心開放供應115年5月「村（里）界」最新成果，歡迎下載運用。" [ref=e210] [cursor=pointer]:
+                          - /url: NLSC_Content.aspx?n=1454&sms=9680&s=338603
+                          - generic [ref=e211]: 115-05-26
+                          - text: 本中心開放供應115年5月「村（里）界」最新成果，歡迎下載運用。
+                - list [ref=e214]:
+                  - listitem [ref=e215]:
+                    - link "最新消息 RSS" [ref=e217] [cursor=pointer]:
+                      - /url: /OpenData.aspx?SN=6880137375636088
+                  - listitem [ref=e218]:
+                    - link "更多" [ref=e220] [cursor=pointer]:
+                      - /url: News.aspx?n=1454&sms=9680
+          - generic [ref=e222]:
+            - generic "測繪統計主題" [ref=e227]
+            - generic [ref=e231]:
+              - list [ref=e235]:
+                - listitem [ref=e236]:
+                  - link "從圖資規費收入看見「地籍圖」在國家底圖的重要性 「國家底圖」具備共用、定期更新及穩定供應等特性，本部國土測繪中心負責供應其中多項圖資，經統計109至113年各項核心圖資規費收入，以地籍圖為大宗，每年均達350萬元以上，以110年最高，達485.5萬元，占當年總規費收入44％；另該中心近2年積極推動圖資進入校園，其中國土利用現況調查成果之主要使 ...更多" [ref=e241] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=333168
+                    - generic [ref=e244]:
+                      - generic [ref=e246]: 從圖資規費收入看見「地籍圖」在國家底圖的重要性
+                      - generic [ref=e247]: 「國家底圖」具備共用、定期更新及穩定供應等特性，本部國土測繪中心負責供應其中多項圖資，經統計109至113年各項核心圖資規費收入，以地籍圖為大宗，每年均達350萬元以上，以110年最高，達485.5萬元，占當年總規費收入44％；另該中心近2年積極推動圖資進入校園，其中國土利用現況調查成果之主要使 ...更多
+                - listitem [ref=e248]:
+                  - link "定期做校正，品質有保證 隨著測繪科技進步，測量方式已逐步發展使用行動測繪車，或利用光達設備辦理測量工作。為因應測量儀器多樣化並精進儀器校正能力，本中心設立測量儀器校正實驗室，積極研發多種測量儀器校正技術，並通過全國認證基金會審核後，辦理儀器校正工作，以確保測量成果品質，保障人民土地財產權益。 113年各公、私部門計有 ...更多" [ref=e253] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=331536
+                    - generic [ref=e256]:
+                      - generic [ref=e258]: 定期做校正，品質有保證
+                      - generic [ref=e259]: 隨著測繪科技進步，測量方式已逐步發展使用行動測繪車，或利用光達設備辦理測量工作。為因應測量儀器多樣化並精進儀器校正能力，本中心設立測量儀器校正實驗室，積極研發多種測量儀器校正技術，並通過全國認證基金會審核後，辦理儀器校正工作，以確保測量成果品質，保障人民土地財產權益。 113年各公、私部門計有 ...更多
+                - listitem [ref=e260]:
+                  - link "地籍圖重測，保障民眾財產權益 地籍圖重測為將老舊之地籍圖，經法定程序後，製作新地籍圖，確保其與實地經界物及土地登記簿一致，保障民眾財產權益，建立精確地籍資訊，有助於土地利用及公共建設規劃，並可作為國土規劃、復育及防救災等應用的基礎。地籍圖重測計畫為全國性重要測繪計畫，於民國62至64年試辦成效良好，行政院自65年起陸續核定多項中 ...更多" [ref=e265] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=331535
+                    - generic [ref=e268]:
+                      - generic [ref=e270]: 地籍圖重測，保障民眾財產權益
+                      - generic [ref=e271]: 地籍圖重測為將老舊之地籍圖，經法定程序後，製作新地籍圖，確保其與實地經界物及土地登記簿一致，保障民眾財產權益，建立精確地籍資訊，有助於土地利用及公共建設規劃，並可作為國土規劃、復育及防救災等應用的基礎。地籍圖重測計畫為全國性重要測繪計畫，於民國62至64年試辦成效良好，行政院自65年起陸續核定多項中 ...更多
+                - listitem [ref=e272]:
+                  - link "照過來！最新全國國土利用現況調查出爐囉！ 為利國土規劃管理，本部訂定「國土利用現況調查辦法」，以2年頻率辦理圖資更新，掌握現況動態變化。 本次公布統計數據為111至112年度完成的國土利用現況調查成果，調查內容依農業、森林、交通、水利、建築、公共、遊憩、礦鹽、其他分類等9大類，其中森林利用土地面積逾215萬公頃最多，農業利用土地面積逾 ...更多" [ref=e277] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=321475
+                    - generic [ref=e280]:
+                      - generic [ref=e282]: 照過來！最新全國國土利用現況調查出爐囉！
+                      - generic [ref=e283]: 為利國土規劃管理，本部訂定「國土利用現況調查辦法」，以2年頻率辦理圖資更新，掌握現況動態變化。 本次公布統計數據為111至112年度完成的國土利用現況調查成果，調查內容依農業、森林、交通、水利、建築、公共、遊憩、礦鹽、其他分類等9大類，其中森林利用土地面積逾215萬公頃最多，農業利用土地面積逾 ...更多
+                - listitem [ref=e284]:
+                  - link "臺灣西部縣市水域面積知多少? 本中心辦理水利數值地形資料(Hydraulic Digital Elevation Model, HyDEM)之測繪作業，繪製地表上之水域區塊及溢堤線(包含河川、渠道、排水幹道、溝渠等行水區範圍)，有關水域面積統計包含河、湖、池塘、堰、水庫等各種流水或蓄水等水體占地面積，並以河堤滿水位所涵蓋之面 ...更多" [ref=e289] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=314135
+                    - generic [ref=e292]:
+                      - generic [ref=e294]: 臺灣西部縣市水域面積知多少?
+                      - generic [ref=e295]: 本中心辦理水利數值地形資料(Hydraulic Digital Elevation Model, HyDEM)之測繪作業，繪製地表上之水域區塊及溢堤線(包含河川、渠道、排水幹道、溝渠等行水區範圍)，有關水域面積統計包含河、湖、池塘、堰、水庫等各種流水或蓄水等水體占地面積，並以河堤滿水位所涵蓋之面 ...更多
+                - listitem [ref=e296]:
+                  - link "國土測繪服務規費離線繳費更彈性，行動支付好便利 本中心掌理全國測繪業務，圖資供應及e-GNSS即時動態定位等服務依法收取相關規費，並提供線上、離線及臨櫃等多元繳費方式，其中離線繳費案件數均高於線上繳費，且快速增加，由109年2,008件遞增至112年3,121件。 離線繳費計有台灣Pay、ATM轉帳及4大超商等3種繳納管道，109至112年 ...更多" [ref=e301] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=313506
+                    - generic [ref=e304]:
+                      - generic [ref=e306]: 國土測繪服務規費離線繳費更彈性，行動支付好便利
+                      - generic [ref=e307]: 本中心掌理全國測繪業務，圖資供應及e-GNSS即時動態定位等服務依法收取相關規費，並提供線上、離線及臨櫃等多元繳費方式，其中離線繳費案件數均高於線上繳費，且快速增加，由109年2,008件遞增至112年3,121件。 離線繳費計有台灣Pay、ATM轉帳及4大超商等3種繳納管道，109至112年 ...更多
+                - listitem [ref=e308]:
+                  - link "生活機能地標在哪裡？透過臺灣通用電子地圖告訴你！ 便利的生活機能，是帶動城市繁榮及人口增長的重要推手，透過分析臺灣通用電子地圖的百貨賣場及超商、學校及幼兒園、車站、醫院等生活機能地標空間分布，發現生活機能地標增長與人口數有明顯正相關。 在全臺368個行政區中，人口數未達5萬的行政區，生活機能地標平均約29個，而在超過25萬人的行政區， ...更多" [ref=e313] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=311674
+                    - generic [ref=e316]:
+                      - generic [ref=e318]: 生活機能地標在哪裡？透過臺灣通用電子地圖告訴你！
+                      - generic [ref=e319]: 便利的生活機能，是帶動城市繁榮及人口增長的重要推手，透過分析臺灣通用電子地圖的百貨賣場及超商、學校及幼兒園、車站、醫院等生活機能地標空間分布，發現生活機能地標增長與人口數有明顯正相關。 在全臺368個行政區中，人口數未達5萬的行政區，生活機能地標平均約29個，而在超過25萬人的行政區， ...更多
+                - listitem [ref=e320]:
+                  - link "地籍測量，女力報到 我們常認為「測繪」屬於勞力工作，適合男性從事，然而從本部國土測繪中心地籍測量人員訓練班（以下簡稱測訓班）女性報考及錄取率來看，已改變了這種刻版印象。 由近7期數據得知，女性經由報考測訓班投身測繪領域者，由101年占全體考生的30％，至112年已達50%，而錄取率方面女性亦不遑多讓，約與 ...更多" [ref=e325] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=295929
+                    - generic [ref=e328]:
+                      - generic [ref=e330]: 地籍測量，女力報到
+                      - generic [ref=e331]: 我們常認為「測繪」屬於勞力工作，適合男性從事，然而從本部國土測繪中心地籍測量人員訓練班（以下簡稱測訓班）女性報考及錄取率來看，已改變了這種刻版印象。 由近7期數據得知，女性經由報考測訓班投身測繪領域者，由101年占全體考生的30％，至112年已達50%，而錄取率方面女性亦不遑多讓，約與 ...更多
+                - listitem [ref=e332]:
+                  - link "黃金地段在哪裡？原來落在重測區！ 地籍圖記載了土地範圍，「地段」是地籍圖的最小管理單元，各地段依測量類別可分為未辦地籍整理（日治時期地籍圖）、地籍圖重測、市地重劃、修正測量及其他地籍整理（如區段徵收）。 以本部國土測繪中心所產三維建物模型及土地段籍資料統計全國1萬5,000餘個地段建物密度，建物密度大於50%的地段按測量類別有 ...更多" [ref=e337] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=283198
+                    - generic [ref=e340]:
+                      - generic [ref=e342]: 黃金地段在哪裡？原來落在重測區！
+                      - generic [ref=e343]: 地籍圖記載了土地範圍，「地段」是地籍圖的最小管理單元，各地段依測量類別可分為未辦地籍整理（日治時期地籍圖）、地籍圖重測、市地重劃、修正測量及其他地籍整理（如區段徵收）。 以本部國土測繪中心所產三維建物模型及土地段籍資料統計全國1萬5,000餘個地段建物密度，建物密度大於50%的地段按測量類別有 ...更多
+                - listitem [ref=e344]:
+                  - link "測繪圖資線上申購案件量統計 隨著測繪技術發展及圖資應用需求日增，本部國土測繪中心建置「國土測繪圖資e商城」，以國土測繪空間資料庫為基礎，提供使用者進行圖資檢索查詢、瀏覽展示及線上申購功能，並結合圖資線上下載、物流寄送及電子金流，達成一條龍的圖資申購服務。 統計近10年（102年至111年）使用者透過系統線上申購圖 ...更多" [ref=e349] [cursor=pointer]:
+                    - /url: News_Content.aspx?n=7523&sms=11162&s=276775
+                    - generic [ref=e352]:
+                      - generic [ref=e354]: 測繪圖資線上申購案件量統計
+                      - generic [ref=e355]: 隨著測繪技術發展及圖資應用需求日增，本部國土測繪中心建置「國土測繪圖資e商城」，以國土測繪空間資料庫為基礎，提供使用者進行圖資檢索查詢、瀏覽展示及線上申購功能，並結合圖資線上下載、物流寄送及電子金流，達成一條龍的圖資申購服務。 統計近10年（102年至111年）使用者透過系統線上申購圖 ...更多
+              - list [ref=e358]:
+                - listitem [ref=e359]:
+                  - link "上一則" [ref=e360] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e361]:
+                  - link "下一則" [ref=e362] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e363]:
+                  - link "更多" [ref=e365] [cursor=pointer]:
+                    - /url: News.aspx?n=7523&sms=11162
+          - generic [ref=e369]:
+            - generic [ref=e371]:
+              - heading "首長" [level=2] [ref=e374]:
+                - generic [ref=e375]: 首長
+              - generic [ref=e377]:
+                - img "首長" [ref=e379]
+                - paragraph [ref=e380]: 鄭彩堂 主任
+            - generic [ref=e382]:
+              - heading "測繪影音" [level=2] [ref=e385]:
+                - generic [ref=e386]: 測繪影音
+              - generic [ref=e389]:
+                - iframe [ref=e390]:
+                  - generic [active] [ref=f26e1]:
+                    - generic "YouTube Video Player" [ref=f26e3]
+                    - generic [ref=f26e5]:
+                      - generic:
+                        - generic:
+                          - button "Play video" [ref=f26e10] [cursor=pointer]
+                          - button "Hide player controls" [ref=f26e12] [cursor=pointer]
+                          - generic [ref=f26e14]:
+                            - generic [ref=f26e19]:
+                              - generic [ref=f26e20]:
+                                - link "NGIS數位孿生－擘劃國土空間發展" [ref=f26e21] [cursor=pointer]:
+                                  - /url: https://www.youtube.com/watch?v=wTG0fqP2uKo
+                                - link "內政部國土測繪中心（NLSC）" [ref=f26e22] [cursor=pointer]:
+                                  - /url: /channel/UCtLEnZ8hvrbwI-NxlGNVnoA
+                                  - generic [ref=f26e23]: 內政部國土測繪中心（NLSC）
+                              - generic [ref=f26e24]:
+                                - button [ref=f26e25] [cursor=pointer]
+                                - generic [ref=f26e26]:
+                                  - generic [ref=f26e27]:
+                                    - generic: 內政部國土測繪中心（NLSC）
+                                    - generic: 323 subscribers
+                                  - generic [ref=f26e35]:
+                                    - generic [ref=f26e36]:
+                                      - generic:
+                                        - generic:
+                                          - img
+                                      - button "Subscribe" [ref=f26e39] [cursor=pointer]:
+                                        - generic [ref=f26e40]: Subscribe
+                                    - generic:
+                                      - generic:
+                                        - img
+                            - generic [ref=f26e44]:
+                              - generic [ref=f26e45]:
+                                - button "Share" [ref=f26e47] [cursor=pointer]:
+                                  - generic [ref=f26e51]:
+                                    - img
+                                - button "Watch later" [ref=f26e56] [cursor=pointer]:
+                                  - generic [ref=f26e60]:
+                                    - img
+                              - link "Watch on YouTube" [ref=f26e67] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=wTG0fqP2uKo
+                                - generic [ref=f26e70]:
+                                  - text: Watch on
+                                  - img [ref=f26e72]:
+                                    - generic [ref=f26e74]:
+                                      - img
+                - link "NGIS數位孿生－擘劃國土空間發展" [ref=e391] [cursor=pointer]:
+                  - /url: News_Video_Content.aspx?n=1457&sms=9765&s=328670
+                  - generic [ref=e393]: NGIS數位孿生－擘劃國土空間發展
+              - list [ref=e396]:
+                - listitem [ref=e397]:
+                  - link "更多" [ref=e399] [cursor=pointer]:
+                    - /url: News.aspx?n=1457&sms=9765
+          - generic [ref=e403]:
+            - list [ref=e409]:
+              - listitem [ref=e410]:
+                - link "地政人員" [ref=e411] [cursor=pointer]:
+                  - /url: /News.aspx?n=1640&sms=9789
+                  - img "地政人員" [ref=e412]
+                - generic [ref=e413]: 地政人員
+              - listitem [ref=e414]:
+                - link "重測地主" [ref=e415] [cursor=pointer]:
+                  - /url: /News.aspx?n=1641&sms=9789
+                  - img "重測地主" [ref=e416]
+                - generic [ref=e417]: 重測地主
+              - listitem [ref=e418]:
+                - link "學術研究者" [ref=e419] [cursor=pointer]:
+                  - /url: /News.aspx?n=1642&sms=9789
+                  - img "學術研究者" [ref=e420]
+                - generic [ref=e421]: 學術研究者
+              - listitem [ref=e422]:
+                - link "一般民眾" [ref=e423] [cursor=pointer]:
+                  - /url: /News.aspx?n=1643&sms=9789
+                  - img "一般民眾" [ref=e424]
+                - generic [ref=e425]: 一般民眾
+              - listitem [ref=e426]:
+                - link "圖資申請者" [ref=e427] [cursor=pointer]:
+                  - /url: /News.aspx?n=1644&sms=9789
+                  - img "圖資申請者" [ref=e428]
+                - generic [ref=e429]: 圖資申請者
+              - listitem [ref=e430]:
+                - link "空間資訊業者" [ref=e431] [cursor=pointer]:
+                  - /url: /News.aspx?n=13238&sms=9789
+                  - img "空間資訊業者" [ref=e432]
+                - generic [ref=e433]: 空間資訊業者
+            - list [ref=e439]:
+              - listitem [ref=e440]:
+                - link "國家底圖分組網站" [ref=e441] [cursor=pointer]:
+                  - /url: https://nationalmaps-nlsc.moi.gov.tw/
+                  - generic [ref=e443]: 國家底圖分組網站
+              - listitem [ref=e444]:
+                - link "國土測繪圖資e商城" [ref=e445] [cursor=pointer]:
+                  - /url: https://whgis-nlsc.moi.gov.tw/
+                  - generic [ref=e447]: 國土測繪圖資e商城
+              - listitem [ref=e448]:
+                - link "國土測繪圖資服務雲" [ref=e449] [cursor=pointer]:
+                  - /url: https://maps.nlsc.gov.tw/
+                  - generic [ref=e451]: 國土測繪圖資服務雲
+              - listitem [ref=e452]:
+                - link "多維度國家空間資訊服務平台" [ref=e453] [cursor=pointer]:
+                  - /url: https://3dmaps.nlsc.gov.tw/
+                  - generic [ref=e455]: 多維度國家空間資訊服務平台
+              - listitem [ref=e456]:
+                - link "e-GNSS即時動態定位系統入口網" [ref=e457] [cursor=pointer]:
+                  - /url: https://egnss.nlsc.gov.tw/HotNews.aspx
+                  - generic [ref=e459]: e-GNSS即時動態定位系統入口網
+              - listitem [ref=e460]:
+                - link "重測便民服務查詢系統" [ref=e461] [cursor=pointer]:
+                  - /url: https://cris-nlsc.moi.gov.tw
+                  - generic [ref=e463]: 重測便民服務查詢系統
+              - listitem [ref=e464]:
+                - link "基本地形圖資料庫分組入口網站" [ref=e465] [cursor=pointer]:
+                  - /url: https://bmap-nlsc.moi.gov.tw/
+                  - generic [ref=e467]: 基本地形圖資料庫分組入口網站
+              - listitem [ref=e468]:
+                - link "全國衛星追蹤站暨基本控制點查詢" [ref=e469] [cursor=pointer]:
+                  - /url: https://track.nlsc.gov.tw/CORS/Portal/map.aspx
+                  - generic [ref=e471]: 全國衛星追蹤站暨基本控制點查詢
+              - listitem [ref=e472]:
+                - link "測量儀器校正服務網" [ref=e473] [cursor=pointer]:
+                  - /url: https://sicl-nlsc.moi.gov.tw/
+                  - generic [ref=e475]: 測量儀器校正服務網
+              - listitem [ref=e476]:
+                - link "軟體授權使用申請" [ref=e477] [cursor=pointer]:
+                  - /url: https://www.nlsc.gov.tw/cp.aspx?n=1552
+                  - generic [ref=e479]: 軟體授權使用申請
+            - generic [ref=e485]:
+              - img "e-papar" [ref=e487]
+              - generic [ref=e488]:
+                - generic [ref=e490]:
+                  - generic [ref=e491] [cursor=pointer]: 請輸入電子信箱
+                  - generic [ref=e492] [cursor=pointer]: 2f9570820d3d474d8dd8e11a024cabea
+                  - searchbox "2f9570820d3d474d8dd8e11a024cabea" [ref=e493]
+                - list [ref=e494]:
+                  - listitem [ref=e495]:
+                    - link "訂閱" [ref=e496] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e497]:
+                    - link "取消訂閱" [ref=e498] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e499]:
+                    - link "本期電子報" [ref=e500] [cursor=pointer]:
+                      - /url: Epaper_Send.aspx
+                  - listitem [ref=e501]:
+                    - link "歷史電子報" [ref=e502] [cursor=pointer]:
+                      - /url: Epaper.aspx?n=10483&sms=11351
+          - generic [ref=e504]:
+            - generic "本中心位置" [ref=e509]
+            - paragraph [ref=e516]:
+              - link "NLSC地圖_中文" [ref=e517] [cursor=pointer]:
+                - /url: https://maps.nlsc.gov.tw/go/120.63439/24.15358
+                - img "NLSC地圖_中文" [ref=e518]
+      - generic [ref=e522]:
+        - link ":::" [ref=e525] [cursor=pointer]:
+          - /url: "#Accesskey_Z"
+        - generic [ref=e529]:
+          - list [ref=e534]:
+            - listitem [ref=e535]:
+              - link "政府網站資料開放宣告" [ref=e537] [cursor=pointer]:
+                - /url: cp.aspx?n=1632
+            - listitem [ref=e538]:
+              - link "隱私權保護政策" [ref=e540] [cursor=pointer]:
+                - /url: cp.aspx?n=1633
+            - listitem [ref=e541]:
+              - link "網站安全政策" [ref=e543] [cursor=pointer]:
+                - /url: cp.aspx?n=1634
+          - list [ref=e548]:
+            - listitem [ref=e549]:
+              - link "我的E政府 [另開新視窗]" [ref=e551] [cursor=pointer]:
+                - /url: //www.gov.tw/
+                - img "我的E政府 [另開新視窗]" [ref=e552]
+            - listitem [ref=e553]:
+              - link "通過A等級無障礙網頁檢測" [ref=e555] [cursor=pointer]:
+                - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20240319145946
+                - img "通過A等級無障礙網頁檢測" [ref=e556]
+            - listitem [ref=e557]:
+              - generic "手機掃描QR Code，可取得此頁連結。" [ref=e559]:
+                - img "手機掃描QR Code，可取得此頁連結。" [ref=e560]
+          - generic [ref=e564]:
+            - generic [ref=e568]:
+              - paragraph [ref=e569]: "地址 : 408281 臺中市南屯區黎明路2段497號4F"
+              - paragraph [ref=e570]: "電話 : (04)22522966 (代表號)"
+              - paragraph [ref=e571]: 辦公時間 08:00 至 17:30
+              - paragraph [ref=e572]: "售圖站服務時間: 08:00 至 12:00 13:00 至 17:00"
+            - generic [ref=e578]:
+              - generic [ref=e581]:
+                - generic "更新日期" [ref=e583]
+                - text: ":"
+              - generic [ref=e586]: 115-06-03

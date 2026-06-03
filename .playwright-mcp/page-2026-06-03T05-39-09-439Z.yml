@@ -1,0 +1,197 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "跳至主要內容" [ref=e6] [cursor=pointer]:
+      - /url: "#ak-container"
+    - heading "政府資料開放平臺" [level=1] [ref=e7]
+    - generic [ref=e8]:
+      - link "政府資料開放平臺 Logo" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "政府資料開放平臺 Logo" [ref=e11]
+      - button "子選單已開啟" [ref=e13] [cursor=pointer]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: 子選單已開啟
+          - img [ref=e17]
+    - generic [ref=e20]:
+      - button "展開主選單" [ref=e21] [cursor=pointer]:
+        - generic [ref=e23]: 展開主選單
+      - navigation "主要選單"
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - navigation "Breadcrumb" [ref=e27]:
+        - generic [ref=e28]:
+          - link "首頁" [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e32]: 首頁
+          - text: /
+        - generic [ref=e33]:
+          - link "資料集" [ref=e34]
+          - text: /
+        - link "112年下半年桃園市托嬰中心所數及收托人數(每半年)" [ref=e36]
+      - link ":::" [ref=e38] [cursor=pointer]:
+        - /url: "#ak-container"
+    - generic [ref=e39]:
+      - heading "112年下半年桃園市托嬰中心所數及收托人數(每半年)" [level=2] [ref=e40]
+      - generic [ref=e41]: 桃園市托嬰中心所數及收托人數(112年下半年)含機構名稱及身分別、所數總計、公立、私立、公辦民營、核定收托人數、實際收托人數合計、男、女、男合計、男未滿1歲、男1至未滿2歲、男2至未滿3歲、女合計、女未滿1歲、女1至未滿2歲、女2至未滿3歲
+      - generic [ref=e42]:
+        - generic [ref=e43]: 評分此資料集：
+        - slider "112年下半年桃園市托嬰中心所數及收托人數(每半年)評分" [ref=e45]:
+          - img [ref=e48] [cursor=pointer]
+          - img [ref=e52] [cursor=pointer]
+          - img [ref=e56] [cursor=pointer]
+          - img [ref=e60] [cursor=pointer]
+          - img [ref=e64] [cursor=pointer]
+        - generic [ref=e66]: 平均 0.00 (0 人次投票)
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - img "金標章" [ref=e72]
+          - listitem [ref=e74]:
+            - img [ref=e75]
+            - text: 瀏覽次數： 1340
+          - listitem [ref=e77]:
+            - img [ref=e78]
+            - text: 下載次數： 49
+          - listitem [ref=e80]:
+            - img [ref=e81]
+            - text: 意見數： 0
+        - generic [ref=e83]:
+          - button "DCAT 詞彙" [ref=e84] [cursor=pointer]:
+            - generic [ref=e85]: DCAT 詞彙
+          - button "列印" [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]:
+              - img [ref=e88]
+              - text: 列印
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - strong [ref=e93]: 主要欄位說明
+            - generic [ref=e94]: "*粗體欄位為資料標準欄位"
+          - generic [ref=e95]:
+            - generic [ref=e98]: 桃園市托嬰中心所數及收托人數、
+            - generic [ref=e101]: 中華民國112年下半年底、
+            - generic [ref=e104]: 機構名稱及身分別、
+            - generic [ref=e107]: 所數總計、
+            - generic [ref=e110]: 公立、
+            - generic [ref=e113]: 私立、
+            - generic [ref=e116]: 公辦民營、
+            - generic [ref=e119]: 核定收托人數、
+            - generic [ref=e122]: 實際收托人數合計、
+            - generic [ref=e125]: 男、
+            - generic [ref=e128]: 女、
+            - generic [ref=e131]: 男合計、
+            - generic [ref=e134]: 男未滿1歲、
+            - generic [ref=e137]: 男1至未滿2歲、
+            - generic [ref=e140]: 男2至未滿3歲、
+            - generic [ref=e143]: 女合計、
+            - generic [ref=e146]: 女未滿1歲、
+            - generic [ref=e149]: 女1至未滿2歲、
+            - generic [ref=e152]: 女2至未滿3歲
+        - generic [ref=e153]:
+          - strong [ref=e155]: 資料資源下載網址
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "CSV" [ref=e159] [cursor=pointer]:
+                - /url: https://opendata.tycg.gov.tw/api/dataset/2bf19064-bedb-497d-8c8e-2df341cdf9fd/resource/88f97e49-3b9e-4cef-bf6e-223ecc58a69a/download
+                - button "CSV" [ref=e160]:
+                  - generic [ref=e161]:
+                    - img [ref=e162]
+                    - text: CSV
+              - button "檢視資料" [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]: 檢視資料
+              - text: 112年下半年桃園市托嬰中心所數及收托人數
+        - generic [ref=e166]:
+          - strong [ref=e168]: 提供機關
+          - link "桃園市政府婦幼發展局" [ref=e170] [cursor=pointer]:
+            - /url: /datasets/search?qs=62031
+        - generic [ref=e171]:
+          - strong [ref=e173]: 提供機關聯絡人姓名
+          - generic [ref=e174]: 方欣潔 (03-33221016427)
+        - generic [ref=e175]:
+          - strong [ref=e177]: 更新頻率
+          - generic [ref=e178]: 不定期更新
+        - generic [ref=e179]:
+          - strong [ref=e181]: 授權方式
+          - generic [ref=e182]: 政府資料開放授權條款-第1版
+        - generic [ref=e183]:
+          - strong [ref=e185]: 計費方式
+          - generic [ref=e186]: 免費
+        - generic [ref=e187]:
+          - strong [ref=e189]: 上架日期
+          - generic [ref=e190]: 2024-02-06
+        - generic [ref=e191]:
+          - strong [ref=e193]: 資料集上架方式
+          - generic [ref=e194]: 系統介接程式
+        - generic [ref=e195]:
+          - strong [ref=e197]: 詮釋資料更新時間
+          - generic [ref=e198]: 2026-05-22 10:04
+        - generic [ref=e199]:
+          - strong [ref=e201]: 服務分類
+          - link "生育保健" [ref=e203] [cursor=pointer]:
+            - /url: /datasets/search?ct=291
+        - generic [ref=e204]:
+          - strong [ref=e206]: 資料提供屬性
+          - generic [ref=e207]: 檔案資料
+        - generic [ref=e208]:
+          - strong [ref=e210]: 關鍵字
+          - generic [ref=e211]:
+            - button "托嬰中心所數" [ref=e213] [cursor=pointer]:
+              - generic [ref=e214]: 托嬰中心所數
+            - button "托嬰中心收托人數" [ref=e216] [cursor=pointer]:
+              - generic [ref=e217]: 托嬰中心收托人數
+        - strong [ref=e220]: 相關網址
+        - strong [ref=e224]: 備註
+      - generic [ref=e226]:
+        - generic [ref=e228]:
+          - generic [ref=e229]: 相關資料集
+          - list [ref=e231]:
+            - listitem [ref=e232]:
+              - link "113年下半年桃園市托嬰中心所數及收托人數" [ref=e233] [cursor=pointer]:
+                - /url: /dataset/172590
+            - listitem [ref=e234]:
+              - link "113年上半年桃園市托嬰中心所數及收托人數" [ref=e235] [cursor=pointer]:
+                - /url: /dataset/169587
+            - listitem [ref=e236]:
+              - link "桃園市托嬰中心收托人數每年統計" [ref=e237] [cursor=pointer]:
+                - /url: /dataset/152666
+            - listitem [ref=e238]:
+              - link "桃園市健康幸福家庭計畫醫療院所" [ref=e239] [cursor=pointer]:
+                - /url: /dataset/168378
+            - listitem [ref=e240]:
+              - link "桃園市人工生殖機構許可名單" [ref=e241] [cursor=pointer]:
+                - /url: /dataset/168380
+        - generic [ref=e243]:
+          - generic [ref=e245]:
+            - generic [ref=e246]: 活化應用
+            - link "查看全部" [ref=e247] [cursor=pointer]:
+              - /url: /applications?name=112年下半年桃園市托嬰中心所數及收托人數(每半年)
+          - generic [ref=e250]: 目前沒有相關活化應用
+      - generic [ref=e251]:
+        - heading "回應" [level=3] [ref=e252]
+        - generic [ref=e253]:
+          - text: 發表回應前，請先
+          - link "登入" [ref=e254] [cursor=pointer]:
+            - /url: /login
+  - contentinfo [ref=e255]:
+    - link ":::" [ref=e256] [cursor=pointer]:
+      - /url: "#ak-footer"
+    - button "網站目錄" [ref=e259] [cursor=pointer]:
+      - img [ref=e260]
+      - generic [ref=e262]: 網站目錄
+      - img [ref=e264]
+    - generic [ref=e266]:
+      - list [ref=e267]:
+        - listitem [ref=e268]: 數位發展部
+        - listitem [ref=e269]: 地址：100057 臺北市中正區延平南路143 號
+        - listitem [ref=e270]: 如對本站有任何問題或意見歡迎聯絡客服中心
+        - listitem [ref=e271]: 電話：02-2531-1998 | 0800-650-688
+        - listitem [ref=e272]: 信箱：opendata@moda.gov.tw
+      - list [ref=e273]:
+        - listitem [ref=e274]:
+          - link "隱私權保護、使用與資安政策" [ref=e275] [cursor=pointer]:
+            - /url: /privacy
+      - list [ref=e276]:
+        - listitem [ref=e277]:
+          - link "通過AA無障礙網頁檢測" [ref=e278] [cursor=pointer]:
+            - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20251117113247
+            - img "通過AA無障礙網頁檢測" [ref=e279]

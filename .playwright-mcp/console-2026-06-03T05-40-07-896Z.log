@@ -1,0 +1,14 @@
+[     773ms] [LOG] JQMIGRATE: Migrate is installed, version 1.4.1 @ https://nsp.nlma.gov.tw/ngis/scripts/jquery-migrate-1.4.1.min.js:1
+[    1397ms] [LOG] {online: 138, count: 9046142} @ https://nsp.nlma.gov.tw/ngis/js/YigisMain.js?20260126B:44
+[    1593ms] [LOG] NLSCMAP_WMTS,https://wmts.nlsc.gov.tw/wmts,undefined,1 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    1619ms] [LOG] 900,https://luz.nlma.gov.tw/wmtsservice/wmts_dmaps,undefined,2 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    1701ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://nsp.nlma.gov.tw/favicon.ico:0
+[    2022ms] [LOG] SHAPEGraphicsLayer,null,undefined,3 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    2023ms] [LOG] StaticticsGraphicsLayer,null,undefined,4 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    2041ms] [LOG] BASELayer_4,https://giss.nlma.gov.tw/tcdmap/rest/services/TCDPDA/NON_URBAN_LANDUSE_LAND_3857/MapServer?token=u2JU5VeajBajmXJ9KYHbNiGpMuaOc9B85qFGhbARrVjPc-VlabylrIfK_H4ItiNe,undefined,5 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    2042ms] [LOG] BASELayer_2,https://giss.nlma.gov.tw/tcdmap/rest/services/TCDPDA/URBAN_LANDUSE_ZONE_3857/MapServer?token=u2JU5VeajBajmXJ9KYHbNiGpMuaOc9B85qFGhbARrVjPc-VlabylrIfK_H4ItiNe,undefined,6 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    2043ms] [LOG] ok:6,err:0 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    2043ms] [LOG] [NLSCMAP_WMTS, BASELayer_4, BASELayer_5, BASELayer_2, BASELayer_3, 900, StatLayer] @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    2044ms] [LOG] BASELayer_3,https://giss.nlma.gov.tw/tcdmap/rest/services/TCDPDA/NATIONAL_PARK_LANDUSE_ZONE_3857/MapServer?token=u2JU5VeajBajmXJ9KYHbNiGpMuaOc9B85qFGhbARrVjPc-VlabylrIfK_H4ItiNe,undefined,7 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    2044ms] [LOG] StatLayer,https://giss.nlma.gov.tw/tcdmap/rest/services/TCDGIS/STATISTICS2/MapServer?token=u2JU5VeajBajmXJ9KYHbNiGpMuaOc9B85qFGhbARrVjPc-VlabylrIfK_H4ItiNe,undefined,8 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2
+[    2049ms] [LOG] BASELayer_5,https://giss.nlma.gov.tw/tcdmap/rest/services/TCDPDA/NON_URBAN_LANDUSE_ZONE_3857/MapServer?token=u2JU5VeajBajmXJ9KYHbNiGpMuaOc9B85qFGhbARrVjPc-VlabylrIfK_H4ItiNe,undefined,9 @ https://nsp.nlma.gov.tw/ngis/js/YigisEdit.js?20260126B:2

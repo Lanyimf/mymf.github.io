@@ -1,0 +1,2 @@
+[    1840ms] [WARNING] The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet) @ https://www.nlma.gov.tw/TSPD/087bcb6fe5ab2000221bd57d46508e0fd1ae2270497facf45ea2acf998309e310852b63c2f3d78a0?type=8:481
+[    1842ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ https://www.nlma.gov.tw/TSPD/087bcb6fe5ab2000221bd57d46508e0fd1ae2270497facf45ea2acf998309e310852b63c2f3d78a0?type=8:484

@@ -1,0 +1,287 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - text: 滑鼠移至說明框內會有進一步說明
+      - link "關閉說明" [ref=e5] [cursor=pointer]:
+        - /url: javascript:hidehelp();
+      - generic [ref=e6]:
+        - checkbox "不再顯示" [ref=e7]
+        - text: 不再顯示
+    - generic [ref=e8]: 系統功能選單
+    - generic [ref=e9]: 目前地圖顯示層級
+    - generic [ref=e10]: 圖面工具
+    - generic [ref=e11]: 指北針、比例尺、坐標
+    - generic [ref=e12]: 系統名稱
+    - generic [ref=e13]: 鷹眼圖
+  - generic [ref=e16] [cursor=pointer]: 國土規劃地理資訊圖台
+  - generic [ref=e17]:
+    - generic [ref=e18]: 1:2500000
+    - img "Settings" [ref=e20]
+    - img "Settings" [ref=e22]
+  - generic [ref=e26]:
+    - button "Google街景" [ref=e27] [cursor=pointer]
+    - button [ref=e29]
+    - button "現在位置" [ref=e30] [cursor=pointer]
+    - button [ref=e32]
+    - button "框選放大" [ref=e33] [cursor=pointer]
+    - button [ref=e35]
+    - button "全景" [ref=e36] [cursor=pointer]
+    - button [ref=e38]
+    - button "橡皮擦" [ref=e39] [cursor=pointer]
+    - button [ref=e41]
+  - generic [ref=e42]:
+    - text: 圖台系統版權 內政部國土管理署城鄉發展分署版權所有
+    - text: 本網站所有資料僅供參考用途，不得作為任何形式證明或主張
+    - link "隱私權保護政策" [ref=e43] [cursor=pointer]:
+      - /url: https://www.nlma.gov.tw/ch/sglarticle/privacypolicy?branch=urdb
+    - link "資訊安全政策" [ref=e44] [cursor=pointer]:
+      - /url: https://www.nlma.gov.tw/ch/sglarticle/information?branch=urdb
+  - heading "圖台資料載入中..." [level=3] [ref=e47]:
+    - img [ref=e48]
+    - text: 圖台資料載入中...
+  - dialog "圖層設定" [ref=e49]:
+    - generic [ref=e50]:
+      - generic [ref=e51]: 圖層設定
+      - button "Close" [ref=e52] [cursor=pointer]: Close
+    - generic [ref=e54]:
+      - table [ref=e55]:
+        - rowgroup [ref=e56]:
+          - row "底圖設定 臺灣通用電子地圖 臺灣通用電子地圖（內政部國土測繪中心_國土測繪圖資服務雲）" [ref=e57]:
+            - cell "底圖設定 臺灣通用電子地圖 臺灣通用電子地圖（內政部國土測繪中心_國土測繪圖資服務雲）" [ref=e58]:
+              - text: 底圖設定
+              - generic [ref=e61] [cursor=pointer]:
+                - img [ref=e62]
+                - text: 臺灣通用電子地圖
+                - generic [ref=e63]: 臺灣通用電子地圖（內政部國土測繪中心_國土測繪圖資服務雲）
+          - row [ref=e65]:
+            - cell [ref=e66]:
+              - separator [ref=e67]
+          - row "圖層列表 開啟「圖層列表」介面，加入更多底圖、土地相關、環境敏感、災害潛勢圖資" [ref=e68]:
+            - cell "圖層列表 開啟「圖層列表」介面，加入更多底圖、土地相關、環境敏感、災害潛勢圖資" [ref=e69]:
+              - button "圖層列表" [ref=e70] [cursor=pointer]
+              - text: 開啟「圖層列表」介面，加入更多底圖、土地相關、環境敏感、災害潛勢圖資
+          - row "tool ON OFF 地籍圖(國土測繪中心) tool ON OFF 國家公園使用分區 tool ON OFF 都市計畫使用分區 tool ON OFF 非都市土地使用分區圖 tool ON OFF 非都市土地使用編定圖" [ref=e71]:
+            - cell "tool ON OFF 地籍圖(國土測繪中心) tool ON OFF 國家公園使用分區 tool ON OFF 都市計畫使用分區 tool ON OFF 非都市土地使用分區圖 tool ON OFF 非都市土地使用編定圖" [ref=e72]:
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - table [ref=e76]:
+                    - rowgroup [ref=e77]:
+                      - row "tool ON OFF 地籍圖(國土測繪中心)" [ref=e78]:
+                        - cell "tool" [ref=e79]:
+                          - img "tool" [ref=e80] [cursor=pointer]
+                        - cell "ON OFF" [ref=e81]:
+                          - generic [ref=e83] [cursor=pointer]:
+                            - generic: ON OFF
+                        - cell "地籍圖(國土測繪中心)" [ref=e85]
+                - listitem [ref=e86]:
+                  - table [ref=e87]:
+                    - rowgroup [ref=e88]:
+                      - row "tool ON OFF 國家公園使用分區" [ref=e89]:
+                        - cell "tool" [ref=e90]:
+                          - img "tool" [ref=e91] [cursor=pointer]
+                        - cell "ON OFF" [ref=e92]:
+                          - generic [ref=e94] [cursor=pointer]:
+                            - generic: ON OFF
+                        - cell "國家公園使用分區" [ref=e96]
+                - listitem [ref=e97]:
+                  - table [ref=e98]:
+                    - rowgroup [ref=e99]:
+                      - row "tool ON OFF 都市計畫使用分區" [ref=e100]:
+                        - cell "tool" [ref=e101]:
+                          - img "tool" [ref=e102] [cursor=pointer]
+                        - cell "ON OFF" [ref=e103]:
+                          - generic [ref=e105] [cursor=pointer]:
+                            - generic: ON OFF
+                        - cell "都市計畫使用分區" [ref=e107]
+                - listitem [ref=e108]:
+                  - table [ref=e109]:
+                    - rowgroup [ref=e110]:
+                      - row "tool ON OFF 非都市土地使用分區圖" [ref=e111]:
+                        - cell "tool" [ref=e112]:
+                          - img "tool" [ref=e113] [cursor=pointer]
+                        - cell "ON OFF" [ref=e114]:
+                          - generic [ref=e116] [cursor=pointer]:
+                            - generic: ON OFF
+                        - cell "非都市土地使用分區圖" [ref=e118]
+                - listitem [ref=e119]:
+                  - table [ref=e120]:
+                    - rowgroup [ref=e121]:
+                      - row "tool ON OFF 非都市土地使用編定圖" [ref=e122]:
+                        - cell "tool" [ref=e123]:
+                          - img "tool" [ref=e124] [cursor=pointer]
+                        - cell "ON OFF" [ref=e125]:
+                          - generic [ref=e127] [cursor=pointer]:
+                            - generic: ON OFF
+                        - cell "非都市土地使用編定圖" [ref=e129]
+      - paragraph [ref=e131]: 點選各圖層最左方圖示，可開啟視窗調整各圖層透明度或刪除圖層 可按住圖層後，將其上移或下移來調整疊圖順序
+  - log [ref=e140]
+  - log [ref=e141]
+  - log [ref=e142]
+  - log [ref=e143]
+  - log [ref=e144]
+  - log [ref=e145]
+  - log [ref=e146]
+  - log [ref=e147]
+  - log [ref=e148]
+  - log [ref=e149]
+  - log [ref=e150]
+  - log [ref=e151]
+  - log [ref=e152]
+  - log [ref=e153]
+  - log [ref=e154]
+  - log [ref=e155]
+  - log [ref=e156]
+  - log [ref=e157]
+  - log [ref=e158]
+  - log [ref=e159]
+  - log [ref=e160]
+  - log [ref=e161]
+  - log [ref=e162]
+  - log [ref=e163]
+  - log [ref=e164]
+  - log [ref=e165]
+  - log [ref=e166]
+  - log [ref=e167]
+  - log [ref=e168]
+  - log [ref=e169]
+  - log [ref=e170]
+  - log [ref=e171]
+  - log [ref=e172]
+  - log [ref=e173]
+  - log [ref=e174]
+  - log [ref=e175]
+  - log [ref=e176]
+  - log [ref=e177]
+  - log [ref=e178]
+  - log [ref=e179]
+  - log [ref=e180]
+  - log [ref=e181]
+  - log [ref=e182]
+  - log [ref=e183]
+  - log [ref=e184]
+  - log [ref=e185]
+  - log [ref=e186]
+  - log [ref=e187]
+  - log [ref=e188]
+  - log [ref=e189]
+  - log [ref=e190]
+  - log [ref=e191]
+  - log [ref=e192]
+  - log [ref=e193]
+  - log [ref=e194]
+  - log [ref=e195]
+  - log [ref=e196]
+  - log [ref=e197]
+  - log [ref=e198]
+  - log [ref=e199]
+  - log [ref=e200]
+  - log [ref=e201]
+  - log [ref=e202]
+  - log [ref=e203]
+  - log [ref=e204]
+  - log [ref=e205]
+  - log [ref=e206]
+  - log [ref=e207]
+  - log [ref=e208]
+  - log [ref=e209]
+  - log [ref=e210]
+  - log [ref=e211]
+  - log [ref=e212]
+  - log [ref=e213]
+  - log [ref=e214]
+  - log [ref=e215]
+  - log [ref=e216]
+  - log [ref=e217]
+  - log [ref=e218]
+  - log [ref=e219]
+  - log [ref=e220]
+  - log [ref=e221]
+  - log [ref=e222]
+  - log [ref=e223]
+  - log [ref=e224]
+  - log [ref=e225]
+  - log [ref=e226]
+  - log [ref=e227]
+  - log [ref=e228]
+  - log [ref=e229]
+  - log [ref=e230]
+  - log [ref=e231]
+  - log [ref=e232]
+  - log [ref=e233]
+  - log [ref=e234]
+  - log [ref=e235]
+  - log [ref=e236]
+  - log [ref=e237]
+  - log [ref=e238]
+  - log [ref=e239]
+  - log [ref=e240]
+  - log [ref=e241]
+  - log [ref=e242]
+  - log [ref=e243]
+  - log [ref=e244]
+  - log [ref=e245]
+  - log [ref=e246]
+  - log [ref=e247]
+  - log [ref=e248]
+  - log [ref=e249]
+  - log [ref=e250]
+  - log [ref=e251]
+  - log [ref=e252]
+  - log [ref=e253]
+  - log [ref=e254]
+  - log [ref=e255]
+  - log [ref=e256]
+  - log [ref=e257]
+  - log [ref=e258]
+  - log [ref=e259]
+  - log [ref=e260]
+  - log [ref=e261]
+  - log [ref=e262]
+  - log [ref=e263]
+  - log [ref=e264]
+  - log [ref=e265]
+  - log [ref=e266]
+  - log [ref=e267]
+  - log [ref=e268]
+  - log [ref=e269]
+  - log [ref=e270]
+  - log [ref=e271]
+  - log [ref=e272]
+  - log [ref=e273]
+  - log [ref=e274]
+  - log [ref=e275]
+  - log [ref=e276]
+  - log [ref=e277]
+  - log [ref=e278]
+  - log [ref=e279]
+  - log [ref=e280]
+  - log [ref=e281]
+  - log [ref=e282]
+  - log [ref=e283]
+  - log [ref=e284]
+  - log [ref=e285]
+  - log [ref=e286]
+  - log [ref=e287]
+  - log [ref=e288]
+  - log [ref=e289]
+  - log [ref=e290]
+  - log [ref=e291]
+  - log [ref=e292]
+  - log [ref=e293]
+  - log [ref=e294]
+  - log [ref=e295]
+  - log [ref=e296]
+  - log [ref=e297]
+  - log [ref=e298]
+  - log [ref=e299]
+  - log [ref=e300]
+  - log [ref=e301]
+  - log [ref=e302]
+  - log [ref=e303]
+  - log [ref=e304]
+  - log [ref=e305]
+  - log [ref=e306]
+  - log [ref=e307]
+  - log [ref=e308]
+  - log [ref=e309]
+  - log [ref=e310]

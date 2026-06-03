@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - heading "伺服器錯誤" [level=1] [ref=e3]
+  - group [ref=e6]:
+    - heading "404 - 找不到檔案或目錄。" [level=2] [ref=e7]
+    - heading "您要尋找的資源可能已移除、名稱已變更，或暫時無法使用。" [level=3] [ref=e8]

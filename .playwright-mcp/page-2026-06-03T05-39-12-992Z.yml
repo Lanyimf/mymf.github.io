@@ -1,0 +1,45 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "跳至主要內容" [ref=e5] [cursor=pointer]:
+      - /url: "#ak-container"
+    - heading "政府資料開放平臺" [level=1] [ref=e6]
+    - generic [ref=e7]:
+      - link "政府資料開放平臺 Logo" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img "政府資料開放平臺 Logo" [ref=e10]
+      - button "子選單已開啟" [ref=e12] [cursor=pointer]:
+        - generic [ref=e14]:
+          - generic [ref=e15]: 子選單已開啟
+          - img [ref=e16]
+    - generic [ref=e19]:
+      - button "展開主選單" [ref=e20] [cursor=pointer]:
+        - generic [ref=e22]: 展開主選單
+      - navigation "主要選單"
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - heading "An error occurred" [level=2] [ref=e25]
+      - link "回到首頁" [ref=e26] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e27]:
+    - link ":::" [ref=e28] [cursor=pointer]:
+      - /url: "#ak-footer"
+    - button "網站目錄" [ref=e31] [cursor=pointer]:
+      - img [ref=e32]
+      - generic [ref=e34]: 網站目錄
+      - img [ref=e36]
+    - generic [ref=e38]:
+      - list [ref=e39]:
+        - listitem [ref=e40]: 數位發展部
+        - listitem [ref=e41]: 地址：100057 臺北市中正區延平南路143 號
+        - listitem [ref=e42]: 如對本站有任何問題或意見歡迎聯絡客服中心
+        - listitem [ref=e43]: 電話：02-2531-1998 | 0800-650-688
+        - listitem [ref=e44]: 信箱：opendata@moda.gov.tw
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "隱私權保護、使用與資安政策" [ref=e47] [cursor=pointer]:
+            - /url: /privacy
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "通過AA無障礙網頁檢測" [ref=e50] [cursor=pointer]:
+            - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20251117113247
+            - img "通過AA無障礙網頁檢測" [ref=e51]

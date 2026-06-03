@@ -1,0 +1,911 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "跳到主要內容":
+      - /url: "#main"
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - heading "中華民國內政部 國土管理署全球資訊網" [level=1] [ref=e5]:
+          - link "中華民國內政部 國土管理署全球資訊網" [ref=e6] [cursor=pointer]:
+            - /url: /ch
+            - img "中華民國內政部 國土管理署全球資訊網" [ref=e7]
+        - button "選單" [ref=e8] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic:
+              - link ":::":
+                - /url: "#U"
+              - navigation:
+                - generic:
+                  - link "首頁":
+                    - /url: /ch
+                    - generic: 首頁
+                - generic:
+                  - link "網站導覽":
+                    - /url: /ch/sitemap
+                    - generic: 網站導覽
+                - generic:
+                  - link "雙語詞彙":
+                    - /url: /ch/titlelist/bt
+                    - generic: 雙語詞彙
+                - generic:
+                  - link "署長信箱":
+                    - /url: https://service.nlma.gov.tw/index.php?t=cpami&Itemid=526
+                    - generic: 署長信箱
+                - generic:
+                  - link "EN":
+                    - /url: /en
+                    - generic: EN
+                - group:
+                  - generic "所屬機關":
+                    - generic: 所屬機關
+              - search:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - searchbox "此搜尋由Google提供結果"
+                        - button "搜尋":
+                          - img "搜尋"
+                      - link "進階搜尋":
+                        - /url: https://www.google.com.tw/advanced_search?hl=zh-Hant-tw&as_sitesearch=https://www.nlma.gov.tw/
+                    - generic:
+                      - term: "熱門關鍵字 :"
+                      - definition:
+                        - generic:
+                          - link "包租代管":
+                            - /url: /ch/search?searchkeyword=%E5%8C%85%E7%A7%9F%E4%BB%A3%E7%AE%A1
+                          - text: 、
+                        - generic:
+                          - link "國土計畫":
+                            - /url: /ch/search?searchkeyword=%E5%9C%8B%E5%9C%9F%E8%A8%88%E7%95%AB
+                          - text: 、
+                        - generic:
+                          - link "租金補貼":
+                            - /url: /ch/search?searchkeyword=%E7%A7%9F%E9%87%91%E8%A3%9C%E8%B2%BC
+            - generic:
+              - navigation:
+                - generic:
+                  - button "公告資訊": 公告資訊
+                  - generic:
+                    - generic:
+                      - link "新聞發佈":
+                        - /url: /ch/titlelist/news
+                      - link "即時新聞澄清":
+                        - /url: /ch/titlelist/clear
+                      - link "業務新訊":
+                        - /url: /ch/titlelist/bizupdates
+                      - link "公開閱覽":
+                        - /url: /ch/titlelist/public
+                      - link "法規公告":
+                        - /url: /ch/legislation/law&regu
+                      - link "解釋函彙編":
+                        - /url: /ch/titlelist/interpcomp
+                      - link "徵才公告":
+                        - /url: https://web3.dgpa.gov.tw/want03front/AP/WANTF00001.ASPX
+                      - link "活動訊息":
+                        - /url: /ch/titlelist/events
+                - generic:
+                  - button "本署簡介": 本署簡介
+                  - generic:
+                    - generic:
+                      - link "署長簡介":
+                        - /url: /ch/sglarticle/leaders
+                      - link "認識國土管理署":
+                        - /url: /ch/sglarticle/nlma
+                      - link "組織職掌與願景":
+                        - /url: /ch/sglarticle/vision
+                      - link "各單位職掌":
+                        - /url: /ch/unitduty/duties
+                      - link "人員編制":
+                        - /url: /ch/sglarticle/staffing
+                - generic:
+                  - button "本署家族": 本署家族
+                  - generic:
+                    - generic:
+                      - link "本署單位":
+                        - /url: /ch/unitcomp/division
+                      - link "所屬機關":
+                        - /url: /ch/branchoffice/urdb
+                - generic:
+                  - button "審議委員會": 審議委員會
+                  - generic:
+                    - generic:
+                      - link "內政部住宅審議會":
+                        - /url: /ch/moicommittee/comm8
+                      - link "內政部都市計畫委員會":
+                        - /url: /ch/moicommittee/comm2
+                      - link "內政部區域計畫委員會":
+                        - /url: /ch/moicommittee/comm1
+                      - link "內政部都市更新公開評選申訴審議會":
+                        - /url: /ch/moicommittee/comm3
+                      - link "建築技術審議委員會":
+                        - /url: /ch/moicommittee/comm4
+                      - link "建築師懲戒覆審委員會":
+                        - /url: /ch/moicommittee/comm5
+                      - link "內政部都市設計審查小組":
+                        - /url: /ch/moicommittee/comm6
+                      - link "內政部國土計畫審議會":
+                        - /url: /ch/moicommittee/comm7
+                      - link "營建建設基金管理會":
+                        - /url: /ch/moicommittee/comm9
+                      - link "國土永續發展基金管理會":
+                        - /url: /ch/moicommittee/comm11
+                - generic:
+                  - button "政府資訊公開": 政府資訊公開
+                  - generic:
+                    - generic:
+                      - link "主動公開資訊":
+                        - /url: /ch/publicInfo/publicinfo
+                      - link "說明會":
+                        - /url: /ch/titlelist/briefings
+                      - link "所屬機關資訊公開":
+                        - /url: /ch/listicle/agencyinfo
+                      - link "個人資料保護":
+                        - /url: /ch/titlelist/personal
+                      - link "開放資料服務":
+                        - /url: /ch/sglarticle/opendatainfo
+                      - link "國家賠償事件收結情形":
+                        - /url: /ch/filedownload/compensation
+                      - link "主管公資達20%企業":
+                        - /url: /ch/sglarticle/enterprises
+                      - link "內部控制聲明書":
+                        - /url: /ch/sglarticle/control
+                      - link "性別主流化專區":
+                        - /url: /ch/sglarticle/gendermain
+                - generic:
+                  - button "便民服務": 便民服務
+                  - generic:
+                    - generic:
+                      - link "單一窗口":
+                        - /url: /ch/singlewindow/contact
+                      - link "下載專區":
+                        - /url: /ch/filedownload/applications
+                      - link "人民陳情":
+                        - /url: /ch/sglarticle/complaints
+                      - link "檔案申請閱覽":
+                        - /url: /ch/sglarticle/fileview
+                      - link "身心障礙諮詢":
+                        - /url: /ch/titlelist/disability
+                      - link "各業務單位聯絡電話":
+                        - /url: /ch/sglarticle/bizcontacts
+                - generic:
+                  - button "影音中心": 影音中心
+                  - generic:
+                    - generic:
+                      - link "國土計畫":
+                        - /url: /ch/mediacenter/multimedianlp
+                      - link "社會住宅":
+                        - /url: /ch/mediacenter/multimediash
+                      - link "住宅補貼":
+                        - /url: /ch/mediacenter/multimediars
+                      - link "危老重建":
+                        - /url: /ch/mediacenter/multimediadobr
+                      - link "人本道路":
+                        - /url: /ch/mediacenter/multimediahcr
+                      - link "工程建設":
+                        - /url: /ch/mediacenter/multimediaec
+                      - link "永續水道":
+                        - /url: /ch/mediacenter/multimediasw
+                      - link "兒童專區":
+                        - /url: /ch/mediacenter/multimediaca
+                      - link "政風宣導":
+                        - /url: /ch/mediacenter/multimediacapsp
+                - generic:
+                  - button "主題報導": 主題報導
+                  - generic:
+                    - generic:
+                      - link "百萬租屋協助":
+                        - /url: /ch/specialreport/specialaha
+                      - link "國土城鄉規劃":
+                        - /url: /ch/specialreport/specialnup
+                      - link "街道建設與改善":
+                        - /url: /ch/specialreport/specialsci
+                      - link "危老重建及都市更新":
+                        - /url: /ch/specialreport/specialurrb
+                      - link "建築與營造業管理":
+                        - /url: /ch/specialreport/specialcbim
+                      - link "雨水.污水.再生水":
+                        - /url: /ch/specialreport/specialrss
+                      - link "公共建築與新市鎮":
+                        - /url: /ch/specialreport/specialpbn
+                - generic:
+                  - button "圖書及報告": 圖書及報告
+                  - generic:
+                    - generic:
+                      - link "研究報告":
+                        - /url: /ch/titlelist/research
+                      - link "出版品":
+                        - /url: /ch/publication/publications
+                      - link "影音DVD":
+                        - /url: /ch/publication/dvd
+      - main [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e12]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: https://architecture-exhibition-2026.netlify.app/
+              - img [ref=e17]
+            - tabpanel [ref=e18]:
+              - link "300億租金補貼專案" [ref=e21] [cursor=pointer]:
+                - /url: https://pip.moi.gov.tw/Publicize/Info/B1020
+                - img "300億租金補貼專案" [ref=e22]
+            - tabpanel [ref=e23]:
+              - link [ref=e26] [cursor=pointer]:
+                - /url: /[lang]
+                - img [ref=e27]
+            - tabpanel [ref=e28]:
+              - link [ref=e31] [cursor=pointer]:
+                - /url: https://www.socialhousing.tw/portal/FindGoodHouseBuilding
+                - img [ref=e32]
+            - tabpanel [ref=e33]:
+              - link [ref=e36] [cursor=pointer]:
+                - /url: /ch/titlelist/bizupdates/4951
+                - img [ref=e37]
+            - tabpanel [ref=e38]:
+              - link [ref=e41] [cursor=pointer]:
+                - /url: https://pip.moi.gov.tw/Publicize/Info/B5020
+                - img [ref=e42]
+            - tabpanel [ref=e43]:
+              - link [ref=e46] [cursor=pointer]:
+                - /url: /filesys/file/EMMA/b1130613-1.pdf
+                - img [ref=e47]
+            - tabpanel [ref=e48]:
+              - link [ref=e51] [cursor=pointer]:
+                - /url: "https://privatebuilding.ncree.org.tw/ "
+                - img [ref=e52]
+            - tabpanel [ref=e53]:
+              - link [ref=e56] [cursor=pointer]:
+                - /url: https://www.ris.gov.tw/app/portal/520
+                - img [ref=e57]
+            - tabpanel [ref=e58]:
+              - link [ref=e61] [cursor=pointer]:
+                - /url: https://architecture-exhibition-2026.netlify.app/
+                - img [ref=e62]
+            - link [ref=e66] [cursor=pointer]:
+              - /url: https://pip.moi.gov.tw/Publicize/Info/B1020
+              - img [ref=e67]
+            - link [ref=e71] [cursor=pointer]:
+              - /url: /[lang]
+              - img [ref=e72]
+            - link [ref=e76] [cursor=pointer]:
+              - /url: https://www.socialhousing.tw/portal/FindGoodHouseBuilding
+              - img [ref=e77]
+            - link [ref=e81] [cursor=pointer]:
+              - /url: /ch/titlelist/bizupdates/4951
+              - img [ref=e82]
+            - link [ref=e86] [cursor=pointer]:
+              - /url: https://pip.moi.gov.tw/Publicize/Info/B5020
+              - img [ref=e87]
+            - link [ref=e91] [cursor=pointer]:
+              - /url: /filesys/file/EMMA/b1130613-1.pdf
+              - img [ref=e92]
+            - link [ref=e96] [cursor=pointer]:
+              - /url: "https://privatebuilding.ncree.org.tw/ "
+              - img [ref=e97]
+            - link [ref=e101] [cursor=pointer]:
+              - /url: https://www.ris.gov.tw/app/portal/520
+              - img [ref=e102]
+            - link [ref=e106] [cursor=pointer]:
+              - /url: https://architecture-exhibition-2026.netlify.app/
+              - img [ref=e107]
+          - tablist [ref=e108]:
+            - tab "1 of 9" [selected] [ref=e109] [cursor=pointer]: "1"
+            - tab "2 of 9" [ref=e110] [cursor=pointer]: "2"
+            - tab "3 of 9" [ref=e111] [cursor=pointer]: "3"
+            - tab "4 of 9" [ref=e112] [cursor=pointer]: "4"
+            - tab "5 of 9" [ref=e113] [cursor=pointer]: "5"
+            - tab "6 of 9" [ref=e114] [cursor=pointer]: "6"
+            - tab "7 of 9" [ref=e115] [cursor=pointer]: "7"
+            - tab "8 of 9" [ref=e116] [cursor=pointer]: "8"
+            - tab "9 of 9" [ref=e117] [cursor=pointer]: "9"
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e122]: 道路安全多重宇宙 - 開場
+            - generic [ref=e123]: 道路安全多重宇宙 - 開場
+          - link "全台社宅ing" [ref=e125] [cursor=pointer]:
+            - /url: https://www.instagram.com/p/DE1J7bdsDU5/
+            - generic [ref=e127]: 全台社宅ing
+          - generic [ref=e129]:
+            - tablist "新聞發布頁籤" [ref=e130]:
+              - tab "新聞發佈" [selected] [ref=e131] [cursor=pointer]
+              - tab "即時新聞澄清" [ref=e132] [cursor=pointer]
+              - tab "業務新訊" [ref=e133] [cursor=pointer]
+              - tab "解釋函彙編" [ref=e134] [cursor=pointer]
+              - tab "活動訊息" [ref=e135] [cursor=pointer]
+              - tab "法規公告" [ref=e136] [cursor=pointer]
+            - generic [ref=e137]:
+              - link "2026-06-03 都市計畫組 內政部與衛福部聯手合作 擴大政府機關托育服務量能 營造友善育兒環境 實質減輕育兒家庭負擔" [ref=e138] [cursor=pointer]:
+                - /url: /ch/titlelist/news/17463
+                - generic [ref=e139]:
+                  - time [ref=e140]: 2026-06-03
+                  - generic [ref=e141]: 都市計畫組
+                - generic [ref=e142]: 內政部與衛福部聯手合作 擴大政府機關托育服務量能 營造友善育兒環境 實質減輕育兒家庭負擔
+              - link "2026-06-03 都市基礎工程組 內政部董建宏次長出席2026美樂地公園暨道路人本論壇 整合道路與公共空間 打造宜居友善城市" [ref=e143] [cursor=pointer]:
+                - /url: /ch/titlelist/news/17462
+                - generic [ref=e144]:
+                  - time [ref=e145]: 2026-06-03
+                  - generic [ref=e146]: 都市基礎工程組
+                - generic [ref=e147]: 內政部董建宏次長出席2026美樂地公園暨道路人本論壇 整合道路與公共空間 打造宜居友善城市
+              - link "2026-06-02 營建管理組 全臺土方平均處理費用1,063元已較年初大幅降低 持續擴充國內去化管道 土方總去化量能達2.35億方" [ref=e148] [cursor=pointer]:
+                - /url: /ch/titlelist/news/17461
+                - generic [ref=e149]:
+                  - time [ref=e150]: 2026-06-02
+                  - generic [ref=e151]: 營建管理組
+                - generic [ref=e152]: 全臺土方平均處理費用1,063元已較年初大幅降低 持續擴充國內去化管道 土方總去化量能達2.35億方
+              - link "2026-06-01 營建管理組 內政部國土署召開「非都市土地申請營建土方臨時暫置」說明會 暫置計畫由地方初審並經中央核准 不定期稽查以維護環境安全" [ref=e153] [cursor=pointer]:
+                - /url: /ch/titlelist/news/17457
+                - generic [ref=e154]:
+                  - time [ref=e155]: 2026-06-01
+                  - generic [ref=e156]: 營建管理組
+                - generic [ref=e157]: 內政部國土署召開「非都市土地申請營建土方臨時暫置」說明會 暫置計畫由地方初審並經中央核准 不定期稽查以維護環境安全
+              - link "2026-05-27 都市基礎工程組 內政部12億元打通苗栗雪見道路 跨越大湖溪高架橋119年完工 車程省40分鐘" [ref=e158] [cursor=pointer]:
+                - /url: /ch/titlelist/news/17439
+                - generic [ref=e159]:
+                  - time [ref=e160]: 2026-05-27
+                  - generic [ref=e161]: 都市基礎工程組
+                - generic [ref=e162]: 內政部12億元打通苗栗雪見道路 跨越大湖溪高架橋119年完工 車程省40分鐘
+              - link "更多新聞發佈" [ref=e163] [cursor=pointer]:
+                - /url: /ch/titlelist/news
+                - generic [ref=e164]: 更多新聞發佈
+        - generic [ref=e166]:
+          - heading "重要政策" [level=2] [ref=e167]
+          - generic [ref=e168]: 營造業申請這裡!
+          - generic [ref=e169]:
+            - button "上一則" [ref=e170] [cursor=pointer]
+            - generic [ref=e172]:
+              - link [ref=e175] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesnu/86
+                - figure [ref=e176]:
+                  - generic [ref=e178]:
+                    - generic [ref=e179]: 公益出租人專區
+                    - generic [ref=e180]: 住宅發展組
+              - link [ref=e183] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesnu/85
+                - figure [ref=e184]:
+                  - generic [ref=e186]:
+                    - generic [ref=e187]: 國家住宅及都市更新中心
+                    - generic [ref=e188]: 國家住宅及都市更新中心
+              - tabpanel [ref=e189]:
+                - link "營造業申請移工雇主資格認定專區 營建管理組" [ref=e191] [cursor=pointer]:
+                  - /url: /ch/policy/keypoliciessw/80
+                  - figure "營造業申請移工雇主資格認定專區 營建管理組" [ref=e192]:
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: 營造業申請移工雇主資格認定專區
+                      - generic [ref=e196]: 營建管理組
+              - tabpanel [ref=e197]:
+                - link [ref=e199] [cursor=pointer]:
+                  - /url: /ch/policy/keypoliciesnu/91
+                  - figure [ref=e200]:
+                    - generic [ref=e202]:
+                      - generic [ref=e203]: 114年度住宅補貼
+                      - generic [ref=e204]: 住宅發展組
+              - tabpanel [ref=e205]:
+                - link [ref=e207] [cursor=pointer]:
+                  - /url: /ch/policy/keypoliciesha/90
+                  - figure [ref=e208]:
+                    - generic [ref=e210]:
+                      - generic [ref=e211]: 危老重建專區
+                      - generic [ref=e212]: 都市更新建設組
+              - tabpanel [ref=e213]:
+                - link [ref=e215] [cursor=pointer]:
+                  - /url: /ch/policy/keypoliciesnu/89
+                  - figure [ref=e216]:
+                    - generic [ref=e218]:
+                      - generic [ref=e219]: 社會住宅專區
+                      - generic [ref=e220]: 住宅發展組
+              - tabpanel [ref=e221]:
+                - link [ref=e223] [cursor=pointer]:
+                  - /url: /ch/policy/keypoliciesnu/88
+                  - figure [ref=e224]:
+                    - generic [ref=e226]:
+                      - generic [ref=e227]: 300億元中央擴大租金補貼專區
+                      - generic [ref=e228]: 住宅發展組
+              - tabpanel [ref=e229]:
+                - link [ref=e231] [cursor=pointer]:
+                  - /url: /ch/policy/keypoliciesnu/87
+                  - figure [ref=e232]:
+                    - generic [ref=e234]:
+                      - generic [ref=e235]: 社會住宅包租代管專區
+                      - generic [ref=e236]: 住宅發展組
+              - tabpanel [ref=e237]:
+                - link [ref=e239] [cursor=pointer]:
+                  - /url: /ch/policy/keypoliciesnu/86
+                  - figure [ref=e240]:
+                    - generic [ref=e242]:
+                      - generic [ref=e243]: 公益出租人專區
+                      - generic [ref=e244]: 住宅發展組
+              - tabpanel [ref=e245]:
+                - link [ref=e247] [cursor=pointer]:
+                  - /url: /ch/policy/keypoliciesnu/85
+                  - figure [ref=e248]:
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: 國家住宅及都市更新中心
+                      - generic [ref=e252]: 國家住宅及都市更新中心
+              - link [ref=e255] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciessw/80
+                - figure [ref=e256]:
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: 營造業申請移工雇主資格認定專區
+                    - generic [ref=e260]: 營建管理組
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesnu/91
+                - figure [ref=e264]:
+                  - generic [ref=e266]:
+                    - generic [ref=e267]: 114年度住宅補貼
+                    - generic [ref=e268]: 住宅發展組
+              - link [ref=e271] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesha/90
+                - figure [ref=e272]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: 危老重建專區
+                    - generic [ref=e276]: 都市更新建設組
+              - link [ref=e279] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesnu/89
+                - figure [ref=e280]:
+                  - generic [ref=e282]:
+                    - generic [ref=e283]: 社會住宅專區
+                    - generic [ref=e284]: 住宅發展組
+              - link [ref=e287] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesnu/88
+                - figure [ref=e288]:
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: 300億元中央擴大租金補貼專區
+                    - generic [ref=e292]: 住宅發展組
+              - link [ref=e295] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesnu/87
+                - figure [ref=e296]:
+                  - generic [ref=e298]:
+                    - generic [ref=e299]: 社會住宅包租代管專區
+                    - generic [ref=e300]: 住宅發展組
+              - link [ref=e303] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesnu/86
+                - figure [ref=e304]:
+                  - generic [ref=e306]:
+                    - generic [ref=e307]: 公益出租人專區
+                    - generic [ref=e308]: 住宅發展組
+              - link [ref=e311] [cursor=pointer]:
+                - /url: /ch/policy/keypoliciesnu/85
+                - figure [ref=e312]:
+                  - generic [ref=e314]:
+                    - generic [ref=e315]: 國家住宅及都市更新中心
+                    - generic [ref=e316]: 國家住宅及都市更新中心
+            - button "下一則" [ref=e317] [cursor=pointer]
+            - tablist [ref=e318]:
+              - tab "1 of 8" [selected] [ref=e319] [cursor=pointer]: "1"
+              - tab "2 of 8" [ref=e320] [cursor=pointer]: "2"
+              - tab "3 of 8" [ref=e321] [cursor=pointer]: "3"
+              - tab "4 of 8" [ref=e322] [cursor=pointer]: "4"
+              - tab "5 of 8" [ref=e323] [cursor=pointer]: "5"
+              - tab "6 of 8" [ref=e324] [cursor=pointer]: "6"
+              - tab "7 of 8" [ref=e325] [cursor=pointer]: "7"
+              - tab "8 of 8" [ref=e326] [cursor=pointer]: "8"
+          - link "更多重要政策 »" [ref=e328] [cursor=pointer]:
+            - /url: /ch/policy/keypoliciessw
+        - generic [ref=e330]:
+          - heading "主題分類" [level=2] [ref=e331]
+          - generic [ref=e332]:
+            - link "百萬租屋協助" [ref=e333] [cursor=pointer]:
+              - /url: /ch/titlelist/areanu
+              - generic [ref=e334]: 百萬租屋協助
+            - link "國土城鄉規劃" [ref=e335] [cursor=pointer]:
+              - /url: /ch/titlelist/areash
+              - generic [ref=e336]: 國土城鄉規劃
+            - link "街道建設與改善" [ref=e337] [cursor=pointer]:
+              - /url: /ch/titlelist/areaps
+              - generic [ref=e338]: 街道建設與改善
+            - link "建築與營造業管理" [ref=e339] [cursor=pointer]:
+              - /url: /ch/titlelist/areasw
+              - generic [ref=e340]: 建築與營造業管理
+            - link "雨水.污水.再生水" [ref=e341] [cursor=pointer]:
+              - /url: /ch/titlelist/areapi
+              - generic [ref=e342]: 雨水.污水.再生水
+            - link "公共建築與新市鎮" [ref=e343] [cursor=pointer]:
+              - /url: /ch/titlelist/areaah
+              - generic [ref=e344]: 公共建築與新市鎮
+            - link "危老重建及都市更新" [ref=e345] [cursor=pointer]:
+              - /url: /ch/titlelist/areaha
+              - generic [ref=e346]: 危老重建及都市更新
+        - generic [ref=e348]:
+          - generic [ref=e349]:
+            - heading "主題網站" [level=2] [ref=e350]
+            - generic [ref=e351]: 推動各項都市基礎建設，建構完善安全的行人通行環境。
+          - tablist "主題網站頁籤" [ref=e352]:
+            - tab "全部" [selected] [ref=e353] [cursor=pointer]
+            - tab "百萬租屋協助" [ref=e354] [cursor=pointer]
+            - tab "國土城鄉規劃" [ref=e355] [cursor=pointer]
+            - tab "街道建設與改善" [ref=e356] [cursor=pointer]
+            - tab "危老重建及都市更新" [ref=e357] [cursor=pointer]
+            - tab "建築與營造業管理" [ref=e358] [cursor=pointer]
+            - tab "雨水.污水.再生水" [ref=e359] [cursor=pointer]
+          - generic [ref=e360]:
+            - button "上一則" [ref=e361] [cursor=pointer]
+            - generic [ref=e363]:
+              - link [ref=e366] [cursor=pointer]:
+                - /url: https://sewergis.nlma.gov.tw/sewersso/Default.aspx?
+                - figure [ref=e367]:
+                  - generic [ref=e369]:
+                    - generic [ref=e370]: 下水道資訊入口網（新網站建置中）
+                    - generic [ref=e371]: 下水道建設組
+              - link [ref=e374] [cursor=pointer]:
+                - /url: https://swmaker.nlma.gov.tw/
+                - figure [ref=e375]:
+                  - generic [ref=e377]:
+                    - generic [ref=e378]: 承裝商管理系統
+                    - generic [ref=e379]: 下水道建設組
+              - link "住宅業務數位典藏網 住宅發展組" [ref=e382] [cursor=pointer]:
+                - /url: https://pip.moi.gov.tw/Publicize/DigitalArchive/Catalog
+                - figure "住宅業務數位典藏網 住宅發展組" [ref=e383]:
+                  - generic [ref=e385]:
+                    - generic [ref=e386]: 住宅業務數位典藏網
+                    - generic [ref=e387]: 住宅發展組
+              - link "不動產資訊平台 住宅發展組" [ref=e390] [cursor=pointer]:
+                - /url: https://pip.moi.gov.tw/Publicize/Info/Index
+                - figure "不動產資訊平台 住宅發展組" [ref=e391]:
+                  - generic [ref=e393]:
+                    - generic [ref=e394]: 不動產資訊平台
+                    - generic [ref=e395]: 住宅發展組
+              - link [ref=e398] [cursor=pointer]:
+                - /url: https://privatebuilding.ncree.org.tw/
+                - figure [ref=e399]:
+                  - generic [ref=e401]:
+                    - generic [ref=e402]: 私有建築物耐震弱層補強資訊網
+                    - generic [ref=e403]: 住宅發展組
+              - link [ref=e406] [cursor=pointer]:
+                - /url: https://www.hurc.org.tw/hurc/hpage
+                - figure [ref=e407]:
+                  - generic [ref=e409]:
+                    - generic [ref=e410]: 國家住宅及都市更新中心
+                    - generic [ref=e411]: 國家住宅及都市更新中心
+              - link [ref=e414] [cursor=pointer]:
+                - /url: https://trp.nlma.gov.tw/w/trp/index
+                - figure [ref=e415]:
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: 城鄉魅力網
+                    - generic [ref=e419]: 都市計畫組
+              - link [ref=e422] [cursor=pointer]:
+                - /url: https://eland.nlma.gov.tw/seportal
+                - figure [ref=e423]:
+                  - generic [ref=e425]:
+                    - generic [ref=e426]: 環境敏感地區單一窗口查詢平台
+                    - generic [ref=e427]: 國土計畫組
+              - link [ref=e430] [cursor=pointer]:
+                - /url: https://nsp.tcd.gov.tw/m/web/Login.aspx
+                - figure [ref=e431]:
+                  - generic [ref=e433]:
+                    - generic [ref=e434]: 土地使用分區WEB APP
+                    - generic [ref=e435]: 城鄉發展分署
+              - link [ref=e438] [cursor=pointer]:
+                - /url: https://nsp.tcd.gov.tw/ngis/
+                - figure [ref=e439]:
+                  - generic [ref=e441]:
+                    - generic [ref=e442]: 國土規劃地理資訊圖台
+                    - generic [ref=e443]: 城鄉發展分署
+              - link [ref=e446] [cursor=pointer]:
+                - /url: https://luz.tcd.gov.tw/web/
+                - figure [ref=e447]:
+                  - generic [ref=e449]:
+                    - generic [ref=e450]: 全國土地使用分區資料查詢系統
+                    - generic [ref=e451]: 城鄉發展分署
+              - link [ref=e454] [cursor=pointer]:
+                - /url: https://up.tcd.gov.tw/ts/login.aspx
+                - figure [ref=e455]:
+                  - generic [ref=e457]:
+                    - generic [ref=e458]: 原住民族部落環境基本圖台
+                    - generic [ref=e459]: 城鄉發展分署
+              - link [ref=e462] [cursor=pointer]:
+                - /url: https://ngis.tcd.gov.tw/TCDNewHomeA.aspx
+                - figure [ref=e463]:
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: 國土規劃入口網
+                    - generic [ref=e467]: 國土計畫組
+              - link [ref=e470] [cursor=pointer]:
+                - /url: https://landchg.tcd.gov.tw/Module/RWD/Web/
+                - figure [ref=e471]:
+                  - generic [ref=e473]:
+                    - generic [ref=e474]: 國土利用監測整合資訊網
+                    - generic [ref=e475]: 國土計畫組
+              - link [ref=e478] [cursor=pointer]:
+                - /url: https://nuld.nlma.gov.tw/nuld/nuld
+                - figure [ref=e479]:
+                  - generic [ref=e481]:
+                    - generic [ref=e482]: 非都市土地開發審議作業系統
+                    - generic [ref=e483]: 國土計畫組
+              - link [ref=e486] [cursor=pointer]:
+                - /url: https://duct.nlma.gov.tw/pubDuct_portal/
+                - figure [ref=e487]:
+                  - generic [ref=e489]:
+                    - generic [ref=e490]: 公共設施管線資料
+                    - generic [ref=e491]: 都市基礎工程組
+              - link [ref=e494] [cursor=pointer]:
+                - /url: https://myway.nlma.gov.tw/
+                - figure [ref=e495]:
+                  - generic [ref=e497]:
+                    - generic [ref=e498]: 人本道路資訊網
+                    - generic [ref=e499]: 都市基礎工程組
+              - link [ref=e502] [cursor=pointer]:
+                - /url: https://twur.nlma.gov.tw/
+                - figure [ref=e503]:
+                  - generic [ref=e505]:
+                    - generic [ref=e506]: 都市更新入口網
+                    - generic [ref=e507]: 都市更新建設組
+              - link [ref=e510] [cursor=pointer]:
+                - /url: https://cloudbm.nlma.gov.tw/CPTL/
+                - figure [ref=e511]:
+                  - generic [ref=e513]:
+                    - generic [ref=e514]: 全國建築管理網
+                    - generic [ref=e515]: 建築管理組
+              - link [ref=e518] [cursor=pointer]:
+                - /url: https://cloudbm.nlma.gov.tw/bccs/LoginPage?apkey=33033478-42d3-4230-a507-2be3cdfcc596&backurl=https://cloudbm.cpami.gov.tw/ARSO/bccslogin.do
+                - figure [ref=e519]:
+                  - generic [ref=e521]:
+                    - generic [ref=e522]: 建築師開業管理
+                    - generic [ref=e523]: 建築管理組
+              - link [ref=e526] [cursor=pointer]:
+                - /url: https://www.soilmove.tw/
+                - figure [ref=e527]:
+                  - generic [ref=e529]:
+                    - generic [ref=e530]: 土石方服務中心
+                    - generic [ref=e531]: 營建管理組
+              - link [ref=e534] [cursor=pointer]:
+                - /url: https://sewergis.nlma.gov.tw/sewersso/Default.aspx?
+                - figure [ref=e535]:
+                  - generic [ref=e537]:
+                    - generic [ref=e538]: 下水道資訊入口網（新網站建置中）
+                    - generic [ref=e539]: 下水道建設組
+              - link [ref=e542] [cursor=pointer]:
+                - /url: https://swmaker.nlma.gov.tw/
+                - figure [ref=e543]:
+                  - generic [ref=e545]:
+                    - generic [ref=e546]: 承裝商管理系統
+                    - generic [ref=e547]: 下水道建設組
+              - link [ref=e550] [cursor=pointer]:
+                - /url: https://pip.moi.gov.tw/Publicize/DigitalArchive/Catalog
+                - figure [ref=e551]:
+                  - generic [ref=e553]:
+                    - generic [ref=e554]: 住宅業務數位典藏網
+                    - generic [ref=e555]: 住宅發展組
+              - link [ref=e558] [cursor=pointer]:
+                - /url: https://pip.moi.gov.tw/Publicize/Info/Index
+                - figure [ref=e559]:
+                  - generic [ref=e561]:
+                    - generic [ref=e562]: 不動產資訊平台
+                    - generic [ref=e563]: 住宅發展組
+              - link [ref=e566] [cursor=pointer]:
+                - /url: https://privatebuilding.ncree.org.tw/
+                - figure [ref=e567]:
+                  - generic [ref=e569]:
+                    - generic [ref=e570]: 私有建築物耐震弱層補強資訊網
+                    - generic [ref=e571]: 住宅發展組
+              - link [ref=e574] [cursor=pointer]:
+                - /url: https://www.hurc.org.tw/hurc/hpage
+                - figure [ref=e575]:
+                  - generic [ref=e577]:
+                    - generic [ref=e578]: 國家住宅及都市更新中心
+                    - generic [ref=e579]: 國家住宅及都市更新中心
+              - link [ref=e582] [cursor=pointer]:
+                - /url: https://trp.nlma.gov.tw/w/trp/index
+                - figure [ref=e583]:
+                  - generic [ref=e585]:
+                    - generic [ref=e586]: 城鄉魅力網
+                    - generic [ref=e587]: 都市計畫組
+              - link [ref=e590] [cursor=pointer]:
+                - /url: https://eland.nlma.gov.tw/seportal
+                - figure [ref=e591]:
+                  - generic [ref=e593]:
+                    - generic [ref=e594]: 環境敏感地區單一窗口查詢平台
+                    - generic [ref=e595]: 國土計畫組
+              - link [ref=e598] [cursor=pointer]:
+                - /url: https://nsp.tcd.gov.tw/m/web/Login.aspx
+                - figure [ref=e599]:
+                  - generic [ref=e601]:
+                    - generic [ref=e602]: 土地使用分區WEB APP
+                    - generic [ref=e603]: 城鄉發展分署
+              - link [ref=e606] [cursor=pointer]:
+                - /url: https://nsp.tcd.gov.tw/ngis/
+                - figure [ref=e607]:
+                  - generic [ref=e609]:
+                    - generic [ref=e610]: 國土規劃地理資訊圖台
+                    - generic [ref=e611]: 城鄉發展分署
+              - link [ref=e614] [cursor=pointer]:
+                - /url: https://luz.tcd.gov.tw/web/
+                - figure [ref=e615]:
+                  - generic [ref=e617]:
+                    - generic [ref=e618]: 全國土地使用分區資料查詢系統
+                    - generic [ref=e619]: 城鄉發展分署
+              - link [ref=e622] [cursor=pointer]:
+                - /url: https://up.tcd.gov.tw/ts/login.aspx
+                - figure [ref=e623]:
+                  - generic [ref=e625]:
+                    - generic [ref=e626]: 原住民族部落環境基本圖台
+                    - generic [ref=e627]: 城鄉發展分署
+              - link [ref=e630] [cursor=pointer]:
+                - /url: https://ngis.tcd.gov.tw/TCDNewHomeA.aspx
+                - figure [ref=e631]:
+                  - generic [ref=e633]:
+                    - generic [ref=e634]: 國土規劃入口網
+                    - generic [ref=e635]: 國土計畫組
+              - link [ref=e638] [cursor=pointer]:
+                - /url: https://landchg.tcd.gov.tw/Module/RWD/Web/
+                - figure [ref=e639]:
+                  - generic [ref=e641]:
+                    - generic [ref=e642]: 國土利用監測整合資訊網
+                    - generic [ref=e643]: 國土計畫組
+              - link [ref=e646] [cursor=pointer]:
+                - /url: https://nuld.nlma.gov.tw/nuld/nuld
+                - figure [ref=e647]:
+                  - generic [ref=e649]:
+                    - generic [ref=e650]: 非都市土地開發審議作業系統
+                    - generic [ref=e651]: 國土計畫組
+              - link [ref=e654] [cursor=pointer]:
+                - /url: https://duct.nlma.gov.tw/pubDuct_portal/
+                - figure [ref=e655]:
+                  - generic [ref=e657]:
+                    - generic [ref=e658]: 公共設施管線資料
+                    - generic [ref=e659]: 都市基礎工程組
+              - link [ref=e662] [cursor=pointer]:
+                - /url: https://myway.nlma.gov.tw/
+                - figure [ref=e663]:
+                  - generic [ref=e665]:
+                    - generic [ref=e666]: 人本道路資訊網
+                    - generic [ref=e667]: 都市基礎工程組
+              - link [ref=e670] [cursor=pointer]:
+                - /url: https://twur.nlma.gov.tw/
+                - figure [ref=e671]:
+                  - generic [ref=e673]:
+                    - generic [ref=e674]: 都市更新入口網
+                    - generic [ref=e675]: 都市更新建設組
+              - link [ref=e678] [cursor=pointer]:
+                - /url: https://cloudbm.nlma.gov.tw/CPTL/
+                - figure [ref=e679]:
+                  - generic [ref=e681]:
+                    - generic [ref=e682]: 全國建築管理網
+                    - generic [ref=e683]: 建築管理組
+              - link [ref=e686] [cursor=pointer]:
+                - /url: https://cloudbm.nlma.gov.tw/bccs/LoginPage?apkey=33033478-42d3-4230-a507-2be3cdfcc596&backurl=https://cloudbm.cpami.gov.tw/ARSO/bccslogin.do
+                - figure [ref=e687]:
+                  - generic [ref=e689]:
+                    - generic [ref=e690]: 建築師開業管理
+                    - generic [ref=e691]: 建築管理組
+              - link [ref=e694] [cursor=pointer]:
+                - /url: https://www.soilmove.tw/
+                - figure [ref=e695]:
+                  - generic [ref=e697]:
+                    - generic [ref=e698]: 土石方服務中心
+                    - generic [ref=e699]: 營建管理組
+              - link [ref=e702] [cursor=pointer]:
+                - /url: https://sewergis.nlma.gov.tw/sewersso/Default.aspx?
+                - figure [ref=e703]:
+                  - generic [ref=e705]:
+                    - generic [ref=e706]: 下水道資訊入口網（新網站建置中）
+                    - generic [ref=e707]: 下水道建設組
+              - link [ref=e710] [cursor=pointer]:
+                - /url: https://swmaker.nlma.gov.tw/
+                - figure [ref=e711]:
+                  - generic [ref=e713]:
+                    - generic [ref=e714]: 承裝商管理系統
+                    - generic [ref=e715]: 下水道建設組
+            - button "下一則" [ref=e716] [cursor=pointer]
+        - generic [ref=e718]:
+          - heading "快捷服務" [level=2] [ref=e719]
+          - generic [ref=e720]:
+            - link "下載專區" [ref=e721] [cursor=pointer]:
+              - /url: /ch/filedownload/applications
+              - generic [ref=e722]: 下載專區
+            - link "單一窗口" [ref=e723] [cursor=pointer]:
+              - /url: /ch/singlewindow/contact
+              - generic [ref=e724]: 單一窗口
+            - link "內政部訂定之都市計畫 New" [ref=e725] [cursor=pointer]:
+              - /url: https://www.nlma.gov.tw/ch/titlelist/embedded/15106?sourcemenuid=416
+              - generic [ref=e726]: 內政部訂定之都市計畫
+              - generic [ref=e727]: New
+            - link "前瞻基礎建設 New" [ref=e728] [cursor=pointer]:
+              - /url: /ch/titlelist/bizupdates/4907
+              - generic [ref=e729]: 前瞻基礎建設
+              - generic [ref=e730]: New
+            - link "住宅建築物消費者資訊專區" [ref=e731] [cursor=pointer]:
+              - /url: /ch/titlelist/bizupdates/4905
+              - generic [ref=e732]: 住宅建築物消費者資訊專區
+            - link "全國國土計畫專區" [ref=e733] [cursor=pointer]:
+              - /url: /ch/titlelist/bizupdates/4916
+              - generic [ref=e734]: 全國國土計畫專區
+            - link "法規查詢" [ref=e735] [cursor=pointer]:
+              - /url: /ch/legislation/law%26regu
+              - generic [ref=e736]: 法規查詢
+            - link "公開閱覽 New" [ref=e737] [cursor=pointer]:
+              - /url: /ch/titlelist/public
+              - generic [ref=e738]: 公開閱覽
+              - generic [ref=e739]: New
+            - link "主動公開政府資訊" [ref=e740] [cursor=pointer]:
+              - /url: /ch/publicInfo/publicinfo
+              - generic [ref=e741]: 主動公開政府資訊
+            - link "國土管理統計 New" [ref=e742] [cursor=pointer]:
+              - /url: /ch/titlelist/stats
+              - generic [ref=e743]: 國土管理統計
+              - generic [ref=e744]: New
+            - link "政府出版品" [ref=e745] [cursor=pointer]:
+              - /url: /ch/publication/publications
+              - generic [ref=e746]: 政府出版品
+            - link "解釋函彙編 New" [ref=e747] [cursor=pointer]:
+              - /url: https://www.nlma.gov.tw/ch/titlelist/interpcomp
+              - generic [ref=e748]: 解釋函彙編
+              - generic [ref=e749]: New
+            - link "相關連結" [ref=e750] [cursor=pointer]:
+              - /url: /ch/listicle/related-links
+              - generic [ref=e751]: 相關連結
+            - link "建築物室內裝修業及專業技術人員申請流程及相關書表" [ref=e752] [cursor=pointer]:
+              - /url: https://www.nlma.gov.tw/ch/singlewindow/contact/14
+              - generic [ref=e753]: 建築物室內裝修業及專業技術人員申請流程及相關書表
+            - link "高雄新市鎮產業專用區土地標租" [ref=e754] [cursor=pointer]:
+              - /url: https://www.nlma.gov.tw/ch/titlelist/bizupdates/16730
+              - generic [ref=e755]: 高雄新市鎮產業專用區土地標租
+            - link "淡海新市鎮2期1區開發案區段徵收前置作業" [ref=e756] [cursor=pointer]:
+              - /url: https://www.danhai2-1.com.tw/
+              - generic [ref=e757]: 淡海新市鎮2期1區開發案區段徵收前置作業
+            - link "新聞發佈" [ref=e758] [cursor=pointer]:
+              - /url: /ch/titlelist/news
+              - generic [ref=e759]: 新聞發佈
+            - link "建築物室內裝修業與專業技術人員查詢" [ref=e760] [cursor=pointer]:
+              - /url: https://cloudbm.nlma.gov.tw/CPTL/cpt0602m.do
+              - generic [ref=e761]: 建築物室內裝修業與專業技術人員查詢
+            - link "更多線上服務" [ref=e762] [cursor=pointer]:
+              - /url: https://www.nlma.gov.tw/ch/singlewindow/contact
+              - generic [ref=e763]: 更多線上服務
+      - generic [ref=e765]:
+        - contentinfo [ref=e766]:
+          - generic [ref=e767]:
+            - img "中華民國內政部 國土管理署全球資訊網" [ref=e769]
+            - generic [ref=e770]:
+              - link ":::":
+                - /url: "#Z"
+              - generic [ref=e771]:
+                - text: 內政部國土管理署 版權所有
+                - text: © 2026 All Rights Reserved.
+                - generic [ref=e772]: 最佳解析度：1440 x 900
+                - generic [ref=e773]: 並符合 Chrome、Edge、Firefox、Safari 瀏覽
+              - generic [ref=e774]:
+                - generic [ref=e775]: 機關地址：105404台北市松山區八德路2段342號
+                - generic [ref=e776]: 總機服務：(02)-87712345
+              - generic [ref=e777]:
+                - link "交通位置" [ref=e778] [cursor=pointer]:
+                  - /url: /ch/sglarticle/location
+                - link "Google Map Google Map" [ref=e779] [cursor=pointer]:
+                  - /url: https://maps.app.goo.gl/YZKSRBQzEgAb96j56
+                  - img "Google Map" [ref=e780]
+                  - text: Google Map
+              - navigation [ref=e781]:
+                - link "各業務單位聯絡電話" [ref=e782] [cursor=pointer]:
+                  - /url: https://www.nlma.gov.tw/ch/sglarticle/bizcontacts
+                - link "相關連結" [ref=e783] [cursor=pointer]:
+                  - /url: /ch/listicle/related-links
+                - link "資訊安全政策" [ref=e784] [cursor=pointer]:
+                  - /url: /ch/sglarticle/information
+                - link "隱私權保護政策" [ref=e785] [cursor=pointer]:
+                  - /url: /ch/sglarticle/privacy
+                - link "政府網站資料開放宣告" [ref=e786] [cursor=pointer]:
+                  - /url: /ch/sglarticle/opendata
+            - generic [ref=e787]:
+              - generic [ref=e788]:
+                - banner [ref=e789]: 關注我們：
+                - link "臉書" [ref=e790] [cursor=pointer]:
+                  - /url: https://www.facebook.com/p/%E5%9C%8B%E5%9C%9F%E7%AE%A1%E7%90%86%E7%BD%B2%E5%A5%BD%E5%BA%B7%E5%A0%B1-100088503610508/?_rdr
+                  - img "臉書" [ref=e791]
+                - link "Youtube" [ref=e792] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@cpami2011
+                  - img "Youtube" [ref=e793]
+                - link "Instagram" [ref=e794] [cursor=pointer]:
+                  - /url: https://www.instagram.com/nlma.gov.tw?igsh=MWxxanFyMDYxaDFodA%3D%3D
+                  - img "Instagram" [ref=e795]
+              - generic [ref=e796]:
+                - link "我的 E 政府" [ref=e797] [cursor=pointer]:
+                  - /url: /[lang]
+                  - img "我的 E 政府" [ref=e798]
+                - link "通過無障礙 2.1 AA 等級無障礙網頁檢測" [ref=e799] [cursor=pointer]:
+                  - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20241125163008
+                  - img "通過無障礙 2.1 AA 等級無障礙網頁檢測" [ref=e800]
+        - button "回頂端" [ref=e801] [cursor=pointer]:
+          - generic: 回頂端
+  - iframe [ref=e804]:
+    - generic [ref=f53e6]:
+      - text: 採用
+      - strong [ref=f53e7]: reCAPTCHA
+      - text: 保護機制
+  - alert [ref=e805]

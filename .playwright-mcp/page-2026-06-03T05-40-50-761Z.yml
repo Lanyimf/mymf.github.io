@@ -1,0 +1,174 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "跳至主要內容" [ref=e6] [cursor=pointer]:
+      - /url: "#ak-container"
+    - heading "政府資料開放平臺" [level=1] [ref=e7]
+    - generic [ref=e8]:
+      - link "政府資料開放平臺 Logo" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "政府資料開放平臺 Logo" [ref=e11]
+      - button "子選單已開啟" [ref=e13] [cursor=pointer]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: 子選單已開啟
+          - img [ref=e17]
+    - generic [ref=e20]:
+      - button "展開主選單" [ref=e21] [cursor=pointer]:
+        - generic [ref=e23]: 展開主選單
+      - navigation "主要選單"
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - navigation "Breadcrumb" [ref=e27]:
+        - generic [ref=e28]:
+          - link "首頁" [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e32]: 首頁
+          - text: /
+        - generic [ref=e33]:
+          - link "資料集" [ref=e34]
+          - text: /
+        - link "桃園市火災財物損失統計10709.csv" [ref=e36]
+      - link ":::" [ref=e38] [cursor=pointer]:
+        - /url: "#ak-container"
+    - generic [ref=e39]:
+      - heading "桃園市火災財物損失統計10709.csv" [level=2] [ref=e40]
+      - generic [ref=e41]: 提供本市火災造成房屋、各式車輛毀損及損失金額統計。
+    - alert [ref=e42]:
+      - generic [ref=e45]: 資料集已下架，此為歷史資料留存
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - img "金標章" [ref=e51]
+          - listitem [ref=e53]:
+            - img "白金標章" [ref=e54]
+          - listitem [ref=e56]:
+            - img [ref=e57]
+            - text: 瀏覽次數： 306
+          - listitem [ref=e59]:
+            - img [ref=e60]
+            - text: 下載次數： 0
+          - listitem [ref=e62]:
+            - img [ref=e63]
+            - text: 意見數： 0
+        - generic [ref=e65]:
+          - button "DCAT 詞彙" [ref=e66] [cursor=pointer]:
+            - generic [ref=e67]: DCAT 詞彙
+          - button "列印" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]:
+              - img [ref=e70]
+              - text: 列印
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - strong [ref=e75]: 主要欄位說明
+            - generic [ref=e76]: "*粗體欄位為資料標準欄位"
+          - generic [ref=e77]:
+            - generic [ref=e80]: 區域別(區域別)、
+            - generic [ref=e83]: 被毀損房間數_間(被毀損房間數_間)、
+            - generic [ref=e86]: 被毀損車輛數_大型車(被毀損車輛數_大型車)、
+            - generic [ref=e89]: 被毀損車輛數_小型車(被毀損車輛數_小型車)、
+            - generic [ref=e92]: 被毀損車輛數_特種車(被毀損車輛數_特種車)、
+            - generic [ref=e95]: 被毀損車輛數_機車(被毀損車輛數_機車)、
+            - generic [ref=e98]: 被毀損車輛數_其他(被毀損車輛數_其他)、
+            - strong [ref=e101]: 財物損失情形_房屋_千元(財物損失情形_房屋_千元)、
+            - strong [ref=e104]: 財物損失情形_財_物_千元(財物損失情形_財_物_千元)
+        - strong [ref=e107]: 下架說明
+        - generic [ref=e109]:
+          - strong [ref=e111]: 提供機關
+          - link "桃園市政府消防局" [ref=e113] [cursor=pointer]:
+            - /url: /datasets/search?qs=9269
+        - generic [ref=e114]:
+          - strong [ref=e116]: 提供機關聯絡人姓名
+          - generic [ref=e117]: 陳小姐 (03-3379119-141)
+        - generic [ref=e118]:
+          - strong [ref=e120]: 更新頻率
+          - generic [ref=e121]: 每1月
+        - generic [ref=e122]:
+          - strong [ref=e124]: 授權方式
+          - generic [ref=e125]: 政府資料開放授權條款-第1版
+        - generic [ref=e126]:
+          - strong [ref=e128]: 計費方式
+          - generic [ref=e129]: 免費
+        - generic [ref=e130]:
+          - strong [ref=e132]: 上架日期
+          - generic [ref=e133]: 2022-05-30
+        - generic [ref=e134]:
+          - strong [ref=e136]: 資料集上架方式
+          - generic [ref=e137]: 系統介接程式
+        - generic [ref=e138]:
+          - strong [ref=e140]: 詮釋資料更新時間
+          - generic [ref=e141]: 2024-03-29 01:25
+        - generic [ref=e142]:
+          - strong [ref=e144]: 服務分類
+          - link "生活安全及品質" [ref=e146] [cursor=pointer]:
+            - /url: /datasets/search?ct=247
+        - generic [ref=e147]:
+          - strong [ref=e149]: 資料提供屬性
+          - generic [ref=e150]: 檔案資料
+        - generic [ref=e151]:
+          - strong [ref=e153]: 關鍵字
+          - generic [ref=e154]:
+            - button "火災" [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: 火災
+            - button "消防" [ref=e159] [cursor=pointer]:
+              - generic [ref=e160]: 消防
+        - strong [ref=e163]: 相關網址
+        - generic [ref=e165]:
+          - strong [ref=e167]: 備註
+          - generic [ref=e168]:
+            - text: 桃園市政府資料開放平台OAS標準之API說明文件：https://data.tycg.gov.tw/v2/api-docs
+            - text: Swagger產生API說明頁面網址：https://data.tycg.gov.tw/opendata/api-docs
+      - generic [ref=e169]:
+        - generic [ref=e171]:
+          - generic [ref=e172]: 相關資料集
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - link "桃園市每月火災次數按起火原因分類統計" [ref=e176] [cursor=pointer]:
+                - /url: /dataset/168073
+            - listitem [ref=e177]:
+              - link "桃園市火災財物損失每月統計" [ref=e178] [cursor=pointer]:
+                - /url: /dataset/168233
+            - listitem [ref=e179]:
+              - link "桃園市火災出動人員每月統計" [ref=e180] [cursor=pointer]:
+                - /url: /dataset/168178
+            - listitem [ref=e181]:
+              - link "桃園市火災出動船艇數每月統計" [ref=e182] [cursor=pointer]:
+                - /url: /dataset/168250
+            - listitem [ref=e183]:
+              - link "桃園市火災出動直升機每月統計" [ref=e184] [cursor=pointer]:
+                - /url: /dataset/168058
+        - generic [ref=e186]:
+          - generic [ref=e188]:
+            - generic [ref=e189]: 活化應用
+            - link "查看全部" [ref=e190] [cursor=pointer]:
+              - /url: /applications?name=桃園市火災財物損失統計10709.csv
+          - generic [ref=e193]: 目前沒有相關活化應用
+      - generic [ref=e194]:
+        - heading "回應" [level=3] [ref=e195]
+        - generic [ref=e196]:
+          - text: 發表回應前，請先
+          - link "登入" [ref=e197] [cursor=pointer]:
+            - /url: /login
+  - contentinfo [ref=e198]:
+    - link ":::" [ref=e199] [cursor=pointer]:
+      - /url: "#ak-footer"
+    - button "網站目錄" [ref=e202] [cursor=pointer]:
+      - img [ref=e203]
+      - generic [ref=e205]: 網站目錄
+      - img [ref=e207]
+    - generic [ref=e209]:
+      - list [ref=e210]:
+        - listitem [ref=e211]: 數位發展部
+        - listitem [ref=e212]: 地址：100057 臺北市中正區延平南路143 號
+        - listitem [ref=e213]: 如對本站有任何問題或意見歡迎聯絡客服中心
+        - listitem [ref=e214]: 電話：02-2531-1998 | 0800-650-688
+        - listitem [ref=e215]: 信箱：opendata@moda.gov.tw
+      - list [ref=e216]:
+        - listitem [ref=e217]:
+          - link "隱私權保護、使用與資安政策" [ref=e218] [cursor=pointer]:
+            - /url: /privacy
+      - list [ref=e219]:
+        - listitem [ref=e220]:
+          - link "通過AA無障礙網頁檢測" [ref=e221] [cursor=pointer]:
+            - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20251117113247
+            - img "通過AA無障礙網頁檢測" [ref=e222]

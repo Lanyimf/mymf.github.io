@@ -1,0 +1,230 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - link "跳至主要內容" [ref=e6] [cursor=pointer]:
+      - /url: "#ak-container"
+    - heading "政府資料開放平臺" [level=1] [ref=e7]
+    - generic [ref=e8]:
+      - link "政府資料開放平臺 Logo" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "政府資料開放平臺 Logo" [ref=e11]
+      - button "子選單已開啟" [ref=e13] [cursor=pointer]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: 子選單已開啟
+          - img [ref=e17]
+    - generic [ref=e20]:
+      - button "展開主選單" [ref=e21] [cursor=pointer]:
+        - generic [ref=e23]: 展開主選單
+      - navigation "主要選單"
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - navigation "Breadcrumb" [ref=e27]:
+        - generic [ref=e28]:
+          - link "首頁" [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e32]: 首頁
+          - text: /
+        - generic [ref=e33]:
+          - link "資料集" [ref=e34]
+          - text: /
+        - link "基隆市不動產買賣實價登錄Open Data(112年11月買賣登記案件)" [ref=e36]
+      - link ":::" [ref=e38] [cursor=pointer]:
+        - /url: "#ak-container"
+    - generic [ref=e39]:
+      - heading "基隆市不動產買賣實價登錄Open Data(112年11月買賣登記案件)" [level=2] [ref=e40]
+      - generic [ref=e41]: 不動產買賣案件實價登錄資訊，包含標的位置、面積、總價等資訊。
+      - generic [ref=e42]:
+        - generic [ref=e43]: 評分此資料集：
+        - slider "基隆市不動產買賣實價登錄Open Data(112年11月買賣登記案件)評分" [ref=e45]:
+          - img [ref=e48] [cursor=pointer]
+          - img [ref=e52] [cursor=pointer]
+          - img [ref=e56] [cursor=pointer]
+          - img [ref=e60] [cursor=pointer]
+          - img [ref=e64] [cursor=pointer]
+        - generic [ref=e66]: 平均 0.00 (0 人次投票)
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - img "銀標章" [ref=e72]
+          - listitem [ref=e74]:
+            - img [ref=e75]
+            - text: 瀏覽次數： 661
+          - listitem [ref=e77]:
+            - img [ref=e78]
+            - text: 下載次數： 21
+          - listitem [ref=e80]:
+            - img [ref=e81]
+            - text: 意見數： 0
+        - generic [ref=e83]:
+          - button "DCAT 詞彙" [ref=e84] [cursor=pointer]:
+            - generic [ref=e85]: DCAT 詞彙
+          - button "列印" [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]:
+              - img [ref=e88]
+              - text: 列印
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - strong [ref=e93]: 主要欄位說明
+            - generic [ref=e94]: "*粗體欄位為資料標準欄位"
+          - generic [ref=e95]:
+            - generic [ref=e98]: 鄉鎮市區、
+            - generic [ref=e101]: 交易標的、
+            - generic [ref=e104]: 土地位置建物門牌、
+            - generic [ref=e107]: 土地移轉總面積平方公尺、
+            - generic [ref=e110]: 都市土地使用分區、
+            - generic [ref=e113]: 非都市土地使用分區、
+            - generic [ref=e116]: 非都市土地使用編定、
+            - generic [ref=e119]: 交易年月日、
+            - generic [ref=e122]: 交易筆棟數、
+            - generic [ref=e125]: 移轉層次、
+            - generic [ref=e128]: 總樓層數、
+            - generic [ref=e131]: 建物型態、
+            - generic [ref=e134]: 主要用途、
+            - generic [ref=e137]: 主要建材、
+            - generic [ref=e140]: 建築完成年月、
+            - generic [ref=e143]: 建物移轉總面積平方公尺、
+            - generic [ref=e146]: 建物現況格局-房、
+            - generic [ref=e149]: 建物現況格局-廳、
+            - generic [ref=e152]: 建物現況格局-衛、
+            - generic [ref=e155]: 建物現況格局-隔間、
+            - generic [ref=e158]: 有無管理組織、
+            - generic [ref=e161]: 總價元、
+            - generic [ref=e164]: 單價元平方公尺、
+            - generic [ref=e167]: 車位類別、
+            - generic [ref=e170]: 車位移轉總面積平方公尺、
+            - generic [ref=e173]: 車位總價元、
+            - generic [ref=e176]: 備註、
+            - generic [ref=e179]: 編號、
+            - generic [ref=e182]: 主建物面積、
+            - generic [ref=e185]: 附屬建物面積、
+            - generic [ref=e188]: 陽台面積、
+            - generic [ref=e191]: 電梯、
+            - generic [ref=e194]: 移轉編號
+        - generic [ref=e195]:
+          - strong [ref=e197]: 資料資源下載網址
+          - generic [ref=e198]:
+            - list [ref=e199]:
+              - listitem [ref=e200]:
+                - link "CSV" [ref=e201] [cursor=pointer]:
+                  - /url: https://www.klcg.gov.tw/wSite/public/Attachment/01904/f1702264027461.csv
+                  - button "CSV" [ref=e202]:
+                    - generic [ref=e203]:
+                      - img [ref=e204]
+                      - text: CSV
+                - button "檢視資料" [ref=e206] [cursor=pointer]:
+                  - generic [ref=e207]: 檢視資料
+                - text: 基隆市不動產買賣實價登錄Open Data(112年11月上旬買賣登記案件)
+            - list [ref=e208]:
+              - listitem [ref=e209]:
+                - link "CSV" [ref=e210] [cursor=pointer]:
+                  - /url: https://www.klcg.gov.tw/wSite/public/Attachment/01904/f1702264027742.csv
+                  - button "CSV" [ref=e211]:
+                    - generic [ref=e212]:
+                      - img [ref=e213]
+                      - text: CSV
+                - button "檢視資料" [ref=e215] [cursor=pointer]:
+                  - generic [ref=e216]: 檢視資料
+                - text: 基隆市不動產買賣實價登錄Open Data(112年11月中旬買賣登記案件)
+            - list [ref=e217]:
+              - listitem [ref=e218]:
+                - link "CSV" [ref=e219] [cursor=pointer]:
+                  - /url: https://www.klcg.gov.tw/wSite/public/Attachment/01904/f1702264027633.csv
+                  - button "CSV" [ref=e220]:
+                    - generic [ref=e221]:
+                      - img [ref=e222]
+                      - text: CSV
+                - button "檢視資料" [ref=e224] [cursor=pointer]:
+                  - generic [ref=e225]: 檢視資料
+                - text: 基隆市不動產買賣實價登錄Open Data(112年11月下旬買賣登記案件)
+        - generic [ref=e226]:
+          - strong [ref=e228]: 提供機關
+          - link "基隆市政府地政處" [ref=e230] [cursor=pointer]:
+            - /url: /datasets/search?qs=10470
+        - generic [ref=e231]:
+          - strong [ref=e233]: 提供機關聯絡人姓名
+          - generic [ref=e234]: 陳小姐 (02-24201122#2419)
+        - generic [ref=e235]:
+          - strong [ref=e237]: 更新頻率
+          - generic [ref=e238]: 不定期更新
+        - generic [ref=e239]:
+          - strong [ref=e241]: 授權方式
+          - generic [ref=e242]: 政府資料開放授權條款-第1版
+        - generic [ref=e243]:
+          - strong [ref=e245]: 計費方式
+          - generic [ref=e246]: 免費
+        - generic [ref=e247]:
+          - strong [ref=e249]: 上架日期
+          - generic [ref=e250]: 2023-12-11
+        - generic [ref=e251]:
+          - strong [ref=e253]: 資料集上架方式
+          - generic [ref=e254]: 原始資料
+        - generic [ref=e255]:
+          - strong [ref=e257]: 詮釋資料更新時間
+          - generic [ref=e258]: 2023-12-11 12:06
+        - generic [ref=e259]:
+          - strong [ref=e261]: 服務分類
+          - link "購屋及遷徙" [ref=e263] [cursor=pointer]:
+            - /url: /datasets/search?ct=417
+        - generic [ref=e264]:
+          - strong [ref=e266]: 資料提供屬性
+          - generic [ref=e267]: 檔案資料
+        - strong [ref=e270]: 關鍵字
+        - generic [ref=e272]:
+          - strong [ref=e274]: 相關網址
+          - generic [ref=e276]: https://plvr.land.moi.gov.tw/DownloadOpenData
+        - strong [ref=e279]: 備註
+      - generic [ref=e281]:
+        - generic [ref=e283]:
+          - generic [ref=e284]: 相關資料集
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - link "基隆市不動產買賣實價登錄Open Data(114年1月買賣登記案件)" [ref=e288] [cursor=pointer]:
+                - /url: /dataset/173110
+            - listitem [ref=e289]:
+              - link "基隆市不動產買賣實價登錄Open Data(112年7月買賣登記案件)" [ref=e290] [cursor=pointer]:
+                - /url: /dataset/165120
+            - listitem [ref=e291]:
+              - link "基隆市不動產買賣實價登錄Open Data(112年9月買賣登記案件)" [ref=e292] [cursor=pointer]:
+                - /url: /dataset/166680
+            - listitem [ref=e293]:
+              - link "基隆市不動產買賣實價登錄Open Data(114年3月買賣登記案件)" [ref=e294] [cursor=pointer]:
+                - /url: /dataset/173383
+            - listitem [ref=e295]:
+              - link "基隆市不動產買賣實價登錄Open Data(113年9月買賣登記案件)" [ref=e296] [cursor=pointer]:
+                - /url: /dataset/171701
+        - generic [ref=e298]:
+          - generic [ref=e300]:
+            - generic [ref=e301]: 活化應用
+            - link "查看全部" [ref=e302] [cursor=pointer]:
+              - /url: /applications?name=基隆市不動產買賣實價登錄Open Data(112年11月買賣登記案件)
+          - generic [ref=e305]: 目前沒有相關活化應用
+      - generic [ref=e306]:
+        - heading "回應" [level=3] [ref=e307]
+        - generic [ref=e308]:
+          - text: 發表回應前，請先
+          - link "登入" [ref=e309] [cursor=pointer]:
+            - /url: /login
+  - contentinfo [ref=e310]:
+    - link ":::" [ref=e311] [cursor=pointer]:
+      - /url: "#ak-footer"
+    - button "網站目錄" [ref=e314] [cursor=pointer]:
+      - img [ref=e315]
+      - generic [ref=e317]: 網站目錄
+      - img [ref=e319]
+    - generic [ref=e321]:
+      - list [ref=e322]:
+        - listitem [ref=e323]: 數位發展部
+        - listitem [ref=e324]: 地址：100057 臺北市中正區延平南路143 號
+        - listitem [ref=e325]: 如對本站有任何問題或意見歡迎聯絡客服中心
+        - listitem [ref=e326]: 電話：02-2531-1998 | 0800-650-688
+        - listitem [ref=e327]: 信箱：opendata@moda.gov.tw
+      - list [ref=e328]:
+        - listitem [ref=e329]:
+          - link "隱私權保護、使用與資安政策" [ref=e330] [cursor=pointer]:
+            - /url: /privacy
+      - list [ref=e331]:
+        - listitem [ref=e332]:
+          - link "通過AA無障礙網頁檢測" [ref=e333] [cursor=pointer]:
+            - /url: https://accessibility.moda.gov.tw/Applications/Detail?category=20251117113247
+            - img "通過AA無障礙網頁檢測" [ref=e334]

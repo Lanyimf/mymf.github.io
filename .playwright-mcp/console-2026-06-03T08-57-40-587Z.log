@@ -1,0 +1,2 @@
+[    7436ms] [WARNING] Error with Feature-Policy header: Some features are specified in both Feature-Policy and Permissions-Policy header: camera. Values defined in Permissions-Policy header will be used. @ :0
+[  137102ms] [WARNING] The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet) @ https://www.nlma.gov.tw/TSPD/087bcb6fe5ab200043685941db2707ea1e1877fa735be60f2003d126b459e670fb97da999a7e78e3?type=8:442
