@@ -1,22 +1,9 @@
-# Python
+# Python 環境（平台專屬，各自建立）
+venv/
 __pycache__/
 *.py[cod]
 *.egg-info/
-venv/
 
-# 資料庫（大檔，不上傳）
-src/layer1_data/parcels.db
-src/layer1_data/lancedb/
-
-# Excel 原始檔（含個資，不上傳）
-*.xlsx
-src/layer1_data/*.xlsx
-
-# 輸出結果
-data/輸出結果/
-
-# 暫存
-*.tmp
-*.log
+# 暫存輸出
 欄位清單.txt
 merged_preview.csv
