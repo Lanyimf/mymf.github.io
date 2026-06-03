@@ -4,7 +4,7 @@
   手動執行：python scripts/daily_report.py
   排程執行：加入 Windows 工作排程器，每天 08:00 執行
 """
-import sqlite3, json, sys, requests
+import sqlite3, sys, requests, os
 from pathlib import Path
 from datetime import datetime, timedelta
 from collections import Counter
@@ -14,10 +14,17 @@ L1_DB   = BASE / "src" / "layer1_data"  / "parcels.db"
 L3_DB   = BASE / "src" / "layer3_output" / "evaluation.db"
 LOG_DIR = BASE / "src" / "layer3_output" / "reports"
 
-# Discord webhook 或 bot token（從環境變數讀取）
-import os
-DISCORD_BOT_TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "")
-DISCORD_CHANNEL_ID = "1511374222243532880"
+# 讀取 .env
+_env = BASE / ".env"
+if _env.exists():
+    for line in _env.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip())
+
+DISCORD_BOT_TOKEN  = os.environ.get("DISCORD_BOT_TOKEN", "")
+DISCORD_CHANNEL_ID = os.environ.get("DISCORD_CHANNEL_ID", "1511374222243532880")
 
 
 def get_revision_summary(days: int = 1) -> dict:

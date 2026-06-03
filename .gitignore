@@ -1,3 +1,6 @@
+# 機密設定
+.env
+
 # Python 環境（平台專屬，各自建立）
 venv/
 __pycache__/
