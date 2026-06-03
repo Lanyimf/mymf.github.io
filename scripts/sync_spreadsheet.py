@@ -13,6 +13,24 @@ from openpyxl import load_workbook
 from openpyxl.styles import PatternFill, Font, Alignment
 from openpyxl.utils import get_column_letter
 
+
+def log_revision(sheet: str, table: str, action: str, row_key,
+                 field=None, old_val=None, new_val=None, source="excel"):
+    """寫一筆變更記錄到 revision_log"""
+    try:
+        conn = sqlite3.connect(str(L3_DB))
+        conn.execute("""
+            INSERT INTO revision_log (sheet, table_name, action, row_key, field, old_value, new_value, source)
+            VALUES (?,?,?,?,?,?,?,?)
+        """, (sheet, table, action, str(row_key), field,
+              str(old_val)[:500] if old_val is not None else None,
+              str(new_val)[:500] if new_val is not None else None,
+              source))
+        conn.commit()
+        conn.close()
+    except Exception:
+        pass
+
 BASE      = Path(__file__).parent.parent
 XLSX_PATH = BASE / "人工總表.xlsx"
 L1_DB     = BASE / "src" / "layer1_data"  / "parcels.db"
