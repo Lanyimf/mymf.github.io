@@ -92,6 +92,14 @@ def derive_zone(row: dict) -> tuple[str, str]:
         if key in 使用地類別:
             return val
 
+    # 補充：有都市計畫區名稱但無其他編定 → 城鄉發展地區
+    都計 = str(row.get("都市計畫區名稱") or "").strip()
+    if 都計 and 都計 != "None":
+        # 特定區計畫通常為工業/特殊用途
+        if "特定區" in 都計 or "工業" in 都計:
+            return ("城鄉發展地區", "第一類")
+        return ("城鄉發展地區", "第二類")
+
     return ("待確認", "")
 
 
