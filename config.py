@@ -17,6 +17,7 @@ GIS = {
 }
 
 DB_PATH          = BASE / "src" / "layer1_data" / "parcels.db"
+EVAL_DB_PATH     = BASE / "src" / "layer3_output" / "evaluation.db"
 LANCEDB_PATH     = BASE / "src" / "layer1_data" / "lancedb"
 C_LIST_PATH      = DATA / "C項目許可清單" / "c_items.csv"
 LAW_DOCS_DIR     = DATA / "法規條文"
