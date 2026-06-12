@@ -1,0 +1,7 @@
+public/
+node_modules/
+.quartz-cache/
+*.db
+regulations_lancedb/
+__pycache__/
+*.pyc
