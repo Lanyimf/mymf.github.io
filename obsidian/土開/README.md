@@ -12,29 +12,29 @@
 ## 快速查詢
 
 ### 農牧用地（EE）
-[[rules/EE-1]] [[rules/EE-2]] [[rules/EE-3]] [[rules/EE-4]] [[rules/EE-5]]
-[[rules/EE-6]] [[rules/EE-7]] [[rules/EE-8]] [[rules/EE-9]] [[rules/EE-10]]
+[[rules/R-001_EE-1]] [[rules/R-002_EE-2]] [[rules/R-003_EE-3]] [[rules/R-004_EE-4]] [[rules/R-005_EE-5]]
+[[rules/R-006_EE-6]] [[rules/R-007_EE-7]] [[rules/R-008_EE-8]] [[rules/R-009_EE-9]] [[rules/R-010_EE-10]]
 
 ### 乙種建築用地（EB）
-[[rules/EB-1]] [[rules/EB-2]] [[rules/EB-3]] [[rules/EB-4]] [[rules/EB-5]]
+[[rules/R-023_EB-1]] [[rules/R-024_EB-2]] [[rules/R-025_EB-3]] [[rules/R-026_EB-4]] [[rules/R-027_EB-5]]
 
 ### 丁種建築用地（ED）
-[[rules/ED-1]] [[rules/ED-2]] [[rules/ED-3]] [[rules/ED-4]]
+[[rules/R-043_ED-1]] [[rules/R-044_ED-2]] [[rules/R-045_ED-3]] [[rules/R-046_ED-4]]
 
 ### 水利用地（EH）
-[[rules/EH-1]] [[rules/EH-7]] [[rules/EH-9]]
+[[rules/R-051_EH-1]] [[rules/R-057_EH-7]] [[rules/R-059_EH-9]]
 
 ### 殯葬用地（EN）
-[[rules/EN-5]] [[rules/EN-6]]
+[[rules/R-071_EN-5]] [[rules/R-072_EN-6]]
 
 ## 核心法規
 
-- [[laws/非都市土地使用管制規則]]
-- [[laws/農業發展條例]]
-- [[laws/國土計畫法]]
-- [[laws/土壤及地下水污染整治法]]
-- [[laws/建築法]]
-- [[laws/環境影響評估法]]
+- [[laws/L-42_非都市土地使用管制規則]]
+- [[laws/L-36_農業發展條例]]
+- [[laws/L-09_國土計畫法]]
+- [[laws/L-10_土壤及地下水污染整治法]]
+- [[laws/L-17_建築法]]
+- [[laws/L-28_環境影響評估法]]
 
 ## 系統架構
 
