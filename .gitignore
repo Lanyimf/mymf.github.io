@@ -1,12 +1,52 @@
-# 機密設定
+# ── 機密設定 ──────────────────────────────────────────
 .env
+.env.local
+*.key
 
-# Python 環境（平台專屬，各自建立）
+# ── Python ────────────────────────────────────────────
 venv/
 __pycache__/
 *.py[cod]
 *.egg-info/
+*.pyc
 
-# 暫存輸出
+# ── 資料庫（本地產生，不追蹤）─────────────────────────
+*.db
+*.db-shm
+*.db-wal
+
+# ── LanceDB 向量資料庫（二進位，體積大）──────────────────
+regulations_lancedb/
+layer1_data/lancedb/
+**/lancedb/
+
+# ── Quartz 建置輸出 ────────────────────────────────────
+obsidian/quartz/public/
+obsidian/quartz/node_modules/
+obsidian/quartz/.quartz-cache/
+
+# ── 法規 PDF（體積大，不追蹤）─────────────────────────
+obsidian/原始法規資料/*.pdf
+
+# ── 地圖圖磚（體積極大）───────────────────────────────
+obsidian/CH_3857_Vect_OpenData/
+
+# ── macOS 暫存 ─────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Excel 鎖定暫存檔 ───────────────────────────────────
+~$*.xlsx
+~$*.xls
+
+# ── 暫存輸出 ───────────────────────────────────────────
 欄位清單.txt
 merged_preview.csv
+
+# ── Obsidian 快取 ──────────────────────────────────────
+obsidian/**/.obsidian/workspace.json
+obsidian/**/.obsidian/workspace-mobile.json
+obsidian/**/.obsidian/graph.json
+
+# ── Claude Code ────────────────────────────────────────
+.claude/settings.local.json

@@ -1,0 +1,214 @@
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.wrap{padding:0.75rem 0;overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;font-size:11px;table-layout:fixed}
+th,td{border:0.5px solid var(--color-border-tertiary);padding:0;vertical-align:middle}
+.sticky{position:sticky;left:0;z-index:3;background:var(--color-background-primary)}
+thead .sticky{z-index:4;background:var(--color-background-secondary)}
+thead th{background:var(--color-background-secondary);color:var(--color-text-secondary);font-weight:500;text-align:center}
+thead th.ch{writing-mode:vertical-rl;text-orientation:mixed;height:130px;vertical-align:bottom;padding:0 5px 7px;font-size:10px;white-space:nowrap;width:30px;min-width:30px}
+thead th.grp{font-size:10px;padding:4px 6px;text-align:center;white-space:nowrap;font-weight:500}
+thead th.rl{text-align:left;vertical-align:bottom;width:152px;min-width:152px;padding:5px 7px;font-size:10px}
+tbody th.rl{width:152px;min-width:152px;padding:6px 8px;font-weight:400;font-size:11px;white-space:nowrap;background:var(--color-background-secondary)}
+tbody td{text-align:center;width:30px;min-width:30px;height:28px}
+.c{font-size:13px;line-height:1}
+.p{font-size:11px;font-weight:700;line-height:1}
+.x{color:var(--color-border-secondary);font-size:11px;line-height:1}
+.na{background:var(--color-background-tertiary)}
+.code{display:inline-block;padding:1px 5px;border-radius:9px;font-size:10px;font-weight:500;margin-right:3px}
+.cnt{font-size:9px;color:var(--color-text-secondary);font-weight:400}
+
+.ee-bg{background:#EAF3DE;color:#3B6D11}
+.ed-bg{background:#FFF8E1;color:#854F0B}
+.eb-bg{background:#E6F1FB;color:#185FA5}
+.eh-bg{background:#E1F5EE;color:#0F6E56}
+.eg-bg{background:#FAEEDA;color:#854F0B}
+.ep-bg{background:#FBEAF0;color:#993556}
+.en-bg{background:#F2DCDB;color:#791F1F}
+.ez-bg{background:#F1EFE8;color:#5F5E5A}
+
+.ee-y{background:#F2FAF0}.ee-y .c{color:#3B6D11}
+.ee-p{background:#D5EFC0}.ee-p .p{color:#27500A}
+.eb-y{background:#EEF6FF}.eb-y .c{color:#185FA5}
+.eb-p{background:#C8DFFF}.eb-p .p{color:#0C447C}
+.ed-y{background:#FEFCF0}.ed-y .c{color:#854F0B}
+.ed-p{background:#FFF0A8}.ed-p .p{color:#633806}
+.eh-y{background:#ECF9F4}.eh-y .c{color:#0F6E56}
+.eh-p{background:#BDE8D6}.eh-p .p{color:#085041}
+.eg-y{background:#FEF9F0}.eg-y .c{color:#854F0B}
+.eg-p{background:#F5E0B0}.eg-p .p{color:#633806}
+.ep-p{background:#FFD0E4}.ep-p .p{color:#72243E}
+.en-y{background:#FEF4F4}.en-y .c{color:#791F1F}
+.en-p{background:#FFD0CC}.en-p .p{color:#501313}
+
+.ga{background:#E8F5E2;color:#27500A}
+.gb{background:#E3EEFF;color:#0C447C}
+.gc{background:#FFF5D6;color:#633806}
+.gd{background:#FEF0E4;color:#834B0A}
+.ge{background:#E8F6F1;color:#0A5A47}
+.gf{background:#EEE8F8;color:#3C3489}
+.gg{background:#FCEAEC;color:#791F1F}
+
+.legend{display:flex;gap:14px;margin-bottom:10px;flex-wrap:wrap;align-items:center}
+.leg{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--color-text-secondary)}
+.lb{width:16px;height:16px;border-radius:3px;border:0.5px solid var(--color-border-tertiary);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.note{font-size:10px;color:var(--color-text-secondary);margin-top:10px;line-height:1.8}
+
+.col-labels{display:flex;overflow-x:auto;margin-bottom:8px;gap:0}
+</style>
+<div class="wrap">
+<div class="legend">
+  <span class="leg"><span class="lb" style="background:#F2FAF0"><span style="color:#3B6D11;font-size:12px">✓</span></span>容許使用</span>
+  <span class="leg"><span class="lb" style="background:#BDE8D6"><span style="color:#085041;font-size:10px;font-weight:700">△</span></span>條件性容許</span>
+  <span class="leg"><span class="lb" style="background:var(--color-background-secondary)"><span style="color:var(--color-border-secondary);font-size:10px">—</span></span>不容許</span>
+  <span class="leg"><span class="lb" style="background:var(--color-background-tertiary)"></span>非適用項目</span>
+</div>
+<table>
+<thead>
+<tr>
+  <th class="sticky rl" rowspan="2" style="min-width:152px">使用地類別</th>
+  <th class="grp ga" colspan="10">農業類</th>
+  <th class="grp gb" colspan="9">建築／居住類</th>
+  <th class="grp gc" colspan="5">工業類</th>
+  <th class="grp gd" colspan="4">基礎設施／公用類</th>
+  <th class="grp ge" colspan="11">遊憩／資源／環境類</th>
+  <th class="grp gf" colspan="5">特定目的／計畫類</th>
+  <th class="grp gg" colspan="7">殯葬及其他類</th>
+</tr>
+<tr>
+  <th class="ch ga" title="農作使用（含牧草）">農作使用（含牧草）</th>
+  <th class="ch ga" title="農舍">農舍</th>
+  <th class="ch ga" title="農作產銷設施">農作產銷設施</th>
+  <th class="ch ga" title="畜牧設施">畜牧設施</th>
+  <th class="ch ga" title="水產養殖設施">水產養殖設施</th>
+  <th class="ch ga" title="林業使用（造林、苗圃）">林業使用（造林、苗圃）</th>
+  <th class="ch ga" title="林業設施">林業設施</th>
+  <th class="ch ga" title="休閒農業設施">休閒農業設施</th>
+  <th class="ch ga" title="農產品集散批發運銷設施">農產品集散批發運銷設施</th>
+  <th class="ch ga" title="綠能設施">綠能設施</th>
+  <th class="ch gb" title="住宅">住宅</th>
+  <th class="ch gb" title="鄉村教育設施">鄉村教育設施</th>
+  <th class="ch gb" title="行政及文教設施">行政及文教設施</th>
+  <th class="ch gb" title="衛生及福利設施">衛生及福利設施</th>
+  <th class="ch gb" title="安全設施">安全設施</th>
+  <th class="ch gb" title="宗教建築">宗教建築</th>
+  <th class="ch gb" title="日用品零售及服務設施">日用品零售及服務設施</th>
+  <th class="ch gb" title="遊憩設施">遊憩設施</th>
+  <th class="ch gb" title="兒童課後照顧服務中心">兒童課後照顧服務中心</th>
+  <th class="ch gc" title="工業設施（廠房等）">工業設施（廠房等）</th>
+  <th class="ch gc" title="工業社區">工業社區</th>
+  <th class="ch gc" title="無公害性小型工業設施">無公害性小型工業設施</th>
+  <th class="ch gc" title="廢棄物回收貯存清除處理設施">廢棄物回收貯存清除處理設施</th>
+  <th class="ch gc" title="依產業創新條例核定之用地使用">依產業創新條例核定之用地使用</th>
+  <th class="ch gd" title="公用事業設施">公用事業設施</th>
+  <th class="ch gd" title="交通設施">交通設施</th>
+  <th class="ch gd" title="交通設施（貨運停車場）">交通設施（貨運停車場）</th>
+  <th class="ch gd" title="電信微波收發站（含基地臺）">電信微波收發站（含基地臺）</th>
+  <th class="ch ge" title="再生能源相關設施">再生能源相關設施</th>
+  <th class="ch ge" title="再生能源相關設施（限太陽光電）">再生能源相關設施（限太陽光電）</th>
+  <th class="ch ge" title="水源保護及水土保持設施">水源保護及水土保持設施</th>
+  <th class="ch ge" title="採取土石">採取土石</th>
+  <th class="ch ge" title="水岸遊憩設施">水岸遊憩設施</th>
+  <th class="ch ge" title="戶外遊憩設施">戶外遊憩設施</th>
+  <th class="ch ge" title="戶外廣告物設施">戶外廣告物設施</th>
+  <th class="ch ge" title="溫泉井及溫泉儲槽">溫泉井及溫泉儲槽</th>
+  <th class="ch ge" title="農村再生設施">農村再生設施</th>
+  <th class="ch ge" title="自然保育設施">自然保育設施</th>
+  <th class="ch ge" title="動物保護相關設施">動物保護相關設施</th>
+  <th class="ch gf" title="按現況或水利計畫使用">按現況或水利計畫使用</th>
+  <th class="ch gf" title="按現況或交通計畫使用">按現況或交通計畫使用</th>
+  <th class="ch gf" title="按特定目的事業計畫使用">按特定目的事業計畫使用</th>
+  <th class="ch gf" title="其他經河川或排水管理機關核准">其他經河川或排水管理機關核准</th>
+  <th class="ch gf" title="滯洪設施">滯洪設施</th>
+  <th class="ch gg" title="殯葬設施">殯葬設施</th>
+  <th class="ch gg" title="寵物骨灰灑葬區">寵物骨灰灑葬區</th>
+  <th class="ch gg" title="私設通路">私設通路</th>
+  <th class="ch gg" title="臨時堆置收納營建剩餘土石方">臨時堆置收納營建剩餘土石方</th>
+  <th class="ch gg" title="水庫河川湖泊淤泥資源再生利用臨時處理設施">水庫河川湖泊淤泥資源再生利用臨時處理設施</th>
+  <th class="ch gg" title="露營相關設施">露營相關設施</th>
+  <th class="ch gg" title="無動力飛行運動相關設施">無動力飛行運動相關設施</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <th class="sticky rl ee-bg"><span class="code ee-bg">EE</span>農牧用地<span class="cnt"> 41筆</span></th>
+  <td class="ee-y"><span class="c">✓</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td><td class="ee-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="ee-p"><span class="p">△</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="ee-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="ee-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td><td class="ee-p"><span class="p">△</span></td>
+</tr>
+<tr>
+  <th class="sticky rl eb-bg"><span class="code eb-bg">EB</span>乙種建築用地<span class="cnt"> 2筆</span></th>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eb-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td>
+  <td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eb-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="eb-y"><span class="c">✓</span></td><td class="eb-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="eb-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td><td class="eb-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eb-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eb-y"><span class="c">✓</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+</tr>
+<tr>
+  <th class="sticky rl ed-bg"><span class="code ed-bg">ED</span>丁種建築用地<span class="cnt"> 60筆</span></th>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="ed-p"><span class="p">△</span></td><td class="ed-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="ed-p"><span class="p">△</span></td><td class="ed-p"><span class="p">△</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="ed-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td>
+  <td class="ed-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="ed-p"><span class="p">△</span></td><td class="ed-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+</tr>
+<tr>
+  <th class="sticky rl eh-bg"><span class="code eh-bg">EH</span>水利用地<span class="cnt"> 3筆</span></th>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="eh-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eh-p"><span class="p">△</span></td><td class="eh-p"><span class="p">△</span></td><td class="eh-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="eh-p"><span class="p">△</span></td><td class="eh-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="eh-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eh-p"><span class="p">△</span></td><td class="eh-y"><span class="c">✓</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+</tr>
+<tr>
+  <th class="sticky rl eg-bg"><span class="code eg-bg">EG</span>交通用地<span class="cnt"> 2筆</span></th>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="eg-p"><span class="p">△</span></td><td class="eg-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="eg-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eg-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="eg-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="eg-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+</tr>
+<tr>
+  <th class="sticky rl ep-bg"><span class="code ep-bg">EP</span>特定目的事業用地<span class="cnt"> 10筆</span></th>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="ep-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+</tr>
+<tr>
+  <th class="sticky rl en-bg"><span class="code en-bg">EN</span>殯葬用地<span class="cnt"> 1筆</span></th>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="en-y"><span class="c">✓</span></td><td class="en-y"><span class="c">✓</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="en-p"><span class="p">△</span></td>
+  <td class="na"><span class="x">—</span></td><td class="en-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+  <td class="en-y"><span class="c">✓</span></td><td class="en-p"><span class="p">△</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td><td class="na"><span class="x">—</span></td>
+</tr>
+<tr>
+  <th class="sticky rl ez-bg"><span class="code ez-bg">EZ</span>暫未編定<span class="cnt"> 3筆</span></th>
+  <td class="na" colspan="51" style="text-align:left;padding:0 10px;font-size:10px;color:var(--color-text-secondary);white-space:normal;min-width:300px">附表一無明確容許使用項目，應依農業發展條例等相關法令，僅限現況使用或依法取得許可之使用</td>
+</tr>
+</tbody>
+</table>
+<p class="note">
+  滑鼠移至欄位標題可顯示完整名稱（title 提示）。<br>
+  △ 條件性容許：各款均有附帶條件，常見限制包括特定分區除外（如工業區、河川區、特定農業區）、面積上限、需依審查辦法申請或需主管機關許可，詳見附表一各款規定。<br>
+  「交通設施」（EB/EG）與「交通設施（貨運停車場）」（ED）為附表一不同款項，故分欄列出。「再生能源相關設施（限太陽光電）」（EN）與一般「再生能源相關設施」亦分欄。
+</p>
+</div>
