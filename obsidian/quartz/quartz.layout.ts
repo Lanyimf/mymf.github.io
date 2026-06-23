@@ -24,6 +24,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.ConditionalRender({
+      component: Component.LandMap(),
+      condition: (page) =>
+        page.fileData.frontmatter?.lat !== undefined &&
+        page.fileData.frontmatter?.lon !== undefined,
+    }),
   ],
   left: [
     Component.PageTitle(),
