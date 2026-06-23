@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import LandMap from "./LandMap"
 import LandSearch from "./LandSearch"
+import LandEvaluate from "./LandEvaluate"
 
 export {
   ArticleTitle,
@@ -54,4 +55,5 @@ export {
   ConditionalRender,
   LandMap,
   LandSearch,
+  LandEvaluate,
 }
