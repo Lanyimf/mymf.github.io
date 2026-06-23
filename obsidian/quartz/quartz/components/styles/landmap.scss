@@ -1,0 +1,22 @@
+.land-map {
+  margin: 1rem 0;
+
+  .land-map-canvas {
+    width: 100%;
+    height: 360px;
+    border: 1px solid var(--lightgray);
+    border-radius: 5px;
+    background: var(--light);
+  }
+
+  .land-map-link {
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+  }
+
+  // Leaflet 控制元件配色跟隨主題
+  .leaflet-control-layers {
+    color: var(--dark);
+    background: var(--light);
+  }
+}

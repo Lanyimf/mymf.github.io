@@ -1,5 +1,8 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+// @ts-ignore
+import script from "./scripts/landmap.inline"
+import style from "./styles/landmap.scss"
 
 const LandMap: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const lat = fileData.frontmatter?.lat
@@ -14,20 +17,12 @@ const LandMap: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
     return null
   }
 
-  const delta = 0.004
-  const bbox = `${lonNum - delta},${latNum - delta},${lonNum + delta},${latNum + delta}`
-  const embedSrc = `https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${latNum}%2C${lonNum}`
   const openLink = `https://www.openstreetmap.org/?mlat=${latNum}&mlon=${lonNum}#map=17/${latNum}/${lonNum}`
 
   return (
     <div class={classNames(displayClass, "land-map")}>
-      <h3>位置地圖</h3>
-      <iframe
-        class="land-map-frame"
-        src={embedSrc}
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <h3>位置地圖（可疊加地籍圖／正射影像）</h3>
+      <div class="land-map-canvas" data-lat={latNum} data-lon={lonNum}></div>
       <p class="land-map-link">
         <a href={openLink} target="_blank" rel="noopener noreferrer">
           在 OpenStreetMap 開啟大圖 ↗
@@ -37,20 +32,7 @@ const LandMap: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
   )
 }
 
-LandMap.css = `
-.land-map {
-  margin: 1rem 0;
-}
-.land-map-frame {
-  width: 100%;
-  height: 300px;
-  border: 1px solid var(--lightgray);
-  border-radius: 5px;
-}
-.land-map-link {
-  margin-top: 0.3rem;
-  font-size: 0.85rem;
-}
-`
+LandMap.css = style
+LandMap.afterDOMLoaded = script
 
 export default (() => LandMap) satisfies QuartzComponentConstructor
