@@ -30,6 +30,10 @@ export const defaultContentPageLayout: PageLayout = {
         page.fileData.frontmatter?.lat !== undefined &&
         page.fileData.frontmatter?.lon !== undefined,
     }),
+    Component.ConditionalRender({
+      component: Component.LandSearch(),
+      condition: (page) => page.fileData.frontmatter?.tool === "lands-search",
+    }),
   ],
   left: [
     Component.PageTitle(),
