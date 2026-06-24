@@ -26,6 +26,8 @@ import ConditionalRender from "./ConditionalRender"
 import LandMap from "./LandMap"
 import LandSearch from "./LandSearch"
 import LandEvaluate from "./LandEvaluate"
+import SiteHeader from "./SiteHeader"
+import HorizontalToc from "./HorizontalToc"
 
 export {
   ArticleTitle,
@@ -56,4 +58,6 @@ export {
   LandMap,
   LandSearch,
   LandEvaluate,
+  SiteHeader,
+  HorizontalToc,
 }
