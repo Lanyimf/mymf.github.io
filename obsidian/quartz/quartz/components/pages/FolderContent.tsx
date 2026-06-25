@@ -9,6 +9,13 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
+import LandsFolderListConstructor from "../LandsFolderList"
+import RulesFolderListConstructor from "../RulesFolderList"
+import LawsFolderListConstructor from "../LawsFolderList"
+
+const LandsFolderList = LandsFolderListConstructor()
+const RulesFolderList = RulesFolderListConstructor()
+const LawsFolderList = LawsFolderListConstructor()
 
 interface FolderContentOptions {
   /**
@@ -102,25 +109,47 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         : htmlToJsx(fileData.filePath!, tree)
     ) as ComponentChildren
 
+    // lands、rules 資料夾使用客製化版面（編號清單＋格線），其餘資料夾維持預設行為
+    const isLandsFolder = fileData.slug === "lands/index"
+    const isRulesFolder = fileData.slug === "rules/index"
+    const isLawsFolder = fileData.slug === "laws/index"
+
     return (
       <div class="popover-hint">
         <article class={classes}>{content}</article>
         <div class="page-listing">
-          {options.showFolderCount && (
-            <p>
-              {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
-                count: allPagesInFolder.length,
-              })}
-            </p>
+          {isLandsFolder ? (
+            <LandsFolderList {...props} />
+          ) : isRulesFolder ? (
+            <RulesFolderList {...props} />
+          ) : isLawsFolder ? (
+            <LawsFolderList {...props} pages={allPagesInFolder} />
+          ) : (
+            <>
+              {options.showFolderCount && (
+                <p>
+                  {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
+                    count: allPagesInFolder.length,
+                  })}
+                </p>
+              )}
+              <div>
+                <PageList {...listProps} />
+              </div>
+            </>
           )}
-          <div>
-            <PageList {...listProps} />
-          </div>
         </div>
       </div>
     )
   }
 
-  FolderContent.css = concatenateResources(style, PageList.css)
+  FolderContent.css = concatenateResources(
+    style,
+    PageList.css,
+    LandsFolderList.css,
+    RulesFolderList.css,
+    LawsFolderList.css,
+  )
+  FolderContent.afterDOMLoaded = LandsFolderList.afterDOMLoaded
   return FolderContent
 }) satisfies QuartzComponentConstructor

@@ -1,0 +1,63 @@
+.lands-folder-list {
+  margin: 1rem 0;
+
+  .lfl-filters {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+
+    label {
+      font-size: 0.85rem;
+      color: var(--gray);
+    }
+
+    select {
+      padding: 0.4rem 0.6rem;
+      border: 1px solid var(--lightgray);
+      border-radius: 4px;
+      background: var(--light);
+      color: var(--dark);
+      font-size: 0.9rem;
+    }
+  }
+
+  .lfl-count {
+    font-size: 0.85rem;
+    color: var(--gray);
+    margin: 0 0 0.5rem;
+  }
+
+  .lfl-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: lfl-counter;
+  }
+
+  .lfl-item {
+    counter-increment: lfl-counter;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--lightgray);
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+
+    &::before {
+      content: counter(lfl-counter) ".";
+      color: var(--gray);
+      font-size: 0.85rem;
+      min-width: 2rem;
+      flex-shrink: 0;
+    }
+
+    a {
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+  }
+
+  .lfl-item:first-child {
+    border-top: 1px solid var(--lightgray);
+  }
+}

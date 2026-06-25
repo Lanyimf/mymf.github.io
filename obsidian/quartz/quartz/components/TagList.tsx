@@ -1,6 +1,12 @@
-import { FullSlug, resolveRelative } from "../util/path"
+import { FullSlug, pathToRoot, resolveRelative } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
+
+// 特定標籤特別連到對應的總覽頁面，而非一般標籤頁
+const SPECIAL_TAG_TARGETS: Record<string, string> = {
+  場址: "lands",
+  評估規則: "rules",
+}
 
 const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const tags = fileData.frontmatter?.tags
@@ -8,7 +14,10 @@ const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
     return (
       <ul class={classNames(displayClass, "tags")}>
         {tags.map((tag) => {
-          const linkDest = resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
+          const specialTarget = SPECIAL_TAG_TARGETS[tag]
+          const linkDest = specialTarget
+            ? (`${pathToRoot(fileData.slug!)}/${specialTarget}` as FullSlug)
+            : resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
           return (
             <li>
               <a href={linkDest} class="internal tag-link">

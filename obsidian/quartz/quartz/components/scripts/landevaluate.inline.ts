@@ -24,14 +24,22 @@ interface RuleMeta {
   use_item: string
   hard_count: number
   weighted_count: number
+  requires_clean_site: boolean
 }
 
 interface EvalResult {
   rule: RuleMeta
   hardPassed: boolean | null // null = 無法判定
   weightedScore: number | null // 0-100，null = 無法判定
-  coverage: "computed" | "no_data"
+  // computed = 有完整 GIS 圖資佐證；basic = 僅用使用地類別/污染狀態做基礎篩選；no_data = 無法判定
+  coverage: "computed" | "basic" | "no_data"
   notes: string[]
+}
+
+const POLLUTED_STATUSES = ["公告為控制場址", "公告為整治場址"]
+
+function isPollutedSite(land: LandRecord): boolean {
+  return !!land.status && POLLUTED_STATUSES.includes(land.status)
 }
 
 function getBaseDir(): string {
@@ -120,13 +128,32 @@ function evaluateRule(land: LandRecord, rule: RuleMeta, ctx: { forestAreas: any 
     return { rule, hardPassed, weightedScore, coverage: "computed", notes }
   }
 
-  return {
-    rule,
-    hardPassed: null,
-    weightedScore: null,
-    coverage: "no_data",
-    notes: ["此規則尚無對應 GIS 圖資可自動判定，需人工查核或等待資料擴充"],
+  // 通用基礎篩選：用場址現有的「污染列管狀態」與「使用地類別代碼」
+  // 比對規則的硬性門檻第一關。這只能驗證硬性門檻裡最基本的兩項，
+  // 其餘區位／空間條件與加權指標仍未驗證，因此標記為 "basic" 而非 "computed"。
+  const polluted = isPollutedSite(land)
+
+  if (rule.requires_clean_site && polluted) {
+    notes.push(
+      `本規則硬性門檻要求「非污染控制/整治場址」，但此場址目前列管狀態為「${land.status}」，不符合`,
+    )
+    return { rule, hardPassed: false, weightedScore: null, coverage: "basic", notes }
   }
+
+  if (!land.type_code) {
+    notes.push("此場址缺少使用地類別代碼（type_code），無法比對是否符合本規則的用地類型要求")
+    return { rule, hardPassed: null, weightedScore: null, coverage: "no_data", notes }
+  }
+
+  if (land.type_code !== rule.type_code) {
+    notes.push(`此場址使用地類別為「${land.type_code}」，與本規則要求的「${rule.type_code}」不符`)
+    return { rule, hardPassed: false, weightedScore: null, coverage: "basic", notes }
+  }
+
+  notes.push(
+    `使用地類別符合（${rule.type_code}）且非污染列管場址，僅完成基礎篩選；區位、空間條件與加權指標尚未驗證，請勿視為最終結論`,
+  )
+  return { rule, hardPassed: true, weightedScore: null, coverage: "basic", notes }
 }
 
 // ---- UI ----
@@ -172,19 +199,24 @@ document.addEventListener("nav", async () => {
 
     const results = rules.map((r) => evaluateRule(land, r, { forestAreas }))
 
-    const computed = results.filter((r) => r.coverage === "computed")
-    const passed = computed.filter((r) => r.hardPassed)
+    const computedPassed = results.filter((r) => r.coverage === "computed" && r.hardPassed)
+    const basicPassed = results.filter((r) => r.coverage === "basic" && r.hardPassed)
+    const failed = results.filter((r) => r.hardPassed === false)
     const noData = results.filter((r) => r.coverage === "no_data")
 
     summaryEl.innerHTML = ""
     const summaryP = document.createElement("p")
-    summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computed.length} 條可自動判定</strong>（${passed.length} 條通過硬性門檻），<strong>${noData.length} 條因資料不足無法判定</strong>`
+    summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computedPassed.length} 條高信心符合</strong>、<strong>${basicPassed.length} 條基礎篩選通過</strong>（使用地類別與污染狀態符合，其餘條件未驗證）、${failed.length} 條不符合、<strong>${noData.length} 條因資料不足無法判定</strong>`
     summaryEl.appendChild(summaryP)
 
-    // 排序：可判定且通過的（依分數高低）→ 可判定但未通過 → 無法判定
+    // 排序：高信心符合 → 基礎篩選通過 → 不符合 → 無法判定
     const sorted = [...results].sort((a, b) => {
-      const rank = (r: EvalResult) =>
-        r.coverage === "computed" ? (r.hardPassed ? 0 : 1) : 2
+      const rank = (r: EvalResult) => {
+        if (r.coverage === "computed" && r.hardPassed) return 0
+        if (r.coverage === "basic" && r.hardPassed) return 1
+        if (r.hardPassed === false) return 2
+        return 3
+      }
       const ra = rank(a)
       const rb = rank(b)
       if (ra !== rb) return ra - rb
@@ -200,13 +232,21 @@ document.addEventListener("nav", async () => {
         r.coverage === "no_data"
           ? "le-no-data"
           : r.hardPassed
-            ? "le-passed"
+            ? r.coverage === "computed"
+              ? "le-passed"
+              : "le-passed-basic"
             : "le-failed"
 
       const title = document.createElement("div")
       title.className = "le-item-title"
       const badge =
-        r.coverage === "no_data" ? "⚪ 資料不足" : r.hardPassed ? "🟢 符合" : "🔴 不符合"
+        r.coverage === "no_data"
+          ? "資料不足"
+          : r.hardPassed
+            ? r.coverage === "computed"
+              ? "符合"
+              : "基礎篩選通過"
+            : "不符合"
       title.innerHTML = `${badge} <strong>${r.rule.rule_id} ${r.rule.eval_code}</strong> ${r.rule.type_name}－${r.rule.use_item}${r.weightedScore != null ? ` ｜ 加權分數 ${r.weightedScore}` : ""}`
       li.appendChild(title)
 

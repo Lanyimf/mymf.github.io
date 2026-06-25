@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.SiteHeader()],
-  afterBody: [Component.Backlinks()],
+  afterBody: [Component.RuleMatchingLands(), Component.Backlinks()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
@@ -27,7 +27,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.HorizontalToc(),
+    Component.ConditionalRender({
+      component: Component.HorizontalToc(),
+      condition: (page) => !page.fileData.slug?.startsWith("lands/"),
+    }),
     Component.ConditionalRender({
       component: Component.LandMap(),
       condition: (page) =>
@@ -41,6 +44,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.LandEvaluate(),
       condition: (page) => page.fileData.frontmatter?.tool === "land-evaluate",
+    }),
+    Component.ConditionalRender({
+      component: Component.RulesCategoryList(),
+      condition: (page) => page.fileData.frontmatter?.tool === "rules-category",
+    }),
+    Component.ConditionalRender({
+      component: Component.AllLandsMap(),
+      condition: (page) => page.fileData.slug === "index",
     }),
   ],
   left: [],

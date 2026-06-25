@@ -8,6 +8,9 @@ import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
+import NumberedPageListConstructor from "../NumberedPageList"
+
+const NumberedPageList = NumberedPageListConstructor()
 
 interface TagContentOptions {
   sort?: SortFn
@@ -120,7 +123,7 @@ export default ((opts?: Partial<TagContentOptions>) => {
           <div class="page-listing">
             <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
             <div>
-              <PageList {...listProps} sort={options?.sort} />
+              <NumberedPageList {...props} pages={pages} />
             </div>
           </div>
         </div>
@@ -128,6 +131,6 @@ export default ((opts?: Partial<TagContentOptions>) => {
     }
   }
 
-  TagContent.css = concatenateResources(style, PageList.css)
+  TagContent.css = concatenateResources(style, PageList.css, NumberedPageList.css)
   return TagContent
 }) satisfies QuartzComponentConstructor

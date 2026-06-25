@@ -3,9 +3,6 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 import Search from "./Search"
 import Darkmode from "./Darkmode"
-import Graph from "./Graph"
-// @ts-ignore
-import headerGraphScript from "./scripts/headergraph.inline"
 
 interface NavItem {
   label: string
@@ -14,14 +11,12 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: "場址資料", slug: "lands" },
-  { label: "評估規則", slug: "rules" },
-  { label: "法規", slug: "laws" },
-  { label: "財務模型", slug: "finance" },
+  { label: "地目開發評估規則", slug: "rules" },
+  { label: "相關法規", slug: "laws" },
 ]
 
 const SearchComponent = Search()
 const DarkmodeComponent = Darkmode()
-const GraphComponent = Graph()
 
 const SiteHeader: QuartzComponent = (props: QuartzComponentProps) => {
   const { fileData, cfg, displayClass } = props
@@ -31,7 +26,6 @@ const SiteHeader: QuartzComponent = (props: QuartzComponentProps) => {
   return (
     <div class={classNames(displayClass, "site-header")}>
       <a href={baseDir} class="site-logo">
-        <span class="site-logo-icon">🗺️</span>
         <span class="site-logo-text">{title}</span>
       </a>
 
@@ -45,9 +39,6 @@ const SiteHeader: QuartzComponent = (props: QuartzComponentProps) => {
             {item.label}
           </a>
         ))}
-        <button id="graph-toggle-button" type="button" class="site-nav-link site-graph-toggle">
-          關係圖譜
-        </button>
         <a href={`${baseDir}/找地搜尋`} class="site-nav-cta">
           找地搜尋
         </a>
@@ -58,10 +49,6 @@ const SiteHeader: QuartzComponent = (props: QuartzComponentProps) => {
           <DarkmodeComponent {...props} />
         </span>
       </nav>
-
-      <div class="site-graph-host">
-        <GraphComponent {...props} />
-      </div>
     </div>
   )
 }
@@ -92,10 +79,6 @@ body > header {
   color: var(--dark);
   flex-shrink: 0;
   white-space: nowrap;
-}
-
-.site-logo-icon {
-  font-size: 1.3rem;
 }
 
 .site-logo-text {
@@ -157,20 +140,6 @@ body > header {
   background: var(--tertiary);
 }
 
-/* 只保留 Graph 元件內建的全螢幕彈窗（.global-graph-outer），
-   隱藏小型預覽框本身，header 上只留代理觸發按鈕 */
-.site-graph-host {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: visible;
-}
-
-.site-graph-host .graph > h3,
-.site-graph-host .graph-outer {
-  display: none;
-}
-
 @media all and (max-width: 768px) {
   .site-header {
     padding: 0.75rem 1.2rem;
@@ -192,17 +161,8 @@ function toArray(r: string | string[] | undefined): string[] {
   return Array.isArray(r) ? r : [r]
 }
 
-SiteHeader.css = [
-  ownCss,
-  ...toArray(SearchComponent.css),
-  ...toArray(DarkmodeComponent.css),
-  ...toArray(GraphComponent.css),
-]
+SiteHeader.css = [ownCss, ...toArray(SearchComponent.css), ...toArray(DarkmodeComponent.css)]
 SiteHeader.beforeDOMLoaded = [...toArray(DarkmodeComponent.beforeDOMLoaded)]
-SiteHeader.afterDOMLoaded = [
-  ...toArray(SearchComponent.afterDOMLoaded),
-  ...toArray(GraphComponent.afterDOMLoaded),
-  ...toArray(headerGraphScript),
-]
+SiteHeader.afterDOMLoaded = [...toArray(SearchComponent.afterDOMLoaded)]
 
 export default (() => SiteHeader) satisfies QuartzComponentConstructor

@@ -1,0 +1,42 @@
+.rules-folder-list {
+  margin: 1rem 0;
+
+  .rfl-count {
+    font-size: 0.85rem;
+    color: var(--gray);
+    margin: 0 0 0.5rem;
+  }
+
+  .rfl-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: rfl-counter;
+  }
+
+  .rfl-item {
+    counter-increment: rfl-counter;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--lightgray);
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+
+    &::before {
+      content: counter(rfl-counter) ".";
+      color: var(--gray);
+      font-size: 0.85rem;
+      min-width: 2rem;
+      flex-shrink: 0;
+    }
+
+    a {
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+  }
+
+  .rfl-item:first-child {
+    border-top: 1px solid var(--lightgray);
+  }
+}

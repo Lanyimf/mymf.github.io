@@ -93,26 +93,11 @@ a.feature-card {
   }
 }
 
-.rule-groups {
-  display: flex;
-  flex-direction: column;
-  gap: 0.9rem;
-  margin: 1rem 0 1.5rem;
-}
-
-.rule-group {
-  h4 {
-    margin: 0 0 0.4rem;
-    font-size: 0.85rem;
-    color: var(--gray);
-    font-weight: 600;
-  }
-}
-
 .rule-chips {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+  margin: 1rem 0 1.5rem;
 
   p {
     display: flex;

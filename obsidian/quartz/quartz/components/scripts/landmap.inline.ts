@@ -47,12 +47,10 @@ document.addEventListener("nav", async () => {
       { attribution: "內政部國土測繪中心 正射影像", maxZoom: 19 },
     )
 
-    // 疊加圖層：地籍圖（地號邊界）— NLSC WMTS
-    // 注意：圖層代碼可能隨 NLSC 服務調整，若顯示空白請至
-    // https://maps.nlsc.gov.tw/ 確認最新圖層名稱
+    // 疊加圖層：地籍圖（地號邊界）— NLSC WMTS（正式圖層代碼 LANDSECT）
     const cadastral = L.tileLayer(
-      "https://wmts.nlsc.gov.tw/wmts/CADASTRAL/default/EPSG:3857/{z}/{y}/{x}",
-      { attribution: "內政部地政司 地籍圖", maxZoom: 19, opacity: 0.7 },
+      "https://wmts.nlsc.gov.tw/wmts/LANDSECT/default/EPSG:3857/{z}/{y}/{x}",
+      { attribution: "內政部地政司 地籍圖", maxZoom: 19, opacity: 1, className: "cadastral-tiles" },
     )
 
     // 標記

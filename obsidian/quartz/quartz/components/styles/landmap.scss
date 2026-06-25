@@ -19,4 +19,11 @@
     color: var(--dark);
     background: var(--light);
   }
+
+  // 地籍圖線條偏細淡，疊在底圖上不容易辨識，
+  // 用對比度＋飽和度濾鏡讓線條變深、混合模式讓白色背景透明化
+  .cadastral-tiles {
+    filter: contrast(1.8) saturate(2.5);
+    mix-blend-mode: multiply;
+  }
 }
