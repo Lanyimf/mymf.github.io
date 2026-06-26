@@ -7,6 +7,7 @@ interface LandRecord {
   type_code: string | null
   area_m2: number | null
   announced_current_value: number | null
+  remediation_stage: string | null // 整治階段 1~4，數字越大越接近完成整治解除列管
 }
 
 interface RuleMeta {
@@ -71,10 +72,15 @@ document.addEventListener("nav", async () => {
     items.push({ land: l, conditional, score, note })
   }
 
+  // 排序：有財務分數時依財務分數高低；都沒有財務分數時，改依整治階段高低排
+  // （整治階段越高越接近完成解除列管，比起目前任意順序更有意義）
   items.sort((a, b) => {
     if (a.score != null && b.score != null) return b.score - a.score
     if (a.score != null) return -1
     if (b.score != null) return 1
+    const stageA = Number(a.land.remediation_stage ?? 0)
+    const stageB = Number(b.land.remediation_stage ?? 0)
+    if (stageA !== stageB) return stageB - stageA
     return Number(a.conditional) - Number(b.conditional)
   })
 
@@ -109,6 +115,11 @@ document.addEventListener("nav", async () => {
     const financeEl = document.createElement("div")
     financeEl.textContent = `財務分數試算：${it.note}`
     detail.appendChild(financeEl)
+    if (it.score == null && l.remediation_stage) {
+      const stageEl = document.createElement("div")
+      stageEl.textContent = `缺財務資料時，依整治階段排序：目前整治階段 ${l.remediation_stage}/4（數字越大越接近完成解除列管）`
+      detail.appendChild(stageEl)
+    }
     li.appendChild(detail)
 
     title.addEventListener("click", () => {
