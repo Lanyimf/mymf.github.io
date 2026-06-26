@@ -35,6 +35,7 @@ import LawsFolderList from "./LawsFolderList"
 import NumberedPageList from "./NumberedPageList"
 import AllLandsMap from "./AllLandsMap"
 import RuleMatchingLands from "./RuleMatchingLands"
+import LandEvalJumpLink from "./LandEvalJumpLink"
 
 export {
   ArticleTitle,
@@ -74,4 +75,5 @@ export {
   NumberedPageList,
   AllLandsMap,
   RuleMatchingLands,
+  LandEvalJumpLink,
 }

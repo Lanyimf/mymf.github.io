@@ -15,6 +15,9 @@ interface LandRecord {
   lat: number | null
   lon: number | null
   announced_current_value: number | null // 公告現值，元/平方公尺
+  district: string | null
+  section_name: string | null // 段名（取第一筆地號）
+  lot_no: string | null // 地號（取第一筆地號）
 }
 
 interface RuleMeta {
@@ -257,17 +260,38 @@ document.addEventListener("nav", async () => {
 
   const select = root.querySelector("#le-land-select") as HTMLSelectElement
   const keywordInput = root.querySelector("#le-keyword") as HTMLInputElement
+  const districtSelect = root.querySelector("#le-district") as HTMLSelectElement
+  const sectionInput = root.querySelector("#le-section") as HTMLInputElement
+  const lotInput = root.querySelector("#le-lot") as HTMLInputElement
   const runBtn = root.querySelector("#le-run") as HTMLButtonElement
   const summaryEl = root.querySelector(".land-evaluate-summary") as HTMLElement
   const resultsEl = root.querySelector(".land-evaluate-results") as HTMLElement
 
   const { lands, rules, forestAreas } = await loadAll()
 
-  function populateOptions(filterText: string) {
-    const ft = filterText.trim().toLowerCase()
-    const matched = ft
-      ? lands.filter((l) => `${l.name ?? ""} ${l.address ?? ""} ${l.id}`.toLowerCase().includes(ft))
-      : lands
+  // 鄉鎮市區下拉選單選項（依資料庫實際出現的值，排序後去重）
+  const districts = [...new Set(lands.map((l) => l.district).filter(Boolean))].sort((a, b) =>
+    a!.localeCompare(b!),
+  )
+  for (const d of districts) {
+    const opt = document.createElement("option")
+    opt.value = d!
+    opt.textContent = d!
+    districtSelect.appendChild(opt)
+  }
+
+  function populateOptions() {
+    const ft = keywordInput.value.trim().toLowerCase()
+    const districtFt = districtSelect.value
+    const sectionFt = sectionInput.value.trim()
+    const lotFt = lotInput.value.trim()
+    const matched = lands.filter((l) => {
+      if (ft && !`${l.name ?? ""} ${l.address ?? ""} ${l.id}`.toLowerCase().includes(ft)) return false
+      if (districtFt && l.district !== districtFt) return false
+      if (sectionFt && !(l.section_name ?? "").includes(sectionFt)) return false
+      if (lotFt && l.lot_no !== lotFt) return false
+      return true
+    })
     select.innerHTML = ""
     const placeholder = document.createElement("option")
     placeholder.value = ""
@@ -281,7 +305,7 @@ document.addEventListener("nav", async () => {
     }
   }
 
-  populateOptions("")
+  populateOptions()
 
   function runEvaluation() {
     const land = lands.find((l) => l.id === select.value)
@@ -321,6 +345,7 @@ document.addEventListener("nav", async () => {
     for (const r of sorted) {
       const li = document.createElement("li")
       li.className = r.conditional ? "le-passed-conditional" : r.coverage === "computed" ? "le-passed" : "le-passed-basic"
+      li.dataset.ruleCode = r.rule.eval_code
 
       const title = document.createElement("div")
       title.className = "le-item-title le-item-toggle"
@@ -387,9 +412,43 @@ document.addEventListener("nav", async () => {
     resultsEl.appendChild(list)
   }
 
-  keywordInput.addEventListener("input", () => populateOptions(keywordInput.value))
-  window.addCleanup(() => keywordInput.removeEventListener("input", () => populateOptions(keywordInput.value)))
+  const onFilterChange = () => populateOptions()
+  keywordInput.addEventListener("input", onFilterChange)
+  districtSelect.addEventListener("change", onFilterChange)
+  sectionInput.addEventListener("input", onFilterChange)
+  lotInput.addEventListener("input", onFilterChange)
+  window.addCleanup(() => {
+    keywordInput.removeEventListener("input", onFilterChange)
+    districtSelect.removeEventListener("change", onFilterChange)
+    sectionInput.removeEventListener("input", onFilterChange)
+    lotInput.removeEventListener("input", onFilterChange)
+  })
 
   runBtn.addEventListener("click", runEvaluation)
   window.addCleanup(() => runBtn.removeEventListener("click", runEvaluation))
+
+  // 從場址頁面的「評估資料」表格點進來時，網址會帶 ?land=B10502&rule=ED-1，
+  // 自動選好地點、跑評估，並展開、捲動到對應的規則項目
+  const params = new URLSearchParams(window.location.search)
+  const deepLand = params.get("land")
+  const deepRule = params.get("rule")
+  if (deepLand && lands.some((l) => l.id === deepLand)) {
+    select.value = deepLand
+    runEvaluation()
+    if (deepRule) {
+      requestAnimationFrame(() => {
+        const targetLi = resultsEl.querySelector(`li[data-rule-code="${deepRule}"]`) as HTMLElement | null
+        if (targetLi) {
+          const title = targetLi.querySelector(".le-item-toggle") as HTMLElement | null
+          const detail = targetLi.querySelector(".le-item-detail") as HTMLElement | null
+          if (title && detail) {
+            detail.style.display = "block"
+            title.querySelector(".le-caret")!.textContent = "▾"
+          }
+          targetLi.scrollIntoView({ behavior: "smooth", block: "center" })
+          targetLi.classList.add("le-deep-link-target")
+        }
+      })
+    }
+  }
 })

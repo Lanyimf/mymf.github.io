@@ -26,7 +26,10 @@
     "announced_current_value": 175000.0,
     "announced_land_price": 46000.0,
     "land_reference_info": "本案建築基地位於都市計畫規定不得作為住宅使用地區，應依都市計畫規定用途不得擅自變更住宅使用",
-    "city": "臺北市"
+    "parcel": "臺北市內湖區舊宗段三四地號;臺北市內湖區舊宗段三四之七地號",
+    "city": "臺北市",
+    "section_name": "舊宗段",
+    "lot_no": "34"
   },
   {
     "id": "B10043",
@@ -55,7 +58,10 @@
     "announced_current_value": 27900.0,
     "announced_land_price": 3500.0,
     "land_reference_info": "無資料",
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段○二一六之○○○○地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "216"
   },
   {
     "id": "B10045",
@@ -84,7 +90,10 @@
     "announced_current_value": 27900.0,
     "announced_land_price": 3500.0,
     "land_reference_info": "無資料",
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段○二一七之○○○○地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "217"
   },
   {
     "id": "B10046",
@@ -113,7 +122,10 @@
     "announced_current_value": 36100.0,
     "announced_land_price": 4400.0,
     "land_reference_info": "無資料",
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段○二六二地號;臺中市潭子區工區段○二六五地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "262"
   },
   {
     "id": "B10502",
@@ -142,7 +154,10 @@
     "announced_current_value": 19600.0,
     "announced_land_price": 2500.0,
     "land_reference_info": "無資料",
-    "city": "臺中市"
+    "parcel": "臺中市大里區光正段一二八二地號;臺中市大里區光正段一二八三地號",
+    "city": "臺中市",
+    "section_name": "光正段",
+    "lot_no": "1282"
   },
   {
     "id": "B10503",
@@ -171,7 +186,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大里區光正段一三二五地號",
+    "city": "臺中市",
+    "section_name": "光正段",
+    "lot_no": "1325"
   },
   {
     "id": "B11329",
@@ -200,7 +218,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大里區振坤段○○○一之○○○○地號;臺中市大里區振坤段○○○二之○○○○地號",
+    "city": "臺中市",
+    "section_name": "振坤段",
+    "lot_no": "1"
   },
   {
     "id": "B11334",
@@ -229,7 +250,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市潭子區臺中市"
+    "parcel": "臺中市潭子區工區段一八三地號",
+    "city": "臺中市潭子區臺中市",
+    "section_name": "工區段",
+    "lot_no": "183"
   },
   {
     "id": "B11335",
@@ -258,7 +282,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段一八九地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "189"
   },
   {
     "id": "B11336",
@@ -287,7 +314,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段一九二地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "192"
   },
   {
     "id": "B11337",
@@ -316,7 +346,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段一六九地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "169"
   },
   {
     "id": "B11338",
@@ -345,7 +378,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市南區頂橋子頭段○三○四之○○○一地號;臺中市南區頂橋子頭段○三○四之○○○二地號",
+    "city": "臺中市",
+    "section_name": "頂橋子頭段",
+    "lot_no": "304-1"
   },
   {
     "id": "B11339",
@@ -374,7 +410,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段一九八地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "198"
   },
   {
     "id": "B11364",
@@ -403,7 +442,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段一八七地號;臺中市潭子區工區段一九七地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "187"
   },
   {
     "id": "B11371",
@@ -432,7 +474,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市梧棲區港口段三三五之一八(部分)地號",
+    "city": "臺中市",
+    "section_name": "港口段",
+    "lot_no": "335-18"
   },
   {
     "id": "B11688",
@@ -461,7 +506,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市南屯區文山段三三○地號",
+    "city": "臺中市",
+    "section_name": "文山段",
+    "lot_no": "330"
   },
   {
     "id": "B11738",
@@ -490,7 +538,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市南屯區文山段○二二一之○○○○地號",
+    "city": "臺中市",
+    "section_name": "文山段",
+    "lot_no": "221"
   },
   {
     "id": "B11772",
@@ -519,7 +570,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市南屯區文山段二一二地號",
+    "city": "臺中市",
+    "section_name": "文山段",
+    "lot_no": "212"
   },
   {
     "id": "B11795",
@@ -548,7 +602,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市梧棲區港口段三三五之九地號",
+    "city": "臺中市",
+    "section_name": "港口段",
+    "lot_no": "335-9"
   },
   {
     "id": "B11826",
@@ -577,7 +634,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市龍井區福麗段三○六地號;臺中市龍井區福麗段三○七地號",
+    "city": "臺中市",
+    "section_name": "福麗段",
+    "lot_no": "306"
   },
   {
     "id": "B11886",
@@ -606,7 +666,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之一(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-1"
   },
   {
     "id": "B11887",
@@ -635,7 +698,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之二(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-2"
   },
   {
     "id": "B11888",
@@ -664,7 +730,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之三(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-3"
   },
   {
     "id": "B11889",
@@ -693,7 +762,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之四(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-4"
   },
   {
     "id": "B11890",
@@ -722,7 +794,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之五(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-5"
   },
   {
     "id": "B11891",
@@ -751,7 +826,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之六(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-6"
   },
   {
     "id": "B11892",
@@ -780,7 +858,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之七(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-7"
   },
   {
     "id": "B11893",
@@ -809,7 +890,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之八(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-8"
   },
   {
     "id": "B11894",
@@ -838,7 +922,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之九(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-9"
   },
   {
     "id": "B11895",
@@ -867,7 +954,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區金城段河川地五之一之一○(部分)地號",
+    "city": "臺中市",
+    "section_name": "金城段",
+    "lot_no": "5-1-10"
   },
   {
     "id": "B12022",
@@ -896,7 +986,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市太平區永豐段五七七(部分)地號;臺中市太平區永豐段七四五(部分)地號;臺中市太平區永豐段五七八(部分)地號;臺中市太平區永豐段七四六之一(部分)地號",
+    "city": "臺中市",
+    "section_name": "永豐段",
+    "lot_no": "577"
   },
   {
     "id": "B12059",
@@ -925,7 +1018,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市后里區牛稠坑段一五四之八二(部分)地號",
+    "city": "臺中市",
+    "section_name": "牛稠坑段",
+    "lot_no": "154-82"
   },
   {
     "id": "B12094",
@@ -954,7 +1050,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大里區光正段一一三○地號;臺中市大里區光正段一一三一地號;臺中市大里區光正段一一三二地號;臺中市大里區光正段一一三三地號;臺中市大里區光正段一一三四地號;臺中市大里區光正段一一三六地號;臺中市大里區光正段一一三七地號;臺中市大里區光正段一一三八地號;臺中市大里區光正段一一三九地號",
+    "city": "臺中市",
+    "section_name": "光正段",
+    "lot_no": "1130"
   },
   {
     "id": "B12118",
@@ -983,7 +1082,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市清水區海濱段臨港小段○○○五之○○○○地號",
+    "city": "臺中市",
+    "section_name": "海濱段臨港小段",
+    "lot_no": "5"
   },
   {
     "id": "B12122",
@@ -1012,7 +1114,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市清水區海濱段臨港小段○○一七之○○○○(部分)地號",
+    "city": "臺中市",
+    "section_name": "海濱段臨港小段",
+    "lot_no": "17"
   },
   {
     "id": "B12126",
@@ -1041,7 +1146,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大甲區幼獅段○八七五之○○○○地號",
+    "city": "臺中市",
+    "section_name": "幼獅段",
+    "lot_no": "875"
   },
   {
     "id": "B12248",
@@ -1070,7 +1178,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大甲區幼獅段一二三二地號;臺中市大甲區幼獅段一二三四地號;臺中市大甲區幼獅段一二四六地號;臺中市大甲區幼獅段一二四七地號",
+    "city": "臺中市",
+    "section_name": "幼獅段",
+    "lot_no": "1232"
   },
   {
     "id": "B12249",
@@ -1099,7 +1210,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大雅區自立段二三二七之一五地號;臺中市大雅區自立段二三二七之一八地號;臺中市大雅區自立段二三二七之三○地號",
+    "city": "臺中市",
+    "section_name": "自立段",
+    "lot_no": "2327-15"
   },
   {
     "id": "B12265",
@@ -1128,7 +1242,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市西屯區協和段三九地號",
+    "city": "臺中市",
+    "section_name": "協和段",
+    "lot_no": "39"
   },
   {
     "id": "B12266",
@@ -1157,7 +1274,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市清水區高美南段一○○二地號",
+    "city": "臺中市",
+    "section_name": "高美南段",
+    "lot_no": "1002"
   },
   {
     "id": "B12378",
@@ -1186,7 +1306,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市梧棲區港口段三三五之三地號",
+    "city": "臺中市",
+    "section_name": "港口段",
+    "lot_no": "335-3"
   },
   {
     "id": "B12627",
@@ -1215,7 +1338,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市豐原區鐮村段九七八之一(部分)地號;臺中市豐原區鐮村段九六六(部分)地號;臺中市豐原區鐮村段九八五(部分)地號",
+    "city": "臺中市",
+    "section_name": "鐮村段",
+    "lot_no": "978-1"
   },
   {
     "id": "B12716",
@@ -1244,7 +1370,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大里區國中段二八三地號",
+    "city": "臺中市",
+    "section_name": "國中段",
+    "lot_no": "283"
   },
   {
     "id": "C10084",
@@ -1273,7 +1402,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "基隆市"
+    "parcel": "基隆市七堵區新八堵段六八九地號",
+    "city": "基隆市",
+    "section_name": "新八堵段",
+    "lot_no": "689"
   },
   {
     "id": "C10088",
@@ -1302,7 +1434,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "基隆市"
+    "parcel": "基隆市中正區正隆段二之三八地號",
+    "city": "基隆市",
+    "section_name": "正隆段",
+    "lot_no": "2-38"
   },
   {
     "id": "C10096",
@@ -1331,7 +1466,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "基隆市"
+    "parcel": "基隆市安樂區武訓段○一○八地號;基隆市安樂區武訓段○一一二地號",
+    "city": "基隆市",
+    "section_name": "武訓段",
+    "lot_no": "108"
   },
   {
     "id": "C10100",
@@ -1360,7 +1498,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "基隆市"
+    "parcel": "基隆市中山區協和段六一四地號;基隆市中山區協和段六一五地號;基隆市中山區協和段六一五之二地號;基隆市中山區協和段六一五之四地號;基隆市中山區協和段六一五之六地號;基隆市中山區協和段六一五之七地號;基隆市中山區協和段六一五之八地號;基隆市中山區協和段六一五之九地號;基隆市中山區協和段六一五之一○地號;基隆市中山區協和段六一五之一一地號;基隆市中山區協和段六一五之一二地號;基隆市中山區協和段六一七地號;基隆市中山區協和段六一七之一地號;基隆市中山區協和段六一七之二地號;基隆市中山區協和段六一八地號;基隆市中山區協和段六一八之一地號;基隆市中山區協和段六一八之二地號;基隆市中山區協和段六一八之三地號;基隆市中山區協和段六一八之四地號;基隆市中山區協和段六一八之五地號;基隆市中山區協和段六七四地號;基隆市中山區協和段六八一地號;基隆市中山區協和段六九八地號;基隆市中山區協和段六九九地號;基隆市中山區協和段六九九之一地號;基隆市中山區協和段六九九之二地號;基隆市中山區協和段六九九之三地號;基隆市中山區協和段六九九之四地號;基隆市中山區協和段六九九之五地號;基隆市中山區協和段七二四地號;基隆市中山區協和段七二四之一地號;基隆市中山區協和段七三五地號;基隆市中山區協和段七三五之一地號;基隆市中山區協和段七三五之二地號;基隆市中山區協和段七三五之三地號;基隆市中山區協和段七三五之四地號;基隆市中山區協和段七三五之五地號;基隆市中山區協和段七三六地號;基隆市中山區協和段七三七地號;基隆市中山區協和段七三八地號;基隆市中山區協和段七三九地號;基隆市中山區協和段七四○地號;基隆市中山區協和段七四一地號;基隆市中山區協和段七四二地號;基隆市中山區協和段七四三地號;基隆市中山區協和段七四四地號;基隆市中山區協和段七四五地號;基隆市中山區協和段七四六地號;基隆市中山區協和段七四七地號;基隆市中山區協和段七四八地號;基隆市中山區協和段七四九地號;基隆市中山區協和段七五○地號;基隆市中山區協和段七五一地號;基隆市中山區協和段七五二地號;基隆市中山區協和段七五三地號;基隆市中山區協和段七五四地號;基隆市中山區協和段七五四之一地號;基隆市中山區協和段七五四之二地號;基隆市中山區協和段七五五地號;基隆市中山區協和段七五六地號;基隆市中山區協和段七五七地號;基隆市中山區協和段七五八地號;基隆市中山區協和段七五九地號;基隆市中山區協和段七六○地號;基隆市中山區協和段七六一地號;基隆市中山區協和段七六二地號;基隆市中山區協和段七六二之一地號;基隆市中山區協和段七六二之二地號;基隆市中山區協和段七六二之三地號;基隆市中山區協和段七六二之四地號;基隆市中山區協和段七六二之五地號;基隆市中山區協和段七六二之六地號;基隆市中山區協和段七六二之七地號;基隆市中山區協和段七六二之八地號;基隆市中山區協和段七六二之九地號;基隆市中山區協和段七六四地號;基隆市中山區協和段七六五地號;基隆市中山區協和段七六六地號;基隆市中山區協和段七六七地號;基隆市中山區協和段七六八地號;基隆市中山區協和段七六九地號;基隆市中山區協和段七七六地號;基隆市中山區協和段七七七地號;基隆市中山區協和段七七八地號;基隆市中山區協和段七七九地號;基隆市中山區協和段七八六地號;基隆市中山區協和段七八九之一地號;基隆市中山區協和段八○六地號;基隆市中山區協和段八○六之一地號;基隆市中山區協和段八○七地號;基隆市中山區協和段九一四地號;基隆市中山區協和段九一五地號;基隆市中山區協和段九二二地號;基隆市中山區協和段九二三地號;基隆市中山區協和段九二六地號;基隆市中山區協和段九二七地號;基隆市中山區協和段九二八地號;基隆市中山區協和段九二八之二地號;基隆市中山區協和段九二八之三地號;基隆市中山區協和段九三三地號;基隆市中山區協和段九三四地號;基隆市中山區協和段九三五地號;基隆市中山區協和段九三六地號;基隆市中山區協和段九三七地號;基隆市中山區協和段九三七之一地號;基隆市中山區協和段九三七之二地號;基隆市中山區協和段九三七之三地號;基隆市中山區協和段九三七之四地號;基隆市中山區協和段九三八地號;基隆市中山區協和段九三九地號;基隆市中山區協和段一二九三地號;基隆市中山區協和段一二九三之一地號;基隆市中山區協和段一二九三之二地號;基隆市中山區新仙洞段三五地號;基隆市中山區新仙洞段三六地號;基隆市中山區新仙洞段三六之一地號;基隆市中山區新仙洞段三七地號;基隆市中山區新仙洞段一二三四地號;基隆市中山區新仙洞段一二三五地號;基隆市中山區協和段七六二之一○地號;基隆市中山區協和段七六二之一一地號;基隆市中山區協和段七六二之一二地號;基隆市中山區協和段七六二之一三地號;基隆市中山區協和段七七五之三地號;基隆市中山區協和段九二三之一地號",
+    "city": "基隆市",
+    "section_name": "協和段",
+    "lot_no": "614"
   },
   {
     "id": "D00001",
@@ -1389,7 +1530,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市安南區鹽田段六六八地號;臺南市安南區鹽田段六六八之一地號;臺南市安南區鹽田段六六八之二地號;臺南市安南區鹽田段六六八之四地號;臺南市安南區鹽田段六六八之五地號;臺南市安南區鹽田段六六八之六地號",
+    "city": "臺南市",
+    "section_name": "鹽田段",
+    "lot_no": "668"
   },
   {
     "id": "D10034",
@@ -1418,7 +1562,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段○○七五之○○○一地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "75-1"
   },
   {
     "id": "D10035",
@@ -1447,7 +1594,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段○○七八之○○○○地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "78"
   },
   {
     "id": "D10037",
@@ -1476,7 +1626,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段○○七九之○○○○地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "79"
   },
   {
     "id": "D10039",
@@ -1505,7 +1658,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段○○九七之○○○二地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "97-2"
   },
   {
     "id": "D10049",
@@ -1534,7 +1690,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段○一八一之○○○○地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "181"
   },
   {
     "id": "D10050",
@@ -1563,7 +1722,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段○一八三之○○○○地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "183"
   },
   {
     "id": "D10053",
@@ -1592,7 +1754,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段○六五三之○○○○地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "653"
   },
   {
     "id": "D10055",
@@ -1621,7 +1786,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段○六五八之○○○○地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "658"
   },
   {
     "id": "D10058",
@@ -1650,7 +1818,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○四二四之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "424"
   },
   {
     "id": "D10059",
@@ -1679,7 +1850,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○四三三之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "433"
   },
   {
     "id": "D10063",
@@ -1708,7 +1882,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○六三六之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "636"
   },
   {
     "id": "D10065",
@@ -1737,7 +1914,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○六五四之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "654"
   },
   {
     "id": "D10066",
@@ -1766,7 +1946,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○六五六之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "656"
   },
   {
     "id": "D10067",
@@ -1795,7 +1978,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○六六五之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "665"
   },
   {
     "id": "D10069",
@@ -1824,7 +2010,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○七三二之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "732"
   },
   {
     "id": "D10070",
@@ -1853,7 +2042,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○七三三之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "733"
   },
   {
     "id": "D10071",
@@ -1882,7 +2074,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○七三六之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "736"
   },
   {
     "id": "D10074",
@@ -1911,7 +2106,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區興農段○七五六之○○○○地號",
+    "city": "臺南市",
+    "section_name": "興農段",
+    "lot_no": "756"
   },
   {
     "id": "D10156",
@@ -1940,7 +2138,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市永康區頂溪段○六七七之○○○○地號",
+    "city": "臺南市",
+    "section_name": "頂溪段",
+    "lot_no": "677"
   },
   {
     "id": "D10163",
@@ -1969,7 +2170,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市永康區鹽中段一四三○之○○○○地號",
+    "city": "臺南市",
+    "section_name": "鹽中段",
+    "lot_no": "1430"
   },
   {
     "id": "D10170",
@@ -1998,7 +2202,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市官田區二鎮段二鎮小段○七四一之○○○○地號;臺南市官田區二鎮段二鎮小段○七四二之○○○○地號;臺南市官田區二鎮段二鎮小段○七四三之○○○○地號",
+    "city": "臺南市",
+    "section_name": "二鎮段二鎮小段",
+    "lot_no": "741"
   },
   {
     "id": "D10172",
@@ -2027,7 +2234,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市永康區蔦松南段一○五六地號;臺南市永康區鹽東段○八○九地號",
+    "city": "臺南市",
+    "section_name": "蔦松南段",
+    "lot_no": "1056"
   },
   {
     "id": "D10187",
@@ -2056,7 +2266,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市歸仁區崙頂段一○八一地號",
+    "city": "臺南市",
+    "section_name": "崙頂段",
+    "lot_no": "1081"
   },
   {
     "id": "D10194",
@@ -2085,7 +2298,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市歸仁區本市"
+    "parcel": "臺南市歸仁區崙頂段一○七六地號;臺南市歸仁區崙頂段一○七七地號;臺南市歸仁區崙頂段一○七八地號",
+    "city": "臺南市歸仁區本市",
+    "section_name": "崙頂段",
+    "lot_no": "1076"
   },
   {
     "id": "D10287",
@@ -2114,7 +2330,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區鹽埕段二八三七之○○○○地號",
+    "city": "臺南市",
+    "section_name": "鹽埕段",
+    "lot_no": "2837"
   },
   {
     "id": "D10336",
@@ -2143,7 +2362,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市安定區安定段二○八七地號;臺南市安定區安定段二○八八地號;臺南市安定區安定段二○八九地號",
+    "city": "臺南市",
+    "section_name": "安定段",
+    "lot_no": "2087"
   },
   {
     "id": "D10344",
@@ -2172,7 +2394,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市麻豆區安業段四七二地號(臺南市麻豆區安東段420地號)",
+    "city": "臺南市",
+    "section_name": "安業段",
+    "lot_no": "472"
   },
   {
     "id": "D10409",
@@ -2201,7 +2426,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區鹽埕段三○三六之○○五三地號",
+    "city": "臺南市",
+    "section_name": "鹽埕段",
+    "lot_no": "3036-53"
   },
   {
     "id": "D10412",
@@ -2230,7 +2458,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市永康區東邊寮段一○一五之○○○○地號",
+    "city": "臺南市",
+    "section_name": "東邊寮段",
+    "lot_no": "1015"
   },
   {
     "id": "D10456",
@@ -2259,7 +2490,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市南區同安段九地號",
+    "city": "臺南市",
+    "section_name": "同安段",
+    "lot_no": "9"
   },
   {
     "id": "D10578",
@@ -2288,7 +2522,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市善化區灣裡段一一一五地號",
+    "city": "臺南市",
+    "section_name": "灣裡段",
+    "lot_no": "1115"
   },
   {
     "id": "D10581",
@@ -2317,7 +2554,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市後壁區嘉安段○五六四之○○○一地號",
+    "city": "臺南市",
+    "section_name": "嘉安段",
+    "lot_no": "564-1"
   },
   {
     "id": "D10591",
@@ -2346,7 +2586,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市永康區亞太段六五○地號",
+    "city": "臺南市",
+    "section_name": "亞太段",
+    "lot_no": "650"
   },
   {
     "id": "D10654",
@@ -2375,7 +2618,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市歸仁區八甲段三九○二地號;臺南市歸仁區八甲段三九○二之一地號;臺南市歸仁區八甲段三九○二之二地號;臺南市歸仁區八甲段三九○三地號;臺南市歸仁區八甲段三九○三之一地號;臺南市歸仁區八甲段三九○三之二地號",
+    "city": "臺南市",
+    "section_name": "八甲段",
+    "lot_no": "3902"
   },
   {
     "id": "D10655",
@@ -2404,7 +2650,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市官田區二鎮段二鎮小段五三六地號",
+    "city": "臺南市",
+    "section_name": "二鎮段二鎮小段",
+    "lot_no": "536"
   },
   {
     "id": "D10659",
@@ -2433,7 +2682,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市東山區頂窩段七七一地號;臺南市東山區頂窩段七七二地號;臺南市東山區頂窩段七七三地號;臺南市東山區頂窩段七七四地號;臺南市東山區頂窩段八○二之二地號;臺南市東山區頂窩段八○二之七地號;臺南市東山區頂窩段八○二之八地號",
+    "city": "臺南市",
+    "section_name": "頂窩段",
+    "lot_no": "771"
   },
   {
     "id": "D10664",
@@ -2462,7 +2714,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市仁德區興安段八五五地號;臺南市仁德區興安段八五六地號;臺南市仁德區興安段八五七地號",
+    "city": "臺南市",
+    "section_name": "興安段",
+    "lot_no": "855"
   },
   {
     "id": "D10666",
@@ -2491,7 +2746,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市永康區建國段一六四地號",
+    "city": "臺南市",
+    "section_name": "建國段",
+    "lot_no": "164"
   },
   {
     "id": "D10667",
@@ -2520,7 +2778,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市永康區鹽西段一○四六地號;臺南市永康區鹽西段一○七五地號",
+    "city": "臺南市",
+    "section_name": "鹽西段",
+    "lot_no": "1046"
   },
   {
     "id": "D10704",
@@ -2549,7 +2810,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市仁德區林仔段一一六○地號;臺南市仁德區林仔段一一六一地號;臺南市仁德區林仔段一一六一之一地號;臺南市仁德區林仔段一一六二之三地號;臺南市仁德區林仔段一一六二之六地號",
+    "city": "臺南市",
+    "section_name": "林仔段",
+    "lot_no": "1160"
   },
   {
     "id": "D10717",
@@ -2578,7 +2842,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市歸仁區民權段九二二地號;臺南市歸仁區民權段九二三地號;臺南市歸仁區民權段九二九地號;臺南市歸仁區民權段九二九之一地號;臺南市歸仁區民權段九三一地號;臺南市歸仁區潭墘段一五○地號;臺南市歸仁區潭墘段一五一地號;臺南市歸仁區潭墘段一五二地號;臺南市歸仁區潭墘段一五四地號;臺南市歸仁區潭墘段一五六地號;臺南市歸仁區潭墘段一五八地號;臺南市歸仁區潭墘段一五九地號;臺南市歸仁區潭墘段一六一地號;臺南市歸仁區潭墘段一六二地號;臺南市歸仁區潭墘段一六三地號;臺南市歸仁區潭墘段一六四地號;臺南市歸仁區潭墘段一六五地號;臺南市歸仁區潭墘段一六六地號",
+    "city": "臺南市",
+    "section_name": "民權段",
+    "lot_no": "922"
   },
   {
     "id": "D10737",
@@ -2607,7 +2874,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市永康區鹽南段一○○地號;臺南市永康區鹽南段一○一地號;臺南市永康區鹽南段一○二地號",
+    "city": "臺南市",
+    "section_name": "鹽南段",
+    "lot_no": "100"
   },
   {
     "id": "E00004",
@@ -2636,7 +2906,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區高楠段三二七地號;高雄市楠梓區高楠段三二七之一地號;高雄市楠梓區高楠段三二八之一地號;高雄市楠梓區高楠段三九二地號;高雄市楠梓區高楠段四○二地號;高雄市楠梓區高楠段四○五地號;高雄市楠梓區高楠段四○五之一地號;高雄市楠梓區高楠段四○五之二地號;高雄市楠梓區高楠段四○五之三地號;高雄市楠梓區高楠段四○五之四地號;高雄市楠梓區高楠段四○五之五地號;高雄市楠梓區高楠段四○五之六地號;高雄市楠梓區高楠段四○五之七地號;高雄市楠梓區油廠段一○地號",
+    "city": "高雄市",
+    "section_name": "高楠段",
+    "lot_no": "327"
   },
   {
     "id": "E00010",
@@ -2665,7 +2938,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區後勁段月眉小段七三三地號;高雄市楠梓區後勁段月眉小段七三四地號;  高雄市楠梓區後勁段月眉小段七三六地號;高雄市楠梓區後勁段月眉小段七三六之一地號;高雄市楠梓區後勁段月眉小段七三六之二地號;高雄市楠梓區後勁段月眉小段七三七地號;高雄市楠梓區後勁段月眉小段七三八地號;  高雄市楠梓區後勁段月眉小段七三九地號;  高雄市楠梓區後勁段月眉小段七四○地號;高雄市楠梓區後勁段月眉小段七四一地號;  高雄市楠梓區後勁段月眉小段七四二地號;  高雄市楠梓區後勁段月眉小段七四三地號;高雄市楠梓區後勁段月眉小段七四四地號;  高雄市楠梓區後勁段月眉小段七四五地號;  高雄市楠梓區後勁段月眉小段七四五之一地號;高雄市楠梓區後勁段月眉小段七四六地號;  高雄市楠梓區後勁段月眉小段七四七地號;  高雄市楠梓區後勁段月眉小段七四八地號;  高雄市楠梓區後勁段月眉小段七四九地號;高雄市楠梓區後勁段月眉小段七五○地號;  高雄市楠梓區後勁段月眉小段七五一地號;高雄市楠梓區後勁段月眉小段七五一之一地號;  高雄市楠梓區後勁段月眉小段七五二地號;  高雄市楠梓區後勁段月眉小段七五三地號;高雄市楠梓區後勁段月眉小段七五四地號;  高雄市楠梓區後勁段月眉小段七五五地號;  高雄市楠梓區後勁段月眉小段七五六地號;高雄市楠梓區後勁段月眉小段七五七地號;  高雄市楠梓區後勁段月眉小段七五八地號;  高雄市楠梓區後勁段月眉小段七五八之一地號;高雄市楠梓區後勁段月眉小段七五九地號;  高雄市楠梓區後勁段月眉小段七五九之一地號;  高雄市楠梓區後勁段月眉小段七五九之二地號;高雄市楠梓區後勁段月眉小段七六○地號;  高雄市楠梓區後勁段月眉小段七六一地號;  高雄市楠梓區後勁段月眉小段七六二地號;  高雄市楠梓區後勁段月眉小段七六三地號;  高雄市楠梓區後勁段月眉小段七六四地號;  高雄市楠梓區後勁段月眉小段七六五地號;  高雄市楠梓區後勁段月眉小段七六六地號;  高雄市楠梓區後勁段月眉小段七六七地號;  高雄市楠梓區後勁段月眉小段七六八地號;  高雄市楠梓區後勁段月眉小段七六九地號;  高雄市楠梓區後勁段月眉小段七七○地號;  高雄市楠梓區後勁段月眉小段七七一地號;  高雄市楠梓區後勁段月眉小段七七二地號;  高雄市楠梓區後勁段月眉小段七七三地號;  高雄市楠梓區後勁段月眉小段七七四地號;  高雄市楠梓區後勁段月眉小段七七五地號;  高雄市楠梓區後勁段月眉小段七七六地號;  高雄市楠梓區後勁段月眉小段七七七地號;  高雄市楠梓區後勁段月眉小段七七八地號;  高雄市楠梓區後勁段月眉小段七七九地號;  高雄市楠梓區後勁段月眉小段七八○地號;  高雄市楠梓區後勁段月眉小段七九一地號;  高雄市楠梓區後勁段月眉小段七九二地號;  高雄市楠梓區後勁段月眉小段七九三地號;  高雄市楠梓區後勁段月眉小段七九四地號;  高雄市楠梓區後勁段月眉小段七九五地號;  高雄市楠梓區後勁段月眉小段七九六地號;  高雄市楠梓區後勁段月眉小段七九六之一地號;  高雄市楠梓區後勁段月眉小段七九七地號;  高雄市楠梓區後勁段月眉小段七九八地號;高雄市楠梓區後勁段月眉小段七九九地號;  高雄市楠梓區後勁段月眉小段七九九之一地號;  高雄市楠梓區後勁段月眉小段八○○地號;  高雄市楠梓區後勁段月眉小段八○一地號;  高雄市楠梓區後勁段月眉小段八○二地號;  高雄市楠梓區後勁段月眉小段八○三地號;  高雄市楠梓區後勁段月眉小段八○三之一地號;  高雄市楠梓區後勁段月眉小段八○四地號;  高雄市楠梓區後勁段月眉小段八○五地號;  高雄市楠梓區後勁段月眉小段八○六地號;  高雄市楠梓區後勁段月眉小段八○七地號;  高雄市楠梓區後勁段月眉小段八○八地號;  高雄市楠梓區後勁段月眉小段八○九地號;  高雄市楠梓區後勁段月眉小段八一○地號;  高雄市楠梓區後勁段月眉小段八一一地號;  高雄市楠梓區後勁段月眉小段八一二地號;  高雄市楠梓區後勁段月眉小段八一三地號;  高雄市楠梓區後勁段月眉小段八一四地號;  高雄市楠梓區後勁段月眉小段八一五地號;  高雄市楠梓區後勁段月眉小段八一六地號;  高雄市楠梓區後勁段月眉小段八一七地號;  高雄市楠梓區後勁段月眉小段八一七之一地號;  高雄市楠梓區後勁段月眉小段八一八地號;  高雄市楠梓區後勁段月眉小段八一九地號;  高雄市楠梓區後勁段月眉小段八二○地號;  高雄市楠梓區後勁段月眉小段八二一地號;  高雄市楠梓區後勁段月眉小段八二二地號;  高雄市楠梓區後勁段月眉小段八二三地號;  高雄市楠梓區後勁段月眉小段八二四地號;  高雄市楠梓區後勁段月眉小段八二五地號;  高雄市楠梓區後勁段月眉小段八二六地號;  高雄市楠梓區後勁段月眉小段八二七地號;  高雄市楠梓區後勁段月眉小段八二八地號;  高雄市楠梓區後勁段月眉小段八二九地號;  高雄市楠梓區後勁段月眉小段八三○地號;高雄市楠梓區後勁段月眉小段八三一地號;  高雄市楠梓區後勁段月眉小段八三二地號;  高雄市楠梓區後勁段月眉小段八三三地號;  高雄市楠梓區後勁段月眉小段八三四地號;  高雄市楠梓區後勁段月眉小段八三五地號;  高雄市楠梓區後勁段月眉小段八三六地號;  高雄市楠梓區後勁段月眉小段八三七地號;  高雄市楠梓區後勁段月眉小段八三八地號;  高雄市楠梓區後勁段月眉小段八三九地號;  高雄市楠梓區後勁段月眉小段八四○地號;  高雄市楠梓區後勁段月眉小段八四○之一地號;  高雄市楠梓區後勁段月眉小段八四一地號;  高雄市楠梓區後勁段月眉小段八四二地號;  高雄市楠梓區後勁段月眉小段八四三地號;  高雄市楠梓區後勁段月眉小段八四四地號;  高雄市楠梓區後勁段月眉小段八四四之一地號;  高雄市楠梓區後勁段月眉小段八四五地號;  高雄市楠梓區後勁段月眉小段八四五之一地號;  高雄市楠梓區後勁段月眉小段八四六地號;  高雄市楠梓區後勁段月眉小段八四七地號;  高雄市楠梓區後勁段月眉小段八四八地號;  高雄市楠梓區後勁段月眉小段八四八之一地號;高雄市楠梓區後勁段月眉小段八四九地號;  高雄市楠梓區後勁段月眉小段八五○地號;  高雄市楠梓區後勁段月眉小段八五一地號;  高雄市楠梓區後勁段月眉小段八五一之一地號;  高雄市楠梓區後勁段月眉小段八五二地號;  高雄市楠梓區後勁段月眉小段八五三地號;  高雄市楠梓區後勁段月眉小段八五四地號;  高雄市楠梓區後勁段月眉小段八五五地號;  高雄市楠梓區後勁段月眉小段八五五之一地號;  高雄市楠梓區後勁段月眉小段八五六地號;  高雄市楠梓區後勁段月眉小段八五七地號;  高雄市楠梓區後勁段月眉小段八五八地號;  高雄市楠梓區後勁段月眉小段八五九地號;  高雄市楠梓區後勁段月眉小段八六○地號;  高雄市楠梓區後勁段月眉小段八六一地號;  高雄市楠梓區後勁段月眉小段八六一之一地號;  高雄市楠梓區後勁段四小段二地號;  高雄市楠梓區後勁段四小段二之一地號;  高雄市楠梓區後勁段四小段二之二地號;  高雄市楠梓區後勁段四小段九○地號;  高雄市楠梓區後勁段四小段九一地號;  高雄市楠梓區後勁段四小段九二地號;  高雄市楠梓區後勁段後勁小段一一四九地號;  高雄市楠梓區後勁段後勁小段一一四九之一地號;  高雄市楠梓區高楠段三八三地號;  高雄市楠梓區高楠段三八四地號; 高雄市楠梓區高楠段三八五地號",
+    "city": "高雄市",
+    "section_name": "後勁段月眉小段",
+    "lot_no": "733"
   },
   {
     "id": "E00020",
@@ -2694,7 +2970,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區後勁段月眉小段七三六地號;高雄市楠梓區後勁段月眉小段七三六之一地號;高雄市楠梓區後勁段月眉小段七三七地號;高雄市楠梓區後勁段月眉小段八四一地號",
+    "city": "高雄市",
+    "section_name": "後勁段月眉小段",
+    "lot_no": "736"
   },
   {
     "id": "E00024",
@@ -2723,7 +3002,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市左營區新庄段八小段一○六地號",
+    "city": "高雄市",
+    "section_name": "新庄段八小段",
+    "lot_no": "106"
   },
   {
     "id": "E10016",
@@ -2752,7 +3034,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區後勁段月眉小段七三八地號;高雄市楠梓區後勁段月眉小段七三九地號;高雄市楠梓區後勁段月眉小段七四○地號;高雄市楠梓區後勁段月眉小段七四一地號;高雄市楠梓區後勁段月眉小段七四二地號;高雄市楠梓區後勁段月眉小段七四三地號;高雄市楠梓區後勁段月眉小段七四四地號;高雄市楠梓區後勁段月眉小段七四七地號;高雄市楠梓區後勁段月眉小段七四八地號;高雄市楠梓區後勁段月眉小段七四九地號;高雄市楠梓區後勁段月眉小段七五○地號;高雄市楠梓區後勁段月眉小段七五一地號;高雄市楠梓區後勁段月眉小段七五一之一地號;高雄市楠梓區後勁段月眉小段七五二地號;高雄市楠梓區後勁段月眉小段七五三地號;高雄市楠梓區後勁段月眉小段七五四地號;高雄市楠梓區後勁段月眉小段八二八地號;高雄市楠梓區後勁段月眉小段八二九地號;高雄市楠梓區後勁段月眉小段八三○地號;高雄市楠梓區後勁段月眉小段八三一地號;高雄市楠梓區後勁段月眉小段八三二地號;高雄市楠梓區後勁段月眉小段八三三地號;高雄市楠梓區後勁段月眉小段八三四地號;高雄市楠梓區後勁段月眉小段八三五地號;高雄市楠梓區後勁段月眉小段八三六地號;高雄市楠梓區後勁段月眉小段八三七地號;高雄市楠梓區後勁段月眉小段八三八地號;高雄市楠梓區後勁段月眉小段八三九地號;高雄市楠梓區後勁段月眉小段八四○地號",
+    "city": "高雄市",
+    "section_name": "後勁段月眉小段",
+    "lot_no": "738"
   },
   {
     "id": "E10033",
@@ -2781,7 +3066,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市小港區中林子段一○二五地號;高雄市小港區中林子段一○二五之一地號;高雄市小港區中林子段一○二五之二地號;高雄市小港區中林子段一○二五之三地號;高雄市小港區中林子段一○二�",
+    "city": "高雄市",
+    "section_name": "中林子段",
+    "lot_no": "1025"
   },
   {
     "id": "E10080",
@@ -2810,7 +3098,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市小港區中林子段一○八九地號;高雄市小港區中林子段一○九○地號",
+    "city": "高雄市",
+    "section_name": "中林子段",
+    "lot_no": "1089"
   },
   {
     "id": "E10093",
@@ -2839,7 +3130,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區後勁段月眉小段八三七地號",
+    "city": "高雄市",
+    "section_name": "後勁段月眉小段",
+    "lot_no": "837"
   },
   {
     "id": "E10103",
@@ -2868,7 +3162,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市左營區新庄段四小段六五六地號;高雄市左營區新庄段四小段六五七地號",
+    "city": "高雄市",
+    "section_name": "新庄段四小段",
+    "lot_no": "656"
   },
   {
     "id": "E10112",
@@ -2897,7 +3194,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區高楠段四一○地號;高雄市楠梓區高楠段四一一地號;高雄市楠梓區高楠段四一三地號;高雄市楠梓區高楠段四一七地號;高雄市楠梓區高楠段四二○地號;高雄市楠梓區高楠段四二一地號;高雄市楠梓區高楠段四二三地號;高雄市楠梓區高楠段四三○地號;高雄市楠梓區高楠段四三四地號;高雄市楠梓區高楠段四三五地號;高雄市楠梓區高楠段四一○之二地號;高雄市楠梓區高楠段四一二地號;高雄市楠梓區高楠段四一三之一地號;高雄市楠梓區高楠段四一四地號;高雄市楠梓區高楠段四一五地號;高雄市楠梓區高楠段四一六地號;高雄市楠梓區高楠段四一八地號;高雄市楠梓區高楠段四一九地號;高雄市楠梓區高楠段四一九之一地號;高雄市楠梓區高楠段四二○之一地號;高雄市楠梓區高楠段四一五之一地號;高雄市楠梓區高楠段四一六之一地號;高雄市楠梓區高楠段二七九地號",
+    "city": "高雄市",
+    "section_name": "高楠段",
+    "lot_no": "410"
   },
   {
     "id": "E10141",
@@ -2926,7 +3226,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市苓雅區意誠段七七六地號;高雄市苓雅區意誠段七七六之一地號;高雄市苓雅區意誠段七七六之二地號;高雄市苓雅區意誠段七七六之三地號;高雄市苓雅區意誠段七七六之四地號;高雄市苓雅區意誠段七七六之五地號;高雄市苓雅區意誠段七七六之六地號;高雄市苓雅區意誠段七七六之七地號;高雄市苓雅區意誠段七七六之八地號;高雄市苓雅區意誠段七七六之九地號;高雄市苓雅區意誠段七七六之一○地號;高雄市苓雅區意誠段七七六之一一地號;高雄市苓雅區意誠段七七六之一二地號;高雄市苓雅區意誠段七七六之一四地號;高雄市苓雅區意誠段七七六之一五地號;高雄市苓雅區意誠段七七六之一六地號;高雄市苓雅區意誠段七七六之一七地號;高雄市苓雅區意誠段七七六之一八地號;高雄市苓雅區意誠段七七六之一九地號;高雄市苓雅區意誠段七七六之二○地號;高雄市苓雅區意誠段七七六之二一地號;高雄市苓雅區意誠段七七六之二二地號;高雄市苓雅區意誠段七七六之二三地號;高雄市苓雅區意誠段七七六之二四地號;高雄市苓雅區意誠段七七六之二五地號;高雄市苓雅區意誠段七七六之二六地號;高雄市苓雅區意誠段七七六之二七地號;高雄市苓雅區意誠段七七六之二八地號;高雄市苓雅區意誠段七七六之二九地號;高雄市苓雅區意誠段七七六之三○地號;高雄市苓雅區意誠段七七六之三一地號;高雄市苓雅區意誠段七七七地號;高雄市苓雅區意誠段七七七之五地號;高雄市苓雅區意誠段七七八地號;高雄市苓雅區意誠段七七八之一地號;高雄市苓雅區意誠段七七八之二地號;高雄市苓雅區意誠段七七八之三地號;高雄市苓雅區意誠段七七八之四地號;高雄市苓雅區意誠段七七八之一○地號;高雄市苓雅區意誠段七七八之一一地號;高雄市苓雅區意誠段七七八之一二地號;高雄市苓雅區意誠段七七八之九地號;高雄市苓雅區意誠段七七九(部分)地號;高雄市苓雅區意誠段七八○(部分)地號;高雄市苓雅區意誠段七八一(部分)地號;高雄市苓雅區意誠段七八二(部分)地號;高雄市苓雅區意誠段七八三(部分)地號;高雄市苓雅區意誠段七七四(部分)地號;高雄市苓雅區意誠段七七五(部分)地號",
+    "city": "高雄市",
+    "section_name": "意誠段",
+    "lot_no": "776"
   },
   {
     "id": "E10155",
@@ -2955,7 +3258,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區油廠段一二地號;高雄市楠梓區油廠段一四地號;高雄市楠梓區油廠段一七地號;高雄市楠梓區油廠段二○地號;高雄市楠梓區油廠段二五地號;高雄市楠梓區油廠段二六地號;高雄市楠梓區後勁段四小段二地號;高雄市楠梓區油廠段八地號;高雄市楠梓區油廠段九地號;高雄市楠梓區油廠段二七地號;高雄市楠梓區油廠段三四地號;高雄市楠梓區油廠段四一地號;高雄市楠梓區油廠段五四地號;高雄市楠梓區油廠段五五地號;高雄市楠梓區油廠段五六地號;高雄市楠梓區油廠段五七地號;高雄市楠梓區油廠段五八地號;高雄市楠梓區油廠段五九地號;高雄市楠梓區油廠段六○地號;高雄市楠梓區油廠段六一地號;高雄市楠梓區油廠段六二地號;高雄市楠梓區油廠段六三地號;高雄市楠梓區油廠段六四地號;高雄市楠梓區油廠段六五地號;高雄市楠梓區油廠段六六地號;高雄市楠梓區油廠段六七地號;高雄市楠梓區油廠段六八地號;高雄市楠梓區油廠段七○地號;高雄市楠梓區油廠段七一地號;高雄市楠梓區油廠段七二地號;高雄市楠梓區油廠段七三地號;高雄市楠梓區油廠段七四地號;高雄市楠梓區油廠段七五地號;高雄市楠梓區油廠段七六地號;高雄市楠梓區油廠段七七地號;高雄市楠梓區油廠段七八地號;高雄市楠梓區油廠段七九地號;高雄市楠梓區油廠段八○地號;高雄市楠梓區油廠段八一地號;高雄市楠梓區油廠段八二地號;高雄市楠梓區油廠段八三地號;高雄市楠梓區油廠段八四地號;高雄市楠梓區油廠段九四地號;高雄市楠梓區油廠段九五地號;高雄市楠梓區油廠段九五之一地號;高雄市楠梓區油廠段九五之二地號;高雄市楠梓區油廠段九六地號;高雄市楠梓區油廠段九七地號;高雄市楠梓區油廠段九八地號;高雄市楠梓區油廠段九八之一地號;高雄市楠梓區油廠段九九地號;高雄市楠梓區油廠段一○○地號;高雄市楠梓區油廠段一○○之一地號;高雄市楠梓區油廠段一○一地號;高雄市楠梓區油廠段一○一之一地號;高雄市楠梓區油廠段一○一之二地號;高雄市楠梓區油廠段一○二地號;高雄市楠梓區油廠段一○四地號;高雄市楠梓區油廠段一○五地號;高雄市楠梓區油廠段一○六地號;高雄市楠梓區油廠段一○七地號;高雄市楠梓區油廠段一○八地號;高雄市楠梓區油廠段一○九地號;高雄市楠梓區油廠段一一○地號;高雄市楠梓區油廠段一一一地號;高雄市楠梓區油廠段一一二地號;高雄市楠梓區油廠段一一三地號;高雄市楠梓區油廠段一一四地號;高雄市楠梓區油廠段一一五地號;高雄市楠梓區油廠段一二六地號;高雄市楠梓區油廠段一三○地號;高雄市楠梓區油廠段一三一地號;高雄市楠梓區油廠段一三二地號;高雄市楠梓區油廠段一三三地號;高雄市楠梓區油廠段一三五地號;高雄市楠梓區油廠段一三八地號;高雄市楠梓區油廠段一四○地號;高雄市楠梓區油廠段一四一地號;高雄市楠梓區油廠段一四二地號;高雄市楠梓區油廠段一四三地號;高雄市楠梓區油廠段一四四地號;高雄市楠梓區油廠段一四五地號;高雄市楠梓區油廠段一四六地號;高雄市楠梓區油廠段一四七地號;高雄市楠梓區油廠段一四八地號;高雄市楠梓區油廠段一四九地號;高雄市楠梓區油廠段一五○地號;高雄市楠梓區油廠段一五一地號;高雄市楠梓區油廠段一五二地號;高雄市楠梓區油廠段一五三地號;高雄市楠梓區油廠段一五四地號;高雄市楠梓區油廠段一五五地號;高雄市楠梓區油廠段一五六地號;高雄市楠梓區油廠段一五七地號;高雄市楠梓區油廠段一五八地號;高雄市楠梓區油廠段一五九地號;高雄市楠梓區油廠段一六○地號;高雄市楠梓區油廠段一六一地號;高雄市楠梓區油廠段一六二地號;高雄市楠梓區油廠段一六六地號;高雄市楠梓區油廠段一六八地號;高雄市楠梓區油廠段一六九地號;高雄市楠梓區油廠段一七○地號;高雄市楠梓區油廠段一八三地號;高雄市楠梓區油廠段一八四地號;高雄市楠梓區油廠段一八六地號;高雄市楠梓區油廠段一八八地號;高雄市楠梓區油廠段一八八之一地號;高雄市楠梓區油廠段一八九地號;高雄市楠梓區油廠段一八九之一地號;高雄市楠梓區油廠段一九○地號;高雄市楠梓區油廠段一九一地號;高雄市楠梓區油廠段一九一之一地號;高雄市楠梓區油廠段一九一之二地號;高雄市楠梓區油廠段一九二地號;高雄市楠梓區油廠段一九二之一地號;高雄市楠梓區油廠段一九三地號;高雄市楠梓區油廠段一九三之一地號;高雄市楠梓區油廠段一九四地號;高雄市楠梓區油廠段一九五地號;高雄市楠梓區油廠段一九五之一地號;高雄市楠梓區油廠段一九六地號;高雄市楠梓區油廠段一九七地號;高雄市楠梓區油廠段一九七之一地號;高雄市楠梓區油廠段一九八地號;高雄市楠梓區油廠段一九八之一地號;高雄市楠梓區油廠段一九九地號;高雄市楠梓區油廠段二○○地號;高雄市楠梓區油廠段二○一地號;高雄市楠梓區油廠段二○一之一地號;高雄市楠梓區油廠段六九地號;高雄市楠梓區油廠段一八三之一地號;高雄市楠梓區油廠段一八六之一地號;高雄市楠梓區油廠段一九七之二地號;高雄市楠梓區油廠段一九八之二地號;高雄市楠梓區油廠段一九八之三地號",
+    "city": "高雄市",
+    "section_name": "油廠段",
+    "lot_no": "12"
   },
   {
     "id": "E10186",
@@ -2984,7 +3290,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市鼓山區內惟段九小段四○地號",
+    "city": "高雄市",
+    "section_name": "內惟段九小段",
+    "lot_no": "40"
   },
   {
     "id": "E10187",
@@ -3013,7 +3322,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市鼓山區內惟段九小段四一地號",
+    "city": "高雄市",
+    "section_name": "內惟段九小段",
+    "lot_no": "41"
   },
   {
     "id": "E10189",
@@ -3042,7 +3354,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市鼓山區內惟段九小段五四地號",
+    "city": "高雄市",
+    "section_name": "內惟段九小段",
+    "lot_no": "54"
   },
   {
     "id": "E10190",
@@ -3071,7 +3386,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市鼓山區內惟段九小段五五地號",
+    "city": "高雄市",
+    "section_name": "內惟段九小段",
+    "lot_no": "55"
   },
   {
     "id": "E10219",
@@ -3100,7 +3418,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市岡山區灣裡西段一○九地號;高雄市岡山區灣裡西段一一○地號;高雄市岡山區灣裡西段一一一地號",
+    "city": "高雄市",
+    "section_name": "灣裡西段",
+    "lot_no": "109"
   },
   {
     "id": "E10237",
@@ -3129,7 +3450,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區油廠段四一地號;高雄市楠梓區油廠段五八地號;高雄市楠梓區油廠段六○地號;高雄市楠梓區油廠段六一地號;高雄市楠梓區油廠段六二地號;高雄市楠梓區油廠段七三地號;高雄市楠梓區油廠段七八地號;高雄市楠梓區油廠段一一○地號;高雄市楠梓區油廠段一一二地號",
+    "city": "高雄市",
+    "section_name": "油廠段",
+    "lot_no": "41"
   },
   {
     "id": "E10269",
@@ -3158,7 +3482,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市田寮區牛稠埔段一小段四五二之○九八地號;高雄市田寮區牛稠埔段一小段四五二之一○○地號",
+    "city": "高雄市",
+    "section_name": "牛稠埔段一小段",
+    "lot_no": "452-98"
   },
   {
     "id": "E10308",
@@ -3187,7 +3514,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市路竹區北嶺段三六二地號;高雄市路竹區北嶺段三八○地號",
+    "city": "高雄市",
+    "section_name": "北嶺段",
+    "lot_no": "362"
   },
   {
     "id": "E10414",
@@ -3216,7 +3546,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市小港區中林子段一○五○之五三地號",
+    "city": "高雄市",
+    "section_name": "中林子段",
+    "lot_no": "1050-53"
   },
   {
     "id": "E10437",
@@ -3245,7 +3578,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市林園區汕尾段二○○八地號",
+    "city": "高雄市",
+    "section_name": "汕尾段",
+    "lot_no": "2008"
   },
   {
     "id": "E10453",
@@ -3274,7 +3610,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市前鎮區興邦段三四○地號;高雄市前鎮區興邦段三四一地號",
+    "city": "高雄市",
+    "section_name": "區興邦段",
+    "lot_no": "340"
   },
   {
     "id": "E10455",
@@ -3303,7 +3642,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市楠梓區後勁段一小段九之三地號;高雄市楠梓區後勁段一小段一四地號;高雄市楠梓區後勁段一小段一五地號;高雄市楠梓區後勁段一小段一九地號",
+    "city": "高雄市",
+    "section_name": "後勁段一小段",
+    "lot_no": "9-3"
   },
   {
     "id": "E10475",
@@ -3332,7 +3674,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市仁武區竹園段一三五二地號",
+    "city": "高雄市",
+    "section_name": "竹園段",
+    "lot_no": "1352"
   },
   {
     "id": "E10551",
@@ -3361,7 +3706,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市路竹區順安段四四三地號;高雄市路竹區順安段四四四地號",
+    "city": "高雄市",
+    "section_name": "順安段",
+    "lot_no": "443"
   },
   {
     "id": "E10552",
@@ -3390,7 +3738,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市小港區大林蒲段一○五一地號;高雄市小港區大林蒲段一○五一之一地號;高雄市小港區大林蒲段一○五一之三地號",
+    "city": "高雄市",
+    "section_name": "大林蒲段",
+    "lot_no": "1051"
   },
   {
     "id": "E10644",
@@ -3419,7 +3770,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市楠梓區高雄市"
+    "parcel": "高雄市楠梓區高楠段四五○地號;高雄市楠梓區高楠段四五○之一地號;高雄市楠梓區高楠段四五○之三地號;高雄市楠梓區高楠段四三二之一(部分)地號",
+    "city": "高雄市楠梓區高雄市",
+    "section_name": "高楠段",
+    "lot_no": "450"
   },
   {
     "id": "E10681",
@@ -3448,7 +3802,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市岡山區灣裡西段六五九地號;高雄市岡山區灣裡西段六六○地號;高雄市岡山區灣裡西段六六九地號;高雄市岡山區灣裡西段六七○地號;高雄市岡山區灣裡西段六七一地號;高雄市岡山區灣裡西段六七二地號",
+    "city": "高雄市",
+    "section_name": "灣裡西段",
+    "lot_no": "659"
   },
   {
     "id": "E10701",
@@ -3477,7 +3834,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市鳳山區牛潮埔段一一八六地號;高雄市鳳山區牛潮埔段一一八六之一地號;高雄市鳳山區牛潮埔段一一八七之一地號;高雄市鳳山區牛潮埔段一一七五之一五地號;高雄市鳳山區牛潮埔段一一八五地號",
+    "city": "高雄市",
+    "section_name": "牛潮埔段",
+    "lot_no": "1186"
   },
   {
     "id": "E10702",
@@ -3506,7 +3866,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市岡山區大全段四八地號",
+    "city": "高雄市",
+    "section_name": "大全段",
+    "lot_no": "48"
   },
   {
     "id": "E10715",
@@ -3535,7 +3898,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市前鎮區興邦段三一三地號",
+    "city": "高雄市",
+    "section_name": "區興邦段",
+    "lot_no": "313"
   },
   {
     "id": "E10729",
@@ -3564,7 +3930,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市苓雅區苓西段二三五之三地號",
+    "city": "高雄市",
+    "section_name": "苓西段",
+    "lot_no": "235-3"
   },
   {
     "id": "F00018",
@@ -3593,7 +3962,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市新莊區新北市"
+    "parcel": "新北市新莊區光華段六五七之二地號;新北市新莊區光華段六五七之三地號;新北市新莊區光華段六五七之六地號;新北市新莊區光華段六五七之七地號;新北市新莊區光華段六五七之八地號;新北市新莊區光華段六五七之九地號;新北市新莊區光華段六五七之一一地號;新北市新莊區光華段六五七之一二地號;新北市新莊區光華段六五七之一三地號;新北市新莊區光華段六五七之一四地號;新北市新莊區光華段六五七之一五地號;新北市新莊區光華段六五七之一六地號;新北市新莊區光華段六五七之一七地號;新北市新莊區光華段六五七之一九地號;新北市新莊區光華段六五七之二二地號;新北市新莊區光華段六五七之二三地號;新北市新莊區光華段六五七之二四地號;新北市新莊區光華段六五七之二六地號;新北市新莊區光華段六五七之二七地號;新北市新莊區光華段六五七之二九地號;新北市新莊區光華段六五七之三○地號;新北市新莊區光華段六五七之三一地號;新北市新莊區光華段六五七之三二地號;新北市新莊區光華段六五七之三四地號;新北市新莊區光華段六五七之三五地號;新北市新莊區光華段六五七之三六地號;新北市新莊區光華段六五七之三七地號;新北市新莊區光華段六五七之三八地號;新北市新莊區光華段六五七之四○地號;新北市新莊區光華段六五七之四一地號;新北市新莊區光華段六五七之四二地號;新北市新莊區光華段六五七之四三地號;新北市新莊區光華段六五七之四四地號;新北市新莊區光華段六五七之四五地號;新北市新莊區光華段六五七之四六地號;新北市新莊區光華段六五七之四七地號;新北市新莊區光華段六五七之四八地號;新北市新莊區光華段六五七地號",
+    "city": "新北市新莊區新北市",
+    "section_name": "光華段",
+    "lot_no": "657-2"
   },
   {
     "id": "F10021",
@@ -3622,7 +3994,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區東山段五四○地號;新北市樹林區東山段五四一地號;新北市樹林區東山段五四三地號;新北市樹林區味王段四八九地號",
+    "city": "新北市",
+    "section_name": "東山段",
+    "lot_no": "540"
   },
   {
     "id": "F10022",
@@ -3651,7 +4026,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區東山段五三九地號",
+    "city": "新北市",
+    "section_name": "東山段",
+    "lot_no": "539"
   },
   {
     "id": "F10029",
@@ -3680,7 +4058,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市林口區嘉寶三段一六○八(部分)地號;新北市林口區嘉寶三段一六一五(部分)地號",
+    "city": "新北市",
+    "section_name": "嘉寶三段",
+    "lot_no": "1608"
   },
   {
     "id": "F10030",
@@ -3709,7 +4090,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市瑞芳區南子吝段哩咾小段一地號;新北市瑞芳區南子吝段哩咾小段二地號;新北市瑞芳區南子吝段哩咾小段二之一地號;新北市瑞芳區南子吝段哩咾小段五地號;新北市瑞芳區南子吝段哩咾小段八地號;新北市瑞芳區南子吝段哩咾小段九地號;新北市瑞芳區南子吝段哩咾小段一一地號;新北市瑞芳區南子吝段哩咾小段一一之一地號;新北市瑞芳區南子吝段哩咾小段一一之二地號;新北市瑞芳區南子吝段哩咾小段一一之三地號;新北市瑞芳區南子吝段哩咾小段一一之四地號;新北市瑞芳區南子吝段哩咾小段一二地號;新北市瑞芳區南子吝段哩咾小段二九地號;新北市瑞芳區南子吝段哩咾小段三○地號;新北市瑞芳區南子吝段哩咾小段三一地號;新北市瑞芳區南子吝段哩咾小段三二地號;新北市瑞芳區南子吝段哩咾小段三三地號;新北市瑞芳區南子吝段哩咾小段三四地號;新北市瑞芳區南子吝段哩咾小段三六之一地號;新北市瑞芳區南子吝段哩咾小段三六之二地號;新北市瑞芳區南子吝段哩咾小段三六之三地號;新北市瑞芳區南子吝段哩咾小段三六之四地號;新北市瑞芳區南子吝段哩咾小段三七地號;新北市瑞芳區南子吝段哩咾小段三七之一地號;新北市瑞芳區南子吝段哩咾小段三八地號;新北市瑞芳區南子吝段哩咾小段三九地號;新北市瑞芳區南子吝段哩咾小段四一之一地號;新北市瑞芳區南子吝段哩咾小段四二地號;新北市瑞芳區南子吝段哩咾小段四三地號;新北市瑞芳區南子吝段哩咾小段四三之一地號;新北市瑞芳區南子吝段哩咾小段四三之二地號;新北市瑞芳區南子吝段哩咾小段四四地號;新北市瑞芳區南子吝段哩咾小段四五地號;新北市瑞芳區南子吝段哩咾小段四六地號;新北市瑞芳區南子吝段哩咾小段四六之六地號;新北市瑞芳區南子吝段哩咾小段七五地號;新北市瑞芳區南子吝段哩咾小段七六地號;新北市瑞芳區南子吝段南子吝小段七七之一二地號;新北市瑞芳區南子吝段南子吝小段七七之一三地號;新北市瑞芳區南子吝段南子吝小段七七之一四地號;新北市瑞芳區南子吝段南子吝小段七七之六五地號;新北市瑞芳區南子吝段南子吝小段七七之六六地號;新北市瑞芳區南子吝段南子吝小段七七之六七地號;新北市瑞芳區南子吝段南子吝小段八二地號;新北市瑞芳區南子吝段南子吝小段八三地號;新北市瑞芳區南子吝段南子吝小段八三之一地號;新北市瑞芳區南子吝段南子吝小段八三之九地號",
+    "city": "新北市",
+    "section_name": "南子吝段哩咾小段",
+    "lot_no": "1"
   },
   {
     "id": "F10055",
@@ -3738,7 +4122,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市瑞芳區黃金段一○三地號;新北市瑞芳區黃金段一○五地號;新北市瑞芳區黃金段一○六地號;新北市瑞芳區黃金段一○七地號;新北市瑞芳區黃金段一○八地號;新北市瑞芳區黃金段一○九地號;新北市瑞芳區黃金段一一○地號;新北市瑞芳區黃金段一一一地號;新北市瑞芳區黃金段一一二地號;新北市瑞芳區黃金段一一三地號;新北市瑞芳區黃金段一一四地號;新北市瑞芳區黃金段一一五地號;新北市瑞芳區黃金段一一六地號;新北市瑞芳區黃金段一一七地號;新北市瑞芳區黃金段一一八地號;新北市瑞芳區黃金段一一九地號;新北市瑞芳區黃金段一二一地號;新北市瑞芳區黃金段一二二地號;新北市瑞芳區黃金段一二三地號;新北市瑞芳區黃金段一二四地號;新北市瑞芳區黃金段一二七地號;新北市瑞芳區黃金段一二八地號;新北市瑞芳區黃金段一二九地號;新北市瑞芳區黃金段三四一地號;新北市瑞芳區黃金段三四四地號;新北市瑞芳區黃金段三五○地號;新北市瑞芳區黃金段三二七地號;新北市瑞芳區黃金段三二八地號;新北市瑞芳區黃金段三三六地號",
+    "city": "新北市",
+    "section_name": "黃金段",
+    "lot_no": "103"
   },
   {
     "id": "F10065",
@@ -3767,7 +4154,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區青山段一○九(一)地號;新北市新莊區青山段一○九(二)地號;新北市新莊區青山段一○九(三)地號",
+    "city": "新北市",
+    "section_name": "青山段",
+    "lot_no": "109"
   },
   {
     "id": "F10071",
@@ -3796,7 +4186,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新店區安和段四九地號;新北市新店區安和段五一地號;新北市新店區安和段五二地號",
+    "city": "新北市",
+    "section_name": "安和段",
+    "lot_no": "49"
   },
   {
     "id": "F10131",
@@ -3825,7 +4218,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區瓊林段九九八地號",
+    "city": "新北市",
+    "section_name": "瓊林段",
+    "lot_no": "998"
   },
   {
     "id": "F10181",
@@ -3854,7 +4250,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區北園段一五二七地號",
+    "city": "新北市",
+    "section_name": "北園段",
+    "lot_no": "1527"
   },
   {
     "id": "F10196",
@@ -3883,7 +4282,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市五股區陸光段一二地號",
+    "city": "新北市",
+    "section_name": "陸光段",
+    "lot_no": "12"
   },
   {
     "id": "F10199",
@@ -3912,7 +4314,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區大安段四五四地號;新北市樹林區大安段四五五地號",
+    "city": "新北市",
+    "section_name": "大安段",
+    "lot_no": "454"
   },
   {
     "id": "F10207",
@@ -3941,7 +4346,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區北園段一○一○地號;新北市樹林區北園段一○一一地號;新北市樹林區北園段一○一二地號;新北市樹林區北園段一○一三地號;新北市樹林區北園段一○一四地號",
+    "city": "新北市",
+    "section_name": "北園段",
+    "lot_no": "1010"
   },
   {
     "id": "F10212",
@@ -3970,7 +4378,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市五股區五工段九地號;新北市五股區更寮段樹林頭小段一八之六三(部分)地號;新北市五股區更寮段樹林頭小段二六之二(部分)地號",
+    "city": "新北市",
+    "section_name": "五工段",
+    "lot_no": "9"
   },
   {
     "id": "F10223",
@@ -3999,7 +4410,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市三重區頂崁段一五○○地號",
+    "city": "新北市",
+    "section_name": "頂崁段",
+    "lot_no": "1500"
   },
   {
     "id": "F10265",
@@ -4028,7 +4442,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區圳德段七二三地號;新北市樹林區圳德段七二四地號",
+    "city": "新北市",
+    "section_name": "圳德段",
+    "lot_no": "723"
   },
   {
     "id": "F10277",
@@ -4057,7 +4474,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區備內段一五一九地號;新北市樹林區備內段一五二○地號",
+    "city": "新北市",
+    "section_name": "備內段",
+    "lot_no": "1519"
   },
   {
     "id": "F10304",
@@ -4086,7 +4506,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區民安段三二五地號",
+    "city": "新北市",
+    "section_name": "民安段",
+    "lot_no": "325"
   },
   {
     "id": "F10311",
@@ -4115,7 +4538,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區建國段五五二地號",
+    "city": "新北市",
+    "section_name": "建國段",
+    "lot_no": "552"
   },
   {
     "id": "F10312",
@@ -4144,7 +4570,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區民安段四三一地號",
+    "city": "新北市",
+    "section_name": "民安段",
+    "lot_no": "431"
   },
   {
     "id": "F10313",
@@ -4173,7 +4602,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區建國段五五二之二地號",
+    "city": "新北市",
+    "section_name": "建國段",
+    "lot_no": "552-2"
   },
   {
     "id": "F10314",
@@ -4202,7 +4634,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區建國段五四九地號",
+    "city": "新北市",
+    "section_name": "建國段",
+    "lot_no": "549"
   },
   {
     "id": "F10315",
@@ -4231,7 +4666,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區民安段四四二(北側)地號",
+    "city": "新北市",
+    "section_name": "民安段",
+    "lot_no": "442"
   },
   {
     "id": "F10316",
@@ -4260,7 +4698,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區東山段一○七地號;新北市樹林區味王段二五地號",
+    "city": "新北市",
+    "section_name": "東山段",
+    "lot_no": "107"
   },
   {
     "id": "F10327",
@@ -4289,7 +4730,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新店區寶元段二七六地號;新北市新店區寶元段二七六之一地號;新北市新店區寶元段二七七地號;新北市新店區寶元段二七八之一地號;新北市新店區寶元段二七九地號;新北市新店區寶元段二八四地號;新北市新店區寶元段二八五地號;新北市新店區寶元段二八六之一地號;新北市新店區寶元段二八七地號;新北市新店區寶元段二八八地號;新北市新店區寶元段二八九地號;新北市新店區寶元段二九○地號",
+    "city": "新北市",
+    "section_name": "寶元段",
+    "lot_no": "276"
   },
   {
     "id": "F10330",
@@ -4318,7 +4762,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市土城區沛陂段一四五地號",
+    "city": "新北市",
+    "section_name": "沛陂段",
+    "lot_no": "145"
   },
   {
     "id": "F10335",
@@ -4347,7 +4794,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市板橋區幸福段一○四五之一地號;新北市板橋區幸福段一○四九之一地號",
+    "city": "新北市",
+    "section_name": "幸福段",
+    "lot_no": "1045-1"
   },
   {
     "id": "F10349",
@@ -4376,7 +4826,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市三重區頂崁段一六一六地號;新北市三重區頂崁段一六一七地號;新北市三重區頂崁段一六一八地號;新北市三重區頂崁段一六一九地號",
+    "city": "新北市",
+    "section_name": "頂崁段",
+    "lot_no": "1616"
   },
   {
     "id": "F10356",
@@ -4405,7 +4858,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市泰山區中山段九三五(一)地號",
+    "city": "新北市",
+    "section_name": "中山段",
+    "lot_no": "935"
   },
   {
     "id": "F10375",
@@ -4434,7 +4890,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市土城區沛陂段三七五地號",
+    "city": "新北市",
+    "section_name": "沛陂段",
+    "lot_no": "375"
   },
   {
     "id": "F10393",
@@ -4463,7 +4922,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區圳民段一一(一)地號",
+    "city": "新北市",
+    "section_name": "圳民段",
+    "lot_no": "11"
   },
   {
     "id": "F10401",
@@ -4492,7 +4954,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區三多段七四地號",
+    "city": "新北市",
+    "section_name": "三多段",
+    "lot_no": "74"
   },
   {
     "id": "F10404",
@@ -4521,7 +4986,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區公館段八四三地號;新北市新莊區公館段八四四地號;新北市新莊區公館段八四五地號;新北市新莊區公館段八四六地號;新北市新莊區公館段八四七地號;新北市新莊區公館段八四八地號;新北市新莊區公館段八四九地號",
+    "city": "新北市",
+    "section_name": "公館段",
+    "lot_no": "843"
   },
   {
     "id": "F10407",
@@ -4550,7 +5018,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區圳生段五七三地號",
+    "city": "新北市",
+    "section_name": "圳生段",
+    "lot_no": "573"
   },
   {
     "id": "F10411",
@@ -4579,7 +5050,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區福基段二六○之二地號;新北市新莊區福基段三三三(部分)地號",
+    "city": "新北市",
+    "section_name": "福基段",
+    "lot_no": "260-2"
   },
   {
     "id": "F10412",
@@ -4608,7 +5082,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市五股區陸光段三七地號",
+    "city": "新北市",
+    "section_name": "陸光段",
+    "lot_no": "37"
   },
   {
     "id": "F10413",
@@ -4637,7 +5114,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區福營段八一九地號;新北市新莊區福營段八二○地號",
+    "city": "新北市",
+    "section_name": "福營段",
+    "lot_no": "819"
   },
   {
     "id": "F10414",
@@ -4666,7 +5146,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區幸福段八○一地號",
+    "city": "新北市",
+    "section_name": "幸福段",
+    "lot_no": "801"
   },
   {
     "id": "F10415",
@@ -4695,7 +5178,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市中和區民利段一二八三(部分)地號",
+    "city": "新北市",
+    "section_name": "民利段",
+    "lot_no": "1283"
   },
   {
     "id": "F10418",
@@ -4724,7 +5210,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區福營段六三四地號",
+    "city": "新北市",
+    "section_name": "福營段",
+    "lot_no": "634"
   },
   {
     "id": "F10419",
@@ -4753,7 +5242,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市三重區中興段一六六○地號",
+    "city": "新北市",
+    "section_name": "中興段",
+    "lot_no": "1660"
   },
   {
     "id": "F10420",
@@ -4782,7 +5274,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市三重區頂崁段一四九九地號",
+    "city": "新北市",
+    "section_name": "頂崁段",
+    "lot_no": "1499"
   },
   {
     "id": "F10421",
@@ -4811,7 +5306,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市新莊區頭興段一一三地號",
+    "city": "新北市",
+    "section_name": "頭興段",
+    "lot_no": "113"
   },
   {
     "id": "F10423",
@@ -4840,7 +5338,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市林口區瑞平段一四○四地號",
+    "city": "新北市",
+    "section_name": "瑞平段",
+    "lot_no": "1404"
   },
   {
     "id": "F10424",
@@ -4869,7 +5370,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區武林段一五二四地號",
+    "city": "新北市",
+    "section_name": "武林段",
+    "lot_no": "1524"
   },
   {
     "id": "F10427",
@@ -4898,7 +5402,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市三重區頂崁段六五二地號",
+    "city": "新北市",
+    "section_name": "頂崁段",
+    "lot_no": "652"
   },
   {
     "id": "F10428",
@@ -4927,7 +5434,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市三重區頂崁段五五九地號",
+    "city": "新北市",
+    "section_name": "頂崁段",
+    "lot_no": "559"
   },
   {
     "id": "F10429",
@@ -4956,7 +5466,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市五股區中興段二三地號",
+    "city": "新北市",
+    "section_name": "中興段",
+    "lot_no": "23"
   },
   {
     "id": "F10430",
@@ -4985,7 +5498,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新北市"
+    "parcel": "新北市樹林區三多段八一四地號",
+    "city": "新北市",
+    "section_name": "三多段",
+    "lot_no": "814"
   },
   {
     "id": "G10369",
@@ -5014,7 +5530,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "宜蘭縣"
+    "parcel": "宜蘭縣蘇澳鎮南安段二地號;宜蘭縣蘇澳鎮南安段二之一地號;宜蘭縣蘇澳鎮南安段二之二地號;宜蘭縣蘇澳鎮南安段二之六地號;宜蘭縣蘇澳鎮南安段二之七地號;宜蘭縣蘇澳鎮南安段三地號;宜蘭縣蘇澳鎮南安段三之一地號;宜蘭縣蘇澳鎮南安段三之二地號;宜蘭縣蘇澳鎮南安段三之三地號;宜蘭縣蘇澳鎮南安段三之四地號;宜蘭縣蘇澳鎮南安段三之五地號;宜蘭縣蘇澳鎮南安段三之六地號;宜蘭縣蘇澳鎮南安段三之七地號;宜蘭縣蘇澳鎮南安段四地號;宜蘭縣蘇澳鎮南安段四之一地號;宜蘭縣蘇澳鎮南安段四之二地號;宜蘭縣蘇澳鎮南安段四之三地號;宜蘭縣蘇澳鎮南安段四之一○地號;宜蘭縣蘇澳鎮南安段四之一一地號",
+    "city": "宜蘭縣",
+    "section_name": "南安段",
+    "lot_no": "2"
   },
   {
     "id": "G10691",
@@ -5043,7 +5562,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "宜蘭縣"
+    "parcel": "宜蘭縣冬山鄉東興段七四三地號;宜蘭縣冬山鄉東興段七四四地號;宜蘭縣冬山鄉東興段七四五地號;宜蘭縣冬山鄉東興段七四六地號;宜蘭縣冬山鄉東興段七四七地號;宜蘭縣冬山鄉東興段七四八地號;宜蘭縣冬山鄉東興段七四九地號;宜蘭縣冬山鄉東興段七五○地號;宜蘭縣冬山鄉東興段七五一地號;宜蘭縣冬山鄉東興段七五二地號;宜蘭縣冬山鄉東興段七五三地號;宜蘭縣冬山鄉東興段七五四地號;宜蘭縣冬山鄉東興段七五五地號;宜蘭縣冬山鄉東興段七五六地號;宜蘭縣冬山鄉東興段七五七地號;宜蘭縣冬山鄉東興段七五八地號;宜蘭縣冬山鄉東興段七五九地號;宜蘭縣冬山鄉東興段七六○地號;宜蘭縣冬山鄉東興段七六一地號;宜蘭縣冬山鄉東興段七六二地號;宜蘭縣冬山鄉東興段七六三地號;宜蘭縣冬山鄉東興段七六四地號;宜蘭縣冬山鄉東興段七六五地號",
+    "city": "宜蘭縣",
+    "section_name": "東興段",
+    "lot_no": "743"
   },
   {
     "id": "H00001",
@@ -5072,7 +5594,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市桃園區龍鳳段五六七地號;桃園市桃園區龍鳳段五六七之三地號;桃園市桃園區龍鳳段五六七之四地號;桃園市桃園區龍鳳段六二七地號;桃園市桃園區龍鳳段六二七之二地號;桃園市桃園區龍鳳段五六六地號;桃園市桃園區龍鳳段五六六之五地號;桃園市桃園區龍鳳段五六六之六地號;桃園市桃園區龍鳳段五六六之七地號;桃園市桃園區龍鳳段五六六之八地號;桃園市桃園區龍鳳段二二六地號;桃園市桃園區龍鳳段二二六之三地號;桃園市桃園區龍鳳段二二六之四地號;桃園市桃園區龍鳳段五六四地號;桃園市桃園區龍鳳段五六四之四地號;桃園市桃園區龍鳳段五六四之五地號;桃園市桃園區龍鳳段五六四之六地號;桃園市桃園區龍鳳段五六五地號;桃園市桃園區龍鳳段五六五之五地號;桃園市桃園區龍鳳段五六五之六地號;桃園市桃園區龍鳳段五六五之七地號;桃園市桃園區龍鳳段五六五之八地號;桃園市桃園區龍鳳段二二七地號;桃園市桃園區龍鳳段二二七之三地號;桃園市桃園區龍鳳段二二七之四地號;桃園市桃園區龍鳳段二二七之五地號;桃園市桃園區龍鳳段二二七之六地號;桃園市桃園區龍鳳段五七一地號;桃園市桃園區龍鳳段五七一之二地號;桃園市桃園區龍鳳段五七九地號;桃園市桃園區龍鳳段五七九之二地號;桃園市桃園區龍鳳段五八二地號;桃園市桃園區龍鳳段五八三地號;桃園市桃園區龍鳳段二二五地號;桃園市桃園區龍鳳段二二五之五地號;桃園市桃園區龍鳳段二二五之六地號;桃園市桃園區龍鳳段二二五之七地號;桃園市桃園區龍鳳段二二五之八地號;桃園市桃園區龍鳳段二二五之九地號;桃園市桃園區龍鳳段五八○地號;桃園市桃園區龍鳳段五八○之二地號;桃園市桃園區龍鳳段五八一地號;桃園市桃園區龍鳳段五七二之二地號;桃園市桃園區龍鳳段五七二之三地號;桃園市桃園區龍鳳段五七三地號;桃園市桃園區龍鳳段五七三之一地號;桃園市桃園區龍鳳段六○○地號;桃園市桃園區龍鳳段六○一地號;桃園市桃園區龍鳳段五六九地號;桃園市桃園區龍鳳段五六八地號;桃園市桃園區龍鳳段五六八之二地號;桃園市桃園區龍鳳段五七○地號;桃園市桃園區龍鳳段五七○之二地號;桃園市桃園區龍鳳段五九九地號;桃園市桃園區龍鳳段五九九之二地號;桃園市桃園區龍鳳段五八四地號;桃園市桃園區龍鳳段五九八地號;桃園市桃園區龍鳳段五九八之二地號;桃園市桃園區龍鳳段五八五地號;桃園市桃園區龍鳳段一三○○地號;桃園市桃園區龍鳳段五八六地號;桃園市桃園區龍鳳段一二九四地號;桃園市桃園區龍鳳段五八七地號;桃園市桃園區龍鳳段五八七之二地號;桃園市桃園區龍鳳段二一一地號;桃園市桃園區龍鳳段二一一之三地號;桃園市桃園區龍鳳段二一一之四地號;桃園市桃園區龍鳳段二一二地號;桃園市桃園區龍鳳段一二六地號;桃園市桃園區龍鳳段一三○地號;桃園市桃園區龍鳳段一二九地號;桃園市桃園區龍鳳段一三五地號;桃園市桃園區龍鳳段一三四之三地號;桃園市桃園區龍鳳段一三四之四地號;桃園市桃園區龍鳳段二一七地號;桃園市桃園區龍鳳段二一七之二地號;桃園市桃園區龍鳳段二一四地號;桃園市桃園區龍鳳段二一三地號;桃園市桃園區龍鳳段二一六地號;桃園市桃園區龍鳳段二一六之二地號;桃園市桃園區龍鳳段二一五地號;桃園市桃園區龍鳳段二二二地號;桃園市桃園區龍鳳段二二二之二地號;桃園市桃園區龍鳳段一二七地號;桃園市桃園區龍鳳段二○九地號;桃園市桃園區龍鳳段二○九之四地號;桃園市桃園區龍鳳段二○九之五地號;桃園市桃園區龍鳳段二○九之六地號;桃園市桃園區龍鳳段二○九之七地號;桃園市桃園區龍鳳段二一○地號;桃園市桃園區龍鳳段二一○之四地號;桃園市桃園區龍鳳段二一○之五地號;桃園市桃園區龍鳳段二一○之六地號;桃園市桃園區龍鳳段二一○之七地號;桃園市桃園區龍鳳段一三七地號;桃園市桃園區龍鳳段一三七之三地號;桃園市桃園區龍鳳段一三七之四地號;桃園市桃園區龍鳳段一三七之五地號;桃園市桃園區龍鳳段一三七之六地號;桃園市桃園區龍鳳段一二八地號;桃園市桃園區龍鳳段一三六地號;桃園市桃園區龍鳳段一三六之六地號;桃園市桃園區龍鳳段一三六之七地號;桃園市桃園區龍鳳段一三六之八地號;桃園市桃園區龍鳳段一三六之九地號;桃園市桃園區龍鳳段一三六之一○地號;桃園市桃園區龍鳳段一三六之一一地號;桃園市桃園區龍鳳段一九八地號;桃園市桃園區龍鳳段一九八之二地號;桃園市桃園區龍鳳段一九八之三地號;桃園市桃園區龍鳳段一九八之四地號;桃園市桃園區龍鳳段二○六地號;桃園市桃園區龍鳳段二○六之二地號;桃園市桃園區龍鳳段二○六之三地號;桃園市桃園區龍鳳段一三八地號;桃園市桃園區龍鳳段一三八之六地號;桃園市桃園區龍鳳段一三八之七地號;桃園市桃園區龍鳳段一三八之八地號;桃園市桃園區龍鳳段一三八之九地號;桃園市桃園區龍鳳段一三八之一○地號;桃園市桃園區龍鳳段一三八之一一地號;桃園市桃園區龍鳳段一三八之一二地號;桃園市桃園區龍鳳段一三八之一三地號;桃園市桃園區龍鳳段一三九地號;桃園市桃園區龍鳳段一三九之三地號;桃園市桃園區龍鳳段一三九之四地號;桃園市桃園區龍鳳段一三九之五地號;桃園市桃園區龍鳳段二○七地號;桃園市桃園區龍鳳段二○七之六地號;桃園市桃園區龍鳳段二○七之七地號;桃園市桃園區龍鳳段二○七之八地號;桃園市桃園區龍鳳段二○七之九地號;桃園市桃園區龍鳳段二○七之一○地號;桃園市桃園區龍鳳段二○七之一一地號;桃園市桃園區龍鳳段二○八地號;桃園市桃園區龍鳳段二○八之四地號;桃園市桃園區龍鳳段二○八之五地號;桃園市桃園區龍鳳段二○八之六地號;桃園市桃園區龍鳳段二○八之七地號;桃園市桃園區龍鳳段五七六地號;桃園市桃園區龍鳳段五七六之二地號;桃園市桃園區龍鳳段五七六之三地號;桃園市桃園區龍鳳段一九○地號;桃園市桃園區龍鳳段一九六地號;桃園市桃園區龍鳳段一九四地號;桃園市桃園區龍鳳段一九四之四地號;桃園市桃園區龍鳳段一九四之五地號;桃園市桃園區龍鳳段一九四之六地號;桃園市桃園區龍鳳段一九四之七地號;桃園市桃園區龍鳳段一九四之八地號;桃園市桃園區龍鳳段一九四之九地號;桃園市桃園區龍鳳段一九四之一○地號;桃園市桃園區龍鳳段一九五地號;桃園市桃園區龍鳳段一九五之三地號;桃園市桃園區龍鳳段一九五之四地號;桃園市桃園區龍鳳段一九五之五地號;桃園市桃園區龍鳳段一九三地號;桃園市桃園區龍鳳段一九三之三地號;桃園市桃園區龍鳳段一九三之四地號;桃園市桃園區龍鳳段一九三之五地號;桃園市桃園區龍鳳段六六七地號;桃園市桃園區龍鳳段六六八地號;桃園市桃園區龍鳳段六六九地號;桃園市桃園區龍鳳段六六九之二地號;桃園市桃園區龍鳳段六七二地號;桃園市桃園區龍鳳段六七二之二地號;桃園市桃園區龍鳳段六七三地號;桃園市桃園區龍鳳段六六六地號;桃園市桃園區龍鳳段五九二地號;桃園市桃園區龍鳳段五九二之二地號;桃園市桃園區龍鳳段五九六地號;桃園市桃園區龍鳳段五九七地號;桃園市桃園區龍鳳段五九四地號;桃園市桃園區龍鳳段五九五地號;桃園市桃園區龍鳳段五九三地號;桃園市桃園區龍鳳段六○八地號;桃園市桃園區龍鳳段六○八之二地號;桃園市桃園區龍鳳段六○三地號;桃園市桃園區龍鳳段六○三之三地號;桃園市桃園區龍鳳段六○三之四地號;桃園市桃園區龍鳳段六二一地號;桃園市桃園區龍鳳段六二一之三地號;桃園市桃園區龍鳳段六二一之四地號;桃園市桃園區龍鳳段六二二地號;桃園市桃園區龍鳳段六二二之三地號;桃園市桃園區龍鳳段六二二之四地號;桃園市桃園區龍鳳段六一三地號;桃園市桃園區龍鳳段六一一地號;桃園市桃園區龍鳳段六一一之二地號;桃園市桃園區龍鳳段六一九地號;桃園市桃園區龍鳳段六一九之二地號;桃園市桃園區龍鳳段六○七地號;桃園市桃園區龍鳳段六○七之四地號;桃園市桃園區龍鳳段六○七之五地號;桃園市桃園區龍鳳段六○七之六地號;桃園市桃園區龍鳳段六○四地號;桃園市桃園區龍鳳段六○五地號;桃園市桃園區龍鳳段六○五之二地號;桃園市桃園區龍鳳段六○六地號;桃園市桃園區龍鳳段六一五地號;桃園市桃園區龍鳳段六一五之二地號;桃園市桃園區龍鳳段六一四地號;桃園市桃園區龍鳳段六一八地號;桃園市桃園區龍鳳段六一八之二地號;桃園市桃園區龍鳳段六一七地號;桃園市桃園區龍鳳段六二五地號;桃園市桃園區龍鳳段六二三地號;桃園市桃園區龍鳳段六二三之二地號;桃園市桃園區龍鳳段六二○地號;桃園市桃園區龍鳳段六二○之二地號;桃園市桃園區龍鳳段六二四地號;桃園市桃園區龍鳳段六二四之二地號;桃園市桃園區龍鳳段六○二地號;桃園市桃園區龍鳳段六一二地號;桃園市桃園區龍鳳段六一二之二地號;桃園市桃園區龍鳳段六二八地號;桃園市桃園區龍鳳段六二九地號;桃園市桃園區龍鳳段六二九之六地號;桃園市桃園區龍鳳段六二九之七地號;桃園市桃園區龍鳳段六二九之八地號;桃園市桃園區龍鳳段六二九之九地號;桃園市桃園區龍鳳段六二九之一○地號;桃園市桃園區龍鳳段六三○地號;桃園市桃園區龍鳳段六三○之三地號;桃園市桃園區龍鳳段六三○之四地號;桃園市桃園區龍鳳段六七七地號;桃園市桃園區龍鳳段六三七地號;桃園市桃園區龍鳳段六三七之四地號;桃園市桃園區龍鳳段六三七之五地號;桃園市桃園區龍鳳段六三七之六地號;桃園市桃園區龍鳳段六四六地號;桃園市桃園區龍鳳段六四七地號;桃園市桃園區龍鳳段六七五地號;桃園市桃園區龍鳳段六七五之二地號;桃園市桃園區龍鳳段六三五地號;桃園市桃園區龍鳳段六四三地號;桃園市桃園區龍鳳段六四三之三地號;桃園市桃園區龍鳳段六四三之四地號;桃園市桃園區龍鳳段六四二地號;桃園市桃園區龍鳳段六四六地號;桃園市桃園區龍鳳段六三六地號;桃園市桃園區龍鳳段六四五地號;桃園市桃園區龍鳳段六三一地號;桃園市桃園區龍鳳段六三一之二地號;桃園市桃園區龍鳳段六三九地號;桃園市桃園區龍鳳段六三九之三地號;桃園市桃園區龍鳳段六三九之四地號;桃園市桃園區龍鳳段六四○地號;桃園市桃園區龍鳳段六四○之二地號;桃園市桃園區龍鳳段五七二地號;桃園市桃園區龍鳳段一三四地號;桃園市桃園區龍鳳段桃園區龍安段一九二地號;桃園市桃園區龍鳳段八德區茄明段二五七地號;桃園市桃園區龍鳳段二五八地號;桃園市桃園區龍鳳段二五九地號;桃園市桃園區龍鳳段二五九之一地號;桃園市桃園區龍鳳段二五九之二地號;桃園市桃園區龍鳳段二六○地號;桃園市桃園區龍鳳段二六○之一地號;桃園市桃園區龍鳳段二六○之二地號;桃園市桃園區龍鳳段二六○之三地號;桃園市桃園區龍鳳段二六二地號;桃園市桃園區龍鳳段二六二之一地號;桃園市桃園區龍鳳段二六二之二地號;桃園市桃園區龍鳳段二六二之三地號;桃園市桃園區龍鳳段二六三地號;桃園市桃園區龍鳳段二六三之一地號;桃園市桃園區龍鳳段二六四地號;桃園市桃園區龍鳳段二六四之四地號;桃園市桃園區龍鳳段二六四之五地號;桃園市桃園區龍鳳段二六四之六地號;桃園市桃園區龍鳳段二六五地號;桃園市桃園區龍鳳段二六五之七地號;桃園市桃園區龍鳳段二六五之八地號;桃園市桃園區龍鳳段二六五之九地號;桃園市桃園區龍鳳段二六六地號;桃園市桃園區龍鳳段二六六之一地號;桃園市桃園區龍鳳段二六六之二地號",
+    "city": "桃園市",
+    "section_name": "龍鳳段",
+    "lot_no": "567"
   },
   {
     "id": "H00165",
@@ -5101,7 +5626,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市蘆竹區福興段一地號",
+    "city": "桃園市",
+    "section_name": "福興段",
+    "lot_no": "1"
   },
   {
     "id": "H00168",
@@ -5130,7 +5658,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市蘆竹區福興段三地號",
+    "city": "桃園市",
+    "section_name": "福興段",
+    "lot_no": "3"
   },
   {
     "id": "H10024",
@@ -5159,7 +5690,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市中壢區桃園市"
+    "parcel": "桃園市中壢區華興段二六四地號;桃園市中壢區華興段二六四之一地號;桃園市中壢區華興段二六四之二地號;桃園市中壢區華興段二六四之三地號;桃園市中壢區華興段二六四之四地號;桃園市中壢區華興段二六四之五地號;桃園市中壢區華興段二五三地號;桃園市中壢區華興段二五三之一地號;桃園市中壢區華興段二五三之二號地號;桃園市中壢區華興段二五三之三地號;桃園市中壢區華興段二五三之四地號;桃園市中壢區華興段二五三之五地號;桃園市中壢區華興段二五三之六地號;桃園市中壢區華興段二七一地號;桃園市中壢區華興段二七二地號;桃園市中壢區華興段二七二之一地號",
+    "city": "桃園市中壢區桃園市",
+    "section_name": "華興段",
+    "lot_no": "264"
   },
   {
     "id": "H10047",
@@ -5188,7 +5722,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市新屋區崁頭厝段下庄子小段七一○地號;桃園市新屋區崁頭厝段下庄子小段七一○之一○地號;桃園市新屋區崁頭厝段下庄子小段七一○之一二地號;桃園市新屋區崁頭厝段下庄子小段七一一地號;桃園市新屋區崁頭厝段下庄子小段七一一之一地號;桃園市新屋區崁頭厝段下庄子小段七一二地號;桃園市新屋區崁頭厝段下庄子小段七一三地號;桃園市新屋區大牛欄段後湖小段九八五地號;桃園市新屋區大牛欄段後湖小段九九二地號;桃園市新屋區大牛欄段後湖小段九九三地號;桃園市新屋區大牛欄段後湖小段九九四地號;桃園市新屋區大牛欄段後湖小段九九五地號;桃園市新屋區大牛欄段後湖小段九九六地號;桃園市新屋區大牛欄段後湖小段九九七地號;桃園市新屋區大牛欄段後湖小段九九八地號;桃園市新屋區大牛欄段後湖小段一○○三地號",
+    "city": "桃園市",
+    "section_name": "崁頭厝段下庄子小段",
+    "lot_no": "710"
   },
   {
     "id": "H10259",
@@ -5217,7 +5754,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市楊梅區頭重溪段一七之二七地號;桃園市楊梅區頭重溪段一七之四九地號;桃園市楊梅區頭重溪段一七之五○地號",
+    "city": "桃園市",
+    "section_name": "頭重溪段",
+    "lot_no": "17-27"
   },
   {
     "id": "H10281",
@@ -5246,7 +5786,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市大園區北港段五二地號;桃園市大園區北港段五三地號",
+    "city": "桃園市",
+    "section_name": "北港段",
+    "lot_no": "52"
   },
   {
     "id": "H10283",
@@ -5275,7 +5818,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市蘆竹區內興段七四五地號;桃園市蘆竹區內興段七四八地號;桃園市蘆竹區內興段七五○地號",
+    "city": "桃園市",
+    "section_name": "內興段",
+    "lot_no": "745"
   },
   {
     "id": "H10306",
@@ -5304,7 +5850,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市大園區內海墘段特工區小段一一地號",
+    "city": "桃園市",
+    "section_name": "內海墘段特工區小段",
+    "lot_no": "11"
   },
   {
     "id": "H12837",
@@ -5333,7 +5882,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市龍潭區銅鑼圈段一○九四之三地號;桃園市龍潭區銅鑼圈段一○九四之四地號;桃園市龍潭區銅鑼圈段一○九四之五地號;桃園市龍潭區銅鑼圈段一○九四之八地號;桃園市龍潭區銅鑼圈段一○九四之一八地號;桃園市龍潭區銅鑼圈段一○九六地號;桃園市龍潭區銅鑼圈段一○九六之一地號;桃園市龍潭區銅鑼圈段一○九六之二地號;桃園市龍潭區銅鑼圈段一○九七地號;桃園市龍潭區銅鑼圈段一○九七之一地號;桃園市龍潭區銅鑼圈段一○九七之二地號;桃園市龍潭區銅鑼圈段一○九七之三地號;桃園市龍潭區銅鑼圈段一○九七之四地號;桃園市龍潭區銅鑼圈段一二四○之一地號;桃園市龍潭區銅鑼圈段一二四○之二地號;桃園市龍潭區銅鑼圈段一二四○之四地號;桃園市龍潭區銅鑼圈段一二四○之五地號;桃園市龍潭區銅鑼圈段一二四○之六地號;桃園市龍潭區銅鑼圈段一二四一地號;桃園市龍潭區銅鑼圈段一二四一之一地號;桃園市龍潭區銅鑼圈段一二四一之二地號;桃園市龍潭區銅鑼圈段一二四二地號;桃園市龍潭區銅鑼圈段一二四二之一地號;桃園市龍潭區銅鑼圈段一二四二之二地號;桃園市龍潭區銅鑼圈段一二四二之三地號;桃園市龍潭區銅鑼圈段一二四二之四地號",
+    "city": "桃園市",
+    "section_name": "銅鑼圈段",
+    "lot_no": "1094-3"
   },
   {
     "id": "H12838",
@@ -5362,7 +5914,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市蘆竹區新庄子段一四一○地號;桃園市蘆竹區新庄子段一四一一地號;桃園市蘆竹區新庄子段一四一一之一地號;桃園市蘆竹區新庄子段一四一一之二地號;桃園市蘆竹區新庄子段一四一二地號;桃園市蘆竹區新庄子段一四一三地號;桃園市蘆竹區新庄子段一四一四地號;桃園市蘆竹區新庄子段一四一五地號;桃園市蘆竹區新庄子段一四一五之一地號;桃園市蘆竹區新庄子段一四一六地號;桃園市蘆竹區新庄子段一四一六之一地號;桃園市蘆竹區新庄子段一四一六之二地號;桃園市蘆竹區新庄子段一四一七地號;桃園市蘆竹區新庄子段一四一八地號;桃園市蘆竹區新庄子段一四一九地號;桃園市蘆竹區新庄子段一四二○地號;桃園市蘆竹區新庄子段一四四二地號;桃園市蘆竹區新庄子段一四四三地號;桃園市蘆竹區新庄子段一四四四地號;桃園市蘆竹區新庄子段一四四四之一地號;桃園市蘆竹區新庄子段一四四五地號;桃園市蘆竹區新庄子段一四四六地號;桃園市蘆竹區新庄子段一四四七地號;桃園市蘆竹區新庄子段一四四八地號;桃園市蘆竹區新庄子段一四四九地號;桃園市蘆竹區新庄子段一四五○地號;桃園市蘆竹區新庄子段一四五一地號;桃園市蘆竹區新庄子段一四五二地號",
+    "city": "桃園市",
+    "section_name": "新庄子段",
+    "lot_no": "1410"
   },
   {
     "id": "H12868",
@@ -5391,7 +5946,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市龍潭區潛龍段三一地號;桃園市龍潭區潛龍段五八地號;桃園市龍潭區潛龍段五九地號;桃園市龍潭區潛龍段六○地號;桃園市龍潭區潛龍段九三地號;桃園市龍潭區潛龍段九六地號;桃園市龍潭區潛龍段九八地號;桃園市龍潭區潛龍段九九地號",
+    "city": "桃園市",
+    "section_name": "潛龍段",
+    "lot_no": "31"
   },
   {
     "id": "H12878",
@@ -5420,7 +5978,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市龍潭區銅鑼圈段九四之三地號",
+    "city": "桃園市",
+    "section_name": "銅鑼圈段",
+    "lot_no": "94-3"
   },
   {
     "id": "H13347",
@@ -5449,7 +6010,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市八德區建國段一一一九地號;桃園市八德區建國段一一二○地號;桃園市八德區建國段一一二三地號;桃園市八德區建國段一一二五地號;桃園市八德區建國段一二三七地號;桃園市八德區建國段一二四七地號;桃園市八德區建國段一二四八地號;桃園市八德區建國段一二四九地號;桃園市八德區建國段一二五○地號",
+    "city": "桃園市",
+    "section_name": "建國段",
+    "lot_no": "1119"
   },
   {
     "id": "H13349",
@@ -5478,7 +6042,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市觀音區工業區段五小段一一三之二地號;桃園市觀音區工業區段五小段一一三之三地號",
+    "city": "桃園市",
+    "section_name": "工業區段五小段",
+    "lot_no": "113-2"
   },
   {
     "id": "H13350",
@@ -5507,7 +6074,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市觀音區工業區段四小段六之一地號",
+    "city": "桃園市",
+    "section_name": "工業區段四小段",
+    "lot_no": "6-1"
   },
   {
     "id": "H13351",
@@ -5536,7 +6106,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市觀音區工業區段五小段一三之一二地號",
+    "city": "桃園市",
+    "section_name": "工業區段五小段",
+    "lot_no": "13-12"
   },
   {
     "id": "H13372",
@@ -5565,7 +6138,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市楊梅區幼獅段一一○五地號",
+    "city": "桃園市",
+    "section_name": "幼獅段",
+    "lot_no": "1105"
   },
   {
     "id": "H14087",
@@ -5594,7 +6170,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市觀音區工業區段三小段一四二地號",
+    "city": "桃園市",
+    "section_name": "工業區段三小段",
+    "lot_no": "142"
   },
   {
     "id": "H14200",
@@ -5623,7 +6202,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市蘆竹區坑子口段海湖小段六四之四○地號;桃園市蘆竹區坑子口段海湖小段六四之五五三地號;桃園市蘆竹區坑子口段海湖小段六四之一二七地號;桃園市蘆竹區坑子口段海湖小段六四之二四九地號;桃園市蘆竹區坑子口段海湖小段六四之七二五地號;桃園市蘆竹區坑子口段海湖小段六四之八一八地號;桃園市蘆竹區坑子口段海湖小段六四之八一九地號;桃園市蘆竹區坑子口段海湖小段一四三之五地號;桃園市蘆竹區坑子口段海湖小段一四三之一六地號;桃園市蘆竹區坑子口段海湖小段一四三之一七地號;桃園市蘆竹區坑子口段海湖小段六四之四一一地號;桃園市蘆竹區坑子口段海湖小段六四之四九四地號;桃園市蘆竹區坑子口段海湖小段六四之四九五地號;桃園市蘆竹區坑子口段海湖小段六四之二七○地號;桃園市蘆竹區坑子口段海湖小段六四之一三七九地號;桃園市蘆竹區坑子口段海湖小段六四之一三八○地號;桃園市蘆竹區坑子口段海湖小段六四之一三八一地號;桃園市蘆竹區坑子口段海湖小段六四之一三八二地號;桃園市蘆竹區坑子口段海湖小段六四之一三八三地號;桃園市蘆竹區坑子口段海湖小段六四之一三八四地號;桃園市蘆竹區坑子口段海湖小段六四之一三八五地號;桃園市蘆竹區坑子口段海湖小段一四三之三○地號;桃園市蘆竹區坑子口段海湖小段一四三之三一地號;桃園市蘆竹區坑子口段海湖小段一四三之三二地號;桃園市蘆竹區坑子口段海湖小段一四三之三三地號;桃園市蘆竹區坑子口段海湖小段一四三之四○地號",
+    "city": "桃園市",
+    "section_name": "坑子口段海湖小段",
+    "lot_no": "64-40"
   },
   {
     "id": "H14202",
@@ -5652,7 +6234,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市楊梅區幼獅段一七○八地號;桃園市楊梅區幼獅段一七○九地號;桃園市楊梅區幼獅段一七一○地號;桃園市楊梅區幼獅段一七一一地號;桃園市楊梅區幼獅段一七一二地號;桃園市楊梅區幼獅段一七一三地號;桃園市楊梅區幼獅段一七一四地號;桃園市楊梅區幼獅段一七一五地號;桃園市楊梅區幼獅段一七一六地號;桃園市楊梅區幼獅段一七一七地號;桃園市楊梅區幼獅段一七一八地號;桃園市楊梅區幼獅段一七一九地號;桃園市楊梅區幼獅段一七二○地號;桃園市楊梅區幼獅段一七二一地號;桃園市楊梅區幼獅段一七四七地號;桃園市楊梅區幼獅段一七四八地號;桃園市楊梅區幼獅段一七五一地號;桃園市楊梅區幼獅段一七五二地號;桃園市楊梅區幼獅段一七五三地號;桃園市楊梅區幼獅段一七五四地號",
+    "city": "桃園市",
+    "section_name": "幼獅段",
+    "lot_no": "1708"
   },
   {
     "id": "H14261",
@@ -5681,7 +6266,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市觀音區桃園市"
+    "parcel": "桃園市觀音區工業區段四小段七之一地號",
+    "city": "桃園市觀音區桃園市",
+    "section_name": "工業區段四小段",
+    "lot_no": "7-1"
   },
   {
     "id": "H14307",
@@ -5710,7 +6298,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市平鎮區六和段一二八地號;桃園市平鎮區六和段一三○地號",
+    "city": "桃園市",
+    "section_name": "區六和段",
+    "lot_no": "128"
   },
   {
     "id": "H14311",
@@ -5739,7 +6330,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市中壢區中工段八一地號;桃園市中壢區中工段八○地號;桃園市中壢區中工段一三九地號;桃園市中壢區中工段一四○(部分)地號",
+    "city": "桃園市",
+    "section_name": "中工段",
+    "lot_no": "81"
   },
   {
     "id": "H14328",
@@ -5768,7 +6362,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市楊梅區幼獅段一○七一地號;桃園市楊梅區幼獅段一○七二地號;桃園市楊梅區幼獅段一○七三地號;桃園市楊梅區幼獅段一○七四地號;桃園市楊梅區幼獅段一○八一地號;桃園市楊梅區幼獅段一○八二地號;桃園市楊梅區幼獅段一○八三地號",
+    "city": "桃園市",
+    "section_name": "幼獅段",
+    "lot_no": "1071"
   },
   {
     "id": "H14441",
@@ -5797,7 +6394,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市楊梅區長紅段一三五九地號;桃園市楊梅區長紅段一三六四地號",
+    "city": "桃園市",
+    "section_name": "長紅段",
+    "lot_no": "1359"
   },
   {
     "id": "H15297",
@@ -5826,7 +6426,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市中壢區內壢段三七三四地號;桃園市中壢區內壢段三七三四之一地號",
+    "city": "桃園市",
+    "section_name": "內壢段",
+    "lot_no": "3734"
   },
   {
     "id": "H15312",
@@ -5855,7 +6458,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市大園區內海墘段特工區小段四四之一地號",
+    "city": "桃園市",
+    "section_name": "內海墘段特工區小段",
+    "lot_no": "44-1"
   },
   {
     "id": "H16318",
@@ -5884,7 +6490,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市桃園區大樹林段一八二八地號;桃園市桃園區大樹林段一八二九地號;桃園市桃園區大樹林段一八三八地號;桃園市桃園區大樹林段一八三八之一地號;桃園市桃園區大樹林段一八五九之二地號;桃園市桃園區大樹林段一八四四(部分)地號",
+    "city": "桃園市",
+    "section_name": "大樹林段",
+    "lot_no": "1828"
   },
   {
     "id": "H16339",
@@ -5913,7 +6522,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市中壢區中工段八一地號;桃園市中壢區中工段八○地號;桃園市中壢區中工段一三九地號;桃園市中壢區中工段一四○(部分)地號",
+    "city": "桃園市",
+    "section_name": "中工段",
+    "lot_no": "81"
   },
   {
     "id": "H16354",
@@ -5942,7 +6554,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市大園區內海墘段特工區小段五○之一地號",
+    "city": "桃園市",
+    "section_name": "內海墘段特工區小段",
+    "lot_no": "50-1"
   },
   {
     "id": "H16370",
@@ -5971,7 +6586,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市八德區大安段三○四地號",
+    "city": "桃園市",
+    "section_name": "大安段",
+    "lot_no": "304"
   },
   {
     "id": "H16380",
@@ -6000,7 +6618,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市蘆竹區長安段二八三(部分)地號",
+    "city": "桃園市",
+    "section_name": "長安段",
+    "lot_no": "283"
   },
   {
     "id": "H16383",
@@ -6029,7 +6650,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市龜山區油廠段一三四地號;桃園市龜山區油廠段一三六地號;桃園市龜山區油廠段一三七地號;桃園市龜山區油廠段一三八地號;桃園市龜山區油廠段一三九地號;桃園市龜山區油廠段一四○地號;桃園市龜山區油廠段一四一地號;桃園市龜山區油廠段一四二地號;桃園市龜山區油廠段一四三地號;桃園市龜山區油廠段一四四地號;桃園市龜山區油廠段一四五地號;桃園市龜山區油廠段一四六地號;桃園市龜山區油廠段一四七地號",
+    "city": "桃園市",
+    "section_name": "油廠段",
+    "lot_no": "134"
   },
   {
     "id": "H16384",
@@ -6058,7 +6682,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市平鎮區鎮東段六八○地號",
+    "city": "桃園市",
+    "section_name": "區鎮東段",
+    "lot_no": "680"
   },
   {
     "id": "H16394",
@@ -6087,7 +6714,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市中壢區山上段一六九七地號;桃園市中壢區山上段一六九八地號;桃園市中壢區山上段一六九八之一地號;桃園市中壢區山上段一六九八之二地號;桃園市中壢區山上段一六九九地號;桃園市中壢區山上段一六九九之一地號;桃園市中壢區山上段一七二二地號",
+    "city": "桃園市",
+    "section_name": "山上段",
+    "lot_no": "1697"
   },
   {
     "id": "H16398",
@@ -6116,7 +6746,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市新屋區蚵殼港段蚵殼港小段三二六之五地號;桃園市新屋區蚵殼港段蚵殼港小段一二八七地號;桃園市新屋區蚵殼港段蚵殼港小段一二八八地號",
+    "city": "桃園市",
+    "section_name": "蚵殼港段蚵殼港小段",
+    "lot_no": "326-5"
   },
   {
     "id": "H16419",
@@ -6145,7 +6778,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市蘆竹區六福段六八五(部分)地號;桃園市蘆竹區六福段七四八(部分)地號",
+    "city": "桃園市",
+    "section_name": "六福段",
+    "lot_no": "685"
   },
   {
     "id": "H16429",
@@ -6174,7 +6810,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市龜山區油廠段八之三地號;桃園市龜山區油廠段一一地號;桃園市龜山區油廠段一二地號",
+    "city": "桃園市",
+    "section_name": "油廠段",
+    "lot_no": "8-3"
   },
   {
     "id": "H16441",
@@ -6203,7 +6842,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市龜山區油廠段二○八(部分)地號",
+    "city": "桃園市",
+    "section_name": "油廠段",
+    "lot_no": "208"
   },
   {
     "id": "H16442",
@@ -6232,7 +6874,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "桃園市"
+    "parcel": "桃園市龍潭區中科段一二六(部分)地號;桃園市龍潭區中科段一五六(部分)地號;桃園市龍潭區中科段一五七(部分)地號;桃園市龍潭區中科段一六三(部分)地號;桃園市龍潭區中科段一六五(部分)地號;桃園市龍潭區中科段一六六地號;桃園市龍潭區中科段一六七地號;桃園市龍潭區中科段一六八地號;桃園市龍潭區中科段一六九地號;桃園市龍潭區中科段一七○(部分)地號;桃園市龍潭區中科段一七一(部分)地號;桃園市龍潭區中科段一七二地號;桃園市龍潭區中科段一七三(部分)地號;桃園市龍潭區中科段一七四地號;桃園市龍潭區中科段一七五地號;桃園市龍潭區中科段一七六地號;桃園市龍潭區中科段一七七地號;桃園市龍潭區中科段一七八(部分)地號;桃園市龍潭區中科段一七九(部分)地號;桃園市龍潭區中科段一八○(部分)地號;桃園市龍潭區永福段二一三七地號",
+    "city": "桃園市",
+    "section_name": "中科段",
+    "lot_no": "126"
   },
   {
     "id": "I00236",
@@ -6261,7 +6906,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義市"
+    "parcel": "嘉義市東區同興段一二七之二地號;嘉義市東區同興段一二八之一地號;嘉義市東區同興段一二九之一地號;嘉義市東區同興段一三四地號",
+    "city": "嘉義市",
+    "section_name": "同興段",
+    "lot_no": "127-2"
   },
   {
     "id": "I00238",
@@ -6290,7 +6938,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義市"
+    "parcel": "嘉義市東區遠東段一九三地號",
+    "city": "嘉義市",
+    "section_name": "遠東段",
+    "lot_no": "193"
   },
   {
     "id": "I00250",
@@ -6319,7 +6970,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義市"
+    "parcel": "嘉義市嘉義市車店段五一一地號;嘉義市嘉義市車店段五一一之四地號;嘉義市嘉義市車店段五二一之三地號;嘉義市嘉義市車店段五二二地號;嘉義市嘉義市車店段五二三地號;嘉義市嘉義市車店段五二五地號;嘉義市嘉義市車店段五二五之五地號;嘉義市嘉義市車店段五二五之一三地號;嘉義市嘉義市車店段五二五之一四地號;嘉義市嘉義市車店段五二六地號;嘉義市嘉義市車店段五二六之一地號;嘉義市嘉義市車店段五二六之六地號;嘉義市嘉義市車店段五二七地號;嘉義市嘉義市車店段五二七之一地號;嘉義市嘉義市車店段五二七之三地號;嘉義市嘉義市車店段五二九地號;嘉義市嘉義市車店段五二九之七地號;嘉義市嘉義市車店段五二九之一一地號",
+    "city": "嘉義市",
+    "section_name": "車店段",
+    "lot_no": "511"
   },
   {
     "id": "I00255",
@@ -6348,7 +7002,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義市"
+    "parcel": "嘉義市嘉義市遠東段二一一之四地號",
+    "city": "嘉義市",
+    "section_name": "遠東段",
+    "lot_no": "211-4"
   },
   {
     "id": "J10085",
@@ -6377,7 +7034,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹縣"
+    "parcel": "新竹縣湖口鄉建興段建興小段○○二八地號",
+    "city": "新竹縣",
+    "section_name": "建興段建興小段",
+    "lot_no": "28"
   },
   {
     "id": "J10092",
@@ -6406,7 +7066,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹縣"
+    "parcel": "新竹縣新豐鄉新豐段七九七地號;新竹縣新豐鄉新豐段七九八地號;新竹縣新豐鄉新豐段七九九地號",
+    "city": "新竹縣",
+    "section_name": "新豐段",
+    "lot_no": "797"
   },
   {
     "id": "J10102",
@@ -6435,7 +7098,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹縣"
+    "parcel": "新竹縣湖口鄉建興段建興小段○○二七地號",
+    "city": "新竹縣",
+    "section_name": "建興段建興小段",
+    "lot_no": "27"
   },
   {
     "id": "J10108",
@@ -6464,7 +7130,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹縣"
+    "parcel": "新竹縣關西鎮大旱坑段大東坑小段一之一地號",
+    "city": "新竹縣",
+    "section_name": "大旱坑段大東坑小段",
+    "lot_no": "1-1"
   },
   {
     "id": "J10117",
@@ -6493,7 +7162,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹縣"
+    "parcel": "新竹縣新豐鄉松柏段○九三六地號;新竹縣新豐鄉松柏段○九三七地號;新竹縣新豐鄉松柏段○九三八地號;新竹縣新豐鄉松柏段○九三九地號;新竹縣新豐鄉松柏段○九四○地號",
+    "city": "新竹縣",
+    "section_name": "松柏段",
+    "lot_no": "936"
   },
   {
     "id": "J10142",
@@ -6522,7 +7194,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹縣"
+    "parcel": "新竹縣湖口鄉中興段新興小段三地號",
+    "city": "新竹縣",
+    "section_name": "中興段新興小段",
+    "lot_no": "3"
   },
   {
     "id": "J10213",
@@ -6551,7 +7226,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹縣"
+    "parcel": "新竹縣新豐鄉忠信段○○○八地號;新竹縣新豐鄉忠信段○○一一地號;新竹縣新豐鄉忠信段○○一七地號;新竹縣新豐鄉忠信段○○一八地號;新竹縣新豐鄉忠信段○○一九地號;新竹縣新豐鄉忠信段○○五一地號;新竹縣新豐鄉忠信段○○五二地號;新竹縣新豐鄉忠信段○○五三地號;新竹縣新豐鄉忠信段○○八○地號;新竹縣新豐鄉忠信段○○八一地號;新竹縣新豐鄉忠信段○○八一之○○○二地號;新竹縣新豐鄉忠信段○○八三地號;新竹縣新豐鄉忠信段○○八四地號;新竹縣新豐鄉忠信段○○八四之○○○二地號;新竹縣新豐鄉忠信段○○八五地號;新竹縣新豐鄉忠信段○○八五之○○○一地號;新竹縣新豐鄉忠信段○○八六地號;新竹縣新豐鄉忠信段○○八六之○○○二地號;新竹縣新豐鄉忠信段○○八六之○○○四地號;新竹縣新豐鄉忠信段○○八七地號;新竹縣新豐鄉忠信段○○八八之○○○二地號;新竹縣新豐鄉忠信段○○八八之○○○三地號;新竹縣新豐鄉忠信段○三一五地號;新竹縣新豐鄉忠信段○三一七地號;新竹縣新豐鄉忠信段○三一八地號;新竹縣新豐鄉忠信段○三一九地號;新竹縣新豐鄉忠信段○三二○地號;新竹縣新豐鄉忠信段○三二一地號;新竹縣新豐鄉忠信段○三二二地號;新竹縣新豐鄉忠信段○三二三地號;新竹縣新豐鄉忠信段○三二四地號",
+    "city": "新竹縣",
+    "section_name": "忠信段",
+    "lot_no": "8"
   },
   {
     "id": "J10259",
@@ -6580,7 +7258,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹縣"
+    "parcel": "新竹縣竹東鎮明星段六四七地號;新竹縣竹東鎮明星段六四八地號;新竹縣竹東鎮明星段六六一地號;新竹縣竹東鎮明星段六六一之一地號;新竹縣竹東鎮明星段六六一之二地號;新竹縣竹東鎮明星段六六一之三地號;新竹縣竹東鎮明星段六六一之四地號;新竹縣竹東鎮明星段六六一之五地號;新竹縣竹東鎮明星段六六一之六地號;新竹縣竹東鎮明星段六六一之七地號;新竹縣竹東鎮明星段六六一之八地號;新竹縣竹東鎮明星段六六一之九地號;新竹縣竹東鎮明星段六六一之一○地號;新竹縣竹東鎮明星段六六一之一一地號;新竹縣竹東鎮明星段六六一之一二地號;新竹縣竹東鎮明星段六六一之一三地號;新竹縣竹東鎮明星段六六一之一七地號;新竹縣竹東鎮明星段六六一之二○地號;新竹縣竹東鎮明星段六六一之二一地號;新竹縣竹東鎮明星段六六一之二二地號;新竹縣竹東鎮明星段六六一之二三地號;新竹縣竹東鎮明星段六六七地號;新竹縣竹東鎮明星段六六七之一地號;新竹縣竹東鎮明星段六六八地號;新竹縣竹東鎮明星段六六九地號",
+    "city": "新竹縣",
+    "section_name": "明星段",
+    "lot_no": "647"
   },
   {
     "id": "K00006",
@@ -6609,7 +7290,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣頭份市"
+    "parcel": "苗栗縣頭份市蘆竹段一六八地號;苗栗縣頭份市蘆竹段一六七地號;苗栗縣頭份市蘆竹段一二六地號;苗栗縣頭份市蘆竹段一三二地號;苗栗縣頭份市蘆竹段一二五地號;苗栗縣頭份市蘆竹段一三一地號;苗栗縣頭份市蘆竹段一二四地號;苗栗縣頭份市蘆竹段一三○地號;苗栗縣頭份市蘆竹段一二三地號;苗栗縣頭份市蘆竹段一二九地號;苗栗縣頭份市蘆竹段一二二地號;苗栗縣頭份市蘆竹段一二八地號;苗栗縣頭份市蘆竹段一二一地號;苗栗縣頭份市蘆竹段一二七地號",
+    "city": "苗栗縣頭份市",
+    "section_name": "蘆竹段",
+    "lot_no": "168"
   },
   {
     "id": "K00007",
@@ -6638,7 +7322,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣頭份市"
+    "parcel": "苗栗縣頭份市永貞段八八七地號",
+    "city": "苗栗縣頭份市",
+    "section_name": "永貞段",
+    "lot_no": "887"
   },
   {
     "id": "K10051",
@@ -6667,7 +7354,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣頭份市蘆竹湳段蘆竹湳小段六四五之一四地號",
+    "city": "苗栗縣",
+    "section_name": "蘆竹湳段蘆竹湳小段",
+    "lot_no": "645-14"
   },
   {
     "id": "K10052",
@@ -6696,7 +7386,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣頭份市永貞段一一八二地號",
+    "city": "苗栗縣",
+    "section_name": "永貞段",
+    "lot_no": "1182"
   },
   {
     "id": "K10053",
@@ -6725,7 +7418,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣頭份市永貞段四八九地號",
+    "city": "苗栗縣",
+    "section_name": "永貞段",
+    "lot_no": "489"
   },
   {
     "id": "K10086",
@@ -6754,7 +7450,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣竹南鎮龍鳳東段一○五○地號",
+    "city": "苗栗縣",
+    "section_name": "龍鳳東段",
+    "lot_no": "1050"
   },
   {
     "id": "K10120",
@@ -6783,7 +7482,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣竹南鎮環市"
+    "parcel": "苗栗縣竹南鎮公義段二五一地號",
+    "city": "苗栗縣竹南鎮環市",
+    "section_name": "公義段",
+    "lot_no": "251"
   },
   {
     "id": "K10128",
@@ -6812,7 +7514,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣頭份市"
+    "parcel": "苗栗縣頭份市光華段一四五五地號",
+    "city": "苗栗縣頭份市",
+    "section_name": "光華段",
+    "lot_no": "1455"
   },
   {
     "id": "K10131",
@@ -6841,7 +7546,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣後龍鎮苦苓腳段四二八九地號",
+    "city": "苗栗縣",
+    "section_name": "苦苓腳段",
+    "lot_no": "4289"
   },
   {
     "id": "K10137",
@@ -6870,7 +7578,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣三義鄉雙草湖段五八二地號",
+    "city": "苗栗縣",
+    "section_name": "雙草湖段",
+    "lot_no": "582"
   },
   {
     "id": "K10142",
@@ -6899,7 +7610,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣竹南鎮龍鳳東段一○八一地號",
+    "city": "苗栗縣",
+    "section_name": "龍鳳東段",
+    "lot_no": "1081"
   },
   {
     "id": "K10242",
@@ -6928,7 +7642,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣竹南鎮大同段四○六地號;苗栗縣竹南鎮大同段四○七地號;苗栗縣竹南鎮廣源段一五八四地號;苗栗縣竹南鎮廣源段一五八五地號;苗栗縣竹南鎮大同段四一三地號;苗栗縣竹南鎮大同段四一四地號;苗栗縣竹南鎮大同段四一五地號;苗栗縣竹南鎮大同段四一六地號;苗栗縣竹南鎮大同段四一九地號;苗栗縣竹南鎮大同段四二○地號;苗栗縣竹南鎮大同段四二一地號;苗栗縣竹南鎮大同段四二四地號;苗栗縣竹南鎮大同段四二八地號;苗栗縣竹南鎮大同段四二九地號;苗栗縣竹南鎮大同段四○九地號;苗栗縣竹南鎮大同段四三三地號;苗栗縣竹南鎮大同段五三五地號;苗栗縣竹南鎮大同段四○八地號;苗栗縣竹南鎮大同段四二二地號;苗栗縣竹南鎮大同段四二三地號;苗栗縣竹南鎮大同段四二七地號;苗栗縣竹南鎮大同段四四五地號",
+    "city": "苗栗縣",
+    "section_name": "大同段",
+    "lot_no": "406"
   },
   {
     "id": "K10255",
@@ -6957,7 +7674,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣三義鄉五穀段一地號;苗栗縣三義鄉五穀段三地號;苗栗縣三義鄉五穀段一一地號",
+    "city": "苗栗縣",
+    "section_name": "五穀段",
+    "lot_no": "1"
   },
   {
     "id": "K10267",
@@ -6986,7 +7706,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣造橋鄉新潭內段三一地號;苗栗縣造橋鄉新潭內段三二地號;苗栗縣造橋鄉新潭內段三三地號;苗栗縣造橋鄉新潭內段三四地號;苗栗縣造橋鄉新潭內段三五地號;苗栗縣造橋鄉新潭內段八四地號;苗栗縣造橋鄉新潭內段三十地號",
+    "city": "苗栗縣",
+    "section_name": "新潭內段",
+    "lot_no": "31"
   },
   {
     "id": "K10271",
@@ -7015,7 +7738,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣頭份市"
+    "parcel": "苗栗縣頭份市蘆竹段二二三地號",
+    "city": "苗栗縣頭份市",
+    "section_name": "蘆竹段",
+    "lot_no": "223"
   },
   {
     "id": "K10277",
@@ -7044,7 +7770,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣三灣鄉北埔段一○五地號",
+    "city": "苗栗縣",
+    "section_name": "北埔段",
+    "lot_no": "105"
   },
   {
     "id": "K10279",
@@ -7073,7 +7802,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣竹南鎮鹽館前段大厝小段一五四(部分)地號",
+    "city": "苗栗縣",
+    "section_name": "鹽館前段大厝小段",
+    "lot_no": "154"
   },
   {
     "id": "K10280",
@@ -7102,7 +7834,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣苑裡鎮順天段二○六地號",
+    "city": "苗栗縣",
+    "section_name": "順天段",
+    "lot_no": "206"
   },
   {
     "id": "K10282",
@@ -7131,7 +7866,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣苑裡鎮苑北段○三七四之○○○九地號",
+    "city": "苗栗縣",
+    "section_name": "苑北段",
+    "lot_no": "374-9"
   },
   {
     "id": "K10286",
@@ -7160,7 +7898,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣苑裡鎮苑北段三七四之九地號;苗栗縣苑裡鎮苑北段三七四之一○地號;苗栗縣苑裡鎮苑北段三七四之一一地號;苗栗縣苑裡鎮苑北段三七四之一二地號",
+    "city": "苗栗縣",
+    "section_name": "苑北段",
+    "lot_no": "374-9"
   },
   {
     "id": "K10287",
@@ -7189,7 +7930,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣三義鄉鯉魚段一二五四地號",
+    "city": "苗栗縣",
+    "section_name": "鯉魚段",
+    "lot_no": "1254"
   },
   {
     "id": "K10288",
@@ -7218,7 +7962,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣通霄鎮中山段一四號;苗栗縣通霄鎮中山段一四之一號;苗栗縣通霄鎮中山段一七號;苗栗縣通霄鎮中山段一七之一號;苗栗縣通霄鎮中山段一七之二號;苗栗縣通霄鎮中山段一八號;苗栗縣通霄鎮中山段一八之一號;苗栗縣通霄鎮中山段一八之二號;苗栗縣通霄鎮中山段一八之三號;苗栗縣通霄鎮中山段一八之四號;苗栗縣通霄鎮中山段一八之五號;苗栗縣通霄鎮中山段一八之六號;苗栗縣通霄鎮中山段一九號;苗栗縣通霄鎮中山段一九之一號;苗栗縣通霄鎮中山段一九之二號;苗栗縣通霄鎮中山段一九之三號;苗栗縣通霄鎮中山段一九之四號;苗栗縣通霄鎮中山段一九之五號;苗栗縣通霄鎮中山段二三號;苗栗縣通霄鎮中山段二三之一號;苗栗縣通霄鎮中山段二四號;苗栗縣通霄鎮中山段二四之一號;苗栗縣通霄鎮中山段二四之二號;苗栗縣通霄鎮中山段二五號;苗栗縣通霄鎮中山段二六號;苗栗縣通霄鎮中山段二七號;苗栗縣通霄鎮中山段二八號;苗栗縣通霄鎮中山段二八之一號;苗栗縣通霄鎮中山段二八之二號;苗栗縣通霄鎮中山段二九號;苗栗縣通霄鎮中山段二九之一號;苗栗縣通霄鎮中山段二九之二號;苗栗縣通霄鎮中山段三○號;苗栗縣通霄鎮中山段三○之一號;苗栗縣通霄鎮中山段三○之二號;苗栗縣通霄鎮中山段三一號;苗栗縣通霄鎮中山段三一之一號;苗栗縣通霄鎮中山段三二號;苗栗縣通霄鎮中山段三四號;苗栗縣通霄鎮中山段三四之一號;苗栗縣通霄鎮中山段三四之二號;苗栗縣通霄鎮中山段三四之三號;苗栗縣通霄鎮中山段三五號;苗栗縣通霄鎮中山段三六號;苗栗縣通霄鎮中山段三六之一號;苗栗縣通霄鎮中山段三六之二號;苗栗縣通霄鎮中山段三七號;苗栗縣通霄鎮中山段三八號;苗栗縣通霄鎮中山段三九號;苗栗縣通霄鎮中山段三九之一號;苗栗縣通霄鎮中山段三九之二號;苗栗縣通霄鎮中山段三九之三號;苗栗縣通霄鎮中山段四○號;苗栗縣通霄鎮中山段四○之一號;苗栗縣通霄鎮中山段四○之二號;苗栗縣通霄鎮中山段四一號;苗栗縣通霄鎮中山段四一之一號;苗栗縣通霄鎮中山段四一之二號;苗栗縣通霄鎮中山段四一之三號;苗栗縣通霄鎮中山段四一之四號;苗栗縣通霄鎮中山段四二號;苗栗縣通霄鎮中山段四三號;苗栗縣通霄鎮中山段四三之一號;苗栗縣通霄鎮中山段四四號;苗栗縣通霄鎮中山段四四之一號;苗栗縣通霄鎮中山段四五號;苗栗縣通霄鎮中山段四六號;苗栗縣通霄鎮中山段四六之一號;苗栗縣通霄鎮中山段四七號;苗栗縣通霄鎮中山段四八號;苗栗縣通霄鎮中山段四九號;苗栗縣通霄鎮中山段五○號;苗栗縣通霄鎮中山段五一號;苗栗縣通霄鎮中山段五二號;苗栗縣通霄鎮中山段五二之一號;苗栗縣通霄鎮中山段五二之二號;苗栗縣通霄鎮中山段五三號;苗栗縣通霄鎮中山段五三之一號;苗栗縣通霄鎮中山段五四號;苗栗縣通霄鎮中山段五五號;苗栗縣通霄鎮中山段五五之一號;苗栗縣通霄鎮中山段五五之二號;苗栗縣通霄鎮中山段五五之三號;苗栗縣通霄鎮中山段五五之四號;苗栗縣通霄鎮中山段五五之五號;苗栗縣通霄鎮中山段五五之六號;苗栗縣通霄鎮中山段五六號;苗栗縣通霄鎮中山段五六之一號;苗栗縣通霄鎮中山段五六之二號;苗栗縣通霄鎮中山段五六之三號;苗栗縣通霄鎮中山段五八號;苗栗縣通霄鎮中山段五八之一號;苗栗縣通霄鎮中山段五八之二號;苗栗縣通霄鎮中山段五八之三號;苗栗縣通霄鎮中山段五八之四號;苗栗縣通霄鎮中山段五八之五號;苗栗縣通霄鎮中山段五八之六號;苗栗縣通霄鎮中山段五八之七號;苗栗縣通霄鎮中山段五八之八號;苗栗縣通霄鎮中山段五八之九號;苗栗縣通霄鎮中山段五八之一○號;苗栗縣通霄鎮中山段五八之一一號;苗栗縣通霄鎮中山段五八之一二號;苗栗縣通霄鎮中山段五九號;苗栗縣通霄鎮中山段五九之一號;苗栗縣通霄鎮中山段五九之二號;苗栗縣通霄鎮中山段五九之三號;苗栗縣通霄鎮中山段五九之四號;苗栗縣通霄鎮中山段六○號;苗栗縣通霄鎮中山段六一號;苗栗縣通霄鎮中山段六二號;苗栗縣通霄鎮中山段六二之一號;苗栗縣通霄鎮中山段六二之二號;苗栗縣通霄鎮中山段六二之三號;苗栗縣通霄鎮中山段六三號;苗栗縣通霄鎮中山段六三之一號;苗栗縣通霄鎮中山段六三之二號;苗栗縣通霄鎮中山段六四號;苗栗縣通霄鎮中山段六四之一號;苗栗縣通霄鎮中山段六五號;苗栗縣通霄鎮中山段六五之一號;苗栗縣通霄鎮中山段六五之二號;苗栗縣通霄鎮中山段六六號;苗栗縣通霄鎮中山段六六之一號;苗栗縣通霄鎮中山段六七號;苗栗縣通霄鎮中山段六八號;苗栗縣通霄鎮中山段六九號;苗栗縣通霄鎮中山段六九之一號;苗栗縣通霄鎮中山段七○號;苗栗縣通霄鎮中山段七一號;苗栗縣通霄鎮中山段七二號;苗栗縣通霄鎮中山段七三號;苗栗縣通霄鎮中山段七三之一號;苗栗縣通霄鎮中山段七三之二號;苗栗縣通霄鎮中山段七三之三號;苗栗縣通霄鎮中山段七四號;苗栗縣通霄鎮中山段七五號;苗栗縣通霄鎮中山段七六號;苗栗縣通霄鎮中山段七七號;苗栗縣通霄鎮中山段七七之一號;苗栗縣通霄鎮中山段七八號;苗栗縣通霄鎮中山段七八之一號;苗栗縣通霄鎮中山段七九號;苗栗縣通霄鎮中山段八○號;苗栗縣通霄鎮中山段八○之一號;苗栗縣通霄鎮中山段八○之二號;苗栗縣通霄鎮中山段八○之三號;苗栗縣通霄鎮中山段八一號;苗栗縣通霄鎮中山段八一之一號;苗栗縣通霄鎮中山段八一之二號;苗栗縣通霄鎮中山段八二號;苗栗縣通霄鎮中山段八三號;苗栗縣通霄鎮中山段八四號;苗栗縣通霄鎮中山段八四之一號;苗栗縣通霄鎮中山段八五號;苗栗縣通霄鎮中山段八六號;苗栗縣通霄鎮中山段八七號;苗栗縣通霄鎮中山段八七之一號;苗栗縣通霄鎮中山段八八號;苗栗縣通霄鎮中山段八九號;苗栗縣通霄鎮中山段八九之一號;苗栗縣通霄鎮中山段八九之二號;苗栗縣通霄鎮中山段八九之三號;苗栗縣通霄鎮中山段九○號;苗栗縣通霄鎮中山段九一號;苗栗縣通霄鎮中山段九一之一號;苗栗縣通霄鎮中山段九二號;苗栗縣通霄鎮中山段九三號;苗栗縣通霄鎮中山段九四號;苗栗縣通霄鎮中山段九五號;苗栗縣通霄鎮中山段九六號;苗栗縣通霄鎮中山段九七號;苗栗縣通霄鎮中山段九八號;苗栗縣通霄鎮中山段九八之一號;苗栗縣通霄鎮中山段九九號;苗栗縣通霄鎮中山段一○○號;苗栗縣通霄鎮中山段一○○之一號;苗栗縣通霄鎮中山段一○一號;苗栗縣通霄鎮中山段一○一之一號;苗栗縣通霄鎮中山段一○二號;苗栗縣通霄鎮中山段一○二之一號;苗栗縣通霄鎮中山段一○三號;苗栗縣通霄鎮中山段一○三之一號;苗栗縣通霄鎮中山段一○四號;苗栗縣通霄鎮中山段一○四之一號;苗栗縣通霄鎮中山段一○四之二號;苗栗縣通霄鎮中山段一○四之三號;苗栗縣通霄鎮中山段一○五號;苗栗縣通霄鎮中山段一○五之一號;苗栗縣通霄鎮中山段一○五之二號;苗栗縣通霄鎮中山段一○五之三號;苗栗縣通霄鎮中山段一○六號;苗栗縣通霄鎮中山段一○六之一號;苗栗縣通霄鎮中山段一○六之二號;苗栗縣通霄鎮中山段一○七號;苗栗縣通霄鎮中山段一○七之一號;苗栗縣通霄鎮中山段一○七之二號;苗栗縣通霄鎮中山段一○七之三號;苗栗縣通霄鎮中山段一○七之四號;苗栗縣通霄鎮中山段一○七之五號;苗栗縣通霄鎮中山段一○八號;苗栗縣通霄鎮中山段一○八之一號;苗栗縣通霄鎮中山段一○八之二號;苗栗縣通霄鎮中山段一○八之三號;苗栗縣通霄鎮中山段一○八之四號;苗栗縣通霄鎮中山段一○九號;苗栗縣通霄鎮中山段一○九之一號;苗栗縣通霄鎮中山段一○九之二號;苗栗縣通霄鎮中山段一一○號;苗栗縣通霄鎮中山段一一○之一號;苗栗縣通霄鎮中山段一一○之二號;苗栗縣通霄鎮中山段一一○之三號;苗栗縣通霄鎮中山段一一○之四號;苗栗縣通霄鎮中山段一一二號;苗栗縣通霄鎮中山段一一二之一號;苗栗縣通霄鎮中山段一一二之二號;苗栗縣通霄鎮中山段一一二之三號;苗栗縣通霄鎮中山段一一二之四號;苗栗縣通霄鎮中山段一一二之五號;苗栗縣通霄鎮中山段一一二之六號;苗栗縣通霄鎮中山段一一二之七號;苗栗縣通霄鎮中山段一一二之八號;苗栗縣通霄鎮中山段一一二之九號;苗栗縣通霄鎮中山段一一二之一○號;苗栗縣通霄鎮中山段一一二之一一號;苗栗縣通霄鎮中山段一一三號;苗栗縣通霄鎮中山段一一三之一號;苗栗縣通霄鎮中山段一一三之二號;苗栗縣通霄鎮中山段一一三之三號;苗栗縣通霄鎮中山段一一三之四號;苗栗縣通霄鎮中山段一一三之五號;苗栗縣通霄鎮中山段一一三之六號;苗栗縣通霄鎮中山段一一三之七號;苗栗縣通霄鎮中山段一一三之八號;苗栗縣通霄鎮中山段一一五號;苗栗縣通霄鎮中山段一一六號;苗栗縣通霄鎮中山段一一六之一號;苗栗縣通霄鎮中山段一一六之二號;苗栗縣通霄鎮中山段一一六之三號;苗栗縣通霄鎮中山段一一七號;苗栗縣通霄鎮中山段一一七之一號;苗栗縣通霄鎮中山段一一七之二號;苗栗縣通霄鎮中山段一一七之三號;苗栗縣通霄鎮中山段一一七之四號;苗栗縣通霄鎮中山段一一七之五號;苗栗縣通霄鎮中山段一一七之六號;苗栗縣通霄鎮中山段一一七之七號;苗栗縣通霄鎮中山段一二四號;苗栗縣通霄鎮中山段一二四之一號;苗栗縣通霄鎮中山段一二四之二號;苗栗縣通霄鎮中山段一二五號;苗栗縣通霄鎮中山段一二五之一號;苗栗縣通霄鎮中山段一二五之二號;苗栗縣通霄鎮中山段一二五之三號;苗栗縣通霄鎮中山段一二七號;苗栗縣通霄鎮中山段一二八號;苗栗縣通霄鎮中山段一二八之一號;苗栗縣通霄鎮中山段一二八之二號;苗栗縣通霄鎮中山段一二九號;苗栗縣通霄鎮中山段一二九之一號;苗栗縣通霄鎮中山段一二九之二號;苗栗縣通霄鎮中山段一三一號;苗栗縣通霄鎮中山段一三一之一號;苗栗縣通霄鎮中山段一三一之二號;苗栗縣通霄鎮中山段一三二號;苗栗縣通霄鎮中山段一三二之一號;苗栗縣通霄鎮中山段一三二之二號;苗栗縣通霄鎮中山段一三三號;苗栗縣通霄鎮中山段一三三之一號;苗栗縣通霄鎮中山段一三四號;苗栗縣通霄鎮中山段一三四之一號;苗栗縣通霄鎮中山段一三五號;苗栗縣通霄鎮中山段一三五之一號;苗栗縣通霄鎮中山段一三六號;苗栗縣通霄鎮中山段一三六之一號;苗栗縣通霄鎮中山段一三七號;苗栗縣通霄鎮中山段一三七之一號;苗栗縣通霄鎮中山段一三八號;苗栗縣通霄鎮中山段一三八之一號;苗栗縣通霄鎮中山段一三九號;苗栗縣通霄鎮中山段一三九之一號;苗栗縣通霄鎮中山段一四○號;苗栗縣通霄鎮中山段一四○之一號;苗栗縣通霄鎮中山段一四一號;苗栗縣通霄鎮中山段一四二號;苗栗縣通霄鎮中山段一四三號;苗栗縣通霄鎮中山段一四三之一號;苗栗縣通霄鎮中山段一四四號;苗栗縣通霄鎮中山段一四四之一號;苗栗縣通霄鎮中山段一四四之二號;苗栗縣通霄鎮中山段一四四之三號;苗栗縣通霄鎮中山段一四四之四號;苗栗縣通霄鎮中山段一四六號;苗栗縣通霄鎮中山段一四六之一號;苗栗縣通霄鎮中山段一四六之二號;苗栗縣通霄鎮中山段一四六之三號;苗栗縣通霄鎮中山段一四七號;苗栗縣通霄鎮中山段一四七之一號;苗栗縣通霄鎮中山段一四七之二號;苗栗縣通霄鎮中山段一四七之三號;苗栗縣通霄鎮中山段一四七之四號;苗栗縣通霄鎮中山段一四七之五號;苗栗縣通霄鎮中山段一四七之六號;苗栗縣通霄鎮中山段一五四號;苗栗縣通霄鎮中山段一五四之一號;苗栗縣通霄鎮中山段一五四之二號;苗栗縣通霄鎮中山段一五四之三號;苗栗縣通霄鎮中山段一五四之四號;苗栗縣通霄鎮中山段一五四之五號;苗栗縣通霄鎮中山段一五四之六號;苗栗縣通霄鎮中山段一五四之七號;苗栗縣通霄鎮中山段一五四之八號;苗栗縣通霄鎮中山段一五四之九號;苗栗縣通霄鎮中山段一五五號;苗栗縣通霄鎮中山段一五五之一號;苗栗縣通霄鎮中山段一五五之二號;苗栗縣通霄鎮中山段一五五之三號;苗栗縣通霄鎮中山段一五五之四號;苗栗縣通霄鎮中山段一五七號;苗栗縣通霄鎮中山段一五七之一號;苗栗縣通霄鎮中山段一五七之二號;苗栗縣通霄鎮中山段一五九號;苗栗縣通霄鎮中山段一五九之一號;苗栗縣通霄鎮中山段一○三九號;苗栗縣通霄鎮中山段一○四三號",
+    "city": "苗栗縣",
+    "section_name": null,
+    "lot_no": null
   },
   {
     "id": "K10293",
@@ -7247,7 +7994,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "苗栗縣"
+    "parcel": "苗栗縣竹南鎮頂埔段一一五四地號",
+    "city": "苗栗縣",
+    "section_name": "頂埔段",
+    "lot_no": "1154"
   },
   {
     "id": "L10064",
@@ -7276,7 +8026,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大里區光正段一三一五地號",
+    "city": "臺中市",
+    "section_name": "光正段",
+    "lot_no": "1315"
   },
   {
     "id": "L10122",
@@ -7305,7 +8058,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市豐原區翁明段二四九地號;臺中市豐原區翁明段二五○(部分)地號;臺中市豐原區翁明段二八二地號",
+    "city": "臺中市",
+    "section_name": "翁明段",
+    "lot_no": "249"
   },
   {
     "id": "L10287",
@@ -7334,7 +8090,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市潭子區工區段○六三一之○○○○地號",
+    "city": "臺中市",
+    "section_name": "工區段",
+    "lot_no": "631"
   },
   {
     "id": "L10291",
@@ -7363,7 +8122,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市潭子區臺中市"
+    "parcel": "臺中市潭子區興華段○五三五之○○○○地號",
+    "city": "臺中市潭子區臺中市",
+    "section_name": "興華段",
+    "lot_no": "535"
   },
   {
     "id": "L10306",
@@ -7392,7 +8154,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺中市"
+    "parcel": "臺中市大肚區王田段二二○之二地號;臺中市大肚區王田段二二○之三地號;臺中市大肚區王田段二二○之三○地號;臺中市大肚區王田段二五八之二地號;臺中市大肚區王田段二五九之二地號;臺中市大肚區王田段二五九之五地號;臺中市大肚區王田段四二三之三地號;臺中市大肚區王田段四二三之四地號;臺中市大肚區王田段四二三之五地號;臺中市大肚區王田段四二三之六地號;臺中市大肚區王田段四二三之七地號;臺中市大肚區王田段四二三之八地號;臺中市大肚區王田段四二三之一○地號",
+    "city": "臺中市",
+    "section_name": "王田段",
+    "lot_no": "220-2"
   },
   {
     "id": "M10071",
@@ -7421,7 +8186,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "南投縣南投市"
+    "parcel": "南投縣南投市新廍段段一四五八地號",
+    "city": "南投縣南投市",
+    "section_name": "新廍段段",
+    "lot_no": "1458"
   },
   {
     "id": "M10173",
@@ -7450,7 +8218,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "南投縣南投市"
+    "parcel": "南投縣南投市南崗段二○一地號",
+    "city": "南投縣南投市",
+    "section_name": "南崗段",
+    "lot_no": "201"
   },
   {
     "id": "N10449",
@@ -7479,7 +8250,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣溪湖鎮西寮段○五八二之○○○○地號;彰化縣溪湖鎮西寮段○六一九之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "西寮段",
+    "lot_no": "582"
   },
   {
     "id": "N10512",
@@ -7508,7 +8282,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣北斗鎮東北斗段一二三八之○○一六地號;彰化縣北斗鎮東北斗段一二三八之○○一八地號",
+    "city": "彰化縣",
+    "section_name": "東北斗段",
+    "lot_no": "1238-16"
   },
   {
     "id": "N10513",
@@ -7537,7 +8314,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣秀水鄉馬興段○六五○之○○○○地號;彰化縣秀水鄉馬興段○六五一之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "馬興段",
+    "lot_no": "650"
   },
   {
     "id": "N10550",
@@ -7566,7 +8346,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣花壇鄉溪南段○四八三之○○○○地號;彰化縣花壇鄉溪南段○四八四之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "溪南段",
+    "lot_no": "483"
   },
   {
     "id": "N10552",
@@ -7595,7 +8378,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣彰化市"
+    "parcel": "彰化縣彰化市南興段○六三一之○○○○地號;彰化縣彰化市南興段○六三一之○○○一地號;彰化縣彰化市南興段○六三一之○○○二地號;彰化縣彰化市南興段○六三一之○○○三地號;彰化縣彰化市南興段○六三二之○○○○地號;彰化縣彰化市南興段○六三二之○○○一地號;彰化縣彰化市南興段○六三二之○○○二地號;彰化縣彰化市南興段○六三三之○○○○地號;彰化縣彰化市南興段○六三三之○○○一地號;彰化縣彰化市南興段○六三四之○○○○地號;彰化縣彰化市南興段○六三四之○○○一地號;彰化縣彰化市南興段○六三四之○○○二地號;彰化縣彰化市南興段○六三四之○○○三地號;彰化縣彰化市南興段○六三五之○○○○地號;彰化縣彰化市南興段○六三五之○○○一地號;彰化縣彰化市南興段○六三九之○○○○地號;彰化縣彰化市南興段○六四七之○○○三地號;彰化縣彰化市南興段○六四八之○○○○地號;彰化縣彰化市南興段○六五五之○○○○地號;彰化縣彰化市南興段○六五五之○○○一地號;彰化縣彰化市南興段○六五八之○○○○地號;彰化縣彰化市南興段○六五八之○○○二地號;彰化縣彰化市南興段○六五九之○○○○地號;彰化縣彰化市南興段○六六一之○○○○地號",
+    "city": "彰化縣彰化市",
+    "section_name": "南興段",
+    "lot_no": "631"
   },
   {
     "id": "N10607",
@@ -7624,7 +8410,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣彰化市"
+    "parcel": "彰化縣彰化市莿桐段一五○三之○○○○地號",
+    "city": "彰化縣彰化市",
+    "section_name": "莿桐段",
+    "lot_no": "1503"
   },
   {
     "id": "N10955",
@@ -7653,7 +8442,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣和美鎮月眉段○二八二之○○一二地號;彰化縣和美鎮月眉段○二八二之○○一三地號;彰化縣和美鎮月眉段○二八二之○○一四地號",
+    "city": "彰化縣",
+    "section_name": "月眉段",
+    "lot_no": "282-12"
   },
   {
     "id": "N11013",
@@ -7682,7 +8474,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮振興段一三八八之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "振興段",
+    "lot_no": "1388"
   },
   {
     "id": "N11014",
@@ -7711,7 +8506,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮上林段○四二八之○○○○地號;彰化縣鹿港鎮上林段○四二九之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "上林段",
+    "lot_no": "428"
   },
   {
     "id": "N11020",
@@ -7740,7 +8538,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮鹿鳳段○六○八之○○○○(部分)地號",
+    "city": "彰化縣",
+    "section_name": "鹿鳳段",
+    "lot_no": "608"
   },
   {
     "id": "N11327",
@@ -7769,7 +8570,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣彰化市"
+    "parcel": "彰化縣彰化市古夷段○一五三之○○○○(部分)地號",
+    "city": "彰化縣彰化市",
+    "section_name": "古夷段",
+    "lot_no": "153"
   },
   {
     "id": "N11374",
@@ -7798,7 +8602,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣彰化市"
+    "parcel": "彰化縣彰化市延和段一○○六之○○○○地號",
+    "city": "彰化縣彰化市",
+    "section_name": "延和段",
+    "lot_no": "1006"
   },
   {
     "id": "N11378",
@@ -7827,7 +8634,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮振興段一二○一之○○○三地號;彰化縣鹿港鎮振興段一二○三之○○○四地號",
+    "city": "彰化縣",
+    "section_name": "振興段",
+    "lot_no": "1201-3"
   },
   {
     "id": "N11454",
@@ -7856,7 +8666,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮鹿犁段○四五五之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "鹿犁段",
+    "lot_no": "455"
   },
   {
     "id": "N11585",
@@ -7885,7 +8698,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮鹿犁段○七八一之○○○○(部分)地號",
+    "city": "彰化縣",
+    "section_name": "鹿犁段",
+    "lot_no": "781"
   },
   {
     "id": "N11619",
@@ -7914,7 +8730,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮鹿鳳段○三四一之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "鹿鳳段",
+    "lot_no": "341"
   },
   {
     "id": "N11620",
@@ -7943,7 +8762,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮鹿鳳段○三四二之○○○○(部分)地號",
+    "city": "彰化縣",
+    "section_name": "鹿鳳段",
+    "lot_no": "342"
   },
   {
     "id": "N11627",
@@ -7972,7 +8794,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮鹿鳳段○六八一之○○○○(部分)地號",
+    "city": "彰化縣",
+    "section_name": "鹿鳳段",
+    "lot_no": "681"
   },
   {
     "id": "N12029",
@@ -8001,7 +8826,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮上林段○三八二之○○二一地號",
+    "city": "彰化縣",
+    "section_name": "上林段",
+    "lot_no": "382-21"
   },
   {
     "id": "N12040",
@@ -8030,7 +8858,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣秀水鄉復興段○一九一之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "復興段",
+    "lot_no": "191"
   },
   {
     "id": "N12431",
@@ -8059,7 +8890,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣花壇鄉溪北段○七五八之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "溪北段",
+    "lot_no": "758"
   },
   {
     "id": "N13277",
@@ -8088,7 +8922,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣彰化市"
+    "parcel": "彰化縣彰化市西門口段○一一一之○○二○(部分)地號;彰化縣彰化市西門口段○一一一之○○二二地號;彰化縣彰化市西門口段○一一一之○○二四地號;彰化縣彰化市西門口段○一一一之○○四一地號",
+    "city": "彰化縣彰化市",
+    "section_name": "西門口段",
+    "lot_no": "111-20"
   },
   {
     "id": "N13530",
@@ -8117,7 +8954,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮鹿雅段○一二四之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "鹿雅段",
+    "lot_no": "124"
   },
   {
     "id": "N13980",
@@ -8146,7 +8986,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣和美鎮竹園段○○四四之○○○○地號;彰化縣和美鎮竹園段○○四四之○○○一地號;彰化縣和美鎮竹園段○○四四之○○○二地號;彰化縣和美鎮竹園段○○四四之○○○三地號;彰化縣和美鎮竹園段○○四四之○○○四地號;彰化縣和美鎮竹園段○○四四之○○○五地號;彰化縣和美鎮竹園段○○四八之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "竹園段",
+    "lot_no": "44"
   },
   {
     "id": "N13981",
@@ -8175,7 +9018,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣花壇鄉口庄段○○八八之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "口庄段",
+    "lot_no": "88"
   },
   {
     "id": "N13986",
@@ -8204,7 +9050,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣溪湖鎮西安段○五四四之○○○○地號;彰化縣溪湖鎮西安段○五五○之○○○○地號;彰化縣溪湖鎮西安段○五五一之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "西安段",
+    "lot_no": "544"
   },
   {
     "id": "N14013",
@@ -8233,7 +9082,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣溪湖鎮河興段○四九三之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "河興段",
+    "lot_no": "493"
   },
   {
     "id": "N14471",
@@ -8262,7 +9114,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣和美鎮大霞段二三六○之○○○○(部分)地號;彰化縣和美鎮大霞段二三六一之○○○○(部分)地號",
+    "city": "彰化縣",
+    "section_name": "大霞段",
+    "lot_no": "2360"
   },
   {
     "id": "N14475",
@@ -8291,7 +9146,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣埔心鄉瓦窯北段○一二五之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "瓦窯北段",
+    "lot_no": "125"
   },
   {
     "id": "N17895",
@@ -8320,7 +9178,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮鹿鳴段○六九五之○○○○地號;彰化縣鹿港鎮鹿鳴段○六九六之○○○○地號;彰化縣鹿港鎮鹿鳴段○六九八之○○○○(部分)地號;彰化縣鹿港鎮鹿鳴段○六九九之○○○○(部分)地號",
+    "city": "彰化縣",
+    "section_name": "鹿鳴段",
+    "lot_no": "695"
   },
   {
     "id": "N18125",
@@ -8349,7 +9210,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮振興段一一八九之○○二一地號;彰化縣鹿港鎮振興段一一八九之○○一七(部分)地號",
+    "city": "彰化縣",
+    "section_name": "振興段",
+    "lot_no": "1189-21"
   },
   {
     "id": "N18126",
@@ -8378,7 +9242,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣花壇鄉橋頭段○四一六之○○○○地號;彰化縣花壇鄉橋頭段○四一七之○○○○地號;彰化縣花壇鄉橋頭段○四一八之○○○○地號;彰化縣花壇鄉橋頭段○四一九之○○○○地號;彰化縣花壇鄉橋頭段○四二○之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "橋頭段",
+    "lot_no": "416"
   },
   {
     "id": "N18194",
@@ -8407,7 +9274,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣花壇鄉橋頭段○四二一之○○○○地號;彰化縣花壇鄉橋頭段○四二二之○○○○地號;彰化縣花壇鄉橋頭段○四二三之○○○○地號;彰化縣花壇鄉橋頭段○四二四之○○○○地號;彰化縣花壇鄉橋頭段○四二五之○○○○地號",
+    "city": "彰化縣",
+    "section_name": "橋頭段",
+    "lot_no": "421"
   },
   {
     "id": "N18217",
@@ -8436,7 +9306,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣鹿港鎮振興段一一九○之○○○一地號;彰化縣鹿港鎮振興段三一八一之○○○○(部分)地號;彰化縣鹿港鎮振興段一一八九之○○○七地號",
+    "city": "彰化縣",
+    "section_name": "振興段",
+    "lot_no": "1190-1"
   },
   {
     "id": "N18499",
@@ -8465,7 +9338,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "彰化縣"
+    "parcel": "彰化縣彰化市西門口段○三四八之○○○○(部分)地號",
+    "city": "彰化縣",
+    "section_name": "西門口段",
+    "lot_no": "348"
   },
   {
     "id": "O10242",
@@ -8494,7 +9370,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市香山區麗園段一二七四地號;新竹市香山區麗園段一二九七地號;新竹市香山區麗園段一二九八地號;新竹市香山區麗園段一二九九地號;新竹市香山區麗園段一三○四地號;新竹市香山區麗園段一三一一地號;新竹市香山區麗園段一三一二地號;新竹市香山區麗園段一三一三地號;新竹市香山區麗園段一三一四地號;新竹市香山區麗園段一三一五地號;新竹市香山區麗園段一三一六地號;新竹市香山區麗園段一三一七地號;新竹市香山區麗園段一三一八地號;新竹市香山區麗園段一三一九地號;新竹市香山區麗園段一三二○地號;新竹市香山區麗園段一三二一地號;新竹市香山區麗園段一三二二地號;新竹市香山區麗園段一三二三地號;新竹市香山區麗園段一三二四地號;新竹市香山區麗園段一三二五地號;新竹市香山區麗園段一三二六地號;新竹市香山區麗園段一三二六之一地號;新竹市香山區麗園段一三三二地號;新竹市香山區麗園段一三三三地號;新竹市香山區麗園段一三三四地號;新竹市香山區麗園段一三三五地號;新竹市香山區麗園段一三三六地號;新竹市香山區麗園段一四三三地號;新竹市香山區麗園段一四三六地號",
+    "city": "新竹市",
+    "section_name": "麗園段",
+    "lot_no": "1274"
   },
   {
     "id": "O10271",
@@ -8523,7 +9402,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市東區東明段四三九地號",
+    "city": "新竹市",
+    "section_name": "東明段",
+    "lot_no": "439"
   },
   {
     "id": "O10319",
@@ -8552,7 +9434,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市香山區三姓段六二地號",
+    "city": "新竹市",
+    "section_name": "三姓段",
+    "lot_no": "62"
   },
   {
     "id": "O10322",
@@ -8581,7 +9466,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市香山區華江段六九四之二地號",
+    "city": "新竹市",
+    "section_name": "華江段",
+    "lot_no": "694-2"
   },
   {
     "id": "O10323",
@@ -8610,7 +9498,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市香山區三姓段六四地號",
+    "city": "新竹市",
+    "section_name": "三姓段",
+    "lot_no": "64"
   },
   {
     "id": "O10325",
@@ -8639,7 +9530,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市東區隆恩段九一三地號",
+    "city": "新竹市",
+    "section_name": "隆恩段",
+    "lot_no": "913"
   },
   {
     "id": "O10355",
@@ -8668,7 +9562,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市東區隆恩段九一四地號",
+    "city": "新竹市",
+    "section_name": "隆恩段",
+    "lot_no": "914"
   },
   {
     "id": "O10356",
@@ -8697,7 +9594,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市東區隆恩段九一七地號",
+    "city": "新竹市",
+    "section_name": "隆恩段",
+    "lot_no": "917"
   },
   {
     "id": "O10357",
@@ -8726,7 +9626,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市東區隆恩段九○六地號",
+    "city": "新竹市",
+    "section_name": "隆恩段",
+    "lot_no": "906"
   },
   {
     "id": "O10358",
@@ -8755,7 +9658,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "新竹市"
+    "parcel": "新竹市東區隆恩段九一一地號",
+    "city": "新竹市",
+    "section_name": "隆恩段",
+    "lot_no": "911"
   },
   {
     "id": "P00016",
@@ -8784,7 +9690,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "雲林縣"
+    "parcel": "雲林縣虎尾鎮興安段一一二八地號",
+    "city": "雲林縣",
+    "section_name": "興安段",
+    "lot_no": "1128"
   },
   {
     "id": "P10499",
@@ -8813,7 +9722,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "雲林縣"
+    "parcel": "雲林縣麥寮鄉六輕段七地號",
+    "city": "雲林縣",
+    "section_name": "六輕段",
+    "lot_no": "7"
   },
   {
     "id": "P10536",
@@ -8842,7 +9754,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "雲林縣"
+    "parcel": "雲林縣麥寮鄉六輕段一六八地號",
+    "city": "雲林縣",
+    "section_name": "六輕段",
+    "lot_no": "168"
   },
   {
     "id": "P10896",
@@ -8871,7 +9786,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "雲林縣"
+    "parcel": "雲林縣虎尾鎮過溪子段二三二一地號;雲林縣虎尾鎮過溪子段二三二二地號;雲林縣虎尾鎮過溪子段二三二三地號;雲林縣虎尾鎮過溪子段二三二四地號;雲林縣虎尾鎮過溪子段二三二五地號;雲林縣虎尾鎮過溪子段二三二六地號;雲林縣虎尾鎮過溪子段二三二七地號;雲林縣虎尾鎮過溪子段二三二八地號;雲林縣虎尾鎮過溪子段二三二九地號",
+    "city": "雲林縣",
+    "section_name": "過溪子段",
+    "lot_no": "2321"
   },
   {
     "id": "Q00003",
@@ -8900,7 +9818,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義縣"
+    "parcel": "嘉義縣水上鄉北回段一○四四地號;嘉義縣水上鄉北回段一○六○地號;嘉義縣水上鄉北回段一○六一地號;嘉義縣水上鄉北回段一○六二地號",
+    "city": "嘉義縣",
+    "section_name": "北回段",
+    "lot_no": "1044"
   },
   {
     "id": "Q00005",
@@ -8929,7 +9850,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義縣"
+    "parcel": "嘉義縣水上鄉北回段一○四六地號;嘉義縣水上鄉北回段一○四八地號;嘉義縣水上鄉北回段一○四九地號;嘉義縣水上鄉北回段一○五六地號;嘉義縣水上鄉北回段一○五七地號;嘉義縣水上鄉北回段一○六四地號",
+    "city": "嘉義縣",
+    "section_name": "北回段",
+    "lot_no": "1046"
   },
   {
     "id": "Q10258",
@@ -8958,7 +9882,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義縣"
+    "parcel": "嘉義縣民雄鄉民工段八二三地號;嘉義縣民雄鄉民工段八二四地號",
+    "city": "嘉義縣",
+    "section_name": "民工段",
+    "lot_no": "823"
   },
   {
     "id": "Q10474",
@@ -8987,7 +9914,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義縣"
+    "parcel": "嘉義縣民雄鄉頭橋段工業小段一三地號",
+    "city": "嘉義縣",
+    "section_name": "頭橋段工業小段",
+    "lot_no": "13"
   },
   {
     "id": "Q10876",
@@ -9016,7 +9946,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義縣"
+    "parcel": "嘉義縣新港鄉中工段五(部分)地號",
+    "city": "嘉義縣",
+    "section_name": "中工段",
+    "lot_no": "5"
   },
   {
     "id": "Q10877",
@@ -9045,7 +9978,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義縣"
+    "parcel": "嘉義縣新港鄉中工段一(部分)地號",
+    "city": "嘉義縣",
+    "section_name": "中工段",
+    "lot_no": "1"
   },
   {
     "id": "Q11049",
@@ -9074,7 +10010,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "嘉義縣太保市"
+    "parcel": "嘉義縣太保市過溝段工業小段四○地號",
+    "city": "嘉義縣太保市",
+    "section_name": "過溝段工業小段",
+    "lot_no": "40"
   },
   {
     "id": "R00004",
@@ -9103,7 +10042,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市仁德區城光段四八地號",
+    "city": "臺南市",
+    "section_name": "城光段",
+    "lot_no": "48"
   },
   {
     "id": "R00023",
@@ -9132,7 +10074,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市永康區臺南市"
+    "parcel": "臺南市永康區鹽南段○五一五之○○○○地號;臺南市永康區鹽南段○五一八之○○○○地號",
+    "city": "臺南市永康區臺南市",
+    "section_name": "鹽南段",
+    "lot_no": "515"
   },
   {
     "id": "R10140",
@@ -9161,7 +10106,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市仁德區公園段二七○地號",
+    "city": "臺南市",
+    "section_name": "公園段",
+    "lot_no": "270"
   },
   {
     "id": "R10147",
@@ -9190,7 +10138,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市仁德區車路墘段八○七地號",
+    "city": "臺南市",
+    "section_name": "車路墘段",
+    "lot_no": "807"
   },
   {
     "id": "R10188",
@@ -9219,7 +10170,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市麻豆區新樓段六六七地號;臺南市麻豆區新樓段六六八地號;臺南市麻豆區新樓段六七一地號;臺南市麻豆區新樓段六七二地號;臺南市麻豆區新樓段六九三地號;臺南市麻豆區新樓段六九六地號;臺南市麻豆區新樓段六九八地號;臺南市麻豆區新樓段八三五地號;臺南市麻豆區新樓段八三六地號;臺南市麻豆區新樓段八三七地號;臺南市麻豆區新樓段八三八地號;臺南市麻豆區新樓段八三九地號;臺南市麻豆區新樓段八四○地號;臺南市麻豆區新樓段八四三地號;臺南市麻豆區新樓段八四五地號;臺南市麻豆區新樓段八五五地號;臺南市麻豆區新樓段八五七地號",
+    "city": "臺南市",
+    "section_name": "新樓段",
+    "lot_no": "667"
   },
   {
     "id": "R10189",
@@ -9248,7 +10202,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "臺南市"
+    "parcel": "臺南市新化區拔林段一○○一之一地號;臺南市新化區拔林段一○○二之一地號;臺南市新化區拔林段一○○三之一地號;臺南市新化區拔林段一○○三之三地號;臺南市新化區拔林段一○○三之四地號;臺南市新化區拔林段一○○三之五地號;臺南市新化區拔林段一○○三之一○地號;臺南市新化區拔林段一○○五地號;臺南市新化區拔林段一○○六之三地號;臺南市新化區拔林段一○○六之四地號;臺南市新化區拔林段一○一二之一地號;臺南市新化區拔林段一○一三地號;臺南市新化區拔林段一○一三之一地號;臺南市新化區拔林段一○一三之二地號;臺南市新化區拔林段一○一三之三地號;臺南市新化區拔林段一○一三之四地號;臺南市新化區拔林段一○○六之一地號;臺南市新化區拔林段一○○六之二地號",
+    "city": "臺南市",
+    "section_name": "拔林段",
+    "lot_no": "1001-1"
   },
   {
     "id": "S00002",
@@ -9277,7 +10234,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市林園區汕尾段一八二三地號;高雄市林園區汕尾段一八二四地號;高雄市林園區汕尾段一八二五地號;高雄市林園區汕尾段一八二六地號;高雄市林園區汕尾段一八二七地號;高雄市林園區汕尾段一八二八地號;高雄市林園區汕尾段一八二九地號;高雄市林園區中芸段一○六八之二地號;高雄市林園區中芸段一○七三之二地號;高雄市林園區溪州段三小段三六三四之○○○○地號;高雄市林園區溪州段三小段三六三四之○○○三地號;高雄市林園區溪州段三小段三六三四之○○○五地號;高雄市林園區溪州段三小段三六三四之○○○六地號;高雄市林園區溪州段三小段三六三四之○○○七地號;高雄市林園區溪州段三小段三六三四之○○○八地號;高雄市林園區溪州段三小段三六三四之○○○九地號;高雄市林園區溪州段三小段三六三五之○○○○地號;高雄市林園區溪州段三小段三六三五之○○○一地號",
+    "city": "高雄市",
+    "section_name": "汕尾段",
+    "lot_no": "1823"
   },
   {
     "id": "S00003",
@@ -9306,7 +10266,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市燕巢區鳳雄段一三二地號;高雄市燕巢區鳳雄段一三三地號;高雄市燕巢區鳳雄段一三四地號;高雄市燕巢區鳳雄段一三五地號",
+    "city": "高雄市",
+    "section_name": "鳳雄段",
+    "lot_no": "132"
   },
   {
     "id": "S00006",
@@ -9335,7 +10298,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市大社區林子邊段一○一二地號;高雄市大社區林子邊段一二一二之一地號;高雄市大社區林子邊段一○一二之二地號;高雄市大社區林子邊段一○一二之三地號;高雄市大社區林子邊段一○一二之四地號;高雄市大社區林子邊段一○一二之五地號;高雄市大社區林子邊段一○一二之六地號;高雄市大社區林子邊段一○一三地號;高雄市大社區林子邊段一○一三之一地號;高雄市大社區林子邊段一○一三之三地號;高雄市大社區林子邊段一○一四之一地號;高雄市大社區林子邊段一○一四之三地號;高雄市大社區林子邊段一○一六地號;高雄市仁武區竹園段一二地號;高雄市仁武區竹園段一三地號",
+    "city": "高雄市",
+    "section_name": "林子邊段",
+    "lot_no": "1012"
   },
   {
     "id": "S00029",
@@ -9364,7 +10330,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市林園區溪州段三六三二地號",
+    "city": "高雄市",
+    "section_name": "溪州段",
+    "lot_no": "3632"
   },
   {
     "id": "S10002",
@@ -9393,7 +10362,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市大寮區新庄段五七○地號;高雄市大寮區新庄段八六○地號;高雄市大寮區新庄段八六三地號;高雄市大寮區新庄段八七三地號",
+    "city": "高雄市",
+    "section_name": "新庄段",
+    "lot_no": "570"
   },
   {
     "id": "S10032",
@@ -9422,7 +10394,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市鳳山區竹子腳段二七四之七地號",
+    "city": "高雄市",
+    "section_name": "竹子腳段",
+    "lot_no": "274-7"
   },
   {
     "id": "S10040",
@@ -9451,7 +10426,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市林園區中汕段一八一地號;高雄市林園區中汕段一八四地號",
+    "city": "高雄市",
+    "section_name": "中汕段",
+    "lot_no": "181"
   },
   {
     "id": "S10065",
@@ -9480,7 +10458,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市彌陀區彌港段六三○地號",
+    "city": "高雄市",
+    "section_name": "彌港段",
+    "lot_no": "630"
   },
   {
     "id": "S10066",
@@ -9509,7 +10490,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市仁武區竹園段一一二二地號;高雄市仁武區竹園段一一一五地號;高雄市仁武區竹園段一一一五之一地號;高雄市仁武區竹園段一一一三地號;高雄市仁武區竹園段一一一三之一地號;高雄市仁武區竹園段一一二六地號;高雄市仁武區竹園段一一二七地號;高雄市仁武區竹園段一一二四地號;高雄市仁武區竹園段一○八一地號;高雄市仁武區竹園段一○八一之一地號;高雄市仁武區竹園段一○八二地號;高雄市仁武區竹園段一○八二之一地號;高雄市仁武區竹園段一○八三地號;高雄市仁武區竹園段一一一七地號;高雄市仁武區竹園段一一一七之二地號;高雄市仁武區竹園段一○八三之一地號;高雄市仁武區竹園段一○九一地號;高雄市仁武區竹園段一○九二地號;高雄市仁武區竹園段一○九四地號;高雄市仁武區竹園段一○九九地號;高雄市仁武區竹園段一一○○地號;高雄市仁武區竹園段一一○一地號;高雄市仁武區竹園段一一○二地號;高雄市仁武區竹園段一一○四地號;高雄市仁武區竹園段一一○三地號;高雄市仁武區竹園段一一○五地號;高雄市仁武區竹園段一一一九地號;高雄市仁武區竹園段一○三二地號;高雄市仁武區竹園段一○三○地號;高雄市仁武區竹園段一○三一地號;高雄市仁武區竹園段一○三七地號;高雄市仁武區竹園段一○三八地號;高雄市仁武區竹園段一○三九地號;高雄市仁武區竹園段一○四一地號;高雄市仁武區竹園段一○四○地號;高雄市仁武區竹園段一○四二地號;高雄市仁武區竹園段一○四三地號;高雄市仁武區竹園段一○五一地號;高雄市仁武區竹園段一○四五地號;高雄市仁武區竹園段一○四六地號;高雄市仁武區竹園段一○四八地號;高雄市仁武區竹園段一○四八之一地號;高雄市仁武區竹園段一○五○之一地號;高雄市仁武區竹園段一○四四地號;高雄市仁武區竹園段一○四九地號;高雄市仁武區竹園段一○三三地號;高雄市仁武區竹園段一○三四地號;高雄市仁武區竹園段一○三五地號;高雄市仁武區竹園段一○三六地號;高雄市仁武區永和段三九地號;高雄市仁武區永和段一三四地號;高雄市仁武區永和段一三五地號;高雄市仁武區永和段一三九地號;高雄市仁武區永和段四○地號;高雄市仁武區永和段四五地號;高雄市仁武區永和段一三二地號;高雄市仁武區永和段一三三地號;高雄市仁武區永和段一三六地號;高雄市仁武區永和段一二九地號;高雄市仁武區永和段一三○地號;高雄市仁武區永和段一三一地號;高雄市仁武區永和段一三七地號;高雄市仁武區永和段一三八地號;高雄市仁武區永和段三八地號;高雄市仁武區永和段一四二地號;高雄市仁武區永和段一四○地號;高雄市仁武區永和段一四三地號;高雄市仁武區永和段一四五地號;高雄市仁武區永和段一四一地號;高雄市仁武區永和段五地號;高雄市仁武區永和段七地號;高雄市仁武區永和段八地號;高雄市仁武區永和段九地號;高雄市仁武區永和段十地號;高雄市仁武區永和段十一地號;高雄市仁武區永和段十七地號;高雄市仁武區永和段十八地號;高雄市仁武區永和段十九地號;高雄市仁武區永和段二○地號;高雄市仁武區永和段二七地號;高雄市仁武區永和段二八地號;高雄市仁武區永和段二九地號;高雄市仁武區永和段三○地號;高雄市仁武區永和段三一地號;高雄市仁武區永和段三二地號;高雄市仁武區永和段三三地號;高雄市仁武區永和段四二地號;高雄市仁武區永和段三七地號;高雄市仁武區永和段三四地號;高雄市仁武區永和段三五地號;高雄市仁武區永和段三六地號",
+    "city": "高雄市",
+    "section_name": "竹園段",
+    "lot_no": "1122"
   },
   {
     "id": "S10092",
@@ -9538,7 +10522,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "高雄市"
+    "parcel": "高雄市岡山區岡工段二五三之一地號",
+    "city": "高雄市",
+    "section_name": "岡工段",
+    "lot_no": "253-1"
   },
   {
     "id": "T00005",
@@ -9567,7 +10554,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣萬丹鄉新安段一四三八地號;屏東縣萬丹鄉新安段一四三九地號",
+    "city": "屏東縣",
+    "section_name": "新安段",
+    "lot_no": "1438"
   },
   {
     "id": "T10006",
@@ -9596,7 +10586,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣高樹鄉新日段一九四八地號",
+    "city": "屏東縣",
+    "section_name": "新日段",
+    "lot_no": "1948"
   },
   {
     "id": "T10008",
@@ -9625,7 +10618,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣長治鄉興華段九二二地號",
+    "city": "屏東縣",
+    "section_name": "興華段",
+    "lot_no": "922"
   },
   {
     "id": "T10030",
@@ -9654,7 +10650,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣佳冬鄉昌北段一一八八地號",
+    "city": "屏東縣",
+    "section_name": "昌北段",
+    "lot_no": "1188"
   },
   {
     "id": "T10040",
@@ -9683,7 +10682,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣九如鄉九富段一二五八地號",
+    "city": "屏東縣",
+    "section_name": "九富段",
+    "lot_no": "1258"
   },
   {
     "id": "T10067",
@@ -9712,7 +10714,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣長治鄉榮華段一六八二地號",
+    "city": "屏東縣",
+    "section_name": "榮華段",
+    "lot_no": "1682"
   },
   {
     "id": "T10100",
@@ -9741,7 +10746,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣長治鄉榮興段一一四○地號;屏東縣長治鄉榮興段一一四一地號",
+    "city": "屏東縣",
+    "section_name": "榮興段",
+    "lot_no": "1140"
   },
   {
     "id": "T10274",
@@ -9770,7 +10778,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣內埔鄉科大段四三四地號;屏東縣內埔鄉科大段四三五地號;屏東縣內埔鄉科大段五一一地號",
+    "city": "屏東縣",
+    "section_name": "科大段",
+    "lot_no": "434"
   },
   {
     "id": "T10332",
@@ -9799,7 +10810,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "屏東縣"
+    "parcel": "屏東縣枋寮鄉屏南段六○之一地號;屏東縣枋寮鄉屏南段六一之一地號;屏東縣枋寮鄉屏南段六一地號;屏東縣枋寮鄉屏南段六二之一地號;屏東縣枋寮鄉屏南段八九之一地號;屏東縣枋寮鄉屏南段九○地號;屏東縣枋寮鄉屏南段九一之一地號;屏東縣枋寮鄉屏南段九四之二地號",
+    "city": "屏東縣",
+    "section_name": "屏南段",
+    "lot_no": "60-1"
   },
   {
     "id": "U10380",
@@ -9828,7 +10842,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "花蓮縣花蓮市"
+    "parcel": "花蓮縣花蓮市國民段四四九地號;花蓮縣花蓮市國民段四四六地號",
+    "city": "花蓮縣花蓮市",
+    "section_name": "國民段",
+    "lot_no": "449"
   },
   {
     "id": "W00251",
@@ -9857,7 +10874,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "金門縣"
+    "parcel": "金門縣金城鎮古塔段一七二地號",
+    "city": "金門縣",
+    "section_name": "古塔段",
+    "lot_no": "172"
   },
   {
     "id": "W00514",
@@ -9886,7 +10906,10 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "金門縣"
+    "parcel": "金門縣金湖鎮料羅段九三七地號;金門縣金湖鎮料羅村測段五一五地號;金門縣金湖鎮料羅段九五八(部分)地號",
+    "city": "金門縣",
+    "section_name": "料羅段",
+    "lot_no": "937"
   },
   {
     "id": "X00063",
@@ -9915,6 +10938,9 @@
     "announced_current_value": null,
     "announced_land_price": null,
     "land_reference_info": null,
-    "city": "澎湖縣馬公市"
+    "parcel": "澎湖縣馬公市馬公段五九一地號;澎湖縣馬公市馬公段五八八之一四地號;澎湖縣馬公市馬公段五八八之二七地號",
+    "city": "澎湖縣馬公市",
+    "section_name": "馬公段",
+    "lot_no": "591"
   }
 ]

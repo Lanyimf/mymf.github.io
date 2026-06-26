@@ -122,4 +122,9 @@
     font-size: 0.8rem;
     color: var(--gray);
   }
+
+  .le-deep-link-target {
+    outline: 2px solid #2e7d32;
+    outline-offset: 2px;
+  }
 }
