@@ -14,6 +14,7 @@ interface LandRecord {
   water_protection: string | null
   lat: number | null
   lon: number | null
+  announced_current_value: number | null // 公告現值，元/平方公尺
 }
 
 interface RuleMeta {
@@ -30,7 +31,12 @@ interface RuleMeta {
 interface EvalResult {
   rule: RuleMeta
   hardPassed: boolean | null // null = 無法判定
+  conditional: boolean // true = 使用地類別符合，但需待整治完成解除列管後才可正式申請
   weightedScore: number | null // 0-100，null = 無法判定
+  financeScore: number | null // 簡化財務分數（公告現值 x 面積），僅供相對排序，非真實財務預測
+  financeNote: string
+  verified: string[] // 已自動驗證的條件
+  pending: string[] // 尚待人工查核的條件
   // computed = 有完整 GIS 圖資佐證；basic = 僅用使用地類別/污染狀態做基礎篩選；no_data = 無法判定
   coverage: "computed" | "basic" | "no_data"
   notes: string[]
@@ -98,12 +104,43 @@ function findForestArea(lon: number, lat: number, geojson: any): any | null {
   return null
 }
 
+// 簡化財務分數：公告現值（元/m²）x 面積（m²），條件式通過再乘以 0.8 風險折減。
+// 這純粹是用我們手上唯二的地價資料做的相對排序指標，沒有納入營收、租金、營造成本等真實財務建模要素，
+// 不是真正的財務預測，僅供同一場址內不同用途之間粗略比較優先順序。
+function computeFinanceScore(
+  land: LandRecord,
+  conditional: boolean,
+): { financeScore: number | null; financeNote: string } {
+  if (land.announced_current_value == null || land.area_m2 == null) {
+    return { financeScore: null, financeNote: "缺少公告現值資料，無法計算（僅少數場址已查到地價資料）" }
+  }
+  let financeScore = land.announced_current_value * land.area_m2
+  let note = `公告現值 ${land.announced_current_value} 元/m² × 面積 ${land.area_m2} m²`
+  if (conditional) {
+    financeScore *= 0.8
+    note += " ×0.8（列管中風險折減，經驗法則）"
+  }
+  note += ` ≈ ${Math.round(financeScore).toLocaleString()} 元（僅供相對排序參考，非真實財務預測）`
+  return { financeScore, financeNote: note }
+}
+
 // ---- 規則評估邏輯（只有確實有資料佐證的規則才寫判定，其餘回傳 no_data） ----
 function evaluateRule(land: LandRecord, rule: RuleMeta, ctx: { forestAreas: any }): EvalResult {
   const notes: string[] = []
 
   if (land.lat == null || land.lon == null) {
-    return { rule, hardPassed: null, weightedScore: null, coverage: "no_data", notes: ["此地點缺少座標資料"] }
+    return {
+      rule,
+      hardPassed: null,
+      conditional: false,
+      weightedScore: null,
+      financeScore: null,
+      financeNote: "",
+      verified: [],
+      pending: [],
+      coverage: "no_data",
+      notes: ["此地點缺少座標資料"],
+    }
   }
 
   if (rule.rule_id === "R-064") {
@@ -125,35 +162,92 @@ function evaluateRule(land: LandRecord, rule: RuleMeta, ctx: { forestAreas: any 
       notes.push(`場址面積 ${areaHa.toFixed(2)} 公頃（僅供參考，非該森林遊樂區之實際面積）`)
     }
 
-    return { rule, hardPassed, weightedScore, coverage: "computed", notes }
+    const { financeScore, financeNote } = computeFinanceScore(land, false)
+    return {
+      rule,
+      hardPassed,
+      conditional: false,
+      weightedScore,
+      financeScore,
+      financeNote,
+      verified: hardPassed ? ["落於已劃定森林遊樂區範圍內（GIS 圖資比對）"] : [],
+      pending: [],
+      coverage: "computed",
+      notes,
+    }
   }
 
-  // 通用基礎篩選：用場址現有的「污染列管狀態」與「使用地類別代碼」
-  // 比對規則的硬性門檻第一關。這只能驗證硬性門檻裡最基本的兩項，
-  // 其餘區位／空間條件與加權指標仍未驗證，因此標記為 "basic" 而非 "computed"。
+  // 通用基礎篩選：使用地類別代碼是真正的篩選依據，先比對；
+  // 「是否列管」不是用來判定不通過，而是標註此用途是否需待整治完成解除列管後才可正式申請
+  // （本網站主軸為褐地開發應用，資料庫內場址目前全數仍在列管中）。
   const polluted = isPollutedSite(land)
-
-  if (rule.requires_clean_site && polluted) {
-    notes.push(
-      `本規則硬性門檻要求「非污染控制/整治場址」，但此場址目前列管狀態為「${land.status}」，不符合`,
-    )
-    return { rule, hardPassed: false, weightedScore: null, coverage: "basic", notes }
-  }
 
   if (!land.type_code) {
     notes.push("此場址缺少使用地類別代碼（type_code），無法比對是否符合本規則的用地類型要求")
-    return { rule, hardPassed: null, weightedScore: null, coverage: "no_data", notes }
+    return {
+      rule,
+      hardPassed: null,
+      conditional: false,
+      weightedScore: null,
+      financeScore: null,
+      financeNote: "",
+      verified: [],
+      pending: [],
+      coverage: "no_data",
+      notes,
+    }
   }
 
   if (land.type_code !== rule.type_code) {
     notes.push(`此場址使用地類別為「${land.type_code}」，與本規則要求的「${rule.type_code}」不符`)
-    return { rule, hardPassed: false, weightedScore: null, coverage: "basic", notes }
+    return {
+      rule,
+      hardPassed: false,
+      conditional: false,
+      weightedScore: null,
+      financeScore: null,
+      financeNote: "",
+      verified: [],
+      pending: [],
+      coverage: "basic",
+      notes,
+    }
   }
 
-  notes.push(
-    `使用地類別符合（${rule.type_code}）且非污染列管場址，僅完成基礎篩選；區位、空間條件與加權指標尚未驗證，請勿視為最終結論`,
-  )
-  return { rule, hardPassed: true, weightedScore: null, coverage: "basic", notes }
+  const verified = [`使用地類別相符（${rule.type_code}）`]
+  const pending: string[] = [
+    "區位條件（鄰近設施距離、地質敏感區等）：尚無對應資料，需人工查核",
+    "空間條件（場址連通面積、設施配置等）：尚無對應資料，需人工查核",
+    "加權指標與其餘硬性門檻：尚無對應資料，需人工查核",
+  ]
+
+  let conditional = false
+  if (rule.requires_clean_site && polluted) {
+    conditional = true
+    verified.push(`非列管狀態檢查：尚未通過（目前為「${land.status}」，需整治完成解除列管）`)
+    notes.push(
+      `使用地類別符合（${rule.type_code}），但本規則硬性要求非列管場址；此場址目前列管狀態為「${land.status}」，需待整治完成解除列管後才可正式申請`,
+    )
+  } else {
+    if (rule.requires_clean_site) verified.push("非列管狀態檢查：已符合（非列管場址要求）")
+    notes.push(
+      `使用地類別符合（${rule.type_code}），且本用途不要求非列管場址，僅完成基礎篩選；區位、空間條件與加權指標尚未驗證，請勿視為最終結論`,
+    )
+  }
+
+  const { financeScore, financeNote } = computeFinanceScore(land, conditional)
+  return {
+    rule,
+    hardPassed: true,
+    conditional,
+    weightedScore: null,
+    financeScore,
+    financeNote,
+    verified,
+    pending,
+    coverage: "basic",
+    notes,
+  }
 }
 
 // ---- UI ----
@@ -200,27 +294,25 @@ document.addEventListener("nav", async () => {
     const results = rules.map((r) => evaluateRule(land, r, { forestAreas }))
 
     const computedPassed = results.filter((r) => r.coverage === "computed" && r.hardPassed)
-    const basicPassed = results.filter((r) => r.coverage === "basic" && r.hardPassed)
+    const basicPassed = results.filter((r) => r.coverage === "basic" && r.hardPassed && !r.conditional)
+    const conditionalPassed = results.filter((r) => r.hardPassed && r.conditional)
     const failed = results.filter((r) => r.hardPassed === false)
     const noData = results.filter((r) => r.coverage === "no_data")
 
     summaryEl.innerHTML = ""
     const summaryP = document.createElement("p")
-    summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computedPassed.length} 條高信心符合</strong>、<strong>${basicPassed.length} 條基礎篩選通過</strong>（使用地類別與污染狀態符合，其餘條件未驗證）、${failed.length} 條不符合、<strong>${noData.length} 條因資料不足無法判定</strong>`
+    summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computedPassed.length + basicPassed.length} 條通過</strong>、<strong>${conditionalPassed.length} 條條件式通過</strong>（需待整治完成解除列管後才可正式申請）。以下僅列出這兩類可行用途；另有 ${failed.length} 條使用地類別不符、${noData.length} 條因資料不足無法判定，已隱藏不顯示。`
     summaryEl.appendChild(summaryP)
 
-    // 排序：高信心符合 → 基礎篩選通過 → 不符合 → 無法判定
-    const sorted = [...results].sort((a, b) => {
-      const rank = (r: EvalResult) => {
-        if (r.coverage === "computed" && r.hardPassed) return 0
-        if (r.coverage === "basic" && r.hardPassed) return 1
-        if (r.hardPassed === false) return 2
-        return 3
-      }
-      const ra = rank(a)
-      const rb = rank(b)
-      if (ra !== rb) return ra - rb
-      return (b.weightedScore ?? -1) - (a.weightedScore ?? -1)
+    // 僅保留可行的（通過 / 條件式通過），依財務分數排序（無財務分數的排在後面）
+    const visible = results.filter((r) => r.hardPassed === true)
+    const sorted = visible.sort((a, b) => {
+      if (a.financeScore != null && b.financeScore != null) return b.financeScore - a.financeScore
+      if (a.financeScore != null) return -1
+      if (b.financeScore != null) return 1
+      // 同樣缺財務分數時，高信心符合 > 基礎篩選通過 > 條件式通過
+      const rank = (r: EvalResult) => (r.coverage === "computed" ? 0 : r.conditional ? 2 : 1)
+      return rank(a) - rank(b)
     })
 
     resultsEl.innerHTML = ""
@@ -228,34 +320,67 @@ document.addEventListener("nav", async () => {
     list.className = "land-evaluate-list"
     for (const r of sorted) {
       const li = document.createElement("li")
-      li.className =
-        r.coverage === "no_data"
-          ? "le-no-data"
-          : r.hardPassed
-            ? r.coverage === "computed"
-              ? "le-passed"
-              : "le-passed-basic"
-            : "le-failed"
+      li.className = r.conditional ? "le-passed-conditional" : r.coverage === "computed" ? "le-passed" : "le-passed-basic"
 
       const title = document.createElement("div")
-      title.className = "le-item-title"
-      const badge =
-        r.coverage === "no_data"
-          ? "資料不足"
-          : r.hardPassed
-            ? r.coverage === "computed"
-              ? "符合"
-              : "基礎篩選通過"
-            : "不符合"
-      title.innerHTML = `${badge} <strong>${r.rule.rule_id} ${r.rule.eval_code}</strong> ${r.rule.type_name}－${r.rule.use_item}${r.weightedScore != null ? ` ｜ 加權分數 ${r.weightedScore}` : ""}`
+      title.className = "le-item-title le-item-toggle"
+      const badge = r.conditional ? "🟡 條件式通過" : r.coverage === "computed" ? "🟢 符合" : "🟢 基礎篩選通過"
+      const financeLabel =
+        r.financeScore != null ? `財務分數約 ${Math.round(r.financeScore).toLocaleString()} 元` : "缺財務資料"
+      title.innerHTML = `<span class="le-caret">▸</span> ${badge} <strong>${r.rule.rule_id} ${r.rule.eval_code}</strong> ${r.rule.type_name}－${r.rule.use_item}${r.weightedScore != null ? ` ｜ 加權分數 ${r.weightedScore}` : ""} ｜ ${financeLabel}`
       li.appendChild(title)
+
+      const detail = document.createElement("div")
+      detail.className = "le-item-detail"
+      detail.style.display = "none"
 
       if (r.notes.length > 0) {
         const notesEl = document.createElement("div")
         notesEl.className = "le-item-notes"
         notesEl.textContent = r.notes.join("；")
-        li.appendChild(notesEl)
+        detail.appendChild(notesEl)
       }
+
+      const financeP = document.createElement("div")
+      financeP.className = "le-item-finance"
+      financeP.textContent = `財務分數試算：${r.financeNote}`
+      detail.appendChild(financeP)
+
+      if (r.verified.length > 0) {
+        const verifiedTitle = document.createElement("div")
+        verifiedTitle.className = "le-detail-subtitle"
+        verifiedTitle.textContent = "已自動驗證的條件："
+        detail.appendChild(verifiedTitle)
+        const verifiedList = document.createElement("ul")
+        for (const v of r.verified) {
+          const item = document.createElement("li")
+          item.textContent = `✅ ${v}`
+          verifiedList.appendChild(item)
+        }
+        detail.appendChild(verifiedList)
+      }
+
+      if (r.pending.length > 0) {
+        const pendingTitle = document.createElement("div")
+        pendingTitle.className = "le-detail-subtitle"
+        pendingTitle.textContent = "尚待人工查核的條件："
+        detail.appendChild(pendingTitle)
+        const pendingList = document.createElement("ul")
+        for (const p of r.pending) {
+          const item = document.createElement("li")
+          item.textContent = `⏳ ${p}`
+          pendingList.appendChild(item)
+        }
+        detail.appendChild(pendingList)
+      }
+
+      li.appendChild(detail)
+
+      title.addEventListener("click", () => {
+        const isOpen = detail.style.display !== "none"
+        detail.style.display = isOpen ? "none" : "block"
+        title.querySelector(".le-caret")!.textContent = isOpen ? "▸" : "▾"
+      })
 
       list.appendChild(li)
     }

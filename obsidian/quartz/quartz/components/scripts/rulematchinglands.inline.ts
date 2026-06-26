@@ -5,6 +5,8 @@ interface LandRecord {
   address: string | null
   status: string | null
   type_code: string | null
+  area_m2: number | null
+  announced_current_value: number | null
 }
 
 interface RuleMeta {
@@ -19,6 +21,20 @@ function getBaseDir(): string {
   const script = document.querySelector('script[src$="postscript.js"]') as HTMLScriptElement | null
   if (!script) return "/"
   return script.getAttribute("src")!.replace(/postscript\.js$/, "")
+}
+
+function computeFinance(land: LandRecord, conditional: boolean): { score: number | null; note: string } {
+  if (land.announced_current_value == null || land.area_m2 == null) {
+    return { score: null, note: "缺少公告現值資料，無法計算" }
+  }
+  let score = land.announced_current_value * land.area_m2
+  let note = `公告現值 ${land.announced_current_value} 元/m² × 面積 ${land.area_m2} m²`
+  if (conditional) {
+    score *= 0.8
+    note += " ×0.8（列管中風險折減）"
+  }
+  note += ` ≈ ${Math.round(score).toLocaleString()} 元（僅供相對排序參考，非真實財務預測）`
+  return { score, note }
 }
 
 document.addEventListener("nav", async () => {
@@ -43,31 +59,64 @@ document.addEventListener("nav", async () => {
     return
   }
 
-  const matched = lands.filter((l) => {
-    if (l.type_code !== rule.type_code) return false
-    if (rule.requires_clean_site && l.status && POLLUTED_STATUSES.includes(l.status)) return false
-    return true
+  let hiddenCount = 0
+  const items: { land: LandRecord; conditional: boolean; score: number | null; note: string }[] = []
+  for (const l of lands) {
+    if (l.type_code !== rule.type_code) {
+      hiddenCount++
+      continue
+    }
+    const conditional = !!(rule.requires_clean_site && l.status && POLLUTED_STATUSES.includes(l.status))
+    const { score, note } = computeFinance(l, conditional)
+    items.push({ land: l, conditional, score, note })
+  }
+
+  items.sort((a, b) => {
+    if (a.score != null && b.score != null) return b.score - a.score
+    if (a.score != null) return -1
+    if (b.score != null) return 1
+    return Number(a.conditional) - Number(b.conditional)
   })
 
-  countEl.textContent = `共找到 ${matched.length} 筆符合基礎篩選的場址（資料庫總計 342 筆）`
+  countEl.textContent = `共找到 ${items.length} 筆可行場址（資料庫總計 ${lands.length} 筆；另有 ${hiddenCount} 筆使用地類別不符，已隱藏不顯示）`
 
   listEl.innerHTML = ""
-  for (const l of matched.slice(0, 100)) {
+  for (const it of items.slice(0, 100)) {
+    const l = it.land
     const li = document.createElement("li")
-    li.className = "rfl-item"
-    const a = document.createElement("a")
-    a.href = `${baseDir}lands/${l.id}`
-    a.className = "internal"
-    a.textContent = l.name || l.id
-    li.appendChild(a)
+    li.className = "rml-item"
+
+    const title = document.createElement("div")
+    title.className = "rml-item-title"
+    const badge = it.conditional ? "🟡 條件式通過" : "🟢 通過基礎篩選"
+    const financeLabel = it.score != null ? `財務分數約 ${Math.round(it.score).toLocaleString()} 元` : "缺財務資料"
+    title.innerHTML = `<span class="rml-caret">▸</span> ${badge} <a href="${baseDir}lands/${l.id}" class="internal">${l.name || l.id}</a> ｜ ${financeLabel}`
+    li.appendChild(title)
+
+    const detail = document.createElement("div")
+    detail.className = "rml-item-detail"
+    detail.style.display = "none"
     if (l.address) {
-      const span = document.createElement("span")
-      span.style.marginLeft = "0.5rem"
-      span.style.fontSize = "0.82rem"
-      span.style.color = "var(--gray)"
-      span.textContent = l.address
-      li.appendChild(span)
+      const addrEl = document.createElement("div")
+      addrEl.textContent = `地址：${l.address}`
+      detail.appendChild(addrEl)
     }
+    if (it.conditional) {
+      const condEl = document.createElement("div")
+      condEl.textContent = `此場址目前列管狀態為「${l.status}」，需待整治完成解除列管後才可正式申請`
+      detail.appendChild(condEl)
+    }
+    const financeEl = document.createElement("div")
+    financeEl.textContent = `財務分數試算：${it.note}`
+    detail.appendChild(financeEl)
+    li.appendChild(detail)
+
+    title.addEventListener("click", () => {
+      const isOpen = detail.style.display !== "none"
+      detail.style.display = isOpen ? "none" : "block"
+      title.querySelector(".rml-caret")!.textContent = isOpen ? "▸" : "▾"
+    })
+
     listEl.appendChild(li)
   }
 })

@@ -69,7 +69,10 @@
       border-left-color: #2e7d32;
     }
     li.le-passed-basic {
-      border-left-color: #9e9d24;
+      border-left-color: #2e7d32;
+    }
+    li.le-passed-conditional {
+      border-left-color: #c9a227;
     }
     li.le-failed {
       border-left-color: #c62828;
@@ -84,8 +87,38 @@
     font-size: 0.9rem;
   }
 
-  .le-item-notes {
+  .le-item-toggle {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .le-caret {
+    display: inline-block;
+    width: 1em;
+  }
+
+  .le-item-detail {
+    margin-top: 0.4rem;
+    padding-top: 0.4rem;
+    border-top: 1px dashed var(--lightgray);
+  }
+
+  .le-item-notes,
+  .le-item-finance {
     margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: var(--gray);
+  }
+
+  .le-detail-subtitle {
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .le-item-detail ul {
+    margin: 0.2rem 0 0;
+    padding-left: 1.2rem;
     font-size: 0.8rem;
     color: var(--gray);
   }

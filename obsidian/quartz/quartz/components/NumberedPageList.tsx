@@ -19,7 +19,7 @@ const NumberedPageList: QuartzComponent = ({
         {pages.map((p) => (
           <li class="rfl-item">
             <a href={resolveRelative(fileData.slug!, p.slug!)} class="internal">
-              {p.frontmatter?.title}
+              {p.frontmatter?.name ?? p.frontmatter?.title}
             </a>
           </li>
         ))}
