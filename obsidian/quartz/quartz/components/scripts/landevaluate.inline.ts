@@ -260,38 +260,17 @@ document.addEventListener("nav", async () => {
 
   const select = root.querySelector("#le-land-select") as HTMLSelectElement
   const keywordInput = root.querySelector("#le-keyword") as HTMLInputElement
-  const districtSelect = root.querySelector("#le-district") as HTMLSelectElement
-  const sectionInput = root.querySelector("#le-section") as HTMLInputElement
-  const lotInput = root.querySelector("#le-lot") as HTMLInputElement
   const runBtn = root.querySelector("#le-run") as HTMLButtonElement
   const summaryEl = root.querySelector(".land-evaluate-summary") as HTMLElement
   const resultsEl = root.querySelector(".land-evaluate-results") as HTMLElement
 
   const { lands, rules, forestAreas } = await loadAll()
 
-  // 鄉鎮市區下拉選單選項（依資料庫實際出現的值，排序後去重）
-  const districts = [...new Set(lands.map((l) => l.district).filter(Boolean))].sort((a, b) =>
-    a!.localeCompare(b!),
-  )
-  for (const d of districts) {
-    const opt = document.createElement("option")
-    opt.value = d!
-    opt.textContent = d!
-    districtSelect.appendChild(opt)
-  }
-
   function populateOptions() {
     const ft = keywordInput.value.trim().toLowerCase()
-    const districtFt = districtSelect.value
-    const sectionFt = sectionInput.value.trim()
-    const lotFt = lotInput.value.trim()
-    const matched = lands.filter((l) => {
-      if (ft && !`${l.name ?? ""} ${l.address ?? ""} ${l.id}`.toLowerCase().includes(ft)) return false
-      if (districtFt && l.district !== districtFt) return false
-      if (sectionFt && !(l.section_name ?? "").includes(sectionFt)) return false
-      if (lotFt && l.lot_no !== lotFt) return false
-      return true
-    })
+    const matched = ft
+      ? lands.filter((l) => `${l.name ?? ""} ${l.address ?? ""} ${l.id}`.toLowerCase().includes(ft))
+      : lands
     select.innerHTML = ""
     const placeholder = document.createElement("option")
     placeholder.value = ""
@@ -414,15 +393,7 @@ document.addEventListener("nav", async () => {
 
   const onFilterChange = () => populateOptions()
   keywordInput.addEventListener("input", onFilterChange)
-  districtSelect.addEventListener("change", onFilterChange)
-  sectionInput.addEventListener("input", onFilterChange)
-  lotInput.addEventListener("input", onFilterChange)
-  window.addCleanup(() => {
-    keywordInput.removeEventListener("input", onFilterChange)
-    districtSelect.removeEventListener("change", onFilterChange)
-    sectionInput.removeEventListener("input", onFilterChange)
-    lotInput.removeEventListener("input", onFilterChange)
-  })
+  window.addCleanup(() => keywordInput.removeEventListener("input", onFilterChange))
 
   runBtn.addEventListener("click", runEvaluation)
   window.addCleanup(() => runBtn.removeEventListener("click", runEvaluation))
