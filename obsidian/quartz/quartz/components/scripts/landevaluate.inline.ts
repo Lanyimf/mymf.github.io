@@ -47,6 +47,11 @@ interface EvalResult {
 
 const POLLUTED_STATUSES = ["公告為控制場址", "公告為整治場址"]
 
+// 容錯：「台」「臺」是同一個字的兩種寫法（台北＝臺北等），統一轉成「臺」再比對
+function normalizeText(s: string): string {
+  return s.replace(/台/g, "臺")
+}
+
 function isPollutedSite(land: LandRecord): boolean {
   return !!land.status && POLLUTED_STATUSES.includes(land.status)
 }
@@ -267,9 +272,11 @@ document.addEventListener("nav", async () => {
   const { lands, rules, forestAreas } = await loadAll()
 
   function populateOptions() {
-    const ft = keywordInput.value.trim().toLowerCase()
+    const ft = normalizeText(keywordInput.value.trim().toLowerCase())
     const matched = ft
-      ? lands.filter((l) => `${l.name ?? ""} ${l.address ?? ""} ${l.id}`.toLowerCase().includes(ft))
+      ? lands.filter((l) =>
+          normalizeText(`${l.name ?? ""} ${l.address ?? ""} ${l.id}`.toLowerCase()).includes(ft),
+        )
       : lands
     select.innerHTML = ""
     const placeholder = document.createElement("option")

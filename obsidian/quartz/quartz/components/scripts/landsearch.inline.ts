@@ -15,6 +15,12 @@ function getBaseDir(): string {
   return script.getAttribute("src")!.replace(/postscript\.js$/, "")
 }
 
+// 容錯：「台」「臺」是同一個字的兩種寫法（台北＝臺北、台中＝臺中等），
+// 統一轉成「臺」再比對，讓使用者打「台北」也能搜到「臺北市」
+function normalizeText(s: string): string {
+  return s.replace(/台/g, "臺")
+}
+
 let landsCache: LandRecord[] | null = null
 
 async function loadLands(): Promise<LandRecord[]> {
@@ -48,12 +54,14 @@ document.addEventListener("nav", async () => {
 
   function render() {
     const city = citySel.value
-    const keyword = keywordInput.value.trim().toLowerCase()
+    const keyword = normalizeText(keywordInput.value.trim().toLowerCase())
 
     const filtered = lands.filter((l) => {
       if (city && l.city !== city) return false
       if (keyword) {
-        const haystack = `${l.name ?? ""} ${l.address ?? ""} ${l.id} ${l.district ?? ""} ${l.site_category ?? ""} ${l.authority ?? ""}`.toLowerCase()
+        const haystack = normalizeText(
+          `${l.name ?? ""} ${l.address ?? ""} ${l.id} ${l.district ?? ""} ${l.site_category ?? ""} ${l.authority ?? ""}`.toLowerCase(),
+        )
         if (!haystack.includes(keyword)) return false
       }
       return true
