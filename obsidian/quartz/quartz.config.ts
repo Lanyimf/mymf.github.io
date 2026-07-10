@@ -79,7 +79,17 @@ const config: QuartzConfig = {
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
-      Plugin.TagPage(),
+      Plugin.TagPage({
+        sort: (a, b) => {
+          const score = (f: typeof a) => {
+            let s = 0
+            if (f.frontmatter?.type_code) s += 2
+            if (f.frontmatter?.announced_current_value) s += 1
+            return s
+          }
+          return score(b) - score(a)
+        },
+      }),
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,

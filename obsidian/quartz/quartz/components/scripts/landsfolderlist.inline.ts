@@ -6,6 +6,15 @@ interface LandRecord {
   city: string | null
   area_m2: number | null
   status: string | null
+  type_code: string | null
+  announced_current_value: number | null
+}
+
+function completenessScore(l: LandRecord): number {
+  let s = 0
+  if (l.type_code) s += 2
+  if (l.announced_current_value) s += 1
+  return s
 }
 
 function getBaseDir(): string {
@@ -38,7 +47,8 @@ document.addEventListener("nav", async () => {
 
   function render() {
     const city = citySel.value
-    const filtered = city ? lands.filter((l) => l.city === city) : lands
+    const filtered = (city ? lands.filter((l) => l.city === city) : [...lands])
+      .sort((a, b) => completenessScore(b) - completenessScore(a))
 
     countEl.textContent = `此資料夾下有 ${filtered.length} 條筆記。`
 
