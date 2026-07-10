@@ -45,6 +45,12 @@ document.addEventListener("nav", async () => {
   const evalCode = root.dataset.evalCode
   if (!evalCode) return
 
+  // 將元件移到文章內容第一個 H2 標題之前
+  const firstH2 = document.querySelector("article h2")
+  if (firstH2 && firstH2.parentElement) {
+    firstH2.parentElement.insertBefore(root, firstH2)
+  }
+
   const baseDir = getBaseDir()
   const [lands, rules]: [LandRecord[], RuleMeta[]] = await Promise.all([
     fetch(`${baseDir}static/lands-index.json`).then((r) => r.json()),
