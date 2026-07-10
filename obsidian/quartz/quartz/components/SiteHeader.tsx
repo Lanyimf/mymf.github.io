@@ -11,7 +11,7 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: "場址資料", slug: "lands" },
-  { label: "地目開發評估規則", slug: "rules" },
+  { label: "地目用地類別", slug: "rules" },
   { label: "相關法規", slug: "laws" },
 ]
 

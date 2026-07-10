@@ -7,6 +7,8 @@ interface LandRecord {
   district: string | null
   site_category: string | null
   authority: string | null
+  type_code: string | null
+  announced_current_value: number | null
 }
 
 function getBaseDir(): string {
@@ -65,6 +67,17 @@ document.addEventListener("nav", async () => {
         if (!haystack.includes(keyword)) return false
       }
       return true
+    })
+
+    // 依資料完整度排序：有地政+用地類別 > 僅有用地類別 > 其餘
+    filtered.sort((a, b) => {
+      const score = (l: LandRecord) => {
+        let s = 0
+        if (l.type_code) s += 2
+        if (l.announced_current_value) s += 1
+        return s
+      }
+      return score(b) - score(a)
     })
 
     countEl.textContent = `共找到 ${filtered.length} 筆（資料庫總計 ${lands.length} 筆）`
