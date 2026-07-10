@@ -94,7 +94,7 @@ document.addEventListener("nav", async () => {
 
     const title = document.createElement("div")
     title.className = "rml-item-title"
-    const badge = it.conditional ? "🟡 條件式通過" : "🟢 通過基礎篩選"
+    const badge = it.conditional ? "🟡 初步符合" : "🟢 通過基礎篩選"
     const financeLabel = it.score != null ? `財務分數約 ${Math.round(it.score).toLocaleString()} 元` : "缺財務資料"
     title.innerHTML = `<span class="rml-caret">▸</span> ${badge} <a href="${baseDir}lands/${l.id}" class="internal">${l.name || l.id}</a> ｜ ${financeLabel}`
     li.appendChild(title)

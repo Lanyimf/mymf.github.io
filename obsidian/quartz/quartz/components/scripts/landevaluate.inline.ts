@@ -311,7 +311,7 @@ document.addEventListener("nav", async () => {
 
     summaryEl.innerHTML = ""
     const summaryP = document.createElement("p")
-    summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computedPassed.length + basicPassed.length} 條通過</strong>、<strong>${conditionalPassed.length} 條條件式通過</strong>（需待整治完成解除列管後才可正式申請）。以下僅列出這兩類可行用途；另有 ${failed.length} 條使用地類別不符、${noData.length} 條因資料不足無法判定，已隱藏不顯示。`
+    summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computedPassed.length + basicPassed.length} 條通過</strong>、<strong>${conditionalPassed.length} 條初步符合</strong>（需待整治完成解除列管後才可正式申請）。以下僅列出這兩類可行用途；另有 ${failed.length} 條使用地類別不符、${noData.length} 條因資料不足無法判定，已隱藏不顯示。`
     summaryEl.appendChild(summaryP)
 
     // 僅保留可行的（通過 / 條件式通過），依財務分數排序（無財務分數的排在後面）
@@ -320,7 +320,7 @@ document.addEventListener("nav", async () => {
       if (a.financeScore != null && b.financeScore != null) return b.financeScore - a.financeScore
       if (a.financeScore != null) return -1
       if (b.financeScore != null) return 1
-      // 同樣缺財務分數時，高信心符合 > 基礎篩選通過 > 條件式通過
+      // 同樣缺財務分數時，高信心符合 > 基礎篩選通過 > 初步符合
       const rank = (r: EvalResult) => (r.coverage === "computed" ? 0 : r.conditional ? 2 : 1)
       return rank(a) - rank(b)
     })
@@ -335,7 +335,7 @@ document.addEventListener("nav", async () => {
 
       const title = document.createElement("div")
       title.className = "le-item-title le-item-toggle"
-      const badge = r.conditional ? "🟡 條件式通過" : r.coverage === "computed" ? "🟢 符合" : "🟢 基礎篩選通過"
+      const badge = r.conditional ? "🟡 初步符合" : r.coverage === "computed" ? "🟢 符合" : "🟢 基礎篩選通過"
       const financeLabel =
         r.financeScore != null ? `財務分數約 ${Math.round(r.financeScore).toLocaleString()} 元` : "缺財務資料"
       title.innerHTML = `<span class="le-caret">▸</span> ${badge} <strong>${r.rule.rule_id} ${r.rule.eval_code}</strong> ${r.rule.type_name}－${r.rule.use_item}${r.weightedScore != null ? ` ｜ 加權分數 ${r.weightedScore}` : ""} ｜ ${financeLabel}`
