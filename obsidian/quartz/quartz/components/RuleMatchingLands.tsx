@@ -22,45 +22,74 @@ const ownCss = `
   padding-top: 1rem;
   border-top: 1px solid var(--lightgray);
 }
-.rml-note {
-  font-size: 0.82rem;
-  color: var(--gray);
-  margin: 0.3rem 0 0.6rem;
-}
-.rml-count {
-  font-size: 0.85rem;
-  color: var(--gray);
-  margin: 0 0 0.5rem;
-}
 .rml-list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.6rem;
 }
 .rml-item {
-  padding: 0.6rem 0.8rem;
-  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
   border-left: 4px solid #2e7d32;
   background: var(--light);
+  transition: box-shadow 0.15s ease;
+}
+.rml-item:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.rml-item.rml-conditional {
+  border-left-color: #b45309;
 }
 .rml-item-title {
-  font-size: 0.9rem;
+  font-size: 1rem;
   cursor: pointer;
   user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rml-badge {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.rml-badge-pass {
+  background: #dcfce7;
+  color: #15803d;
+}
+.rml-badge-cond {
+  background: #fef3c7;
+  color: #92400e;
+}
+.rml-item-name {
+  font-size: 1rem;
+  font-weight: 500;
+  flex: 1;
 }
 .rml-caret {
-  display: inline-block;
-  width: 1em;
+  font-size: 0.75rem;
+  color: var(--gray);
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+.rml-caret.open {
+  transform: rotate(90deg);
 }
 .rml-item-detail {
-  margin-top: 0.4rem;
-  padding-top: 0.4rem;
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
   border-top: 1px dashed var(--lightgray);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 `
 

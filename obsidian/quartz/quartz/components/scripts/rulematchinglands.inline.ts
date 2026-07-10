@@ -90,18 +90,33 @@ document.addEventListener("nav", async () => {
   for (const it of items.slice(0, 100)) {
     const l = it.land
     const li = document.createElement("li")
-    li.className = "rml-item"
+    li.className = it.conditional ? "rml-item rml-conditional" : "rml-item"
 
     const title = document.createElement("div")
     title.className = "rml-item-title"
-    const badge = it.conditional ? "🟡 初步符合" : "🟢 通過基礎篩選"
-    const financeLabel = it.score != null ? `財務分數約 ${Math.round(it.score).toLocaleString()} 元` : "缺財務資料"
-    title.innerHTML = `<span class="rml-caret">▸</span> ${badge} <a href="${baseDir}lands/${l.id}" class="internal">${l.name || l.id}</a> ｜ ${financeLabel}`
+
+    const caret = document.createElement("span")
+    caret.className = "rml-caret"
+    caret.textContent = "▶"
+
+    const badge = document.createElement("span")
+    badge.className = it.conditional ? "rml-badge rml-badge-cond" : "rml-badge rml-badge-pass"
+    badge.textContent = it.conditional ? "初步符合" : "通過篩選"
+
+    const nameLink = document.createElement("a")
+    nameLink.href = `${baseDir}lands/${l.id}`
+    nameLink.className = "internal rml-item-name"
+    nameLink.textContent = l.name || l.id
+
+    title.appendChild(caret)
+    title.appendChild(badge)
+    title.appendChild(nameLink)
     li.appendChild(title)
 
     const detail = document.createElement("div")
     detail.className = "rml-item-detail"
     detail.style.display = "none"
+
     if (l.address) {
       const addrEl = document.createElement("div")
       addrEl.textContent = `地址：${l.address}`
@@ -109,23 +124,23 @@ document.addEventListener("nav", async () => {
     }
     if (it.conditional) {
       const condEl = document.createElement("div")
-      condEl.textContent = `此場址目前列管狀態為「${l.status}」，需待整治完成解除列管後才可正式申請`
+      condEl.textContent = `列管狀態：${l.status}（需待整治完成解除列管後才可正式申請）`
       detail.appendChild(condEl)
     }
     const financeEl = document.createElement("div")
-    financeEl.textContent = `財務分數試算：${it.note}`
+    financeEl.textContent = `財務試算：${it.note}`
     detail.appendChild(financeEl)
     if (it.score == null && l.remediation_stage) {
       const stageEl = document.createElement("div")
-      stageEl.textContent = `缺財務資料時，依整治階段排序：目前整治階段 ${l.remediation_stage}/4（數字越大越接近完成解除列管）`
+      stageEl.textContent = `整治階段：${l.remediation_stage}/4（數字越大越接近解除列管）`
       detail.appendChild(stageEl)
     }
     li.appendChild(detail)
 
     title.addEventListener("click", () => {
       const isOpen = detail.style.display !== "none"
-      detail.style.display = isOpen ? "none" : "block"
-      title.querySelector(".rml-caret")!.textContent = isOpen ? "▸" : "▾"
+      detail.style.display = isOpen ? "none" : "flex"
+      caret.classList.toggle("open", !isOpen)
     })
 
     listEl.appendChild(li)
