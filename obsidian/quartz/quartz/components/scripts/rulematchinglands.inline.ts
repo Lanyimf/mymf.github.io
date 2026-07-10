@@ -58,13 +58,9 @@ document.addEventListener("nav", async () => {
   ])
 
   const rule = rules.find((r) => r.eval_code === evalCode)
-  const countEl = root.querySelector(".rml-count") as HTMLElement
   const listEl = root.querySelector(".rml-list") as HTMLOListElement
 
-  if (!rule || !rule.type_code) {
-    countEl.textContent = "此規則缺少使用地類別代碼，無法比對資料庫場址。"
-    return
-  }
+  if (!rule || !rule.type_code) return
 
   let hiddenCount = 0
   const items: { land: LandRecord; conditional: boolean; score: number | null; note: string }[] = []
@@ -89,8 +85,6 @@ document.addEventListener("nav", async () => {
     if (stageA !== stageB) return stageB - stageA
     return Number(a.conditional) - Number(b.conditional)
   })
-
-  countEl.textContent = `共找到 ${items.length} 筆可行場址（資料庫總計 ${lands.length} 筆；另有 ${hiddenCount} 筆使用地類別不符，已隱藏不顯示）`
 
   listEl.innerHTML = ""
   for (const it of items.slice(0, 100)) {

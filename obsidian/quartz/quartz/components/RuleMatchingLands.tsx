@@ -10,8 +10,7 @@ const RuleMatchingLands: QuartzComponent = ({ fileData, displayClass }: QuartzCo
 
   return (
     <div class={classNames(displayClass, "rule-matching-lands")} data-eval-code={evalCode}>
-      <h3>目前資料庫中可行的場址</h3>
-      <p class="rml-count"></p>
+      <h3>目前符合的場址</h3>
       <ol class="rml-list"></ol>
     </div>
   )
