@@ -10,6 +10,17 @@ interface LandRecord {
   announced_current_value: number | null
 }
 
+// 清理含地號的名稱，例如「臺中市大里區振坤段0001-0000地號」→「臺中市大里區（含振坤段）」
+function formatDisplayName(name: string | null): string {
+  if (!name) return ""
+  // 若名稱含有「地號」，表示是地籍描述而非公司名
+  if (!name.includes("地號")) return name
+  const m = name.match(/^(.+?[市縣]?.+?[區鄉鎮市])(.+段)/)
+  if (m) return `${m[1]}（含${m[2]}）`
+  // fallback：移除地號後面的數字部分
+  return name.replace(/段[\d\-○零一二三四五六七八九十百千]+.*地號.*$/, "段")
+}
+
 function completenessScore(l: LandRecord): number {
   let s = 0
   if (l.type_code) s += 2
@@ -59,7 +70,7 @@ document.addEventListener("nav", async () => {
       const a = document.createElement("a")
       a.href = `${baseDir}lands/${l.id}`
       a.className = "internal"
-      a.textContent = l.name || l.id
+      a.textContent = formatDisplayName(l.name) || l.id
       li.appendChild(a)
       listEl.appendChild(li)
     }

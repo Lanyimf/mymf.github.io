@@ -19,6 +19,14 @@ function getBaseDir(): string {
 
 // 容錯：「台」「臺」是同一個字的兩種寫法（台北＝臺北、台中＝臺中等），
 // 統一轉成「臺」再比對，讓使用者打「台北」也能搜到「臺北市」
+function formatDisplayName(name: string | null): string {
+  if (!name) return ""
+  if (!name.includes("地號")) return name
+  const m = name.match(/^(.+?[市縣]?.+?[區鄉鎮市])(.+段)/)
+  if (m) return `${m[1]}（含${m[2]}）`
+  return name.replace(/段[\d\-○零一二三四五六七八九十百千]+.*地號.*$/, "段")
+}
+
 function normalizeText(s: string): string {
   return s.replace(/台/g, "臺")
 }
@@ -89,7 +97,7 @@ document.addEventListener("nav", async () => {
       const a = document.createElement("a")
       a.href = `${baseDir}lands/${l.id}`
       a.className = "internal"
-      a.textContent = l.name || l.id
+      a.textContent = formatDisplayName(l.name) || l.id
       li.appendChild(a)
 
       if (l.address) {

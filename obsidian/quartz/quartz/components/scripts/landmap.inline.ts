@@ -1,5 +1,15 @@
 // @ts-nocheck
 document.addEventListener("nav", async () => {
+  // 把地圖區塊搬到 ## 基本資料 標題之前，使頁面順序為：評估資料 → 地圖 → 基本資料
+  const mapEl = document.querySelector(".land-map")
+  if (mapEl) {
+    const headings = Array.from(document.querySelectorAll("article h2"))
+    const basicH2 = headings.find((h) => h.textContent?.trim() === "基本資料")
+    if (basicH2) {
+      basicH2.parentElement?.insertBefore(mapEl, basicH2)
+    }
+  }
+
   const containers = document.querySelectorAll<HTMLElement>(".land-map-canvas")
   if (containers.length === 0) return
 
