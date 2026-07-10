@@ -11,9 +11,6 @@ const RuleMatchingLands: QuartzComponent = ({ fileData, displayClass }: QuartzCo
   return (
     <div class={classNames(displayClass, "rule-matching-lands")} data-eval-code={evalCode}>
       <h3>目前資料庫中可行的場址</h3>
-      <p class="rml-note">
-        以下場址的使用地類別與本規則相符，僅完成基礎篩選——區位、空間條件與加權指標尚未驗證，請勿視為最終結論。「初步符合」表示此場址目前仍列管中，需待整治完成解除列管後才可正式申請。使用地類別不符或資料不足的場址已隱藏不顯示。財務分數僅用公告現值×面積做相對排序參考，不是真實財務預測。
-      </p>
       <p class="rml-count"></p>
       <ol class="rml-list"></ol>
     </div>
