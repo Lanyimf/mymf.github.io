@@ -4,39 +4,34 @@
   .rfl-count {
     font-size: 0.85rem;
     color: var(--gray);
-    margin: 0 0 0.5rem;
+    margin: 0 0 1rem;
   }
 
   .rfl-list {
     list-style: none;
     margin: 0;
     padding: 0;
-    counter-reset: rfl-counter;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.5rem;
   }
 
   .rfl-item {
-    counter-increment: rfl-counter;
-    padding: 0.85rem 0;
-    border-bottom: 1px solid var(--lightgray);
-    display: flex;
-    align-items: baseline;
-    gap: 0.5rem;
+    padding: 0.6rem 0.9rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 6px;
+    background: var(--light);
+    transition: border-color 0.15s, background 0.15s;
 
-    &::before {
-      content: counter(rfl-counter) ".";
-      color: var(--gray);
-      font-size: 0.85rem;
-      min-width: 2rem;
-      flex-shrink: 0;
+    &:hover {
+      border-color: var(--secondary);
+      background: var(--highlight);
     }
 
     a {
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       font-weight: 600;
+      display: block;
     }
-  }
-
-  .rfl-item:first-child {
-    border-top: 1px solid var(--lightgray);
   }
 }
