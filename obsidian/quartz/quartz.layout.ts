@@ -29,7 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
     Component.ConditionalRender({
       component: Component.HorizontalToc(),
-      condition: (page) => !page.fileData.slug?.startsWith("lands/"),
+      condition: (page) => !page.fileData.slug?.startsWith("lands/") && !page.fileData.slug?.startsWith("rules/"),
     }),
     Component.ConditionalRender({
       component: Component.LandMap(),
