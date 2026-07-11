@@ -325,7 +325,6 @@ document.addEventListener("nav", async () => {
 
   // ---- 共用結果渲染 ----
   function renderResults(results: EvalResult[]) {
-    // 僅保留可行的（通過 / 條件式通過），依財務分數排序（無財務分數的排在後面）
     const visible = results.filter((r) => r.hardPassed === true)
     const sorted = visible.sort((a, b) => {
       if (a.financeScore != null && b.financeScore != null) return b.financeScore - a.financeScore
@@ -336,73 +335,42 @@ document.addEventListener("nav", async () => {
     })
 
     resultsEl.innerHTML = ""
-    const list = document.createElement("ul")
-    list.className = "land-evaluate-list"
+    const list = document.createElement("ol")
+    list.className = "rml-list"
+
+    const currentLandId = select.value
+
     for (const r of sorted) {
       const li = document.createElement("li")
-      li.className = r.conditional ? "le-passed-conditional" : r.coverage === "computed" ? "le-passed" : "le-passed-basic"
+      li.className = r.conditional ? "rml-item rml-conditional" : "rml-item"
       li.dataset.ruleCode = r.rule.eval_code
+      li.dataset.landId = currentLandId
+      li.dataset.ruleEvalCode = r.rule.eval_code
 
-      const title = document.createElement("div")
-      title.className = "le-item-title le-item-toggle"
-      const badge = r.conditional ? "🟡 初步符合" : r.coverage === "computed" ? "🟢 符合" : "🟢 基礎篩選通過"
-      const financeLabel =
-        r.financeScore != null ? `財務分數約 ${Math.round(r.financeScore).toLocaleString()} 元` : "缺財務資料"
-      title.innerHTML = `<span class="le-caret">▸</span> ${badge} <strong>${r.rule.rule_id} ${r.rule.eval_code}</strong> ${r.rule.type_name}－${r.rule.use_item}${r.weightedScore != null ? ` ｜ 加權分數 ${r.weightedScore}` : ""} ｜ ${financeLabel}`
-      li.appendChild(title)
+      const titleDiv = document.createElement("div")
+      titleDiv.className = "rml-item-title rml-item-clickable"
 
-      const detail = document.createElement("div")
-      detail.className = "le-item-detail"
-      detail.style.display = "none"
+      const badge = document.createElement("span")
+      badge.className = r.conditional ? "rml-badge rml-badge-cond" : "rml-badge rml-badge-pass"
+      badge.textContent = r.conditional ? "初步符合" : "通過篩選"
 
-      if (r.notes.length > 0) {
-        const notesEl = document.createElement("div")
-        notesEl.className = "le-item-notes"
-        notesEl.textContent = r.notes.join("；")
-        detail.appendChild(notesEl)
-      }
+      const codeBadge = document.createElement("span")
+      codeBadge.className = "eval-code-link"
+      codeBadge.textContent = r.rule.eval_code
 
-      const financeP = document.createElement("div")
-      financeP.className = "le-item-finance"
-      financeP.textContent = `財務分數試算：${r.financeNote}`
-      detail.appendChild(financeP)
+      const nameEl = document.createElement("span")
+      nameEl.className = "rml-item-name"
+      nameEl.textContent = r.rule.use_item
 
-      if (r.verified.length > 0) {
-        const verifiedTitle = document.createElement("div")
-        verifiedTitle.className = "le-detail-subtitle"
-        verifiedTitle.textContent = "已自動驗證的條件："
-        detail.appendChild(verifiedTitle)
-        const verifiedList = document.createElement("ul")
-        for (const v of r.verified) {
-          const item = document.createElement("li")
-          item.textContent = `✅ ${v}`
-          verifiedList.appendChild(item)
-        }
-        detail.appendChild(verifiedList)
-      }
+      const chevron = document.createElement("span")
+      chevron.className = "rml-item-chevron"
+      chevron.textContent = "›"
 
-      if (r.pending.length > 0) {
-        const pendingTitle = document.createElement("div")
-        pendingTitle.className = "le-detail-subtitle"
-        pendingTitle.textContent = "尚待人工查核的條件："
-        detail.appendChild(pendingTitle)
-        const pendingList = document.createElement("ul")
-        for (const p of r.pending) {
-          const item = document.createElement("li")
-          item.textContent = `⏳ ${p}`
-          pendingList.appendChild(item)
-        }
-        detail.appendChild(pendingList)
-      }
-
-      li.appendChild(detail)
-
-      title.addEventListener("click", () => {
-        const isOpen = detail.style.display !== "none"
-        detail.style.display = isOpen ? "none" : "block"
-        title.querySelector(".le-caret")!.textContent = isOpen ? "▸" : "▾"
-      })
-
+      titleDiv.appendChild(badge)
+      titleDiv.appendChild(codeBadge)
+      titleDiv.appendChild(nameEl)
+      titleDiv.appendChild(chevron)
+      li.appendChild(titleDiv)
       list.appendChild(li)
     }
     resultsEl.appendChild(list)
@@ -427,14 +395,13 @@ document.addEventListener("nav", async () => {
       requestAnimationFrame(() => {
         const targetLi = resultsEl.querySelector(`li[data-rule-code="${deepRule}"]`) as HTMLElement | null
         if (targetLi) {
-          const title = targetLi.querySelector(".le-item-toggle") as HTMLElement | null
-          const detail = targetLi.querySelector(".le-item-detail") as HTMLElement | null
-          if (title && detail) {
-            detail.style.display = "block"
-            title.querySelector(".le-caret")!.textContent = "▾"
-          }
           targetLi.scrollIntoView({ behavior: "smooth", block: "center" })
           targetLi.classList.add("le-deep-link-target")
+          // 自動開啟 modal
+          setTimeout(() => {
+            const titleDiv = targetLi.querySelector(".rml-item-title") as HTMLElement | null
+            titleDiv?.click()
+          }, 400)
         }
       })
     }
