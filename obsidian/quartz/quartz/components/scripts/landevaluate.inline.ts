@@ -266,10 +266,27 @@ document.addEventListener("nav", async () => {
   const select = root.querySelector("#le-land-select") as HTMLSelectElement
   const keywordInput = root.querySelector("#le-keyword") as HTMLInputElement
   const runBtn = root.querySelector("#le-run") as HTMLButtonElement
+  const runCustomBtn = root.querySelector("#le-run-custom") as HTMLButtonElement
   const summaryEl = root.querySelector(".land-evaluate-summary") as HTMLElement
   const resultsEl = root.querySelector(".land-evaluate-results") as HTMLElement
+  const tabs = root.querySelectorAll(".le-tab") as NodeListOf<HTMLButtonElement>
+  const panelDb = root.querySelector("#le-panel-db") as HTMLElement
+  const panelCustom = root.querySelector("#le-panel-custom") as HTMLElement
 
   const { lands, rules, forestAreas } = await loadAll()
+
+  // ---- 分頁切換 ----
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((t) => t.classList.remove("le-tab-active"))
+      tab.classList.add("le-tab-active")
+      const isCustom = tab.dataset.tab === "custom"
+      panelDb.classList.toggle("le-panel-hidden", isCustom)
+      panelCustom.classList.toggle("le-panel-hidden", !isCustom)
+      summaryEl.innerHTML = ""
+      resultsEl.innerHTML = ""
+    })
+  })
 
   function populateOptions() {
     const ft = normalizeText(keywordInput.value.trim().toLowerCase())
@@ -314,13 +331,17 @@ document.addEventListener("nav", async () => {
     summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computedPassed.length + basicPassed.length} 條通過</strong>、<strong>${conditionalPassed.length} 條初步符合</strong>（需待整治完成解除列管後才可正式申請）。以下僅列出這兩類可行用途；另有 ${failed.length} 條使用地類別不符、${noData.length} 條因資料不足無法判定，已隱藏不顯示。`
     summaryEl.appendChild(summaryP)
 
+    renderResults(results)
+  }
+
+  // ---- 共用結果渲染 ----
+  function renderResults(results: EvalResult[]) {
     // 僅保留可行的（通過 / 條件式通過），依財務分數排序（無財務分數的排在後面）
     const visible = results.filter((r) => r.hardPassed === true)
     const sorted = visible.sort((a, b) => {
       if (a.financeScore != null && b.financeScore != null) return b.financeScore - a.financeScore
       if (a.financeScore != null) return -1
       if (b.financeScore != null) return 1
-      // 同樣缺財務分數時，高信心符合 > 基礎篩選通過 > 初步符合
       const rank = (r: EvalResult) => (r.coverage === "computed" ? 0 : r.conditional ? 2 : 1)
       return rank(a) - rank(b)
     })
@@ -398,12 +419,69 @@ document.addEventListener("nav", async () => {
     resultsEl.appendChild(list)
   }
 
+  // ---- 自行輸入模式 ----
+  function runCustomEvaluation() {
+    const addressInput = root.querySelector("#le-custom-address") as HTMLInputElement
+    const typeSelect = root.querySelector("#le-custom-type") as HTMLSelectElement
+    const areaInput = root.querySelector("#le-custom-area") as HTMLInputElement
+    const pollutedRadio = root.querySelector("input[name='le-polluted']:checked") as HTMLInputElement
+
+    const address = addressInput.value.trim() || "（未輸入地址）"
+    const typeCode = typeSelect.value
+    const area = areaInput.value ? parseFloat(areaInput.value) : null
+    const isPolluted = pollutedRadio?.value === "yes"
+
+    if (!typeCode) {
+      summaryEl.textContent = "請選擇用地類別"
+      resultsEl.innerHTML = ""
+      return
+    }
+
+    // 組成虛擬 LandRecord
+    const syntheticLand: LandRecord = {
+      id: "custom",
+      name: address,
+      address,
+      city: null,
+      area_m2: area,
+      status: isPolluted ? "公告為控制場址" : null,
+      land_type: null,
+      zoning: null,
+      use_class: typeCode,
+      water_protection: null,
+      lat: null,
+      lon: null,
+      announced_current_value: null,
+      district: null,
+      section_name: null,
+      lot_no: null,
+    }
+
+    const results = rules.map((r) => evaluateRule(syntheticLand, r, { forestAreas }))
+
+    const computedPassed = results.filter((r) => r.coverage === "computed" && r.hardPassed)
+    const basicPassed = results.filter((r) => r.coverage === "basic" && r.hardPassed && !r.conditional)
+    const conditionalPassed = results.filter((r) => r.hardPassed && r.conditional)
+    const failed = results.filter((r) => r.hardPassed === false)
+    const noData = results.filter((r) => r.coverage === "no_data")
+
+    summaryEl.innerHTML = ""
+    const summaryP = document.createElement("p")
+    summaryP.innerHTML = `<strong>${address}</strong>（用地類別：${typeCode}${isPolluted ? "，列管中" : ""}）— 共比對 72 條規則：<strong>${computedPassed.length + basicPassed.length} 條通過</strong>、<strong>${conditionalPassed.length} 條初步符合</strong>（需待整治完成解除列管後才可正式申請）。另有 ${failed.length} 條使用地類別不符、${noData.length} 條因資料不足無法判定。`
+    summaryEl.appendChild(summaryP)
+
+    renderResults(results)
+  }
+
   const onFilterChange = () => populateOptions()
   keywordInput.addEventListener("input", onFilterChange)
   window.addCleanup(() => keywordInput.removeEventListener("input", onFilterChange))
 
   runBtn.addEventListener("click", runEvaluation)
   window.addCleanup(() => runBtn.removeEventListener("click", runEvaluation))
+
+  runCustomBtn.addEventListener("click", runCustomEvaluation)
+  window.addCleanup(() => runCustomBtn.removeEventListener("click", runCustomEvaluation))
 
   // 從場址頁面的「評估資料」表格點進來時，網址會帶 ?land=B10502&rule=ED-1，
   // 自動選好地點、跑評估，並展開、捲動到對應的規則項目
