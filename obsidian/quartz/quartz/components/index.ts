@@ -36,6 +36,7 @@ import NumberedPageList from "./NumberedPageList"
 import AllLandsMap from "./AllLandsMap"
 import RuleMatchingLands from "./RuleMatchingLands"
 import LandEvalJumpLink from "./LandEvalJumpLink"
+import BackToTop from "./BackToTop"
 
 export {
   ArticleTitle,
@@ -76,4 +77,5 @@ export {
   AllLandsMap,
   RuleMatchingLands,
   LandEvalJumpLink,
+  BackToTop,
 }
