@@ -296,7 +296,7 @@ document.addEventListener("nav", async () => {
     for (const l of matched.slice(0, 100)) {
       const opt = document.createElement("option")
       opt.value = l.id
-      opt.textContent = `${l.id} ${l.name ?? ""}（${l.city ?? "未知縣市"}）`
+      opt.textContent = `${l.name ?? l.id}（${l.city ?? "未知縣市"}）`
       select.appendChild(opt)
     }
   }
