@@ -10,15 +10,8 @@ interface LandRecord {
   announced_current_value: number | null
 }
 
-// 清理含地號的名稱，例如「臺中市大里區振坤段0001-0000地號」→「臺中市大里區（含振坤段）」
-function formatDisplayName(name: string | null): string {
-  if (!name) return ""
-  // 若名稱含有「地號」，表示是地籍描述而非公司名
-  if (!name.includes("地號")) return name
-  const m = name.match(/^(.+?[市縣]?.+?[區鄉鎮市])(.+段)/)
-  if (m) return `${m[1]}（含${m[2]}）`
-  // fallback：移除地號後面的數字部分
-  return name.replace(/段[\d\-○零一二三四五六七八九十百千]+.*地號.*$/, "段")
+function normalizeText(s: string): string {
+  return s.replace(/台/g, "臺").toLowerCase()
 }
 
 function completenessScore(l: LandRecord): number {
@@ -38,6 +31,7 @@ document.addEventListener("nav", async () => {
   const root = document.querySelector(".lands-folder-list") as HTMLElement | null
   if (!root) return
 
+  const keywordInput = root.querySelector("#lfl-keyword") as HTMLInputElement
   const citySel = root.querySelector("#lfl-city") as HTMLSelectElement
   const countEl = root.querySelector(".lfl-count") as HTMLElement
   const listEl = root.querySelector(".lfl-list") as HTMLOListElement
@@ -58,10 +52,17 @@ document.addEventListener("nav", async () => {
 
   function render() {
     const city = citySel.value
-    const filtered = (city ? lands.filter((l) => l.city === city) : [...lands])
-      .sort((a, b) => completenessScore(b) - completenessScore(a))
+    const kw = normalizeText(keywordInput.value.trim())
 
-    countEl.textContent = `此資料夾下有 ${filtered.length} 條筆記。`
+    let filtered = city ? lands.filter((l) => l.city === city) : [...lands]
+    if (kw) {
+      filtered = filtered.filter((l) =>
+        normalizeText(`${l.name ?? ""} ${l.address ?? ""} ${l.id}`).includes(kw),
+      )
+    }
+    filtered.sort((a, b) => completenessScore(b) - completenessScore(a))
+
+    countEl.textContent = `共 ${filtered.length} 筆場址${kw ? `（關鍵字：${keywordInput.value.trim()}）` : ""}`
 
     listEl.innerHTML = ""
     for (const l of filtered) {
@@ -70,14 +71,18 @@ document.addEventListener("nav", async () => {
       const a = document.createElement("a")
       a.href = `${baseDir}lands/${l.id}`
       a.className = "internal"
-      a.textContent = formatDisplayName(l.name) || l.id
+      a.textContent = l.name || l.id
       li.appendChild(a)
       listEl.appendChild(li)
     }
   }
 
   citySel.addEventListener("change", render)
-  window.addCleanup(() => citySel.removeEventListener("change", render))
+  keywordInput.addEventListener("input", render)
+  window.addCleanup(() => {
+    citySel.removeEventListener("change", render)
+    keywordInput.removeEventListener("input", render)
+  })
 
   render()
 })

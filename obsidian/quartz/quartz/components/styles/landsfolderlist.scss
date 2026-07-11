@@ -3,22 +3,33 @@
 
   .lfl-filters {
     display: flex;
-    align-items: center;
-    gap: 0.6rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .lfl-filter-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
 
     label {
       font-size: 0.85rem;
       color: var(--gray);
     }
 
-    select {
+    input, select {
       padding: 0.4rem 0.6rem;
       border: 1px solid var(--lightgray);
       border-radius: 4px;
       background: var(--light);
       color: var(--dark);
-      font-size: 0.9rem;
+      font-size: 0.95rem;
+      min-width: 200px;
+    }
+
+    input {
+      min-width: 260px;
     }
   }
 

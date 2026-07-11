@@ -1,64 +1,6 @@
 .land-evaluate {
   margin: 1rem 0;
 
-  .le-tabs {
-    display: flex;
-    gap: 0;
-    margin-bottom: 0;
-    border-bottom: 2px solid var(--lightgray);
-  }
-
-  .le-tab {
-    padding: 0.6rem 1.2rem;
-    background: none;
-    border: none;
-    border-bottom: 2px solid transparent;
-    margin-bottom: -2px;
-    cursor: pointer;
-    font-size: 1rem;
-    color: var(--gray);
-    font-weight: 500;
-    transition: color 0.15s;
-  }
-
-  .le-tab:hover {
-    color: var(--dark);
-  }
-
-  .le-tab-active {
-    color: var(--secondary);
-    border-bottom-color: var(--secondary);
-  }
-
-  .le-panel {
-    padding-top: 1rem;
-  }
-
-  .le-panel-hidden {
-    display: none;
-  }
-
-  .le-custom-controls {
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-
-  .le-field-wide input {
-    min-width: 320px;
-  }
-
-  .le-field-polluted {
-    gap: 0.5rem;
-  }
-
-  .le-radio-label {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-
   .le-run-btn {
     padding: 0.55rem 1.4rem;
     border: 1px solid var(--secondary);
@@ -69,12 +11,6 @@
     font-size: 1rem;
     font-weight: 600;
     align-self: flex-end;
-  }
-
-  .le-custom-hint {
-    font-size: 0.88rem;
-    color: var(--gray);
-    margin: 0.5rem 0 0;
   }
 
   .land-evaluate-controls {

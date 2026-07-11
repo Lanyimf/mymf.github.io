@@ -15,9 +15,13 @@ title: 土地開發評估系統
 </div>
 
 <div class="feature-cards">
-  <a class="feature-card" href="找地搜尋">
-    <div class="feature-title">找地搜尋</div>
-    <p>用縣市、用地類別、列管狀態、面積等條件篩選，不用打完整句子。</p>
+  <a class="feature-card" href="lands">
+    <div class="feature-title">場址資料</div>
+    <p>瀏覽全部 342 筆場址，可依縣市篩選或輸入關鍵字搜尋。</p>
+  </a>
+  <a class="feature-card" href="rules">
+    <div class="feature-title">地目用地類別</div>
+    <p>從想要的開發用途反查，哪些場址符合條件。</p>
   </a>
   <a class="feature-card" href="用地評估">
     <div class="feature-title">用地評估</div>
