@@ -10,7 +10,7 @@ const LandEvaluate: QuartzComponent = ({ displayClass }: QuartzComponentProps) =
       <div class="land-evaluate-controls">
         <div class="land-evaluate-field">
           <label for="le-keyword">搜尋地點</label>
-          <input id="le-keyword" type="text" placeholder="名稱、地址或縣市（臺/台 通用）" />
+          <input id="le-keyword" type="text" placeholder="名稱、地址或縣市" />
         </div>
         <div class="land-evaluate-field">
           <label for="le-land-select">選擇地點</label>

@@ -10,7 +10,7 @@ const LandsFolderList: QuartzComponent = ({ displayClass }: QuartzComponentProps
       <div class="lfl-filters">
         <div class="lfl-filter-field">
           <label for="lfl-keyword">關鍵字搜尋</label>
-          <input id="lfl-keyword" type="text" placeholder="名稱、地址、縣市（臺/台 通用）" />
+          <input id="lfl-keyword" type="text" placeholder="名稱、地址、縣市" />
         </div>
         <div class="lfl-filter-field">
           <label for="lfl-city">縣市篩選</label>
