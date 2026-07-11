@@ -10,6 +10,10 @@ interface LandRecord {
   announced_current_value: number | null
 }
 
+interface RuleMeta {
+  type_code: string
+}
+
 function normalizeText(s: string): string {
   return s.replace(/台/g, "臺").toLowerCase()
 }
@@ -37,8 +41,11 @@ document.addEventListener("nav", async () => {
   const listEl = root.querySelector(".lfl-list") as HTMLOListElement
 
   const baseDir = getBaseDir()
-  const res = await fetch(`${baseDir}static/lands-index.json`)
-  const lands: LandRecord[] = await res.json()
+  const [lands, rules]: [LandRecord[], RuleMeta[]] = await Promise.all([
+    fetch(`${baseDir}static/lands-index.json`).then((r) => r.json()),
+    fetch(`${baseDir}static/rules-meta.json`).then((r) => r.json()),
+  ])
+  const coveredTypeCodes = new Set(rules.map((r) => r.type_code))
 
   const cities = [...new Set(lands.map((l) => l.city).filter((c): c is string => !!c))].sort(
     (a, b) => a.localeCompare(b, "zh-Hant"),
@@ -79,9 +86,9 @@ document.addEventListener("nav", async () => {
       )
     }
 
-    const canEval = filtered.filter((l) => !!l.type_code)
+    const canEval = filtered.filter((l) => !!l.type_code && coveredTypeCodes.has(l.type_code))
       .sort((a, b) => completenessScore(b) - completenessScore(a))
-    const noEval = filtered.filter((l) => !l.type_code)
+    const noEval = filtered.filter((l) => !l.type_code || !coveredTypeCodes.has(l.type_code))
       .sort((a, b) => (a.name ?? a.id).localeCompare(b.name ?? b.id, "zh-Hant"))
 
     countEl.textContent = `共 ${filtered.length} 筆場址${kw ? `（關鍵字：${keywordInput.value.trim()}）` : ""}`
