@@ -39,9 +39,6 @@ const SiteHeader: QuartzComponent = (props: QuartzComponentProps) => {
             {item.label}
           </a>
         ))}
-        <a href={`${baseDir}/找地搜尋`} class="site-nav-cta">
-          找地搜尋
-        </a>
         <a href={`${baseDir}/用地評估`} class="site-nav-cta">
           用地評估
         </a>
