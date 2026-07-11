@@ -91,57 +91,28 @@ document.addEventListener("nav", async () => {
     const l = it.land
     const li = document.createElement("li")
     li.className = it.conditional ? "rml-item rml-conditional" : "rml-item"
+    li.dataset.landId = l.id
+    li.dataset.ruleEvalCode = evalCode
 
     const title = document.createElement("div")
-    title.className = "rml-item-title"
-
-    const caret = document.createElement("span")
-    caret.className = "rml-caret"
-    caret.textContent = "▶"
+    title.className = "rml-item-title rml-item-clickable"
 
     const badge = document.createElement("span")
     badge.className = it.conditional ? "rml-badge rml-badge-cond" : "rml-badge rml-badge-pass"
     badge.textContent = it.conditional ? "初步符合" : "通過篩選"
 
-    const nameLink = document.createElement("a")
-    nameLink.href = `${baseDir}lands/${l.id}`
-    nameLink.className = "internal rml-item-name"
-    nameLink.textContent = l.name || l.id
+    const nameEl = document.createElement("span")
+    nameEl.className = "rml-item-name"
+    nameEl.textContent = l.name || l.id
 
-    title.appendChild(caret)
+    const chevron = document.createElement("span")
+    chevron.className = "rml-item-chevron"
+    chevron.textContent = "›"
+
     title.appendChild(badge)
-    title.appendChild(nameLink)
+    title.appendChild(nameEl)
+    title.appendChild(chevron)
     li.appendChild(title)
-
-    const detail = document.createElement("div")
-    detail.className = "rml-item-detail"
-    detail.style.display = "none"
-
-    if (l.address) {
-      const addrEl = document.createElement("div")
-      addrEl.textContent = `地址：${l.address}`
-      detail.appendChild(addrEl)
-    }
-    if (it.conditional) {
-      const condEl = document.createElement("div")
-      condEl.textContent = `列管狀態：${l.status}（需待整治完成解除列管後才可正式申請）`
-      detail.appendChild(condEl)
-    }
-    const financeEl = document.createElement("div")
-    financeEl.textContent = `財務試算：${it.note}`
-    detail.appendChild(financeEl)
-    if (it.score == null && l.remediation_stage) {
-      const stageEl = document.createElement("div")
-      stageEl.textContent = `整治階段：${l.remediation_stage}/4（數字越大越接近解除列管）`
-      detail.appendChild(stageEl)
-    }
-    li.appendChild(detail)
-
-    title.addEventListener("click", () => {
-      const isOpen = detail.style.display !== "none"
-      detail.style.display = isOpen ? "none" : "flex"
-      caret.classList.toggle("open", !isOpen)
-    })
 
     listEl.appendChild(li)
   }

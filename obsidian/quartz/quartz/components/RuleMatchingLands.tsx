@@ -72,25 +72,6 @@ const ownCss = `
   font-weight: 500;
   flex: 1;
 }
-.rml-caret {
-  font-size: 0.75rem;
-  color: var(--gray);
-  flex-shrink: 0;
-  transition: transform 0.15s ease;
-}
-.rml-caret.open {
-  transform: rotate(90deg);
-}
-.rml-item-detail {
-  margin-top: 0.6rem;
-  padding-top: 0.6rem;
-  border-top: 1px dashed var(--lightgray);
-  font-size: 0.85rem;
-  color: var(--gray);
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
 `
 
 function toArray(r: string | string[] | undefined): string[] {
