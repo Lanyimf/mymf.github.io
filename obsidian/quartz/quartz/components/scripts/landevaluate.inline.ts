@@ -271,13 +271,23 @@ document.addEventListener("nav", async () => {
 
   const { lands, rules, forestAreas } = await loadAll()
 
+  function dataScore(l: LandRecord): number {
+    let s = 0
+    if (l.type_code && rulesMetaCache?.some((r) => r.type_code === l.type_code)) s += 4
+    else if (l.type_code) s += 2
+    if (l.announced_current_value) s += 1
+    if (l.lat != null && l.lon != null) s += 1
+    return s
+  }
+
   function populateOptions() {
     const ft = normalizeText(keywordInput.value.trim().toLowerCase())
     const matched = ft
       ? lands.filter((l) =>
           normalizeText(`${l.name ?? ""} ${l.address ?? ""} ${l.id}`.toLowerCase()).includes(ft),
         )
-      : lands
+      : [...lands]
+    matched.sort((a, b) => dataScore(b) - dataScore(a))
     select.innerHTML = ""
     const placeholder = document.createElement("option")
     placeholder.value = ""
