@@ -50,6 +50,24 @@ document.addEventListener("nav", async () => {
     citySel.appendChild(opt)
   }
 
+  function makeItem(l: LandRecord) {
+    const li = document.createElement("li")
+    li.className = "lfl-item"
+    const a = document.createElement("a")
+    a.href = `${baseDir}lands/${l.id}`
+    a.className = "internal"
+    a.textContent = l.name || l.id
+    li.appendChild(a)
+    return li
+  }
+
+  function makeSectionHeader(title: string, count: number, tag: string) {
+    const header = document.createElement("li")
+    header.className = "lfl-section-header"
+    header.innerHTML = `<span class="lfl-section-title">${title}</span><span class="lfl-section-tag ${tag}">${count} 筆</span>`
+    return header
+  }
+
   function render() {
     const city = citySel.value
     const kw = normalizeText(keywordInput.value.trim())
@@ -60,20 +78,24 @@ document.addEventListener("nav", async () => {
         normalizeText(`${l.name ?? ""} ${l.address ?? ""} ${l.id}`).includes(kw),
       )
     }
-    filtered.sort((a, b) => completenessScore(b) - completenessScore(a))
+
+    const canEval = filtered.filter((l) => !!l.type_code)
+      .sort((a, b) => completenessScore(b) - completenessScore(a))
+    const noEval = filtered.filter((l) => !l.type_code)
+      .sort((a, b) => (a.name ?? a.id).localeCompare(b.name ?? b.id, "zh-Hant"))
 
     countEl.textContent = `共 ${filtered.length} 筆場址${kw ? `（關鍵字：${keywordInput.value.trim()}）` : ""}`
 
     listEl.innerHTML = ""
-    for (const l of filtered) {
-      const li = document.createElement("li")
-      li.className = "lfl-item"
-      const a = document.createElement("a")
-      a.href = `${baseDir}lands/${l.id}`
-      a.className = "internal"
-      a.textContent = l.name || l.id
-      li.appendChild(a)
-      listEl.appendChild(li)
+
+    if (canEval.length) {
+      listEl.appendChild(makeSectionHeader("可進行用地評估", canEval.length, "lfl-tag-eval"))
+      for (const l of canEval) listEl.appendChild(makeItem(l))
+    }
+
+    if (noEval.length) {
+      listEl.appendChild(makeSectionHeader("使用地類別待補齊（暫無法評估）", noEval.length, "lfl-tag-noeval"))
+      for (const l of noEval) listEl.appendChild(makeItem(l))
     }
   }
 

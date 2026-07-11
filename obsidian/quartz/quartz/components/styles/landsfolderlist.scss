@@ -71,4 +71,49 @@
   .lfl-item:first-child {
     border-top: 1px solid var(--lightgray);
   }
+
+  .lfl-section-header {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 0 0.4rem;
+    margin-top: 1.5rem;
+    border-bottom: 2px solid var(--lightgray);
+    counter-increment: none;
+
+    &:first-child {
+      margin-top: 0;
+      border-top: none;
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .lfl-section-title {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--dark);
+    letter-spacing: 0.01em;
+  }
+
+  .lfl-section-tag {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  .lfl-tag-eval {
+    background: #dcfce7;
+    color: #15803d;
+  }
+
+  .lfl-tag-noeval {
+    background: var(--lightgray);
+    color: var(--gray);
+  }
 }
