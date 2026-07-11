@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    font-size: 0.85rem;
+    font-size: 1rem;
 
     label {
       color: var(--gray);
@@ -24,30 +24,31 @@
 
     select,
     input {
-      padding: 0.4rem 0.5rem;
+      padding: 0.5rem 0.6rem;
       border: 1px solid var(--lightgray);
       border-radius: 4px;
       background: var(--light);
       color: var(--dark);
-      font-size: 0.9rem;
+      font-size: 1rem;
       min-width: 260px;
     }
   }
 
   #le-run {
-    padding: 0.5rem 1.2rem;
+    padding: 0.55rem 1.4rem;
     border: 1px solid var(--secondary);
     border-radius: 4px;
     background: var(--secondary);
     color: var(--light);
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
   .land-evaluate-summary {
     margin: 1rem 0 0.5rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    line-height: 1.6;
   }
 
   .land-evaluate-list {
@@ -56,11 +57,11 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.6rem;
 
     li {
-      padding: 0.6rem 0.8rem;
-      border-radius: 5px;
+      padding: 0.8rem 1rem;
+      border-radius: 6px;
       border-left: 4px solid var(--lightgray);
       background: var(--light);
     }
@@ -84,7 +85,8 @@
   }
 
   .le-item-title {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    line-height: 1.5;
   }
 
   .le-item-toggle {
@@ -98,29 +100,31 @@
   }
 
   .le-item-detail {
-    margin-top: 0.4rem;
-    padding-top: 0.4rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
     border-top: 1px dashed var(--lightgray);
   }
 
   .le-item-notes,
   .le-item-finance {
-    margin-top: 0.2rem;
-    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
     color: var(--gray);
+    line-height: 1.5;
   }
 
   .le-detail-subtitle {
-    margin-top: 0.4rem;
-    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
     font-weight: 600;
   }
 
   .le-item-detail ul {
-    margin: 0.2rem 0 0;
-    padding-left: 1.2rem;
-    font-size: 0.8rem;
+    margin: 0.3rem 0 0;
+    padding-left: 1.4rem;
+    font-size: 0.9rem;
     color: var(--gray);
+    line-height: 1.6;
   }
 
   .le-deep-link-target {
