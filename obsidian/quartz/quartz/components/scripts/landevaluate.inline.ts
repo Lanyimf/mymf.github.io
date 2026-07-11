@@ -311,7 +311,13 @@ document.addEventListener("nav", async () => {
 
     summaryEl.innerHTML = ""
     const summaryP = document.createElement("p")
-    summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computedPassed.length + basicPassed.length} 條通過</strong>、<strong>${conditionalPassed.length} 條初步符合</strong>（需待整治完成解除列管後才可正式申請）。以下僅列出這兩類可行用途；另有 ${failed.length} 條使用地類別不符、${noData.length} 條因資料不足無法判定，已隱藏不顯示。`
+    const typeNote = land.type_code
+      ? `（本場址使用地類別為「${land.type_code}」，目前評估規則庫尚未涵蓋此類別）`
+      : `（本場址缺少使用地類別資料）`
+    const failNote = failed.length === 72
+      ? `另有 72 條使用地類別不符${land.type_code ? typeNote : ""}，已隱藏不顯示。`
+      : `另有 ${failed.length} 條使用地類別不符、${noData.length} 條因資料不足無法判定，已隱藏不顯示。`
+    summaryP.innerHTML = `<strong>${land.name ?? land.id}</strong>（${land.address ?? "地址未知"}）— 共比對 72 條規則：<strong>${computedPassed.length + basicPassed.length} 條通過</strong>、<strong>${conditionalPassed.length} 條初步符合</strong>（需待整治完成解除列管後才可正式申請）。以下僅列出這兩類可行用途；${failNote}`
     summaryEl.appendChild(summaryP)
 
     renderResults(results)
