@@ -222,6 +222,60 @@ body.eval-modal-body-lock {
   background: var(--lightgray);
   color: var(--gray);
 }
+
+/* Section label colours for new sections */
+.eval-section-site {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+.eval-section-pollut {
+  background: #fce7f3;
+  color: #9d174d;
+}
+
+/* Info table inside modal */
+.eval-modal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.eval-modal-table th {
+  text-align: left;
+  white-space: nowrap;
+  color: var(--gray);
+  font-weight: 500;
+  padding: 0.3rem 0.75rem 0.3rem 0;
+  vertical-align: top;
+  width: 7rem;
+}
+.eval-modal-table td {
+  color: var(--dark);
+  padding: 0.3rem 0;
+  vertical-align: top;
+  line-height: 1.5;
+}
+.eval-modal-table tr + tr th,
+.eval-modal-table tr + tr td {
+  border-top: 1px solid var(--lightgray);
+}
+
+/* Inline tags */
+.eval-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  margin-right: 0.35rem;
+}
+.eval-tag-accel {
+  background: #d1fae5;
+  color: #065f46;
+}
+.eval-tag-warn {
+  background: #fef3c7;
+  color: #92400e;
+}
 `
 
 LandEvalJumpLink.css = css

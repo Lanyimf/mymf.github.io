@@ -10,6 +10,11 @@ interface LandRecord {
   remediation_stage: string | null
   lat: number | null
   lon: number | null
+  water_protection: string | null
+  site_category: string | null
+  soil_pollutant: string | null
+  groundwater_pollutant: string | null
+  accelerated: string | null
 }
 
 interface RuleMeta {
@@ -184,6 +189,55 @@ async function openEvalModal(landId: string, ruleEvalCode: string) {
         <div class="eval-modal-section">
           <div class="eval-modal-section-label eval-section-pending">尚待人工查核</div>
           <ul class="eval-modal-list">${res.pending.map((p) => `<li>${p}</li>`).join("")}</ul>
+        </div>`
+    }
+
+    // ---- 整治資訊 ----
+    const stageLabels: Record<string, string> = {
+      "1": "第 1 階段：初步評估",
+      "2": "第 2 階段：詳細調查",
+      "3": "第 3 階段：整治計畫執行中",
+      "4": "第 4 階段：驗證/接近解除列管",
+    }
+    const stageRows: string[] = []
+    if (land.remediation_stage) {
+      const label = stageLabels[land.remediation_stage] ?? `階段 ${land.remediation_stage}`
+      stageRows.push(`<tr><th>整治進度</th><td>${label}</td></tr>`)
+    }
+    if (land.accelerated === "是") {
+      stageRows.push(`<tr><th>加速整治</th><td><span class="eval-tag eval-tag-accel">加速整治中</span>　解除列管時程較一般場址短</td></tr>`)
+    }
+    if (land.site_category) {
+      stageRows.push(`<tr><th>場址類別</th><td>${land.site_category}</td></tr>`)
+    }
+    if (land.water_protection === "是") {
+      stageRows.push(`<tr><th>水源保護區</th><td><span class="eval-tag eval-tag-warn">位於水源保護區內</span>　部分用途有額外限制</td></tr>`)
+    } else if (land.water_protection === "否") {
+      stageRows.push(`<tr><th>水源保護區</th><td>否</td></tr>`)
+    }
+
+    // ---- 污染物 ----
+    const pollutRows: string[] = []
+    if (land.soil_pollutant) {
+      pollutRows.push(`<tr><th>土壤污染物</th><td>${land.soil_pollutant}</td></tr>`)
+    }
+    if (land.groundwater_pollutant) {
+      pollutRows.push(`<tr><th>地下水污染物</th><td>${land.groundwater_pollutant}</td></tr>`)
+    }
+
+    if (stageRows.length) {
+      bodyHtml += `
+        <div class="eval-modal-section">
+          <div class="eval-modal-section-label eval-section-site">場址資訊</div>
+          <table class="eval-modal-table">${stageRows.join("")}</table>
+        </div>`
+    }
+
+    if (pollutRows.length) {
+      bodyHtml += `
+        <div class="eval-modal-section">
+          <div class="eval-modal-section-label eval-section-pollut">污染物資訊</div>
+          <table class="eval-modal-table">${pollutRows.join("")}</table>
         </div>`
     }
 
